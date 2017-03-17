@@ -12,7 +12,7 @@
     <projectUrl>https://crypto.cat/</projectUrl>
 	<projectSourceUrl>https://github.com/cryptocat/cryptocat</projectSourceUrl>
 	<bugTrackerUrl>https://github.com/cryptocat/cryptocat/issues</bugTrackerUrl>
-    <tags>encrypted chat messenger filesharing videocall voicecall</tags>
+    <tags>admin encrypted chat messenger filesharing videocall voicecall</tags>
     <copyright>Nadim Kobeissi</copyright>
     <licenseUrl>https://github.com/cryptocat/cryptocat/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
