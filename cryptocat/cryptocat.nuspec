@@ -4,7 +4,7 @@
     <id>cryptocat</id>
     <title>Cryptocat</title>
     <version>3.2.08</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/blob/master/cryptocat</packageSourceUrl>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/cryptocat</packageSourceUrl>
     <authors>Nadim Kobeissi</authors>
     <owners>Sanshiro</owners>
     <summary>Cryptocat - Chat with your friends, securely.</summary>
