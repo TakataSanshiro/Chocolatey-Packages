@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>boostnote</id>
     <title>Boostnote</title>
     <version>0.8.6</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/boostnote</packageSourceUrl>
     <authors>Maisin&amp;Co.</authors>
     <owners>Sanshiro</owners>
     <summary>Boostnote is an open source note-taking app. Evernote alternative for programmers!</summary>
@@ -18,16 +17,14 @@
 	Latex Support - With $$ and $$$, write some equations.
 	</description>
     <projectUrl>https://boostnote.io/</projectUrl>
+	<projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/BoostIO/Boostnote/issues</bugTrackerUrl>
     <tags>note programmer programming snippet markdown latex</tags>
     <copyright>Copyright (C) 2017 Maisin&amp;Co.</copyright>
     <licenseUrl>https://github.com/BoostIO/Boostnote/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/boostnote.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/a72f84bf/boostnote/icon.png</iconUrl>
+    <releaseNotes>https://github.com/BoostIO/boost-releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
