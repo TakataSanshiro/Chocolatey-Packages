@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>virtualrouter</id>
+    <title>Virtual Router</title>
+    <version>1.0</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/virtualrouter</packageSourceUrl>
+    <authors>Chris Pietschmann</authors>
+    <owners>Sanshiro</owners>
+    <summary>The original, open source Wifi Hotspot for Windows 7, Windows 8 and Windows Server 2012!</summary>
+    <description>Virtual Router is a free, open source software based router for PCs running Windows 8, Windows 7 or Windows Server 2008 R2. Using Virtual Router, users can wirelessly share any internet connection (Wifi, LAN, Cable Modem, Dial-up, Cellular, etc.) with any Wifi device (Laptop, Smart Phone, iPod Touch, iPhone, Android Phone, Zune, Netbook, wireless printer, etc.) These devices connect to Virtual Router just like any other access point, and the connection is completely secured using WPA2 (the most secure wireless encryption.)</description>
+    <projectUrl>https://virtualrouter.codeplex.com/</projectUrl>
+    <tags>admin virtual router wi-fi hotspot SSID</tags>
+    <copyright>Chris Pietschmann</copyright>
+    <licenseUrl>https://virtualrouter.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes>https://virtualrouter.codeplex.com/releases/view/58218</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
