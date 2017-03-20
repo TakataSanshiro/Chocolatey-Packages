@@ -29,7 +29,7 @@
     <copyright>© 2000–2017 SoftPerfect, Australia</copyright>
     <licenseUrl>https://www.softperfect.com/products/wifiguard/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/d29fbaa6/wifiguard/icon.png</iconUrl>
     <releaseNotes>https://www.softperfect.com/products/changelog.php?product_id=10</releaseNotes>
   </metadata>
   <files>
