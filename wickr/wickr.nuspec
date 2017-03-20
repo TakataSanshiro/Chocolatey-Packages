@@ -24,7 +24,7 @@
     <copyright>© 2017 Wickr Inc.</copyright>
     <licenseUrl>https://www.wickr.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/f4ec0961/wickr/icon.png</iconUrl>
     <releaseNotes>https://wickr.com/personal/wickr-messenger-release-notes</releaseNotes>
   </metadata>
   <files>
