@@ -14,7 +14,7 @@
     <copyright>Copyright © 2017 Adobe Systems Incorporated. All rights reserved.</copyright>
     <licenseUrl>https://www.adobe.com/legal/licenses-terms.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-	<iconUrl></iconUrl>
+	<iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c08f5f51/adobedigitaleditions/icon.png</iconUrl>
     <releaseNotes>https://www.adobe.com/solutions/ebook/digital-editions/release-notes.html</releaseNotes>
   </metadata>
   <files>
