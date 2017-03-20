@@ -14,7 +14,7 @@
     <copyright>Chris Pietschmann</copyright>
     <licenseUrl>https://virtualrouter.codeplex.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/17b7cf21/virtualrouter/icon.png</iconUrl>
     <releaseNotes>https://virtualrouter.codeplex.com/releases/view/58218</releaseNotes>
   </metadata>
   <files>
