@@ -8,7 +8,7 @@
     <authors>Jérôme Wohlschlegel</authors>
     <owners>Sanshiro</owners>
     <summary>A simple cross-platform File Encryption application. Encrypt your bits.</summary>
-    <description>Drag & drop to encrypted. AES256 encryption. Embedded password hints. Delete original files.</description>
+    <description>Drag &amp; drop to encrypted. AES256 encryption. Embedded password hints. Delete original files.</description>
     <projectUrl>https://github.com/Nazgul07/BitCrypt</projectUrl>
 	<projectSourceUrl>https://github.com/Nazgul07/BitCrypt</projectSourceUrl>
 	<bugTrackerUrl>https://github.com/Nazgul07/BitCrypt/issues</bugTrackerUrl>
@@ -16,7 +16,7 @@
     <copyright>Jérôme Wohlschlegel</copyright>
     <licenseUrl>https://github.com/Nazgul07/BitCrypt/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/d70a6660/bitcrypt/icon.png</iconUrl>
     <releaseNotes>https://github.com/Nazgul07/BitCrypt/releases</releaseNotes>
   </metadata>
   <files>
