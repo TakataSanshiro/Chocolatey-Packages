@@ -19,7 +19,7 @@
     <copyright>© 2007 - 2017 PureVPN All Rights Reserved</copyright>
     <licenseUrl>https://www.purevpn.com/term.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e86e8103/purevpn/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
