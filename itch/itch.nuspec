@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>itch</id>
+    <title>itch.io</title>
+    <version>23.3.1</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/itch</packageSourceUrl>
+    <authors>itch corp</authors>
+    <owners>Sanshiro</owners>
+    <summary>Install, update and play indie games.</summary>
+    <description>The itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. Access your collections and purchases, or browse for new games via the in-app browser. 
+	</description>
+    <projectUrl>https://itch.io/app</projectUrl>
+	<projectSourceUrl>https://github.com/itchio/itch</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/itchio/itch/issues</bugTrackerUrl>
+    <tags>admin game indie game-development typescript electron</tags>
+    <copyright>Copyright © 2017 itch corp</copyright>
+    <licenseUrl>https://github.com/itchio/itch/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/itchio/itch/97c20475/appsrc/static/images/window/itch/icon.png</iconUrl>
+    <releaseNotes>https://github.com/itchio/itch/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
