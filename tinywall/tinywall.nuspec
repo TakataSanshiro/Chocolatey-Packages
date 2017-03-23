@@ -20,7 +20,7 @@
     <copyright>Copyright (c) 2011-2016 Károly Pados</copyright>
     <licenseUrl>https://tinywall.pados.hu/faq.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/469d9ab7/tinywall/icon.png</iconUrl>
     <releaseNotes>https://tinywall.pados.hu/docs/whatsnew.html</releaseNotes>
   </metadata>
   <files>
