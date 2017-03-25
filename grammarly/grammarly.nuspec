@@ -20,7 +20,7 @@
     <copyright>2017 © Grammarly Inc.</copyright>
     <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c3c619a2/grammarly/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
