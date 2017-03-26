@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>allwaysync</id>
+    <title>Allway Sync</title>
+    <version>17.1.3</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/allwaysync</packageSourceUrl>
+    <authors>Botkind, Inc.</authors>
+    <owners>Sanshiro</owners>
+    <summary>Allway Sync uses innovative synchronization algorithms to synchronize your data between desktop PCs, laptops, USB drives, remote FTP/SFTP and WebDAV servers, various online data storages and more.
+	</summary>
+    <description> Data compression and encryption are supported. It combines bulletproof reliability with extremely easy-to-use interface. Allway Sync also can synchronize your PC data with a Mac via Sync Gateway.
+	</description>
+    <projectUrl>https://allwaysync.com/</projectUrl>
+    <tags>admin windows utility backup sync</tags>
+    <copyright>© 2004–2009 Usov Lab, 2009–2017 Botkind, Inc. All rights reserved.</copyright>
+	<licenseUrl>https://allwaysync.com/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <releaseNotes>https://allwaysync.com/news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
