@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>activepython27</id>
+    <title>ActivePython 2.7 Community Edition</title>
+    <version>2.7.13.2713</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/activepython27</packageSourceUrl>
+    <authors>ActiveState</authors>
+    <owners>Sanshiro</owners>
+    <summary>ActivePython is the leading commercial-grade distribution of the open source Python scripting language.</summary>
+    <description>Download ActivePython Community Edition free binaries for your development projects and internal deployments.</description>
+    <projectUrl>https://www.activestate.com/activepython/</projectUrl>
+    <tags>admin python activestate</tags>
+    <copyright>ActiveState © Copyright 2017</copyright>
+    <licenseUrl>https://www.activestate.com/activepython/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/984f784d/activepython/icon.png</iconUrl>
+    <releaseNotes>https://www.activestate.com/blog/2010/07/activepython-27-released</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
