@@ -16,7 +16,7 @@
     <copyright>© 2004–2009 Usov Lab, 2009–2017 Botkind, Inc. All rights reserved.</copyright>
 	<licenseUrl>https://allwaysync.com/license</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/1afd6740/allwaysync/icon.png</iconUrl>
     <releaseNotes>https://allwaysync.com/news</releaseNotes>
   </metadata>
   <files>
