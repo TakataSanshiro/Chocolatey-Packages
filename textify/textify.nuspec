@@ -15,7 +15,7 @@
     <tags>admin windows utility</tags>
     <copyright>©2017 RaMMicHaeL</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/a3b57698/textify/icon.png</iconUrl>
     <releaseNotes>http://rammichael.com/downloads/textify_setup.exe?changelog</releaseNotes>
   </metadata>
   <files>
