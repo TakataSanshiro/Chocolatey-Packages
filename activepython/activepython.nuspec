@@ -14,7 +14,7 @@
     <copyright>ActiveState © Copyright 2017</copyright>
     <licenseUrl>https://www.activestate.com/activepython/license-agreement</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/984f784d/activepython/icon.png</iconUrl>
     <releaseNotes>http://docs.activestate.com/activepython/3.5/relnotes.html</releaseNotes>
   </metadata>
   <files>
