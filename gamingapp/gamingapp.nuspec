@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>gamingapp</id>
+    <version>6.2.0.08</version>
+    <title>MSI GAMING APP</title>
+    <authors>MSI</authors>
+    <owners>Sanshiro</owners>
+    <licenseUrl>https://www.msi.com/page/website-terms-of-use</licenseUrl>
+    <projectUrl>https://www.msi.com/blog/detail/msi-gaming-app-article</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Have you discovered the clever piece of software called MSI Gaming App yet? If not, you're missing out on some seriously cool features and yes, even some additional performance!</description>
+    <summary>Unlock features and performance on your MSI GAMING graphics cards!</summary>
+    <releaseNotes>http://contents.driverguide.com/content.php?id=1898851&amp;path=MSI+Gaming+APP%2FReleaseNote.txt</releaseNotes>
+    <copyright>Copyright © 2017 Micro-Star INT'L CO., LTD. All rights reserved.</copyright>
+    <tags>admin utility gadget motherboard gaming overclock</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/gamingapp</packageSourceUrl>
+  </metadata>
+</package>
