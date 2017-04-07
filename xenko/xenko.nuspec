@@ -17,7 +17,7 @@
     <copyright>©Silicon Studio Corp., all rights reserved.</copyright>
     <licenseUrl>http://xenko.com/legal/eula/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/8fa24e6b/xenko/icon.png</iconUrl>
     <releaseNotes>https://github.com/SiliconStudio/xenko/releases</releaseNotes>
   </metadata>
   <files>
