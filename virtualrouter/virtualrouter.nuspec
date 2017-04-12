@@ -3,7 +3,7 @@
   <metadata>
     <id>virtualrouter</id>
     <title>Virtual Router</title>
-    <version>1.0</version>
+    <version>1.0.0</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/virtualrouter</packageSourceUrl>
     <authors>Chris Pietschmann</authors>
     <owners>Sanshiro</owners>
