@@ -1,6 +1,6 @@
 ﻿$packageName = 'tinywall' 
 $installerType = 'msi' 
-$url = 'http://tinywall.pados.hu/ccount/click.php?id=3' 
+$url = 'https://tinywall.pados.hu/ccount/click.php?id=3' 
 $silentArgs = '/quiet' 
 $validExitCodes = @(0) 
 
