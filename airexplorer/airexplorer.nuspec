@@ -4,6 +4,7 @@
     <id>airexplorer</id>
     <title>Air Explorer</title>
     <version>1.14.0</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/airexplorer</packageSourceUrl>
     <authors>airexplorer.net</authors>
     <owners>Sanshiro</owners>
     <summary>Access all your cloud servers using just one program.</summary>
@@ -14,7 +15,7 @@
     <copyright>Copyright (c) airexplorer.net</copyright>
     <licenseUrl>http://www.airexplorer.net/en/terms.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/2f08ce81/airexplorer/icon.png</iconUrl>
 	<releaseNotes>http://www.airexplorer.net/en/download.php</releaseNotes>
     <dependencies>
       <dependency id="dotnet3.5" />
