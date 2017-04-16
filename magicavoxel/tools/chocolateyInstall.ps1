@@ -1,6 +1,6 @@
 ﻿$packageName = 'magicavoxel'
 $url = 'http://23.98.147.40/uploads/MagicaVoxel-0.98.2-win.zip' 
-$checksum = '2CF99BFB0BD0BBE2B026BB4D7563C30A78E82AFC592AFDDDF802F06C3F1DCB5C'
+$checksum = 'DCAE6CF245491E44D52A3F7D9688210331EC7231D932BC20DCC35B231AB1C143'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
@@ -12,5 +12,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 
 # Create a folder shotcut at the desktop.
 Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\MagicaVoxel.lnk" `
-						     -TargetPath "C:\ProgramData\chocolatey\lib\magicavoxel\tools\MagicaVoxel-0.98.2-win"
+						     -TargetPath "$toolsDir\MagicaVoxel-0.98.2-win"
 							 
