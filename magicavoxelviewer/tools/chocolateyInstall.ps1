@@ -12,5 +12,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 
 # Create a folder shotcut at the desktop.
 Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\MagicaVoxelViewer.lnk" `
-						     -TargetPath "C:\ProgramData\chocolatey\lib\magicavoxelviewer\tools\MagicaVoxel Viewer"
+						     -TargetPath "$toolsDir\MagicaVoxel Viewer"
 							 
