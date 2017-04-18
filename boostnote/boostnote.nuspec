@@ -19,7 +19,7 @@
     <projectUrl>https://boostnote.io/</projectUrl>
 	<projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
 	<bugTrackerUrl>https://github.com/BoostIO/Boostnote/issues</bugTrackerUrl>
-    <tags>note programmer programming snippet markdown latex</tags>
+    <tags>note programmer programming snippet markdown latex admin</tags>
     <copyright>Copyright (C) 2017 Maisin&amp;Co.</copyright>
     <licenseUrl>https://github.com/BoostIO/Boostnote/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
