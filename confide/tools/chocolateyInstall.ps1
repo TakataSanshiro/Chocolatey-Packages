@@ -4,4 +4,4 @@ $url = 'https://getconfide.com/download/windows/dl'
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 83B3CD41C6CC5AF3556A3BDDFCE9A13A509F4C51CAAAA6C50DF2F1936E7A9A71 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum B34445B03A715FF3A1168ED03CBBB8CF6AC572F830A2825E9902A6870FA8C2AD -ChecksumType sha256
