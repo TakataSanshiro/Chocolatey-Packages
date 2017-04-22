@@ -3,7 +3,7 @@
   <metadata>
     <id>boostnote</id>
     <title>Boostnote</title>
-    <version>0.8.7</version>
+    <version>0.8.8</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/boostnote</packageSourceUrl>
     <authors>Maisin&amp;Co.</authors>
     <owners>Sanshiro</owners>
