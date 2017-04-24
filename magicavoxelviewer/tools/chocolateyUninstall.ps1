@@ -1,4 +1,6 @@
-﻿Uninstall-ChocolateyZipPackage `
+﻿$ErrorActionPreference = 'Stop';
+
+Uninstall-ChocolateyZipPackage `
   -PackageName "magicavoxelviewer" `
   -ZipFileName "MagicaVoxel%20Viewer-win-mac.zip" 
 
