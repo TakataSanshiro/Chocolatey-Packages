@@ -1,4 +1,6 @@
-﻿$packageName = 'magicavoxel'
+﻿$ErrorActionPreference = 'Stop';
+
+$packageName = 'magicavoxel'
 $url = 'http://23.98.147.40/uploads/MagicaVoxel-0.98.2-win.zip' 
 $checksum = 'DCAE6CF245491E44D52A3F7D9688210331EC7231D932BC20DCC35B231AB1C143'
 $checksumType = 'sha256'
