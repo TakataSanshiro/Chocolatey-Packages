@@ -8,7 +8,7 @@
     <title>Windows X App Remover</title>
     <authors>Fabian Schmidt</authors>
     <projectUrl>https://sourceforge.net/projects/windows8appremover/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/489196aa/windowsxappremover/icon.png</iconUrl>
     <copyright>Fabian Schmidt, 2015</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
