@@ -15,7 +15,7 @@
     <projectSourceUrl>https://sourceforge.net/p/windows8appremover/code/ref/master/</projectSourceUrl>
     <docsUrl>https://sourceforge.net/p/windows8appremover/wiki/Home/</docsUrl>
     <bugTrackerUrl>https://sourceforge.net/p/windows8appremover/tickets/</bugTrackerUrl>
-    <tags>windows admin privacy utility</tags>
+    <tags>windows privacy utility</tags>
     <summary>Remove Modern UI Apps from Windows Installations or Images.</summary>
     <description>Remove Modern UI (Metro) Apps from Windows!
 	With the Windows X App Remover, you can easily read out which Apps are installed and remove the ones you do not want anymore.
