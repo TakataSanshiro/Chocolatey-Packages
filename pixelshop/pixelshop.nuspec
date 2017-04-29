@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pixelshop</id>
+    <title>PixelShop</title>
+    <version>1.0.0</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pixelshop</packageSourceUrl>
+    <authors>BlackFlux</authors>
+    <owners>Sanshiro</owners>
+    <summary>PixelShop is a small but very powerful program for Windows and OSX to create pixel art.</summary>
+    <description>
+     Hundreds of pixel artists have improved this program with their requests and suggestions and it is (mostly) feature complete. Further information can be found below. If you have any problem, suggestion, comment, or you found a bug in my program, please post on the forum. 
+	</description>
+    <projectUrl>https://blackflux.com/node/10</projectUrl>
+    <tags>pixel art dot game</tags>
+    <copyright>Copyright 2013 by BlackFlux.com</copyright>
+    <licenseUrl>https://blackflux.com/node/10</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/aa1e90c1/pixelshop/icon.png</iconUrl>
+    <releaseNotes>https://blackflux.com/forums/viewforum.php?f=4</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
