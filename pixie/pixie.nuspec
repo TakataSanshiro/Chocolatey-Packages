@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pixie</id>
+    <title>Pixie</title>
+    <version>4.1</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pixie</packageSourceUrl>
+    <authors>Nattyware</authors>
+    <owners>Sanshiro</owners>
+    <summary>Pixie is a utility made especially for webmasters and designers. It is a color picker with few extra goodies. </summary>
+    <description>
+    Run it, simply point to a color and it will tell you the hex, RGB, HTML, CMYK and HSV values of that color. You can then use these values to reproduce the selected color in your favorite programs. Pixie will also show the current coordinates of your mouse pointer.
+	It is the only tool for you to work with colors.
+	</description>
+    <projectUrl>http://www.nattyware.com/pixie.php</projectUrl>
+    <tags>pixel color picker design web html</tags>
+    <copyright>© 1999 – 2017 Nattyware. All rights reserved.</copyright>
+    <licenseUrl>http://www.nattyware.com/help/pixie.php?t=4</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e322b116/pixie/icon.png</iconUrl>
+    <releaseNotes>http://www.nattyware.com/help/pixie.php?t=1</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
