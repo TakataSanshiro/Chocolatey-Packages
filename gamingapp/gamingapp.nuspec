@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>gamingapp</id>
-    <title>MSI GAMING APP</title>
+    <title>MSI Gaming App</title>
     <version>6.2.0.10</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/gamingapp</packageSourceUrl>
     <authors>MSI</authors>
