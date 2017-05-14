@@ -13,6 +13,6 @@ Uninstall-ChocolateyPackage `
   -ValidExitCodes $validExitCodes `
   -File "$file"
  
-# Delete junk files of Brave at $Env:USERPROFILE\AppData
+# Delete junk files of 1Clipboard at $Env:USERPROFILE\AppData
 Remove-Item $Env:USERPROFILE\AppData\Local\1clipboard -recurse
 Remove-Item $Env:USERPROFILE\AppData\Roaming\1clipboard -recurse
