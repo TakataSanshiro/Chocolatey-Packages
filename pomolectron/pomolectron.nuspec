@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pomolectron</id>
+    <title>Pomolectron</title>
+    <version>1.1.0</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pomolectron</packageSourceUrl>
+    <authors>amitmerchant</authors>
+    <owners>Sanshiro</owners>
+    <summary>A pomodoro app in your menubar/tray.</summary>
+    <description>
+	## Features
+    - Pomodoro, Short break and Long break timers
+    - Notifies via system notification when time gets up
+    - Lives in a tray/menubar
+	- Cross platform 
+	</description>
+    <projectUrl>https://github.com/amitmerchant1990/pomolectron</projectUrl>
+	<projectSourceUrl>https://github.com/amitmerchant1990/pomolectron</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/amitmerchant1990/pomolectron/issues</bugTrackerUrl>
+    <tags>admin electron pomodoro timer productivity menubar tray</tags>
+    <copyright>amitmerchant</copyright>
+    <licenseUrl>https://github.com/amitmerchant1990/pomolectron</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/amitmerchant1990/pomolectron/0ef20e6a/res/pomolectron-transparent.png</iconUrl>
+    <releaseNotes>https://github.com/amitmerchant1990/pomolectron/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
