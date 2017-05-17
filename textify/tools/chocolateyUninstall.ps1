@@ -1,6 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
-
-$packageName = 'textify'
+﻿$packageName = 'textify'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
