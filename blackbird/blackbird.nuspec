@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>blackbird</id>
+    <title>Blackbird</title>
+    <version>0.9.98</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/blackbird</packageSourceUrl>
+    <authors>getblackbird.net</authors>
+    <owners>Sanshiro</owners>
+    <summary>Don't want Windows spying on your every move?  Don't feel like spending hours messing with privacy settings that ultimately still result in data collection?  Think your private information belongs to you and no one else?  Or maybe you just want a faster PC and don't like all the new "features" Windows has to offer.
+	</summary>
+    <description>
+	## Features
+    - Blocks Telemetry Completely
+    - Restores Privacy
+    - Removes W10 Upgrade Popups
+	- Portable, Restorable, Flexible
+	- Free &amp; Ad-free Forever
+	- Updated &amp; Simple to Use
+	</description>
+    <projectUrl>http://getblackbird.net/</projectUrl>
+	<docsUrl>http://getblackbird.net/documentation/</docsUrl>
+    <tags>windows privacy security</tags>
+    <copyright>getblackbird.net</copyright>
+    <licenseUrl>http://getblackbird.net/documentation/license/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0966167c/blackbird/icon.png</iconUrl>
+    <releaseNotes>http://getblackbird.net/documentation/changelog/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
