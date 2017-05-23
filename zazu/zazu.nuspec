@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>zazu</id>
+    <title>Zazu</title>
+    <version>0.5.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/zazu</packageSourceUrl>
+    <authors>Tiny Taco Team</authors>
+    <owners>Sanshiro</owners>
+    <summary>Zazu, is a cross platform and fully extensible and open source launcher for hackers, creators and dabblers.</summary>
+    <description>
+    Zazu was created to be a fully open source alternative to Alfred, but also be completely plugin based. You can remove any functionality you don't like, so if you hate the built in calculator, just get a new one!
+    We also have all of your configuration in a dotfile in ~/.zazurc.json so it can be backed up and synced!
+    Be sure to check out our amazing Documentation.
+    ## Features
+    - Package Manager
+    - Calculator
+    - Clipboard History
+    - File Finder
+    - System Commands
+    - Build your own!
+    </description>
+    <projectUrl>http://zazuapp.org/</projectUrl>
+    <projectSourceUrl>https://github.com/tinytacoteam/zazu</projectSourceUrl>
+    <docsUrl>http://zazuapp.org/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/tinytacoteam/zazu/issues</bugTrackerUrl>
+    <tags>admin electron hackers launcher extensible search</tags>
+    <copyright>Tiny Taco Team</copyright>
+    <licenseUrl>https://github.com/tinytacoteam/zazu/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/tinytacoteam/zazu/43d91d3d/resources/icons/512x512.png</iconUrl>
+    <releaseNotes>https://github.com/tinytacoteam/zazu/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
