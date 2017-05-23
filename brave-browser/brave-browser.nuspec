@@ -4,28 +4,27 @@
     <id>brave-browser</id>
     <title>Brave</title>
     <version>0.15.2</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/brave-browser</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/brave-browser</packageSourceUrl>
     <authors>Brave Software Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Browse faster and safer with Brave.
-	The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser.
-	</summary>
+    The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser.</summary>
     <description>
-	Start supporting publishers today with our new Brave Payments system.
-	Browse Safer with Brave on Your Side.
-	## Features
+    Start supporting publishers today with our new Brave Payments system.
+    Browse Safer with Brave on Your Side.
+    ## Features
     - Brave blocks harmful advertising.
     - Brave redirects sites to HTTPS.
     - Brave blocks Tracking Pixels and Tracking Cookies.
-	</description>
+    </description>
     <projectUrl>https://brave.com/</projectUrl>
-	<projectSourceUrl>https://github.com/brave/browser-laptop</projectSourceUrl>
-	<bugTrackerUrl>https://github.com/brave/browser-laptop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/brave/browser-laptop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/brave/browser-laptop/issues</bugTrackerUrl>
     <tags>admin browser bitcoin bat electron privacy</tags>
     <copyright>©2017 Brave Software Inc. All Rights Reserved.</copyright>
     <licenseUrl>https://github.com/brave/browser-laptop/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<docsUrl>https://github.com/brave/browser-laptop/wiki</docsUrl>
+    <docsUrl>https://github.com/brave/browser-laptop/wiki</docsUrl>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/ef8aca6b/brave-browser/icon.png</iconUrl>
     <releaseNotes>https://github.com/brave/browser-laptop/releases</releaseNotes>
   </metadata>
