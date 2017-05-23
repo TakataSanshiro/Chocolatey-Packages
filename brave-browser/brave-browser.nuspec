@@ -26,7 +26,7 @@
     <licenseUrl>https://github.com/brave/browser-laptop/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<docsUrl>https://github.com/brave/browser-laptop/wiki</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/brave/browser-laptop/master/res/app.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/ef8aca6b/brave-browser/icon.png</iconUrl>
     <releaseNotes>https://github.com/brave/browser-laptop/releases</releaseNotes>
   </metadata>
   <files>
