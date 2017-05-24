@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ndm</id>
+    <title>ndm</title>
+    <version>1.2.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ndm</packageSourceUrl>
+    <authors>720kb</authors>
+    <owners>Sanshiro</owners>
+    <summary>ndm is the npm desktop manager.</summary>
+    <description>
+    Manage npm from the couch.
+    ## Features
+    - Manage npm
+    - Edit Projects
+    - Get notified 
+    - One Click
+    </description>
+    <projectUrl>https://720kb.github.io/ndm/</projectUrl>
+    <projectSourceUrl>https://github.com/720kb/ndm</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/720kb/ndm/issues</bugTrackerUrl>
+    <tags>admin electron npm gui manager javascript</tags>
+    <copyright>720kb</copyright>
+    <licenseUrl>https://github.com/720kb/ndm/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/5906b431/ndm/icon.png</iconUrl>
+    <releaseNotes>https://github.com/720kb/ndm/releases/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
