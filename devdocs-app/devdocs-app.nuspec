@@ -21,7 +21,7 @@
     <copyright>EGOIST</copyright>
     <licenseUrl>https://github.com/egoist/devdocs-app</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/4fd3cdd0/devdocs-app/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/devdocs-app/icon.png</iconUrl>
     <releaseNotes>https://github.com/egoist/devdocs-app/releases</releaseNotes>
   </metadata>
   <files>
