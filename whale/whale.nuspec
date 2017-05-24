@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>whale</id>
+    <title>Whale</title>
+    <version>0.9.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/whale</packageSourceUrl>
+    <authors>Shogo Sensui</authors>
+    <owners>Sanshiro</owners>
+    <summary>Unofficial Trello app</summary>
+    <description>
+    Trello lets you work more collaboratively and get more done.
+    Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible and rewarding way. 
+    </description>
+    <projectUrl>https://github.com/1000ch/whale</projectUrl>
+    <projectSourceUrl>https://github.com/1000ch/whale</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/1000ch/whale/issues</bugTrackerUrl>
+    <tags>electron trello desktop unofficial</tags>
+    <copyright>Shogo Sensui</copyright>
+    <licenseUrl>https://github.com/1000ch/whale</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/1000ch/whale/90d2b8a0/static/Icon.png</iconUrl>
+    <releaseNotes>https://github.com/1000ch/whale/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
