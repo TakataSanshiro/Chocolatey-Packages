@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>youtube-mp3</id>
+    <title>Youtube to mp3</title>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/youtube-mp3</packageSourceUrl>
+    <authors>Med Zarroug</authors>
+    <owners>Sanshiro</owners>
+    <summary>Youtube to Mp3 Converter and downloader.</summary>
+    <description>
+    An opensource Youtube to mp3 downloader.
+    </description>
+    <projectUrl>https://medzed.github.io/youtube-mp3-app-website/</projectUrl>
+    <projectSourceUrl>https://github.com/MedZed/Electron-Youtube-to-Mp3-Converter</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/MedZed/Electron-Youtube-to-Mp3-Converter/issues</bugTrackerUrl>
+    <tags>admin electron youtube converter downloader mp3</tags>
+    <copyright>Copyright (c) 2017 Med Zarroug</copyright>
+    <licenseUrl>https://github.com/MedZed/Electron-Youtube-to-Mp3-Converter/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/MedZed/Electron-Youtube-to-Mp3-Converter/e14385f0/ytb-icon.png</iconUrl>
+    <releaseNotes>https://github.com/MedZed/Electron-Youtube-to-Mp3-Converter/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
