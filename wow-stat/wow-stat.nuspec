@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wow-stat</id>
+    <title>WoW Stat</title>
+    <version>3.0.5</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wow-stat</packageSourceUrl>
+    <authors>Devin</authors>
+    <owners>Sanshiro</owners>
+    <summary>World of Warcraft server uptime monitor.</summary>
+    <description>
+    WoW Stat is a World of Warcraft server monitor utility. Set your server you wish to monitor, and your server goes down it will automatically notify you when it is back up, or even relaunch WoW for you if you wish.
+    This is yet another rework, this time using the Electron framework.
+    </description>
+    <projectUrl>http://wowst.at/</projectUrl>
+    <projectSourceUrl>https://github.com/arzynik/wowstat</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/arzynik/wowstat/issues</bugTrackerUrl>
+    <tags>admin electron wow games monitoring</tags>
+    <copyright>Devin</copyright>
+    <licenseUrl>https://github.com/arzynik/wowstat/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/96bde666/wow-stat/icon.png</iconUrl>
+    <releaseNotes>https://github.com/arzynik/wowstat/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
