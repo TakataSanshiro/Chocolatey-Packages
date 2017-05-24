@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>papyrus</id>
+    <title>Papyrus</title>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/papyrus</packageSourceUrl>
+    <authors>morkro</authors>
+    <owners>Sanshiro</owners>
+    <summary>Unofficial Dropbox Paper desktop app.</summary>
+    <description>
+    Unofficial Dropbox Paper desktop app
+    https://www.dropbox.com/paper
+    </description>
+    <projectUrl>https://github.com/morkro/papyrus</projectUrl>
+    <projectSourceUrl>https://github.com/morkro/papyrus</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/morkro/papyrus/issues</bugTrackerUrl>
+    <tags>electron paper dropbox</tags>
+    <copyright>morkro</copyright>
+    <licenseUrl>https://github.com/morkro/papyrus/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/morkro/papyrus/1c2c2d49/static/dropbox-osx.png</iconUrl>
+    <releaseNotes>https://github.com/morkro/papyrus/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
