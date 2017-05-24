@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>socket-io-tester</id>
+    <title>socket.io-tester</title>
+    <version>1.1.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/socket-io-tester</packageSourceUrl>
+    <authors>AppSaloon</authors>
+    <owners>Sanshiro</owners>
+    <summary>An electron app that lets you connect to a socket.io server and listen to emited events and/or lets you emit messages to the server.
+    </summary>
+    <description>
+    ## Features
+    - Connect to socket.io server
+    - Listen to events
+    - Send an event
+    - String or object messages
+    - Use namespaces
+    </description>
+    <projectUrl>https://appsaloon.github.io/socket.io-tester/</projectUrl>
+    <projectSourceUrl>https://github.com/AppSaloon/socket.io-tester</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/AppSaloon/socket.io-tester/issues</bugTrackerUrl>
+    <tags>electron socket io node javascript event messages developer</tags>
+    <copyright>AppSaloon</copyright>
+    <licenseUrl>https://github.com/AppSaloon/socket.io-tester/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/AppSaloon/socket.io-tester/master/assets/icon.png</iconUrl>
+    <releaseNotes>https://github.com/AppSaloon/socket.io-tester/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
