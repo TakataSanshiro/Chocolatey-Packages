@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wowcrypt</id>
+    <title>WoWCrypt</title>
+    <version>0.0.4</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wowcrypt</packageSourceUrl>
+    <authors>XeonPowder</authors>
+    <owners>Sanshiro</owners>
+    <summary> World of Warcraft Community API Project.</summary>
+    <description>
+World of Warcraft Armory Desktop Application
+Blizzard's WoW Community API
+HTML, CSS, and VueJS 2.0
+# Features
+Achievement Lookup
+Auction House Data
+Boss Lookup
+Character Lookup
+Guild Lookup
+Item Lookup
+Mount Lookup
+Pet Lookup
+PvP Lookup
+Quest Lookup
+Realm Lookup
+Recipe Lookup
+Zone Lookup
+    </description>
+    <projectUrl>https://github.com/XeonPowder/WoWCrypt</projectUrl>
+    <projectSourceUrl>https://github.com/XeonPowder/WoWCrypt</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/XeonPowder/WoWCrypt/issues</bugTrackerUrl>
+    <tags>admin electron wow games api desktop</tags>
+    <copyright>XeonPowder</copyright>
+    <licenseUrl>https://github.com/XeonPowder/WoWCrypt/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c5ba1c06/wowcrypt/icon.png</iconUrl>
+    <releaseNotes>https://github.com/XeonPowder/WoWCrypt/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
