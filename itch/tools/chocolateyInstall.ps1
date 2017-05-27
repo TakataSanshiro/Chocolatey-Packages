@@ -1,9 +1,9 @@
-﻿$packageName = 'itch' 
+﻿$ErrorActionPreference = 'Stop';
+
+$packageName = 'itch' 
 $installerType = 'exe' 
-$url = 'https://nuts.itch.zone/download/windows' 
+$url = 'https://github.com/itchio/itch/releases/download/v23.4.1/itchSetup.exe' 
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 39545FBBB8D48A58F563B60FB1DCB931148F2783A2C4A95F3F4400758853FBF2 -ChecksumType sha256
-
-
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum D0F6C200F90E399801796B8B2FFA69B8CB94415D167046C1D6CE4401FBB64A85 -ChecksumType sha256
