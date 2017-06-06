@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>opera-neon</id>
+    <title>Opera Neon</title>
+    <version>1.0.2459.0</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/opera-neon</packageSourceUrl>
+    <authors>Opera Software</authors>
+    <owners>Sanshiro</owners>
+    <summary>Get a glimpse into what Opera for computers could become. Each Opera Neon feature is an alternate reality for the Opera browser.</summary>
+    <description>
+## Features
+Feast your eyes
+Engage your senses
+Free your mind
+Visual tabs and gravity
+Snap-to-gallery
+Split screen mode
+Video pop-out and player
+    </description>
+    <projectUrl>https://www.opera.com/computer/neon</projectUrl>
+    <tags>admin browser opera multi-platform</tags>
+    <copyright>© Opera Software</copyright>
+    <licenseUrl>https://www.opera.com/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/f91a4767/opera-neon/icon.png</iconUrl>
+    <releaseNotes>https://blogs.opera.com/desktop/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
