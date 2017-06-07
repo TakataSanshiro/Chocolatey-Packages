@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ramme</id>
+    <title>Ramme</title>
+    <version>3.2.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ramme</packageSourceUrl>
+    <authors>Terkel</authors>
+    <owners>Sanshiro</owners>
+    <summary>Unofficial Instagram Desktop App</summary>
+    <description>
+## Features
+- Photo upload
+- Dark Theme
+- Auto Update
+- Keyboard shortcuts
+- Background behavior
+    </description>
+    <projectUrl>https://github.com/terkelg/ramme</projectUrl>
+    <projectSourceUrl>https://github.com/terkelg/ramme</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/terkelg/ramme/issues</bugTrackerUrl>
+    <tags>admin electron instagram facebook</tags>
+    <copyright>© Terkel Gjervig</copyright>
+    <licenseUrl>https://github.com/terkelg/ramme/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/terkelg/ramme/02250ca1/media/icon.png</iconUrl>
+    <releaseNotes>https://github.com/terkelg/ramme/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
