@@ -3,12 +3,13 @@
   <metadata>
     <id>github-desktop</id>
     <title>GitHub Desktop the new native</title>
-    <version>0.5.8</version>
+    <version>0.5.9</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
-    <summary>Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</summary>
+    <summary>The new native. Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</summary>
     <description>
+##This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.
 Your Desktop upgrade.
 - Experience Electron 
 Whether you’re using a Mac or Windows, Desktop Beta gives you a simplified experience with more space for what matters—your code. 
@@ -25,7 +26,7 @@ Every pixel is completely open source. Build the features you need, and be a par
     <copyright>© 2017 GitHub, Inc. All rights reserved.</copyright>
     <licenseUrl>https://github.com/desktop/desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/92acaf11/github-desktop/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/github-desktop/icon.png</iconUrl>
     <releaseNotes>https://desktop.github.com/release-notes/windows/</releaseNotes>
   </metadata>
   <files>
