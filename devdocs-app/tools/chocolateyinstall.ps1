@@ -3,8 +3,8 @@
 $packageName = 'devdocs-app'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/egoist/devdocs-app/releases/download/v0.2.2/DevDocs-0.2.2-ia32.exe'
-$checksum = '6563254134E69CB1D641132BE63341430B3DB18F67635F29AD98C73F2AFFA818'
+$url = 'https://github.com/egoist/devdocs-app/releases/download/v0.3.0/DevDocs.Setup.0.3.0-ia32.exe'
+$checksum = '0C9012C74083BA87D59507573F7C99C745656CBCF285FFC6F538D5D233933263'
 $checksumType = 'sha256'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0) 
