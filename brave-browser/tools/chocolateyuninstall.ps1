@@ -2,7 +2,7 @@
 
 $packageName = 'brave-browser'
 $installerType = 'exe'
-$silentArgs = '--uninstall --uninstall -s'
+$silentArgs = '--uninstall -s'
 $validExitCodes = @(0)
 $file = "$Env:USERPROFILE\AppData\Local\brave\Update.exe"
 
