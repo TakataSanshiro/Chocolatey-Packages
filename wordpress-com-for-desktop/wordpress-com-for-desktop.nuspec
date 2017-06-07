@@ -3,21 +3,21 @@
   <metadata>
     <id>wordpress-com-for-desktop</id>
     <title>WordPress.com Desktop</title>
-    <version>2.4.0</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wordpress-com-for-desktop</packageSourceUrl>
+    <version>2.5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wordpress-com-for-desktop</packageSourceUrl>
     <authors>Automattic Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>A desktop app that gives WordPress a permanent home in your taskbar.</summary>
     <description>
-	## Features
-	- A control panel for all your WordPress sites
-	- Focus on your content
-	- Speed is a feature
-	- Not one size fits all
-	</description>
+## Features
+- A control panel for all your WordPress sites
+- Focus on your content
+- Speed is a feature
+- Not one size fits all
+    </description>
     <projectUrl>https://apps.wordpress.com/desktop/</projectUrl>
-	<projectSourceUrl>https://github.com/Automattic/wp-desktop</projectSourceUrl>
-	<bugTrackerUrl>https://github.com/Automattic/wp-desktop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Automattic/wp-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Automattic/wp-desktop/issues</bugTrackerUrl>
     <tags>admin electron wordpress blog editor</tags>
     <copyright>© Automattic Inc.</copyright>
     <licenseUrl>https://github.com/Automattic/wp-desktop/blob/master/LICENSE.md</licenseUrl>
