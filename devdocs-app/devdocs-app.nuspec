@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>devdocs-app</id>
+    <title>DevDocs-app</title>
+    <version>0.3.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/devdocs-app</packageSourceUrl>
+    <authors>EGOIST</authors>
+    <owners>Sanshiro</owners>
+    <summary> A full-featured desktop app for DevDocs.io.</summary>
+    <description>
+    DevDocs.io combines multiple API documentations in a fast, organized, and searchable interface. This is an unoffcial desktop app for it.
+    ## Features
+    - Background behavior
+    - Keyboard shortcuts
+    </description>
+    <projectUrl>https://github.com/egoist/devdocs-app</projectUrl>
+    <projectSourceUrl>https://github.com/egoist/devdocs-app</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/egoist/devdocs-app/issues</bugTrackerUrl>
+    <tags>admin electron devloper development docs documents viewer</tags>
+    <copyright>EGOIST</copyright>
+    <licenseUrl>https://github.com/egoist/devdocs-app</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/devdocs-app/icon.png</iconUrl>
+    <releaseNotes>https://github.com/egoist/devdocs-app/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
