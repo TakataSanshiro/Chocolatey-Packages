@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>caret</id>
+    <title>Caret</title>
+    <version>2.1.3</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/caret</packageSourceUrl>
+    <authors>Caret.io Ltd.</authors>
+    <owners>Sanshiro</owners>
+    <summary>Beautiful &amp; Clever Markdown Editor. Download trial.</summary>
+    <description>
+What people about Caret.
+- Syntax Assistance
+- Auto-Completion
+- Context Menu
+- Multiple Selections
+- Extend Selection
+- Inline Rendering
+- Go to Heading
+- File Manager
+- Git Integration
+This is a trial version.
+    </description>
+    <projectUrl>https://caret.io/</projectUrl>
+    <docsUrl>https://caret.io/features</docsUrl>
+    <bugTrackerUrl>https://github.com/careteditor/caret/issues</bugTrackerUrl>
+    <tags>admin electron markdown editor trial</tags>
+    <copyright>© 2015 - 2017 Caret.io Ltd.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/careteditor/caret/da378926/static/app-icon.png</iconUrl>
+    <releaseNotes>https://github.com/careteditor/caret/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
