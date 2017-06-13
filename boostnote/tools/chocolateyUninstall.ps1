@@ -14,5 +14,5 @@ Uninstall-ChocolateyPackage `
   -File "$file"
  
 # Delete junk files of BoostNote at $Env:USERPROFILE\AppData\Local\boost
-# Doesn't delete user's .json and .cson note data.
+# Don't delete user's .json and .cson note data.
 Remove-Item $Env:USERPROFILE\AppData\Local\boost -recurse

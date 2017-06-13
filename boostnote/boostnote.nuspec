@@ -3,22 +3,23 @@
   <metadata>
     <id>boostnote</id>
     <title>Boostnote</title>
-    <version>0.8.9</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/boostnote</packageSourceUrl>
+    <version>0.8.10</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/boostnote</packageSourceUrl>
     <authors>Maisin&amp;Co.</authors>
     <owners>Sanshiro</owners>
-    <summary>Boostnote is an open source note-taking app. Evernote alternative for programmers!</summary>
-    <description>What makes Boostnote great?
-	Using Boostnote Offline - There is no internet connection? It's OK. You can use the Boostnote.
-	Markdown Note - Keep Markdown Notes with a instant renderer.
-	Snippet Note - Just like Gist, keep your snippets as a note.
-	Multiple Hotkeys - Like Command N and D, you can use multiple hotkeys.
-	Finder Popup - Just like spotlight of OS X, Search your note when working with other app.
-	Latex Support - With $$ and $$$, write some equations.
-	</description>
+    <summary>Boostnote is an open source note-taking app. Evernote alternative for programmers! For Windows 64bit.</summary>
+    <description>
+What makes Boostnote great?
+Using Boostnote Offline - There is no internet connection? It's OK. You can use the Boostnote.
+Markdown Note - Keep Markdown Notes with a instant renderer.
+Snippet Note - Just like Gist, keep your snippets as a note.
+Multiple Hotkeys - Like Command N and D, you can use multiple hotkeys.
+Finder Popup - Just like spotlight of OS X, Search your note when working with other app.
+Latex Support - With $$ and $$$, write some equations.
+    </description>
     <projectUrl>https://boostnote.io/</projectUrl>
-	<projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
-	<bugTrackerUrl>https://github.com/BoostIO/Boostnote/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/BoostIO/Boostnote/issues</bugTrackerUrl>
     <tags>note programmer programming snippet markdown latex admin</tags>
     <copyright>Copyright (C) 2017 Maisin&amp;Co.</copyright>
     <licenseUrl>https://github.com/BoostIO/Boostnote/blob/master/LICENSE</licenseUrl>
