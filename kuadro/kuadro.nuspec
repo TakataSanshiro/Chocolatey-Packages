@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>kuadro</id>
+    <title>Kuadro</title>
+    <version>0.8.5</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/kuadro</packageSourceUrl>
+    <authors>Kruel Games</authors>
+    <owners>Sanshiro</owners>
+    <summary>A new way of managing your reference images!</summary>
+    <description>
+## Features
+- Simply Powerful
+Minimalistic interface stays out of your way.
+Hotkeys make it super flexible.
+- Smart
+Store your layouts for later,one preset for each of your assets.
+- Portable
+One single executable,No installation required.
+
+For support or feedback email us at support@kruelgames.com
+If you like Kuadro, please consider making a donation to help us develop other free tools like it.
+	</description>
+    <projectUrl>http://kruelgames.com/tools/kuadro/</projectUrl>
+    <tags>reference image portable</tags>
+    <copyright>© 2014 Kruel Games, LLC. </copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c43f62fe/kuadro/icon.png</iconUrl>
+    <releaseNotes>http://kruelgames.com/tools/kuadro/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
