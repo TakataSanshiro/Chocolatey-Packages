@@ -4,4 +4,4 @@ $url = 'http://rammichael.com/downloads/textify_setup.exe'
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum DFCDBB7E46FB9F396BD9C0845E593731EF3FE6FD53A54841F56665D070DC5E5C -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum D3F93A4E740D5AFF453EDA2CEF71041FDC391860F1755FFE169EA2F443498CF9 -ChecksumType sha256

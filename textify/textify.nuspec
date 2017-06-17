@@ -3,14 +3,15 @@
   <metadata>
     <id>textify</id>
     <title>Textify</title>
-    <version>1.5</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/textify</packageSourceUrl>
+    <version>1.5.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/textify</packageSourceUrl>
     <authors>RaMMicHaeL</authors>
     <owners>Sanshiro</owners>
     <summary>Copy text content from dialog boxes.</summary>
-    <description>Have you ever wanted to copy some text from a dialog box which doesn’t provide such functionality?
-	Textify was created to solve this problem: you can point your mouse over the text, click on the mouse shortcut (Shift + Middle click by default), and get a selectable view of the text.
-	</description>
+    <description>
+Have you ever wanted to copy some text from a dialog box which doesn’t provide such functionality?
+Textify was created to solve this problem: you can point your mouse over the text, click on the mouse shortcut (Shift + Middle click by default), and get a selectable view of the text.
+    </description>
     <projectUrl>http://rammichael.com/textify</projectUrl>
     <tags>admin windows utility</tags>
     <copyright>©2017 RaMMicHaeL</copyright>
