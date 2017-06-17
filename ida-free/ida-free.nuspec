@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ida-free</id>
+    <title>IDA free</title>
+    <version>5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ida-free</packageSourceUrl>
+    <authors>Hex-Rays SA.</authors>
+    <owners>Sanshiro</owners>
+    <summary>IDA is a Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger that offers so many features it is hard to describe them all. Just grab an evaluation version if you want a test drive.free for non-commercial use. </summary>
+    <description>
+The IDA Disassembler and Debugger is an interactive, programmable, extendible, multi-processor disassembler hosted on Windows, Linux, or Mac OS X. IDA has become the de-facto standard for the analysis of hostile code, vulnerability research and COTS validation. See this executive overview for a summary of its features and uses. 
+Multitarget Disassembler
+Multitarget Debugger
+IDA 5.0 Freeware version is free for non-commercial use.
+    </description>
+    <projectUrl>https://www.hex-rays.com/products/ida/index.shtml</projectUrl>
+    <docsUrl>https://www.hex-rays.com/products/ida/debugger/index.shtml</docsUrl>
+    <tags>admin debugger disassembler freeware non-commercial</tags>
+    <copyright>Copyright (c) 2016 Hex-Rays SA. </copyright>
+    <licenseUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0b281fe3/ida-free/icon.png</iconUrl>
+    <releaseNotes>https://www.hex-rays.com/products/ida/news.shtml</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
