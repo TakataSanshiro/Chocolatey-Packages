@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>disable-nvidia-telemetry</id>
+    <title>Disable Nvidia Telemetry</title>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/disable-nvidia-telemetry</packageSourceUrl>
+    <authors>Nate Shoffner</authors>
+    <owners>Sanshiro</owners>
+    <summary>Windows utility to disable Nvidia's telemetry services</summary>
+    <description>
+Disable Nvidia Telemetry is a utility that allows you to disable the telemetry services Nvidia bundles with their drivers.
+Disable Nvidia Telemetry scans Nvidia Telemetry Services and Telemetry Tasks on Windows.
+Easy to use GUI.
+You don't need to edit something on registry.
+    </description>
+    <projectUrl>https://github.com/NateShoffner/Disable-Nvidia-Telemetry</projectUrl>
+    <projectSourceUrl>https://github.com/NateShoffner/Disable-Nvidia-Telemetry</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/NateShoffner/Disable-Nvidia-Telemetry/issues</bugTrackerUrl>
+    <tags>nvidia privacy telemetry portable</tags>
+    <copyright>Copyright 2017 Nate Shoffner</copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/35de6529/disable-nvidia-telemetry/icon.png</iconUrl>
+    <releaseNotes>https://github.com/NateShoffner/Disable-Nvidia-Telemetry/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
