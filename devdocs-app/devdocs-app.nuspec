@@ -3,16 +3,17 @@
   <metadata>
     <id>devdocs-app</id>
     <title>DevDocs-app</title>
-    <version>0.3.0</version>
+    <version>0.5.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/devdocs-app</packageSourceUrl>
     <authors>EGOIST</authors>
     <owners>Sanshiro</owners>
-    <summary> A full-featured desktop app for DevDocs.io.</summary>
+    <summary>A full-featured desktop app for DevDocs.io.</summary>
     <description>
-    DevDocs.io combines multiple API documentations in a fast, organized, and searchable interface. This is an unoffcial desktop app for it.
-    ## Features
-    - Background behavior
-    - Keyboard shortcuts
+DevDocs.io combines multiple API documentations in a fast, organized, and searchable interface. This is an unoffcial desktop app for it.
+## Features
+- Background behavior
+- Build-in shortcuts
+- Global shortcut
     </description>
     <projectUrl>https://github.com/egoist/devdocs-app</projectUrl>
     <projectSourceUrl>https://github.com/egoist/devdocs-app</projectSourceUrl>
