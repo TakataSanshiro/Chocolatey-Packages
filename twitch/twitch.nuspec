@@ -3,8 +3,8 @@
   <metadata>
     <id>twitch</id>
     <title>Twitch Desktop App</title>
-    <version>6.0.0.20170605</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/twitch</packageSourceUrl>
+    <version>6.0.0.20170619</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/twitch</packageSourceUrl>
     <authors>Twitch Interactive, Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Bring your favorite communities, friends, and games together with Twitch.</summary>
@@ -14,7 +14,7 @@ Servers - A virtual home for your community to chat, watch, and play with fully 
 Friends &amp; Messaging - Friend Sync quickly imports all your friends and games you follow. 
 Voice &amp; Video Calls - Crystal-clear voice calls whether between one or two friends or an entire raid group. 
 Addons and Overlays - Find, install, and manage addons for your favorite games directly within the app.
-	</description>
+    </description>
     <projectUrl>https://app.twitch.tv/download</projectUrl>
     <tags>admin game streaming</tags>
     <copyright>© 2017 Twitch Interactive, Inc. </copyright>
