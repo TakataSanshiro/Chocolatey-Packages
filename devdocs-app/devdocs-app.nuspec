@@ -19,7 +19,7 @@
     <bugTrackerUrl>https://github.com/egoist/devdocs-app/issues</bugTrackerUrl>
     <tags>admin electron devloper development docs documents viewer</tags>
     <copyright>EGOIST</copyright>
-    <licenseUrl>https://github.com/egoist/devdocs-app</licenseUrl>
+    <licenseUrl>https://github.com/egoist/devdocs-app/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/devdocs-app/icon.png</iconUrl>
     <releaseNotes>https://github.com/egoist/devdocs-app/releases</releaseNotes>
