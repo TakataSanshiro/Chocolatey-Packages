@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>snips</id>
+    <title>Snips</title>
+    <version>1.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/snips</packageSourceUrl>
+    <authors>Ethan Piliavin</authors>
+    <owners>Sanshiro</owners>
+    <summary>A simple way to store and use text snippets in any windows program.</summary>
+    <description>
+## Instructions
+Activate Snips using the hotkey - Default is CTRL+` (CTRL+Backtick) [Can be changed in snips.ini]
+On activation the search box is focused, so you can imeediately type to search snippets
+Hit the down arrow to activate the tree or search resuls box. Use the arrow keys to navigate
+Press enter or double click to copy a snippet to clipboard
+Escape key will close Snips and return to your previous window
+CTRL+R will refresh your list of snippets from disk
+A tray icon is displayed, which you can use to manage Snips or terminate the program.
+
+All snippets are plain text files stored in the \snips folder under the program binary. One snippet per file.
+    </description>
+    <projectUrl>https://github.com/ethanpil/snips</projectUrl>
+    <projectSourceUrl>https://github.com/ethanpil/snips</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/ethanpil/snips/issues</bugTrackerUrl>
+    <tags>snippets manager portable</tags>
+    <copyright>Copyright (C) Ethan Piliavin</copyright>
+    <licenseUrl>https://github.com/ethanpil/snips/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/eadc0c84/snips/icon.png</iconUrl>
+    <releaseNotes>https://github.com/ethanpil/snips/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
