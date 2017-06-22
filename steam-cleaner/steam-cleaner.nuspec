@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>steam-cleaner</id>
+    <title>Steam Cleaner</title>
+    <version>2.3</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/steam-cleaner</packageSourceUrl>
+    <authors>Codeusa</authors>
+    <owners>Sanshiro</owners>
+    <summary>A PC utility for restoring disk space from various game clients like Origin, Steam, Uplay, Battle.net, GoG and Nexon.</summary>
+    <description>
+Steam Cleaner is a tool that will remove large amounts of data left behind by Steam, Origin, Uplay and GoG. This tool can clear up gigabytes of data in a few seconds. There is no configuration needed, simply run it and it will detect all your installed games and then some.
+
+This software is under development.
+    </description>
+    <projectUrl>https://github.com/Codeusa/SteamCleaner</projectUrl>
+    <projectSourceUrl>https://github.com/Codeusa/SteamCleaner</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Codeusa/SteamCleaner/issues</bugTrackerUrl>
+    <tags>steam origin uplay battle.net gog nexon cleaner disk privacy portable</tags>
+    <copyright>Codeusa</copyright>
+    <licenseUrl>https://github.com/Codeusa/SteamCleaner/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/55c4c524/steam-cleaner/icon.png</iconUrl>
+    <releaseNotes>https://github.com/Codeusa/SteamCleaner/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
