@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wpd</id>
+    <title>WPD</title>
+    <version>1.1.451</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wpd</packageSourceUrl>
+    <authors>GetWPD</authors>
+    <owners>Sanshiro</owners>
+    <summary>a tweaker that contains all main settings in one place!</summary>
+    <description>
+You can customize Group Policy, Services and Tasks responsible for data collection and transmission as you like. And furthermore, if you want, you can block a bunch of Microsoft's IP's to which data is sent.
+WPD is free, totally portable, has a nice user-friendly interface and doesn't contain any advertisement or malicious code. 
+
+Supported OS
+Windows 10 Enterprise 1703, 1607
+Windows 10 Enterprise LTSB 2016, 2015
+Windows 10 Pro 1703, 1607
+Windows 10 Home 1703
+Windows 7
+    </description>
+    <projectUrl>https://getwpd.com/</projectUrl>
+    <tags>privacy freeware portable</tags>
+    <copyright>© 2016-2017 GetWPD.com.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/f557b9bd/wpd/icon.png</iconUrl>
+    <releaseNotes>https://getwpd.com/changelog.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
