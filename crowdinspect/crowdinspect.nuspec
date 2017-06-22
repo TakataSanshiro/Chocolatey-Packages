@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>crowdinspect</id>
+    <title>CrowdInspect</title>
+    <version>1.5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/crowdinspect</packageSourceUrl>
+    <authors>CrowdStrike</authors>
+    <owners>Sanshiro</owners>
+    <summary>CrowdInspect is a free community tool for Microsoft Windows systems that is aimed to help alert you to the presence of potential malware are on your computer that may be communicating over the network. </summary>
+    <description>
+Host-Based Process Inspection
+It is a host-based process inspection tool utilizing multiple sources of information to detect untrusted or malicious network-active process. The tool is leveraging intelligence from VirusTotal, Web of Trust (WOT), and Team Cymru’s Malware Hash Registry.
+Supported Operating Systems: The tool runs on both 32 bit and 64 bit versions of Windows from XP and above.
+
+##Once you run the CrowdInspect.exe or the CrowdInspect.lnk at your desktop as an admin, then CrowdInspect64.exe will appear in the same directory.
+    </description>
+    <projectUrl>https://www.crowdstrike.com/resources/community-tools/</projectUrl>
+    <tags>security malware process inspection analysis network freeware portable</tags>
+    <copyright>Copyright © 2017 CrowdStrike</copyright>
+    <licenseUrl>https://www.crowdstrike.com/resources/crowdinspect/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/3d67af5e/crowdinspect/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
