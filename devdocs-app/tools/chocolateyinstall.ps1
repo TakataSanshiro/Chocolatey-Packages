@@ -3,10 +3,10 @@
 $packageName = 'devdocs-app'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/egoist/devdocs-app/releases/download/v0.5.1/DevDocs.Setup.0.5.1.exe'
-$checksum = '19B7796C76E8FAABC750B70FE1882343B32D7A14FF00E7B8FCDFD21CBD51353F'
+$url = 'https://github.com/egoist/devdocs-desktop/releases/download/v0.6.4/DevDocs-Setup-0.6.4.exe'
+$checksum = '09AF430199E2C4967648E78691FD96992B3254593A96529AF64D04CB8F805EA9'
 $checksumType = 'sha256'
-$silentArgs = '/VERYSILENT'
+$silentArgs = '/S'
 $validExitCodes = @(0) 
 
 Install-ChocolateyPackage `

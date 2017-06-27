@@ -2,9 +2,9 @@
 
 $packageName = 'devdocs-app'
 $installerType = 'exe'
-$silentArgs = '--uninstall -s'
+$silentArgs = '/S'
 $validExitCodes = @(0)
-$file = "$Env:USERPROFILE\AppData\Local\DevDocs\Update.exe"
+$file = "$Env:USERPROFILE\AppData\Local\Programs\DevDocs\Uninstall DevDocs.exe"
 
 Uninstall-ChocolateyPackage `
   -PackageName $packageName `
