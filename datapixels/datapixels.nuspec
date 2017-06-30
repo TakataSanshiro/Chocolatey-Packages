@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>datapixels</id>
+    <title>Data Pixels</title>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/datapixels</packageSourceUrl>
+    <authors>Geoffrey Mattie</authors>
+    <owners>Sanshiro</owners>
+    <summary>DATA PIXELS - Create Pixel Art Programmatically</summary>
+    <description>
+# The DataPixels.js source code facilitates production of pixel art that is entirely generated programmatically at runtime. Additionally, the accompanying desktop application, Data Pixels Playground, may be used to write and execute code for displaying both customized and automated pixel art.
+## DataPixels.js
+The DataPixels.js source code features a modular, ES2015 Class design for accessible and effortless construction of new instances. Each instance contains both HTMLCanvasElement and HTMLImageElement public accessors whose sources consist of the programmatically generated pixel art.
+The DataPixels.js constructor requires 2 arguments:
+* pixelData
+* pixelSize
+    </description>
+    <projectUrl>https://github.com/gmattie/Data-Pixels</projectUrl>
+    <projectSourceUrl>https://github.com/gmattie/Data-Pixels</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/gmattie/Data-Pixels/issues</bugTrackerUrl>
+    <tags>electron pixel art</tags>
+    <copyright>Copyright © 2017 Geoffrey Mattie</copyright>
+    <licenseUrl>https://github.com/gmattie/Data-Pixels/blob/master/resources/build/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/gmattie/Data-Pixels/60732af7/resources/source/images/icons/icon.png</iconUrl>
+    <releaseNotes>https://github.com/gmattie/Data-Pixels/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
