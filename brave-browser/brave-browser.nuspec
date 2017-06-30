@@ -2,31 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>brave-browser</id>
-    <title>Brave</title>
-    <version>0.15.314</version>
+    <title>[Deprecated] Brave</title>
+    <version>0.15.314.20170701</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/brave-browser</packageSourceUrl>
     <authors>Brave Software Inc.</authors>
     <owners>Sanshiro</owners>
-    <summary>Browse faster and safer with Brave.
-The new Brave browser automatically blocks ads and trackers, making it faster and safer than your current browser.</summary>
+    <summary>brave replaced brave-browser. brave-browser chocolatey package was deprecated, sorry.</summary>
     <description>
-Start supporting publishers today with our new Brave Payments system.
-Browse Safer with Brave on Your Side.
-## Features
-- Brave blocks harmful advertising.
-- Brave redirects sites to HTTPS.
-- Brave blocks Tracking Pixels and Tracking Cookies.
+# I messed up the package id for brave-browser, the correct id is brave. Use https://chocolatey.org/packages/brave, brave-browser instead.
     </description>
     <projectUrl>https://brave.com/</projectUrl>
     <projectSourceUrl>https://github.com/brave/browser-laptop</projectSourceUrl>
     <bugTrackerUrl>https://github.com/brave/browser-laptop/issues</bugTrackerUrl>
-    <tags>admin browser bitcoin bat electron privacy</tags>
+    <tags>deprecated</tags>
     <copyright>©2017 Brave Software Inc. All Rights Reserved.</copyright>
     <licenseUrl>https://github.com/brave/browser-laptop/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://github.com/brave/browser-laptop/wiki</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/brave-browser/icon.png</iconUrl>
     <releaseNotes>https://github.com/brave/browser-laptop/releases</releaseNotes>
+    <dependencies>
+      <dependency id="brave" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
