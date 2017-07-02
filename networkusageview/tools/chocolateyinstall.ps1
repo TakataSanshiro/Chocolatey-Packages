@@ -11,7 +11,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
-                             -UnzipLocation "$toolsDir\UninstallView" `
+                             -UnzipLocation "$toolsDir\NetworkUsageView" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"`
 							 -Url64bit "$url64" `
@@ -20,5 +20,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 
 # Create a portable execution file shotcut at the desktop.
 Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\NetworkUsageView.lnk" `
-						     -TargetPath "$toolsDir\UninstallView\NetworkUsageView.exe"
+						     -TargetPath "$toolsDir\NetworkUsageView\NetworkUsageView.exe"
 							 
