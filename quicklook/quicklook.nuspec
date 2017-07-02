@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>quicklook</id>
+    <title>QuickLook</title>
+    <version>0.2.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/quicklook</packageSourceUrl>
+    <authors>xupefei</authors>
+    <owners>Sanshiro</owners>
+    <summary>Bring macOS “Quick Look” feature to Windows</summary>
+    <description>
+This project is currently under heavy development. Come back often to see what’s new.
+## Background
+Quick Look is among the few features I missed from Mac OS X. It enables very quick preview of file by pressing Space key while highlighting it, without opening its associated application. Then I decide to add this feature to Windows by myself, which results this “QuickLook” project.
+
+You may ask, why you write this when there several alternatives available on the Internet (e.g. WinQuickLook and Seer)? The answer is that, they are all among those which no longer actively developed, lack of support of file types and plugins, or asking user for amounts of $$$.
+## Highlights
+* Instant preview 
+* Beautiful UI
+* Perfect HiDPI support
+* Native 64-bit application
+* Preview from Open and Save File Dialog
+* Preview from 3rd-party file managers 
+* Easy extended by plugins 
+* Strict GPL license to keep it free forever
+    </description>
+    <projectUrl>http://pooi.moe/QuickLook/</projectUrl>
+    <projectSourceUrl>https://github.com/xupefei/QuickLook</projectSourceUrl>
+    <docsUrl>https://github.com/xupefei/QuickLook/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/xupefei/QuickLook/issues</bugTrackerUrl>
+    <tags>admin viewer quicklook preview</tags>
+    <copyright>xupefei</copyright>
+    <licenseUrl>https://github.com/xupefei/QuickLook/blob/master/LICENSE-GPL.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e99a1acf/quicklook/icon.png</iconUrl>
+    <releaseNotes>https://github.com/xupefei/QuickLook/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
