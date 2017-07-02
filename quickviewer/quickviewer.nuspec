@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>quickviewer</id>
+    <title>QuickViewer</title>
+    <version>0.7.6</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/quickviewer</packageSourceUrl>
+    <authors>kanryu</authors>
+    <owners>Sanshiro</owners>
+    <summary> A image viewer application for folders and archives, it can show images very fast</summary>
+    <description>
+QuickViewer is a graphic image viewer for comfortable browsing of many images.
+
+This software performs reading of image data in advance. And drawing the imported image data on the screen with OpenGL. You can browse images with much smoother response than ever before.
+
+QuickViewer is a free software lisenced under GPLv3.
+## Summary
+* To show images very fast (using OpenGL)
+* Portable (without installers, registries, external libraries)
+* Spread viewing (two images once, for digital books/comics)
+* To read archives directly (zip/7z/rar/cbr/cbz)
+* To show images (bmp/png/jpeg/dds/webp/ico/tga/tiff/gif)
+* Auto rotation (using JPEG EXIF)
+* To show Raw digital camera images, such as Canon (crw, cr2), Nicon (nef), Sony (arw), Ricoh (dng)
+* Can make/view/search catalog from thousands of your digital books
+* Can search books from auto generated tags
+    </description>
+    <projectUrl>https://kanryu.github.io/quickviewer/</projectUrl>
+    <projectSourceUrl>https://github.com/kanryu/quickviewer</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/kanryu/quickviewer/issues</bugTrackerUrl>
+    <tags>viewer image picture qt opengl fragment-shader comic portable</tags>
+    <copyright>kanryu</copyright>
+    <licenseUrl>https://github.com/kanryu/quickviewer/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/f33dda4e/quickviewer/icon.png</iconUrl>
+    <releaseNotes>https://github.com/kanryu/quickviewer/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
