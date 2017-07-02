@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>winquicklook</id>
+    <title>WinQuickLook</title>
+    <version>1.1.31</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/winquicklook</packageSourceUrl>
+    <authors>shibayan</authors>
+    <owners>Sanshiro</owners>
+    <summary>"Quick Look" like Windows Explorer file viewer.</summary>
+    <description>
+## Requirements
+* .NET Framework 4.6.1
+* Windows 10
+
+## Usage
+1. Install latest version
+2. Launch WinQuickLook
+3. Open explorer
+4. Select a file
+5. Press a space-key
+    </description>
+    <projectUrl>https://github.com/shibayan/WinQuickLook</projectUrl>
+    <projectSourceUrl>https://github.com/shibayan/WinQuickLook</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/shibayan/WinQuickLook/issues</bugTrackerUrl>
+    <tags>quicklook preview portable</tags>
+    <copyright>shibayan</copyright>
+    <licenseUrl>https://github.com/shibayan/WinQuickLook/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/b512ef87/winquicklook/icon.png</iconUrl>
+    <releaseNotes>https://github.com/shibayan/WinQuickLook/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
