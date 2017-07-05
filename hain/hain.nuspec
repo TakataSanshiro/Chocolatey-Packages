@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>hain</id>
+    <title>Hain</title>
+    <version>0.6.4</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/hain</packageSourceUrl>
+    <authors>Heejin Lee</authors>
+    <owners>Sanshiro</owners>
+    <summary>An 'alt+space' launcher for Windows, built with Electron</summary>
+    <description>
+I always dreamed of an alternative to Alfred on Windows, that is made with JavaScript. 
+## Vision
+It's a launcher with strict syntax (like terminal programs), it's not targeting to interpret natrual language.
+I believe the strict syntax can provide more powerful and fast response than to interpret natural language.
+## Features
+* Searching Executable files very fast with Fuzzy Matching
+* Plugins in Pure JavaScript
+    </description>
+    <projectUrl>https://hainproject.github.io/hain/</projectUrl>
+    <projectSourceUrl>https://github.com/hainproject/hain</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hainproject/hain/issues</bugTrackerUrl>
+    <tags>admin launcher javascript electron</tags>
+    <copyright>© 2017 Heejin Lee.</copyright>
+    <licenseUrl>https://github.com/hainproject/hain/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://hainproject.github.io/hain/docs/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/hainproject/hain/develop/app/images/hain.png</iconUrl>
+    <releaseNotes>https://github.com/hainproject/hain/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
