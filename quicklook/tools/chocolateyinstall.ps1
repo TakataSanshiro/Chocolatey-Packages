@@ -2,7 +2,7 @@
 
 $packageName = 'quicklook'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/xupefei/QuickLook/releases/download/0.2.1/QuickLook-0.2.1.msi'
+$url = 'https://github.com/xupefei/QuickLook/releases/download/0.2.2/QuickLook-0.2.2.msi'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   silentArgs  = "/qn"
   softwareName  = '*quicklook*'
-  checksum      = 'C2DB63419AC5DA7B1AAF68A0D351392B3F739EE922CF329CB3A4CB3D27830A0A'
+  checksum      = 'BF86CB0F3D6EAB27B4B2F91FE2FA63625B16954D72BBDF4AA8A79D7135C02B20'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
