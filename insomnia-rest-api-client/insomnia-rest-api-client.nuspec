@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>insomnia-rest-api-client</id>
+    <title>Insomnia</title>
+    <version>5.5.2</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
+    <authors>Floating Keyboard Software</authors>
+    <owners>Sanshiro</owners>
+    <summary> Debug APIs like a human, not a robot. Finally, a REST client you'll love. For 64bit only.</summary>
+    <description>
+Powerful HTTP toolbelt, in one intuitive app
+Free and open source on Mac, Windows, and Linux
+## Features
+* Create HTTP requests.
+* View entire transaction.
+* Organize everything.
+* Never repeat yourself.
+* Love the experience.
+
+## Insomnia Addons
+Enhance the power of the app.
+* Plus
+* Teams
+[Pricing](https://insomnia.rest/pricing/)
+	</description>
+    <projectUrl>https://insomnia.rest/</projectUrl>
+	<projectSourceUrl>https://github.com/getinsomnia/insomnia</projectSourceUrl>
+	<docsUrl>https://insomnia.rest/documentation/</docsUrl>
+	<bugTrackerUrl>https://github.com/getinsomnia/insomnia/issues</bugTrackerUrl>
+    <tags>admin electron rest api curl http client multi-platform</tags>
+    <copyright>© 2017 Floating Keyboard Software, Victoria BC, Canada</copyright>
+    <licenseUrl>https://github.com/getinsomnia/insomnia/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/getinsomnia/insomnia/develop/app/static/icon.png</iconUrl>
+    <releaseNotes>https://github.com/getinsomnia/insomnia/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
