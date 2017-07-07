@@ -29,6 +29,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/b512ef87/winquicklook/icon.png</iconUrl>
     <releaseNotes>https://github.com/shibayan/WinQuickLook/releases</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.6.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
