@@ -3,7 +3,7 @@
   <metadata>
     <id>brave</id>
     <title>Brave</title>
-    <version>0.16.9</version>
+    <version>0.17.13</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/brave</packageSourceUrl>
     <authors>Brave Software Inc.</authors>
     <owners>Sanshiro</owners>
