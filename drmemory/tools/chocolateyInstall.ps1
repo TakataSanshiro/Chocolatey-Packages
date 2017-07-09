@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'drmemory.portable' 'drmemory.install'
