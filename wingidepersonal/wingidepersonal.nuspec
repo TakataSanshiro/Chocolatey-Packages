@@ -3,14 +3,15 @@
   <metadata>
     <id>wingidepersonal</id>
     <title>Wing Personal Python IDE</title>
-    <version>6.0.3.1</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wingidepersonal</packageSourceUrl>
+    <version>6.0.6.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wingidepersonal</packageSourceUrl>
     <authors>Wingware</authors>
     <owners>Sanshiro</owners>
     <summary>Wing Personal is a free Python IDE designed for students and hobbyists. </summary>
-    <description>It omits many features found in Wing Pro. Compare Products.
-	Wing Personal is free to use for any purpose and does not require a license to run. 
-	</description>
+    <description>
+It omits many features found in Wing Pro. Compare Products.
+Wing Personal is free to use for any purpose and does not require a license to run. 
+    </description>
     <projectUrl>https://wingware.com/</projectUrl>
     <tags>admin python ide programming debugging</tags>
     <copyright>© 1999-2017 Wingware</copyright>
