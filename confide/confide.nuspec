@@ -3,19 +3,19 @@
   <metadata>
     <id>confide</id>
     <title>Confide</title>
-    <version>1.4.6</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/confide</packageSourceUrl>
+    <version>1.5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/confide</packageSourceUrl>
     <authors>© 2017 Confide, Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Confide lets you take your messages off the record.</summary>
     <description>
-	* Messages disappear forever once they’re read
-	* Swiping prevents screenshots
-	* Instantly send messages to any email address
-	* Messages you send are private and encrypted
-	* Read receipts tell you when your message is read
-	* It’s FREE
-	</description>
+* Messages disappear forever once they’re read
+* Swiping prevents screenshots
+* Instantly send messages to any email address
+* Messages you send are private and encrypted
+* Read receipts tell you when your message is read
+* It’s FREE
+    </description>
     <projectUrl>https://getconfide.com/</projectUrl>
     <tags>admin encrypted chat messenger communication end-to-end otr</tags>
     <copyright>© 2017 Confide, Inc.</copyright>
