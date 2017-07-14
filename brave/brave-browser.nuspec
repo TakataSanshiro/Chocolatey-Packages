@@ -3,7 +3,7 @@
   <metadata>
     <id>brave</id>
     <title>Brave</title>
-    <version>0.17.13</version>
+    <version>0.17.16</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/brave</packageSourceUrl>
     <authors>Brave Software Inc.</authors>
     <owners>Sanshiro</owners>
@@ -13,9 +13,9 @@ The new Brave browser automatically blocks ads and trackers, making it faster an
 Start supporting publishers today with our new Brave Payments system.
 Browse Safer with Brave on Your Side.
 ## Features
-- Brave blocks harmful advertising.
-- Brave redirects sites to HTTPS.
-- Brave blocks Tracking Pixels and Tracking Cookies.
+* Brave blocks harmful advertising.
+* Brave redirects sites to HTTPS.
+* Brave blocks Tracking Pixels and Tracking Cookies.
     </description>
     <projectUrl>https://brave.com/</projectUrl>
     <projectSourceUrl>https://github.com/brave/browser-laptop</projectSourceUrl>
