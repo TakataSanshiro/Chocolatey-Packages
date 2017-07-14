@@ -2,7 +2,7 @@
 
 $packageName = 'wingide' 
 $installerType = 'exe' 
-$url = 'http://wingware.com/pub/wingide/6.0.6/wingide-6.0.6-1.exe' 
+$url = 'https://wingware.com/pub/wingide/6.0.6/wingide-6.0.6-1.exe' 
 $silentArgs = '/VERYSILENT' 
 $validExitCodes = @(0) 
 
