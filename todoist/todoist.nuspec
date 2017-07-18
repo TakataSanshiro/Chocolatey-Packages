@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>todoist</id>
+    <title>Todoist</title>
+    <version>2.7.6.20170718</version>
+    <authors>Doist</authors>
+    <owners>Sanshiro</owners>
+    <summary>Todo list application</summary>
+    <description>
+Todoist lets you manage your tasks anywhere. At home. At school. At work. Online. Offline. And on 13 platforms and devices.
+
+Achieve more everyday in your work and your daily life.
+
+**Please Note**: This is an automatically updated package. If you find it is 
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
+
+    </description>
+    <projectUrl>http://todoist.com</projectUrl>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>todoist admin todo task manager</tags>
+    <copyright></copyright>
+    <licenseUrl>https://todoist.com/Help/EULA</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/todoist.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
