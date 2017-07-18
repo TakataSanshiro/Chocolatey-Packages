@@ -7,9 +7,10 @@
     <title>Postbox</title>
     <authors>Postbox Inc</authors>
     <projectUrl>https://www.postbox-inc.com</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/postbox.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/2377748d/icons/postbox.png</iconUrl>
     <licenseUrl>https://www.postbox-inc.com/legal</licenseUrl>
     <projectSourceUrl>https://www.postbox-inc.com/coveredcode</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/postbox</packageSourceUrl>
     <tags>postbox admin mail client trial</tags>
     <summary>Postbox mail client</summary>
     <description>
