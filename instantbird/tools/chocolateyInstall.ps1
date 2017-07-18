@@ -11,6 +11,8 @@ $packageArgs = @{
   url           = $url
   silentArgs   = '/S'
   softwareName  = 'Instantbird*'
+  checksum      = '363D98DC34D5B3EB525ED16CC3678AFAC70FAC84E93ADDBC81BE08407BE6EB90'
+  checksumType  = 'sha256'
 }
 
 Install-ChocolateyPackage @packageArgs

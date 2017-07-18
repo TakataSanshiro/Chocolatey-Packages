@@ -4,9 +4,9 @@
   <metadata>
     <id>instantbird</id>
     <title>Instantbird</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.5.0.20170718</version>
     <authors>Florian Quèze, Quentin Castier, Quentin Raynaud</authors>
-    <owners>narnaud</owners>
+    <owners>Sanshiro</owners>
     <summary>Multi-protocols instant messaging application</summary>
     <description>
 From the website: With Instantbird, we intend to redefine the way instant messaging is used, 
@@ -19,12 +19,12 @@ let them know the package is no longer updating correctly.
 
     </description>
     <projectUrl>http://instantbird.com/</projectUrl>
-    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/instantbird</packageSourceUrl>
     <tags>instantbird admin chat irc jabber aim yahoo twitter</tags>
     <copyright></copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/instantbird.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e92524f4/icons/instantbird.png</iconUrl>
     <releaseNotes>http://www.instantbird.com/release-notes.html</releaseNotes>
   </metadata>
   <files>
