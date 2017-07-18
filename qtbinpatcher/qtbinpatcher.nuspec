@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qtbinpatcher</id>
+    <title>[Deprecated] QtBinPatcher</title>
+    <version>2.2.0.20170718</version>
+    <authors>Yuri V. Krugloff</authors>
+    <owners>Sanshiro</owners>
+    <summary>qtbinpatcher does not exist anymore.</summary>
+    <description>qtbinpatcher does not exist anymore.</description>
+    <projectUrl>https://github.com/tver-soft/QtBinPatcher</projectUrl>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <projectSourceUrl>https://github.com/tver-soft/QtBinPatcher</projectSourceUrl>
+    <tags>qtbinpatcher qt dev patch qmake</tags>
+    <copyright></copyright>
+    <licenseUrl>https://cdn.rawgit.com/tver-soft/QtBinPatcher/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/tver-soft/QtBinPatcher/blob/master/CHANGES.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
