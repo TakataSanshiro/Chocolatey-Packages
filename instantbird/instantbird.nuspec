@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>instantbird</id>
+    <title>Instantbird</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Florian Quèze, Quentin Castier, Quentin Raynaud</authors>
+    <owners>narnaud</owners>
+    <summary>Multi-protocols instant messaging application</summary>
+    <description>
+From the website: With Instantbird, we intend to redefine the way instant messaging is used, 
+so that it works the way you want. Both simple and powerful, it will help you manage all your 
+real time communications.
+
+**Please Note**: This is an automatically updated package. If you find it is 
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
+
+    </description>
+    <projectUrl>http://instantbird.com/</projectUrl>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <tags>instantbird admin chat irc jabber aim yahoo twitter</tags>
+    <copyright></copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/instantbird.png</iconUrl>
+    <releaseNotes>http://www.instantbird.com/release-notes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
