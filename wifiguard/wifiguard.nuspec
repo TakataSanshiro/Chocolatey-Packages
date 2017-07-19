@@ -3,29 +3,31 @@
   <metadata>
     <id>wifiguard</id>
     <title>SoftPerfect WiFi Guard</title>
-    <version>1.0.7</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wifiguard</packageSourceUrl>
+    <version>2.0.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wifiguard</packageSourceUrl>
     <authors>SoftPerfect</authors>
     <owners>Sanshiro</owners>
-    <summary>SoftPerfect WiFi Guard is an essential tool for everyone running a small wireless network and striving to keep it secure.
-	</summary>
-    <description> Generally, modern Wi-Fi networks are well protected, but there are a number of weaknesses that can compromise your Wi-Fi password; this includes vulnerabilities in encryption and brute force attacks. As a result, someone can gain unauthorised access to your Internet connection and LAN and exploit them while staying unnoticed.
+    <summary>SoftPerfect WiFi Guard is an essential tool for everyone running a small wireless network and striving to keep it secure.</summary>
+    <description>
+Generally, modern Wi-Fi networks are well protected, but there are a number of weaknesses that can compromise your Wi-Fi password; this includes vulnerabilities in encryption and brute force attacks. As a result, someone can gain unauthorised access to your Internet connection and LAN and exploit them while staying unnoticed.
 
-    Perhaps, you can say: “No big deal, I have unlimited Internet traffic!”, but what about someone reading your personal emails, stealing private information or breaking the law online while using your Internet connection?
+Perhaps, you can say: “No big deal, I have unlimited Internet traffic!”, but what about someone reading your personal emails, stealing private information or breaking the law online while using your Internet connection?
 
-    Here comes our little application: it will alert you if your network is used without your knowledge. WiFi Guard is a specialised network scanner that runs through your network at set intervals and reports immediately if it has found any new, unknown or unrecognised connected devices that could possibly belong to an intruder.
-    
-	Key features
-	
-    Pings computers and other network devices and displays those alive.
-    Detects firewalled computers that do not respond to ping.
-    Scans your network at a specified interval.
-    Immediately alerts you if an unknown device is found.
-    Runs on Windows and macOS.
-    Free for Windows, only $9.99 for macOS.
-	</description>
+Here comes our little application: it will alert you if your network is used without your knowledge. WiFi Guard is a specialised network scanner that runs through your network at set intervals and reports immediately if it has found any new, unknown or unrecognised connected devices that could possibly belong to an intruder.
+ 
+## Key features
+* Pings computers and other network devices and displays those alive.
+* Detects firewalled computers that do not respond to ping.
+* Scans your network at a specified interval.
+* Immediately alerts you if an unknown device is found.
+* Runs on Windows and macOS.
+* Free for Windows, only $9.99 for macOS.
+
+## Unlimited duration trial with maximum of 5 devices displayed.
+[Purchase a licence](https://www.softperfect.com/order/?wfg)
+    </description>
     <projectUrl>https://www.softperfect.com/products/wifiguard/</projectUrl>
-    <tags>admin wifi scan scanner ap security</tags>
+    <tags>admin wifi scan scanner ap security shareware</tags>
     <copyright>© 2000–2017 SoftPerfect, Australia</copyright>
     <licenseUrl>https://www.softperfect.com/products/wifiguard/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
