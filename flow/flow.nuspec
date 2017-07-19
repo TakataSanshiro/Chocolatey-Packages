@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>flow</id>
+    <title>Flow</title>
+    <version>6.0.9</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/flow</packageSourceUrl>
+    <authors>Flow</authors>
+    <owners>Sanshiro</owners>
+    <summary>Every day, thousands of teams all over the world depend on Flow to share tasks and keep track of what they need to get done.</summary>
+    <description>
+Why choose Flow? Because other project management solutions are either too lean or waaaaay too complex...
+
+Choose Flow when spreadsheets, whiteboards, and sticky notes just won’t do...
+
+When apps like Todoist and Trello are too lean... Or when tools like Wrike, JIRA and Asana are overkill.
+
+## Features
+* Bring your whole team together in one place. 
+* Work with freelancers?
+* Want to notify people outside of a project team?
+* Have remote team members?
+* Our users tell us that they couldn’t live without the Calendar view.
+    </description>
+    <projectUrl>https://www.getflow.com/</projectUrl>
+    <tags>admin todo project task management electron multi-platform trial</tags>
+    <copyright>Copyright 2017 Flow. All rights reserved</copyright>
+    <licenseUrl>https://www.getflow.com/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/4438836d/icons/flow.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
