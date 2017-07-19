@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'magicavoxel'
-$url = 'http://23.98.147.40/uploads/MagicaVoxel-0.98.2-win.zip' 
-$checksum = 'DCAE6CF245491E44D52A3F7D9688210331EC7231D932BC20DCC35B231AB1C143'
+$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.98.2-win.zip' 
+$checksum = '89315119A4C4BA0553C358F83474916DE044C03DF03778A8A6D90CF990D15CE7'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  

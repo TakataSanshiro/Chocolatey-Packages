@@ -3,19 +3,20 @@
   <metadata>
     <id>magicavoxel</id>
     <title>MagicaVoxel</title>
-    <version>0.98.2.20170417</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/magicavoxel</packageSourceUrl>
+    <version>0.98.2.20170719</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/magicavoxel</packageSourceUrl>
     <authors>ephtracy</authors>
     <owners>Sanshiro</owners>
     <summary>A free lightweight 8-bit voxel editor and interactive path tracing renderer.</summary>
     <description>
-    Selection Tool, Frame Based Animation
-    Emissive Area Lighting, Fog, Scattering
-    Transparent voxels with Refraction and Attenuation
-    Voxel Shader, Marching Cube Export
-	</description>
+## Features
+* Selection Tool, Frame Based Animation
+* Emissive Area Lighting, Fog, Scattering
+* Transparent voxels with Refraction and Attenuation
+* Voxel Shader, Marching Cube Export
+    </description>
     <projectUrl>https://ephtracy.github.io/</projectUrl>
-	<projectSourceUrl>https://voxel.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <projectSourceUrl>https://voxel.codeplex.com/SourceControl/latest</projectSourceUrl>
     <tags>voxel 3dcg</tags>
     <copyright>Copyright © ephtracy 2013-2017</copyright>
     <licenseUrl>https://ephtracy.github.io/</licenseUrl>
