@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>acunetix-free</id>
+    <title>Acunetix Free Manual Pen Testing Tools</title>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/acunetix-free</packageSourceUrl>
+    <authors>Acunetix</authors>
+    <owners>Sanshiro</owners>
+    <summary>Acunetix Free Manual Pen Testing Tools allow penetration testers to take web security testing further.</summary>
+    <description>
+Use the HTTP Editor to modify or craft HTTP requests and analyze responses, intercept and modify HTTP traffic on the fly using the integrated HTTP Sniffer, fuzz HTTP requests using the HTTP Fuzzer and test Blind SQL Injection vulnerabilities further using the Blind SQL Injector.
+
+## The suite of Manual Tools include
+* HTTP Editor
+* HTTP Sniffer
+* HTTP Fuzzer 
+* Subdomain Scanner
+* Target Finder
+* Blind SQL Injector
+* Authentication Tester
+    </description>
+    <projectUrl>https://www.acunetix.com/vulnerability-scanner/free-manual-pen-testing-tools/</projectUrl>
+    <tags>admin security server penetration web sniffer fuzzer vulnerabilities</tags>
+    <copyright>© Acunetix, 2017 </copyright>
+    <licenseUrl>https://www.acunetix.com/ordering/order_help/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/5eef4f38/icons/acunetix.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
