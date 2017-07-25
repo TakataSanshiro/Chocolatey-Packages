@@ -3,18 +3,18 @@
   <metadata>
     <id>ramme</id>
     <title>Ramme</title>
-    <version>3.2.2</version>
+    <version>3.2.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ramme</packageSourceUrl>
     <authors>Terkel</authors>
     <owners>Sanshiro</owners>
     <summary>Unofficial Instagram Desktop App</summary>
     <description>
 ## Features
-- Photo upload
-- Dark Theme
-- Auto Update
-- Keyboard shortcuts
-- Background behavior
+* Photo upload
+* Dark Theme
+* Auto Update
+* Keyboard shortcuts
+* Background behavior
     </description>
     <projectUrl>https://github.com/terkelg/ramme</projectUrl>
     <projectSourceUrl>https://github.com/terkelg/ramme</projectSourceUrl>
