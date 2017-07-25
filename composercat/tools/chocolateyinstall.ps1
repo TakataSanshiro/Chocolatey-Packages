@@ -3,8 +3,8 @@
 $packageName = 'composercat'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://downloads.getcomposercat.com/composercat/Composercat%20Setup%200.3.2.exe'
-$checksum = 'A35EF2F776BC0975B7F932187915504A3A49EB303C4ACB416ABE536437426DED'
+$url = 'https://downloads.getcomposercat.com/composercat/Composercat%20Setup%200.4.0.exe'
+$checksum = '8BDACF9472917379131D26645FB8F8329D54197A62A162138F5BB27B8BD971EA'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 

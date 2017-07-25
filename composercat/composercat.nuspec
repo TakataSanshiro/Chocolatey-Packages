@@ -3,13 +3,14 @@
   <metadata>
     <id>composercat</id>
     <title>Composercat</title>
-    <version>0.3.2</version>
+    <version>0.4.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/composercat</packageSourceUrl>
     <authors>Ornion OÜ</authors>
     <owners>Sanshiro</owners>
     <summary>Composercat is a comprehensive GUI for the Composer package manager, designed both for professionals and people taking their first steps with Composer. </summary>
     <description>
-# Graphical interface for Composer (PHP). Now in beta!
+Graphical interface for Composer (PHP). Now in beta!
+
 ## Features
 * No more command line 
 Composercat will manage all your Composer configurations, update packages and even take care of updating Composer itself. No need to edit the composer.json file manually. Ever. 
