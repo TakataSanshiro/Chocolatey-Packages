@@ -3,7 +3,7 @@
   <metadata>
     <id>webrecorderplayer</id>
     <title>Webrecorder Player</title>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/webrecorderplayer</packageSourceUrl>
     <authors>rhizome</authors>
     <owners>Sanshiro</owners>

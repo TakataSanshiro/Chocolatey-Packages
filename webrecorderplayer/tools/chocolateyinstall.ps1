@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'webrecorderplayer'
-$url = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.4/webrecorderplayer-electron-1.0.4.exe' 
-$checksum = '6704157CD74F1A6E1C23534BD759AEAE4FC3C351EB1E4953EC54DA5C38115D8B'
+$url = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.5/webrecorderplayer-electron-1.0.5.exe' 
+$checksum = 'CD3AC6911031A541E74A4F55ED3A17FDCA473FB1FD7F741902C0C680C217FA3C'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
