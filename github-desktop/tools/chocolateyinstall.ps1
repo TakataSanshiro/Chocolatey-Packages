@@ -3,8 +3,8 @@
 $packageName = 'github-desktop'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://central.github.com/deployments/desktop/desktop/latest/win32'
-$checksum = '5A2424A65AEBDE9C32811145C114A1140CC6740F8B4059DA230B4FC25E06A107'
+$url = 'https://desktop.githubusercontent.com/releases/0.7.0-bd9a4024/GitHubDesktopSetup.exe'
+$checksum = '3EBAF63E6384FC184D0D6CEEE1AEFAB7462BAA51D398D0A8766FD7B5A172E07B'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
