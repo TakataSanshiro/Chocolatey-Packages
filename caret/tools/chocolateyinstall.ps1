@@ -3,8 +3,8 @@
 $packageName = 'caret'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/careteditor/caret/releases/download/3.2.1/CaretSetup.exe'
-$checksum = '5E47203CFCA1F53F1A9925E48BD403DF3D116C5C6A7553941DAC033AB18FE215'
+$url = 'https://github.com/careteditor/caret/releases/download/3.3.1/CaretSetup.exe'
+$checksum = 'C8FD380AA45AC5766E4038E4E44DC3426DDA58B681CAE647AA56B6D518E33A1B'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
