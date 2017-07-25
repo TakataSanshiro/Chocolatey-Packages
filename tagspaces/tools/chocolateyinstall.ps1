@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'tagspaces'
-$url = 'https://github.com/tagspaces/tagspaces/releases/download/v2.8.0/tagspaces-2.8.0-win32.zip'
-$checksum = '6159D3FEC31F315AF7B2BA74A0BE59F3F365CE91AE9345BBAC1C77347C83D81A'
+$url = 'https://github.com/tagspaces/tagspaces/releases/download/v2.9.0/tagspaces-2.9.0-win32.zip'
+$checksum = '70EE435D3DE5BBDA60DC6AF557FADD9F298A44E9D5AC0FB761541558645FD75A'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/tagspaces/tagspaces/releases/download/v2.8.0/tagspaces-2.8.0-win64.zip'
-$checksum64 = 'F417BEEE16031603E3B14F1FFE99683FABBD97CC544822D2DD10560DBD9A7421'
+$url64 = 'https://github.com/tagspaces/tagspaces/releases/download/v2.9.0/tagspaces-2.9.0-win64.zip'
+$checksum64 = '90715746DD577BD517ED06F77BEF4D2AC963152D8C7422D255C19DE4E043FD8E'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
