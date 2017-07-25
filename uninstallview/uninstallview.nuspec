@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>uninstallview</id>
-    <version>1.11</version>
+    <version>1.12</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/uninstallview</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>Nir UninstallView</title>
@@ -12,7 +12,7 @@
     <copyright>Copyright (c) 2017 Nir Sofer</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/uninstall_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>utility nirsoft uninstall registry freeware</tags>
+    <tags>utility nirsoft uninstall registry freeware portable</tags>
     <summary>UninstallView is a tool for Windows that collects information about all programs installed on your system and displays the details of the installed programs in one table.
     </summary>
     <description>
