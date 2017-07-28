@@ -6,4 +6,4 @@ $url = 'https://updates.twitchapp.net/windows/TwitchSetup.exe'
 $silentArgs = '/Q'
 $validExitCodes = @(0, 1638)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum C3C8EA4CFE6BDE7A0D1D52D52B56CBC95F9E676E65AF2490F63DF81F599CEAF7 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 9F99661B72ECD3682C612AE238508679856B5C164F6DE3479FEF9DEA963D0FC4 -ChecksumType sha256
