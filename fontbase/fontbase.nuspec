@@ -3,13 +3,13 @@
   <metadata>
     <id>fontbase</id>
     <title>FontBase</title>
-    <version>2.0.2</version>
+    <version>2.1.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/fontbase</packageSourceUrl>
     <authors>Present</authors>
     <owners>Sanshiro</owners>
     <summary>A blazing fast, beautiful and free font manager for designers</summary>
     <description>
-# FontBase gives you all the stability, speed and reliability of a paid font manager, but free and on all platforms!
+## FontBase gives you all the stability, speed and reliability of a paid font manager, but free and on all platforms!
 ## Features
 * Font Activation
 * Nested Folders
