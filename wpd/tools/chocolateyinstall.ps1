@@ -2,7 +2,7 @@
 
 $packageName = 'wpd'
 $url = 'https://getwpd.com/get/latest.zip' 
-$checksum = '3DD8DF5B457D4A184FEC275C0F6BD36462595FBA1EE8BA1BA79A841D189CE22A'
+$checksum = '89FD29465CF69BF3B856784B6C1D8325E01BA3338BACCE839235DBE95640EAC5'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 

@@ -3,7 +3,7 @@
   <metadata>
     <id>wpd</id>
     <title>WPD</title>
-    <version>1.1.475</version>
+    <version>1.1.512</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wpd</packageSourceUrl>
     <authors>GetWPD</authors>
     <owners>Sanshiro</owners>
