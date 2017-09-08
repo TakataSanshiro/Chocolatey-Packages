@@ -2,7 +2,7 @@
 
 $packageName = 'twitch'
 $installerType = 'exe'
-$url = 'https://updates.twitchapp.net/windows/TwitchSetup.exe' 
+$url = 'https://updates.twitchapp.net/windows/installer/TwitchSetup.exe' 
 $silentArgs = '/Q'
 $validExitCodes = @(0, 1638)
 
