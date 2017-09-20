@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>github-desktop</id>
-    <title>GitHub Desktop the new native</title>
-    <version>0.7.2</version>
+    <title>GitHub Desktop</title>
+    <version>0.8.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
-    <summary>The new native. Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</summary>
+    <summary>Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</summary>
     <description>
 ## This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.
 Your Desktop upgrade.
