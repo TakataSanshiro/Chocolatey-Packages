@@ -3,7 +3,7 @@
   <metadata>
     <id>acunetix-free</id>
     <title>Acunetix Free Manual Pen Testing Tools</title>
-    <version>1.0</version>
+    <version>1.0.0.20170923</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/acunetix-free</packageSourceUrl>
     <authors>Acunetix</authors>
     <owners>Sanshiro</owners>
