@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'quickviewer'
-$url = 'https://github.com/kanryu/quickviewer/releases/download/v0.8.7/QuickViewer-0.8.7-x86.zip' 
-$url64 = 'https://github.com/kanryu/quickviewer/releases/download/v0.8.7/QuickViewer-0.8.7-x64.zip' 
-$checksum = '98425ED308DA4B151F5C5115D2CD53BB72A28709247B3EA06636C9E73C5CA3E9'
-$checksum64 = '031E74D92202C31699ACCB83C11803A674F0E79F57DF0583ACAB7A02BD5ACEA8'
+$url = 'https://github.com/kanryu/quickviewer/releases/download/v1.0.0/QuickViewer-1.0.0-x86.zip' 
+$url64 = 'https://github.com/kanryu/quickviewer/releases/download/v1.0.0/QuickViewer-1.0.0-x64.zip' 
+$checksum = '89C1D6E77A67FB8B3A0B2C2251DB744D290E85FC3053B5ACC78539821D5F930E'
+$checksum64 = 'BFD22959153E17C02417E0F8C469E267CFF9277D47599BAF07F2248736627942'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
