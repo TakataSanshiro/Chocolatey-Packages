@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'laverna'
-$url = 'https://github.com/Laverna/laverna/releases/download/0.7.3/laverna-0.7.3-win32-ia32.zip'
-$checksum = '74E6CD4951EB53AAD295646373C5F540CC072FD17227957FF3E7AC332602E719'
+$url = 'https://github.com/Laverna/laverna/releases/download/0.7.51/laverna-0.7.51-win32-ia32.zip'
+$checksum = 'B2362EB1C3E24187614BA41E5548DAC2F35F2D411D1902D7F8F616DAD14CEC5C'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/Laverna/laverna/releases/download/0.7.3/laverna-0.7.3-win32-x64.zip'
-$checksum64 = 'E461E31930359EF2EFBB5B195A3061D548060ED9A2CF7D73DD78E25676405E44'
+$url64 = 'https://github.com/Laverna/laverna/releases/download/0.7.51/laverna-0.7.51-win32-x64.zip'
+$checksum64 = '126ECECB7ADF870B1A2B6AB968B2748CAB7CEC45C5A356D9155055A7F1016E5B'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
