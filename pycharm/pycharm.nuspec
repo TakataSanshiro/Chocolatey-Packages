@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pycharm</id>
+    <title>Pycharm Professional</title>
+    <version>2017.2.3</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pycharm</packageSourceUrl>
+    <authors>Jetbrains</authors>
+    <owners>Sanshiro</owners>
+    <summary>Python IDE for Professional Developers</summary>
+    <description>
+Trial install for the Professional edition of Pycharm, a full-featured IDE for Python &amp; Web development. PyCharm supports Django, Flask, Google App Engine, Pyramid, web2py, JavaScript, CoffeeScript, TypeScript, CSS, Cython, Template languages, Remote development, Databases and SQL support, UML &amp; SQLAlchemy Diagrams and more.
+
+## Features
+* Intelligent Python Assistance
+* Web Development Frameworks
+* Scientific Tools
+* Cross-technology Development
+* Remote Development Capabilities
+* Built-in Developer Tools
+    </description>
+    <projectUrl>http://www.jetbrains.com/pycharm/</projectUrl>
+    <tags>pycharm trial python ide subscription</tags>
+    <copyright>© 2000—2017 JetBrains s.r.o.</copyright>
+    <licenseUrl>>https://www.jetbrains.com/pycharm/buy/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes>https://blog.jetbrains.com/pycharm/category/announcement/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
