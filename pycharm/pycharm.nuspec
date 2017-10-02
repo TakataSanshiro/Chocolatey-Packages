@@ -9,7 +9,7 @@
     <owners>Sanshiro</owners>
     <summary>Python IDE for Professional Developers</summary>
     <description>
-Trial install for the Professional edition of Pycharm, a full-featured IDE for Python &amp; Web development. PyCharm supports Django, Flask, Google App Engine, Pyramid, web2py, JavaScript, CoffeeScript, TypeScript, CSS, Cython, Template languages, Remote development, Databases and SQL support, UML &amp; SQLAlchemy Diagrams and more.
+All Python tools in one place.
 
 ## Features
 * Intelligent Python Assistance
@@ -19,10 +19,10 @@ Trial install for the Professional edition of Pycharm, a full-featured IDE for P
 * Remote Development Capabilities
 * Built-in Developer Tools
     </description>
-    <projectUrl>http://www.jetbrains.com/pycharm/</projectUrl>
+    <projectUrl>https://www.jetbrains.com/pycharm/</projectUrl>
     <tags>pycharm trial python ide subscription</tags>
     <copyright>© 2000—2017 JetBrains s.r.o.</copyright>
-    <licenseUrl>>https://www.jetbrains.com/pycharm/buy/license.html</licenseUrl>
+    <licenseUrl>https://www.jetbrains.com/pycharm/buy/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/8f6605cd/icons/pyCharm_Logo.png</iconUrl>
     <releaseNotes>https://blog.jetbrains.com/pycharm/category/announcement/</releaseNotes>
