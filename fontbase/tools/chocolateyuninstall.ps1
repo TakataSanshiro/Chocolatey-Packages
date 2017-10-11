@@ -13,6 +13,6 @@ Uninstall-ChocolateyPackage `
   -ValidExitCodes $validExitCodes `
   -File "$file"
 
-# Delete junk files of github-desktop at $Env:USERPROFILE\AppData
+# Delete junk files of fontbase at $Env:USERPROFILE\AppData
 Remove-Item $Env:USERPROFILE\AppData\Local\FontBase -recurse
 Remove-Item "$Env:USERPROFILE\AppData\Roaming\FontBase" -recurse
