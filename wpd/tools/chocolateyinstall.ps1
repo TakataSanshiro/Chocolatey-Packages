@@ -14,4 +14,4 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 
 # Create an exe shotcut at the desktop.
 Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\WPD.lnk" `
-						     -TargetPath "$toolsDir\WPD 1.1.475.exe"
+						     -TargetPath "$toolsDir\WPD.exe"
