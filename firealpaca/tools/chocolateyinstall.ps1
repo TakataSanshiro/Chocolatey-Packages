@@ -6,4 +6,4 @@ $url = 'http://115.146.50.91/firealpaca/bin/FireAlpaca_setup.exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 0F84713B08E0E924B6B4B27A57A2C522E9A19E24F3675426CBFAA25300F73578 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum AF08A6CEE321E4FDA43D8FC6DD949CFDBF57024ACB45FA8F9A35D30B7CB8D008 -ChecksumType sha256
