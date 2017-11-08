@@ -3,8 +3,8 @@
 $packageName = 'networkusageview'
 $url = 'https://www.nirsoft.net/utils/networkusageview.zip' 
 $url64 = 'https://www.nirsoft.net/utils/networkusageview-x64.zip' 
-$checksum = '39926F6BC7A8B3632895A329A9F13FBCDCD1A4A0A716A599D5759AF5FC9EBCC9'
-$checksum64 = '3788B3BE3FBDBBEFB3B9D7680D0C3709B1CAB698648ADF78C2BC6CE9CCBC0808'
+$checksum = 'CD02930A8F519261B845709704D7FB47A77218C636C4FE97942B1060C815C9E2'
+$checksum64 = 'E9A0C8D0A9BB758936B0693D12144E7022C9241CBB9CA8DFD235E25383A2CBC3'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
