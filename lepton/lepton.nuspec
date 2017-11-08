@@ -3,19 +3,19 @@
   <metadata>
     <id>lepton</id>
     <title>Lepton</title>
-    <version>1.3.0</version>
+    <version>1.5.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/lepton</packageSourceUrl>
     <authors>Cosmo</authors>
     <owners>Sanshiro</owners>
     <summary>Lepton is a lean GitHub Gist Desktop Client based on Electron.</summary>
     <description>
 ## Features
-- Group your gists by languages
-- Create, Edit, Delete gists
-- Instant search
-- Custom tags
-- Markdown rendering
-- Cross-platform support
+* Group your gists by languages
+* Create, Edit, Delete gists
+* Instant search
+* Custom tags
+* Markdown rendering
+* Cross-platform support
     </description>
     <projectUrl>http://hackjutsu.com/Lepton/</projectUrl>
     <projectSourceUrl>https://github.com/hackjutsu/Lepton</projectSourceUrl>
