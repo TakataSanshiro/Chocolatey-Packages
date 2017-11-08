@@ -3,8 +3,8 @@
 $packageName = 'insomnia-rest-api-client'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/getinsomnia/insomnia/releases/download/v5.7.14/Insomnia.Setup.5.7.14.exe'
+$url = 'https://github.com/getinsomnia/insomnia/releases/download/v5.11.0/Insomnia.Setup.5.11.0.exe'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 7BEDAA7B08C12C0B1F2877283CF3FD42FB8D4403E1970546B441EFED04A9F071 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 198024FB56D834FAEE08B975D165444E6BE5C3841D8DDFD405283120534C5A00 -ChecksumType sha256
