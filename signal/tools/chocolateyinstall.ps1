@@ -3,8 +3,8 @@
 $packageName = 'signal'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://updates.signal.org/desktop/Signal-win-1.0.35.exe' 
-$checksum = '2B7A21B51A831FC1F9D8F41B34EA9A698F1793A02AB424814652754F4BE5C446'
+$url = 'https://updates.signal.org/desktop/Signal-win-1.0.36.exe' 
+$checksum = '4889DAAA3EB92EB248DE7708C5F21A3BFC771089314078B8C47F619F2C830F5B'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 

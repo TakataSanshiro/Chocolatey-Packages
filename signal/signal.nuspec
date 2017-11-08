@@ -3,7 +3,7 @@
   <metadata>
     <id>signal</id>
     <title>Signal</title>
-    <version>1.0.35</version>
+    <version>1.0.36</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/signal</packageSourceUrl>
     <authors>Open Whisper Systems</authors>
     <owners>Sanshiro</owners>
