@@ -2,7 +2,7 @@
 
 $packageName = 'quicklook'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/xupefei/QuickLook/releases/download/0.2.5/QuickLook-0.2.5.msi'
+$url = 'https://github.com/xupefei/QuickLook/releases/download/0.3.2.1/QuickLook-0.3.2.1.msi'
 
 $packageArgs = @{
   packageName   = $packageName

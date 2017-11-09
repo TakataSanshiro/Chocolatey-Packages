@@ -9,8 +9,11 @@ $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
 
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
+Install-ChocolateyPackage `
+  -PackageName "$packageName" `
+  -FileType "$installerType" `
+  -SilentArgs "$silentArgs" `
+  -Url "$url" `
+  -Checksum "$checksum" `
+  -ChecksumType "$checksumType" `
+  -ValidExitCodes "$validExitCodes"
