@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   silentArgs  = "/qn"
   softwareName  = '*quicklook*'
-  checksum      = '52778D18D7A2441F102E7EEDE23054E5E8278A1136539CEB42966BBF078C3DAA'
+  checksum      = '12C891B9C174F9579D7B85FA9C64B8D0F7C8F727A224E60E8A969004F2065A89'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
