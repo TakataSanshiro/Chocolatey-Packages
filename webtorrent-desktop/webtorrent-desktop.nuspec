@@ -9,17 +9,17 @@
     <owners>Sanshiro</owners>
     <summary> Streaming torrent app for Mac, Windows, and Linux.</summary>
     <description>
-	Whether it's video from the Internet Archive, music from Creative Commons, or audiobooks from Librivox, you can play it right away. You don't have to wait for it to finish downloading.
-	WebTorrent Desktop connects to both BitTorrent and WebTorrent peers.
-	It can talk to peers running Transmission or uTorrent, and it can also talk to web pages like instant.io.
-	## Features
-	- Lightweight, fast torrent app
-	- Beautiful user experience
-	- Free, non-commercial, ad-free, and open source
-	- Instantly stream video and audio
-	- Stream videos to AirPlay, Chromecast, and DLNA
-	- Based on the most popular and comprehensive torrent package in Node.js, webtorrent
-	- Full-featured, but bloat free
+Whether it's video from the Internet Archive, music from Creative Commons, or audiobooks from Librivox, you can play it right away. You don't have to wait for it to finish downloading.
+WebTorrent Desktop connects to both BitTorrent and WebTorrent peers.
+It can talk to peers running Transmission or uTorrent, and it can also talk to web pages like instant.io.
+## Features
+* Lightweight, fast torrent app
+* Beautiful user experience
+* Free, non-commercial, ad*free, and open source
+* Instantly stream video and audio
+* Stream videos to AirPlay, Chromecast, and DLNA
+* Based on the most popular and comprehensive torrent package in Node.js, webtorrent
+* Full-featured, but bloat free
 	</description>
     <projectUrl>https://webtorrent.io/desktop/</projectUrl>
 	<projectSourceUrl>https://github.com/webtorrent/webtorrent-desktop</projectSourceUrl>
