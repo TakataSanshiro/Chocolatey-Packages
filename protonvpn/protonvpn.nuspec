@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>protonvpn</id>
+    <title>ProtonVPN</title>
+    <version>1.2.4</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/protonvpn</packageSourceUrl>
+    <authors>ProtonVPN AG</authors>
+    <owners>Sanshiro</owners>
+    <summary>SECURE INTERNET ANYWHERE. EASY TO USE VPN FOR EVERYONE.</summary>
+    <description>
+## Unique Features for a more secure VPN
+Unlike other VPN services, ProtonVPN is designed with security as the main focus, drawing upon the lessons we have learned from working with journalists and activists in the field.
+* SECURE CORE
+* PERFECT FORWARD SECRECY
+* SWISS BASED
+* NO LOGS
+* TOR VPN
+* P2P Support
+* Unlimited Bandwidth
+* 10Gbit Servers
+* Up to 10 Devices
+* Professional Support
+    </description>
+    <projectUrl>https://protonvpn.com/</projectUrl>
+    <tags>admin vpn tor security privacy multi-platform</tags>
+    <copyright>ProtonVPN AG</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/3a763283/icons/protonvpn.png</iconUrl>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
