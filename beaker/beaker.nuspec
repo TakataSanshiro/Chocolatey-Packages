@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>beaker</id>
+    <title>Beaker</title>
+    <version>0.7.7</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/beaker</packageSourceUrl>
+    <authors>pfrazee, taravancil</authors>
+    <owners>Sanshiro</owners>
+    <summary>Beaker is a peer-to-peer browser with tools to create and host websites. Don't just browse the Web, build it.</summary>
+    <description>
+It's time for a better Web.
+The Web’s original design enshrined its core values: to be open, free, and highly connected.
+Beaker is the world's first Web browser with builtin tools for hosting content directly from your computer. No services required.
+
+## Features
+* Independent hosting
+* Secret file sharing
+* Versioned URLs
+* Live reloading
+* Offline sync
+* New Web APIs
+    </description>
+    <projectUrl>https://beakerbrowser.com/</projectUrl>
+    <projectSourceUrl>https://github.com/beakerbrowser/beaker</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/beakerbrowser/beaker/issues</bugTrackerUrl>
+    <tags>admin browser p2p peer-to-peer sharing electron</tags>
+    <copyright>pfrazee, taravancil</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/54ff378c/icons/beaker.png</iconUrl>
+    <releaseNotes>https://github.com/beakerbrowser/beaker/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
