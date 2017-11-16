@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>zeronet</id>
+    <title>ZeroNet</title>
+    <version>0.6.0</version>
+    <authors>HelloZeroNet</authors>
+    <owners>Sanshiro</owners>
+    <summary>Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network</summary>
+    <description>
+## Features
+* Peer-to-Peer - Uncensored, No hosting costs, Always accessible.
+* Simple - No configuration needed. Download, unpack and start using it.
+* .bit domains - Decentralized domains using Namecoin cryptocurrency.
+* No passwords - Your account is protected by the same cryptography as your Bitcoin wallet.
+* Fast - Page response time is not limited by your connection speed.
+* Dynamic content - Real-time updated, multi-user websites.
+* Works everywhere - Supports any modern browser on Windows, Linux or Mac platforms.
+* Anonymity - You can easily hide your IP address using the Tor network.
+* Offline - Browse the sites you're seeding even if your internet connection is down.
+* Open Source - Developed by the community for the community.
+
+Please donate to keep this project alive.
+We believe in open, free, and uncensored network and communication.
+    </description>
+    <projectUrl>https://zeronet.io/</projectUrl>
+    <projectSourceUrl>https://github.com/HelloZeroNet/ZeroNet</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/HelloZeroNet/ZeroNet/issues</bugTrackerUrl>
+    <tags>web bitcoin bittorrent p2p peer-to-peer multi-platform portable</tags>
+    <copyright>HelloZeroNet</copyright>
+    <licenseUrl>https://github.com/HelloZeroNet/ZeroNet/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://zeronet.readthedocs.io/en/latest/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0eff869c/icons/zeronet.png</iconUrl>
+    <releaseNotes>https://github.com/HelloZeroNet/ZeroNet/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
