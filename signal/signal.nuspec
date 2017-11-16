@@ -22,7 +22,7 @@ If you’ve never used Signal Desktop before, this is a great chance to start. D
     <projectUrl>https://signal.org/</projectUrl>
     <projectSourceUrl>https://github.com/WhisperSystems/Signal-Desktop</projectSourceUrl>
     <bugTrackerUrl>https://github.com/WhisperSystems/Signal-Desktop/issues</bugTrackerUrl>
-    <tags>privacy security chat</tags>
+    <tags>admin privacy security chat</tags>
     <copyright>Copyright © Open Whisper Systems 2013-2017</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
