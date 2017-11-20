@@ -4,7 +4,11 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it to be a match. 
 
-WinWaitActive, ProtonVPN Setup , , 90000
+WinWaitActive, TAP-ProtonVPN 9.21.2-I601 Setup, , 90000
 Send {Enter}
+Send {Enter}
+Send {Enter}
+Send {Enter}
+Sleep, 1000
 Send {Enter}
 Send {Enter}
