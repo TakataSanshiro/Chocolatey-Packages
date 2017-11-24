@@ -1,8 +1,8 @@
 ﻿$packageName = 'wickr'
 $installerType = 'msi'
-$url = 'https://dls.wickr.com/Downloads/WickrMe-2.6.0.msi'
-$silentArgs = '/quiet'
+$url = 'https://s3.amazonaws.com/static.wickr.com/downloads/win/me/WickrMe-4.13.5.msi'
+$silentArgs = '/qb'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes -Checksum 186AAC14FDE1A509456930AC32704B95354C5C55F71A1D0A096A038CEE07DB4F -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes -Checksum C6030806728C634AF79A09AE1C7C5E166DD9D3668606931A280278A8688C059D -ChecksumType sha256
 
