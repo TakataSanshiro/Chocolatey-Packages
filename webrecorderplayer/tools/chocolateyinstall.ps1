@@ -9,8 +9,16 @@ $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
+$is64bit = Get-ProcessorBits 64
+if ($is64bit) {
+	$path = "$toolsDir\webrecorderplayer-electron-win-x86_64-1.0.7.exe"
+	}
+	else{
+	$path = "$toolsDir\webrecorderplayer-electron-win-x86-1.0.7.exe"
+}
+
 Get-ChocolateyWebFile -PackageName "$packageName" `
-                      -FileFullPath "$toolsDir\webrecorderplayer-electron-1.0.6.exe" `
+                      -FileFullPath "$path" `
                       -Url "$url" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType" `
