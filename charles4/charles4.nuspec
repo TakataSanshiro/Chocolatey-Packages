@@ -18,7 +18,7 @@ Charles 4 was a major update to Charles 3, and it is a paid upgrade. Please down
     <licenseUrl>https://www.charlesproxy.com/buy/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>XK72 Limited</copyright>
-    <iconUrl>https://pbs.twimg.com/profile_images/183591433/charles_icon_bigger.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/550aec5b/icons/charles.png</iconUrl>
     <releaseNotes>https://www.charlesproxy.com/documentation/version-history/</releaseNotes>
     <packageSourceUrl>https://github.com/kevnord/CharlesChocolateyPackage</packageSourceUrl>
   </metadata>
