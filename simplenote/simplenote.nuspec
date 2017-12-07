@@ -3,20 +3,20 @@
   <metadata>
     <id>simplenote</id>
     <title>Simplenote</title>
-    <version>1.0.8</version>
+    <version>1.1.0</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/simplenote</packageSourceUrl>
     <authors>Automattic</authors>
     <owners>Sanshiro</owners>
     <summary>The simplest way to keep notes.</summary>
     <description>
-	Light, clean, and free. Simplenote is now available for iOS, Android, Mac, Windows, Linux, and the web.
-	## Features
-    - Use it everywhere
-    - Stay organized
-    - Work together
-	- Go back in time
-	- Instantly search
-	- It’s free
+Light, clean, and free. Simplenote is now available for iOS, Android, Mac, Windows, Linux, and the web.
+## Features
+* Use it everywhere
+* Stay organized
+* Work together
+* Go back in time
+* Instantly search
+* It’s free
 	</description>
     <projectUrl>https://simplenote.com/</projectUrl>
 	<projectSourceUrl>https://github.com/Automattic/simplenote-electron/</projectSourceUrl>
