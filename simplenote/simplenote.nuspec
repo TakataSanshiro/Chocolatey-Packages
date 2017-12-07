@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>simplenote</id>
+    <title>Simplenote</title>
+    <version>1.0.8</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/simplenote</packageSourceUrl>
+    <authors>Automattic</authors>
+    <owners>Sanshiro</owners>
+    <summary>The simplest way to keep notes.</summary>
+    <description>
+	Light, clean, and free. Simplenote is now available for iOS, Android, Mac, Windows, Linux, and the web.
+	## Features
+    - Use it everywhere
+    - Stay organized
+    - Work together
+	- Go back in time
+	- Instantly search
+	- It’s free
+	</description>
+    <projectUrl>https://simplenote.com/</projectUrl>
+	<projectSourceUrl>https://github.com/Automattic/simplenote-electron/</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/Automattic/simplenote-electron/issues</bugTrackerUrl>
+    <tags>admin electron note memo</tags>
+    <copyright>© 2017 Automattic</copyright>
+    <licenseUrl>https://github.com/Automattic/simplenote-electron/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Automattic/simplenote-electron/c74221d9/resources/images/icon_512x512.png</iconUrl>
+    <releaseNotes>https://github.com/Automattic/simplenote-electron/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
