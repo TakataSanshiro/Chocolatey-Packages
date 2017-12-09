@@ -6,9 +6,13 @@ $silentArgs = '/S'
 $validExitCodes = @(0)
 $file = "${env:ProgramFiles(x86)}\Postbox\uninstall\helper.exe"
 
-Uninstall-ChocolateyPackage `
-  -PackageName $packageName `
-  -FileType $installerType `
-  -SilentArgs "$silentArgs" `
-  -ValidExitCodes $validExitCodes `
-  -File "$file"
+if(Test-Path "$file"){
+  Uninstall-ChocolateyPackage `
+    -PackageName $packageName `
+    -FileType $installerType `
+    -SilentArgs "$silentArgs" `
+    -ValidExitCodes $validExitCodes `
+    -File "$file"
+}else{
+  Write-Host "The uninstall script doesn't exist, the software has already been uninstalled." -foreground "magenta"
+}
