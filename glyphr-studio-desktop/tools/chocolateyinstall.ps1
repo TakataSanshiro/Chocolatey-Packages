@@ -2,11 +2,11 @@
 
 $packageName = 'glyphr-studio-desktop'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.3.0/Glyphr.Studio-win32-ia32.zip'
-$checksum = 'B7F4D46D4BD22C0D35EC05C0B63CC90A4A10DA50D76BD43B25140A93DE2BC92E'
+$url = 'https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.4.0/Glyphr.Studio-win32-ia32.zip'
+$checksum = 'EC548D6EA24C00758B59E45057A4A21700B266809C092C5F8F36EB8D98256F79'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.3.0/Glyphr.Studio-win32-x64.zip'
-$checksum64 = '3125BD5F07A6C5420DA16F8A1F8DC2461E356CEE580EA6A110CB7652151D8094'
+$url64 = 'https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.4.0/Glyphr.Studio-win32-x64.zip'
+$checksum64 = '176D4FCAFFFE11FCB6ECD9FD3F44625617FBC25CC779D172EB188C810FC6B1E7'
 $checksumType64 = 'sha256'
 
 $is64bit = Get-ProcessorBits 64
