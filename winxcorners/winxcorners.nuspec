@@ -3,13 +3,14 @@
   <metadata>
     <id>winxcorners</id>
     <title>WinXcorners</title>
-    <version>1.1.0.3</version>
+    <version>1.1.0.320171215</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/winxcorners</packageSourceUrl>
     <authors>vhanla</authors>
     <owners>Sanshiro</owners>
     <summary>Hot Corners for Windows 10</summary>
     <description>
-# WinXcorners allows you to assign events to trigger on your main monitor corners, it activates when your mouse cursor hovers them, i.e. when you move your mouse cursor to your screen edges.
+WinXcorners allows you to assign events to trigger on your main monitor corners, it activates when your mouse cursor hovers them, i.e. when you move your mouse cursor to your screen edges.
+
 ## These are the options that you can select
 * Show all windows, using Task view, the new Windows 10 feature. 
 * Show desktop
