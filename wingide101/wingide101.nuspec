@@ -3,7 +3,7 @@
   <metadata>
     <id>wingide101</id>
     <title>Wing 101 Python IDE</title>
-    <version>6.0.8.2</version>
+    <version>6.0.9.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wingide101</packageSourceUrl>
     <authors>Wingware</authors>
     <owners>Sanshiro</owners>
