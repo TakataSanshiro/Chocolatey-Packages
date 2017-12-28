@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pia</id>
+    <title>Private Internet Access</title>
+    <version>75.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pia</packageSourceUrl>
+    <authors>London Trust Media, Inc.</authors>
+    <owners>Sanshiro</owners>
+    <summary>Private Internet Access™
+VPN Service encrypts your connection and provides you with an anonymous IP to protect your privacy.</summary>
+    <description>
+## Why should I use PIA?
+* Protect Your Privacy and Identity
+* Unblock Censorship Filters
+* Connect Through Our VPN Tunnel in Seconds!
+    </description>
+    <projectUrl>https://www.privateinternetaccess.com/</projectUrl>
+    <tags>admin vpn tor security privacy multi-platform</tags>
+    <copyright>Copyright© London Trust Media, Inc. All Rights Reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/</iconUrl>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
