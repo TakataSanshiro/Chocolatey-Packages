@@ -16,6 +16,9 @@
     <licenseUrl>https://www.msi.com/page/website-terms-of-use</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/26bc4411/gamingapp/icon.png</iconUrl>
+    <dependencies>
+      <dependency id="vcredist2012" version="11.0.61031" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
