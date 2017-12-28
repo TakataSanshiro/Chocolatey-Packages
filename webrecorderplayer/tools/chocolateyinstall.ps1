@@ -13,7 +13,7 @@ $is64bit = Get-ProcessorBits 64
 if ($is64bit) {
 	$path = "$toolsDir\webrecorderplayer-electron-win-x86_64-1.0.7.exe"
 	}
-	else{
+else{
 	$path = "$toolsDir\webrecorderplayer-electron-win-x86-1.0.7.exe"
 }
 
