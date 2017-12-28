@@ -12,6 +12,3 @@ Uninstall-ChocolateyPackage `
   -SilentArgs "$silentArgs" `
   -ValidExitCodes $validExitCodes `
   -File "$file"
- 
-# Delete junk files of Composercat at $Env:USERPROFILE\AppData
-Remove-Item $Env:USERPROFILE\AppData\Roaming\Composercat -recurse
