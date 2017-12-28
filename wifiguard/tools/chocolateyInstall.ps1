@@ -6,5 +6,5 @@ $url = 'https://www.softperfect.com/download/files/wifiguard_windows_setup.exe'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum C2E95764F01B8C0D872F7A4EC2030E58FFF405C9572A1DE6910F0FC5586FAF1D -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 24AAF2A86D6467AA92B0247E28D6A3D01AF8A6523BBEE8C661B2EF50CBCD7C64 -ChecksumType sha256
 
