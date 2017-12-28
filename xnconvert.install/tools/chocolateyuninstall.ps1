@@ -13,9 +13,13 @@ if ($is64bit) {
 	$file = "${env:ProgramFiles(x86)}\XnConvert\unins000.exe"
 }
 
-Uninstall-ChocolateyPackage `
-  -PackageName $packageName `
-  -FileType $installerType `
-  -SilentArgs "$silentArgs" `
-  -ValidExitCodes $validExitCodes `
-  -File "$file"
+if(Test-Path "$file"){
+  Uninstall-ChocolateyPackage `
+    -PackageName $packageName `
+    -FileType $installerType `
+    -SilentArgs "$silentArgs" `
+    -ValidExitCodes $validExitCodes `
+    -File "$file"
+}else{
+  Write-Host "The uninstall script doesn't exist, the software has already been uninstalled." -foreground "magenta"
+}
