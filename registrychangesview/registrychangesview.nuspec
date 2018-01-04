@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>registrychangesview</id>
+    <version>1.05</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/registrychangesview</packageSourceUrl>
+    <owners>Sanshiro</owners>
+    <title>RegistryChangesView</title>
+    <authors>2017 Nir Sofer</authors>
+    <projectUrl>https://www.nirsoft.net/utils/registry_changes_view.html</projectUrl>
+    <iconUrl></iconUrl>
+    <copyright>Copyright (c) 2017 Nir Sofer</copyright>
+    <licenseUrl>https://www.nirsoft.net/utils/registry_changes_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>utility nirsoft registry analysis freeware portable</tags>
+    <summary>RegistryChangesView is a tool for Windows that allows you to take a snapshot of Windows Registry and later compare it with another Registry snapshots, with the current Registry or with Registry files stored in a shadow copy created by Windows. 
+    </summary>
+    <description>
+When comparing 2 Registry snapshots, you can see the exact changes made in the Registry between the 2 snapshots, and optionally export the Registry changes into a standard .reg file of RegEdit. 
+
+## System Requirements
+This utility works on any version of Windows, starting from Windows XP and up to Windows 10. Both 32-bit and 64-bit systems are supported.  
+    </description>
+    <releaseNotes>https://www.nirsoft.net/utils/registry_changes_view.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
