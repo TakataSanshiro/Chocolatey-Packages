@@ -8,7 +8,7 @@
     <title>RegistryChangesView</title>
     <authors>2017 Nir Sofer</authors>
     <projectUrl>https://www.nirsoft.net/utils/registry_changes_view.html</projectUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/622e5220/registrychangesview/RegistryChangesView.png</iconUrl>
     <copyright>Copyright (c) 2017 Nir Sofer</copyright>
     <licenseUrl>https://www.nirsoft.net/utils/registry_changes_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
