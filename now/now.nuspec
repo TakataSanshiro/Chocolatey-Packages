@@ -3,7 +3,7 @@
   <metadata>
     <id>now</id>
     <title>Now Desktop</title>
-    <version>3.8.3</version>
+    <version>3.8.9</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/now</packageSourceUrl>
     <authors>Zeit, Inc.</authors>
     <owners>Sanshiro</owners>
@@ -22,6 +22,7 @@ It installs and maintains the command line program up to date automatically.</su
 ## Open Source
     </description>
     <projectUrl>https://zeit.co/</projectUrl>
+    <projectSourceUrl>https://github.com/zeit/now-desktop</projectSourceUrl>
     <tags>admin server electron multi-platform</tags>
     <copyright>Copyright © 2017 Zeit, Inc. All rights reserved.</copyright>
     <licenseUrl>https://zeit.co/terms</licenseUrl>
