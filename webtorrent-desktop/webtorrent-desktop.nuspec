@@ -3,7 +3,7 @@
   <metadata>
     <id>webtorrent-desktop</id>
     <title>WebTorrent</title>
-    <version>0.18.0</version>
+    <version>0.19.0</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/webtorrent-desktop</packageSourceUrl>
     <authors>WebTorrent, LLC.</authors>
     <owners>Sanshiro</owners>
