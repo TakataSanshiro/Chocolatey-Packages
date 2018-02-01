@@ -3,8 +3,8 @@
 $packageName = 'xnconvert.portable'
 $url = 'http://download.xnview.com/XnConvert-win.zip' 
 $url64 = 'http://download.xnview.com/XnConvert-win-x64.zip'
-$checksum = '51CCC9D4EAB8527DD5FA38BDA5DD2C09FE208E892511BCA957B13F78156D0F3E'
-$checksum64 = 'EF20B38B213FB69D35A93A27ECA177644F3CB8EFCD9481ACB10581A1872FE775'
+$checksum = '5B214A43351C31E403EC77A9C84801724FDE7043E44FC460A401D7CB9D978327'
+$checksum64 = '01597416FC7567BBBCB521542C478DF0A206191966C926B8772DB746734E174A'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
