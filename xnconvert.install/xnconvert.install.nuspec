@@ -3,7 +3,7 @@
   <metadata>
     <id>xnconvert.install</id>
     <title>XnConvert (Install)</title>
-    <version>1.75</version>
+    <version>1.76</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/xnconvert.install</packageSourceUrl>
     <authors>XnSoft</authors>
     <owners>Sanshiro</owners>
