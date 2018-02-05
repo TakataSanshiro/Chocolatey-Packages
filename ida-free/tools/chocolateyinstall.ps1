@@ -2,7 +2,7 @@
 
 $packageName = 'ida-free'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://out7.hex-rays.com/files/idafree50.exe'
+$url = 'https://out7.hex-rays.com/files/idafree70_windows.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
   softwareName  = '*idafree*'
-  checksum      = '8F83BA2B2173BBC3158300FA9E06AC3DC23165E6DB6B67F9F0ABA704C719EAF4'
+  checksum      = '970AAF1F535F4285D73666DAD587C6CDD300E0E21A4E3C04FD1D2D663BD1C208'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
