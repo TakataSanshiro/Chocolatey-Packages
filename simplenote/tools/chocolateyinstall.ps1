@@ -3,8 +3,8 @@
 $packageName = 'simplenote'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/Automattic/simplenote-electron/releases/download/v1.1.2/Simplenote-windows-1.1.2.exe'
+$url = 'https://github.com/Automattic/simplenote-electron/releases/download/v1.1.3/Simplenote-windows-1.1.3.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 3F50DF27BBA1230A6EEAC88B24EC99449766FF06A27CE29F073D18A12F18EF2F -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum E6A0363AA40821690FC32D3315A326DE1149C7928F736D4023027A69B62A7DC7 -ChecksumType sha256
