@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'webrecorderplayer'
-$url = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.8/webrecorderplayer-electron-win-x86-1.0.8.exe' 
-$url64 = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.8/webrecorderplayer-electron-win-x86_64-1.0.8.exe' 
-$checksum = 'E862B19D695F73340F97FA3E52D49F524574FACEC151C9FAC6B673BE34DBB435'
-$checksum64 = '3A01E803997F52FB04EE9261B7AEAAC911AE08F064A1011E61F8E7C2EC170AA0'
+$url = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.9/webrecorderplayer-electron-win-x86-1.0.9.exe' 
+$url64 = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.9/webrecorderplayer-electron-win-x86_64-1.0.9.exe' 
+$checksum = '2EEEED7C3C855173D07BA065AF4CE1BC4B586FDA0B0F83FFF25CD9C3A69585B1'
+$checksum64 = 'C55784A8B014509745F959C123DC358BF68E7621098843891CA0742CDA6B6655'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
