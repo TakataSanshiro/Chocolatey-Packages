@@ -3,8 +3,8 @@
 $packageName = 'boostnote'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/BoostIO/boost-releases/releases/download/v0.8.20/Boostnote-win.exe' 
+$url = 'https://github.com/BoostIO/boost-releases/releases/download/v0.9.0/Boostnote-win.exe' 
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 7E772B438373E9E2973EAD1DE345BC55DD07EBB6898A0BBE42955B903314862C -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 13C5A40FD274AD24F4B7CA3633CA4D13821651E638E1C8F8B01C3446CD8087F5 -ChecksumType sha256
