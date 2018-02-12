@@ -3,11 +3,11 @@
 $packageName = 'brave'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/brave/browser-laptop/releases/download/v0.20.29dev/Brave-Setup-ia32.exe'
-$checksum = '17AA9E0FC293ADA484E051F854C42F42C200B86DC3F29E2838D106F8E431225D'
+$url = 'https://github.com/brave/browser-laptop/releases/download/v0.20.30dev/Brave-Setup-ia32.exe'
+$checksum = '011E6C5319D51EB865418A5D8F8CBEE080F6573EC882DE1F59FEC0333DEDA6AC'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/brave/browser-laptop/releases/download/v0.20.29dev/Brave-Setup-x64.exe'
-$checksum64 = 'D3CC0DC8080F2D013E08B496A36354A4088FFE4BBF3B3D476DEADF5833D3AF34'
+$url64 = 'https://github.com/brave/browser-laptop/releases/download/v0.20.30dev/Brave-Setup-x64.exe'
+$checksum64 = 'CF72EE6A4C0EB0C6396FAA5CC5D95A19B40B43E71AB346254AB0EDB0AAE995EC'
 $checksumType64 = 'sha256'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0) 
