@@ -3,7 +3,7 @@
   <metadata>
     <id>insomnia-rest-api-client</id>
     <title>Insomnia</title>
-    <version>5.14.3</version>
+    <version>5.14.7</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
     <authors>Floating Keyboard Software</authors>
     <owners>Sanshiro</owners>
