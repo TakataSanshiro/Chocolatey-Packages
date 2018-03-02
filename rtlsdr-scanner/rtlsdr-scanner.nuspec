@@ -21,7 +21,7 @@ The scanner attempts to overcome the tuner's frequency response by averaging sca
     <licenseUrl>https://github.com/EarToEarOak/RTLSDR-Scanner/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://github.com/EarToEarOak/RTLSDR-Scanner/blob/master/doc/Manual.pdf?raw=true</docsUrl>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/9c36ea54/rtlsdr-scanner/rtlsdr_scanner.png</iconUrl>
     <releaseNotes>https://github.com/EarToEarOak/RTLSDR-Scanner/releases</releaseNotes>
   </metadata>
   <files>
