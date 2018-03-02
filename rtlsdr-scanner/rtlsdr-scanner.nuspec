@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rtlsdr-scanner</id>
+    <title>RTLSDR-Scanner</title>
+    <version>1.3.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/rtlsdr-scanner</packageSourceUrl>
+    <authors>EarToEarOak</authors>
+    <owners>Sanshiro</owners>
+    <summary>A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library</summary>
+    <description>
+In other words a cheap, simple Spectrum Analyser.
+
+The scanner attempts to overcome the tuner's frequency response by averaging scans from both the positive and negative frequency offsets of the baseband data.
+    </description>
+    <projectUrl>https://eartoearoak.com/software/rtlsdr-scanner</projectUrl>
+    <projectSourceUrl>https://github.com/EarToEarOak/RTLSDR-Scanner</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/EarToEarOak/RTLSDR-Scanner/issues</bugTrackerUrl>
+    <tags>admin sdr cross-platform</tags>
+    <copyright>EarToEarOak</copyright>
+    <licenseUrl>https://github.com/EarToEarOak/RTLSDR-Scanner/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/EarToEarOak/RTLSDR-Scanner/blob/master/doc/Manual.pdf?raw=true</docsUrl>
+    <iconUrl></iconUrl>
+    <releaseNotes>https://github.com/EarToEarOak/RTLSDR-Scanner/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
