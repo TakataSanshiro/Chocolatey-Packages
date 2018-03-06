@@ -3,7 +3,7 @@
   <metadata>
     <id>quicklook</id>
     <title>QuickLook</title>
-    <version>0.3.2.1</version>
+    <version>0.3.5</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/quicklook</packageSourceUrl>
     <authors>xupefei</authors>
     <owners>Sanshiro</owners>
