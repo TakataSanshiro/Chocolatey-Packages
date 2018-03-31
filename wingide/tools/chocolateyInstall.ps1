@@ -2,8 +2,8 @@
 
 $packageName = 'wingide' 
 $installerType = 'exe' 
-$url = 'http://wingware.com/pub/wingide/6.0.9/wingide-6.0.9-1.exe' 
+$url = 'https://wingware.com/pub/wingide/6.0.11/wingide-6.0.11-1.exe' 
 $silentArgs = '/VERYSILENT' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum A62E783CA59441DA7D6E17C870F3056ADE1F4E54AC874BD8B66EC2C96C6529E3 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 7BD3558523034A79DA0CF9C734A483CEE9C85E6FF05AC40A8B1EF135147A9BDD -ChecksumType sha256
