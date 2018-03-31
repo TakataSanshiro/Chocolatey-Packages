@@ -8,5 +8,5 @@ $validExitCodes = @(0)
 $scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $exe = "$scriptDir\Flow Setup 6.0.11-ia32.exe"
 
-Install-ChocolateyZipPackage "$packageName" "$url" "$scriptDir" -Checksum 2F6B9214823F1406AE307C09E7C060D6FC0D8D2FCC9C938754C4C73C58ECE47E -ChecksumType sha256
+Install-ChocolateyZipPackage "$packageName" "$url" "$scriptDir" -Checksum AF3A3CB95B06931ABA1544E1F9A64F2B7D6CD88664416FA70E0FF0A9FC530A12 -ChecksumType sha256
 Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$exe"
