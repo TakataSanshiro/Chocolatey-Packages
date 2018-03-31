@@ -4,11 +4,21 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it to be a match. 
 
-;WinWaitActive, Windows Security , , 9000
-;Send {i}
 
 Loop, 10000
 {
+IfWinExist, Select Setup Language
+  {
+  WinActivate
+  Send {enter}
+  Send {enter}
+  Send {enter}
+  Send {space}
+  Send {enter}
+  }
+
+sleep 10000
+
 IfWinExist, Windows Security
   {
   WinActivate
