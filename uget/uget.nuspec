@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>uget</id>
+    <title>uGet</title>
+    <version>2.2.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/uget</packageSourceUrl>
+    <authors>C.H. Huang, Michael Tunnell</authors>
+    <owners>Sanshiro</owners>
+    <summary>uGet is a lightweight and full-featured Download Manager.</summary>
+    <description>
+## Notable Features
+* multiple parallel streams for download acceleration
+* Download Queue
+* Pause &amp; Resume downloads
+* Advanced Category Management
+* Browser Integration
+* Clipboard Monitoring
+* Batch Downloads
+* localized into 23 Languages
+* and many more features
+    </description>
+    <projectUrl>http://ugetdm.com/</projectUrl>
+    <tags>portable cli download manager</tags>
+    <copyright>Copyright © 2003-2017 uGetdm.com</copyright>
+    <licenseUrl>https://sourceforge.net/directory/license:lgpl/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes>http://ugetdm.com/</releaseNotes>
+	</metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
