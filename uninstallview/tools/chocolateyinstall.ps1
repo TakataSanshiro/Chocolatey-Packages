@@ -3,8 +3,8 @@
 $packageName = 'uninstallview'
 $url = 'https://www.nirsoft.net/utils/uninstallview.zip' 
 $url64 = 'https://www.nirsoft.net/utils/uninstallview-x64.zip' 
-$checksum = 'A5C700AC690A3385912E873E374C3360021CC1BDCED7A18F1FD8972CD6EC2F13'
-$checksum64 = '84F43B793E74E13874DCA48EC2FB885BF29CD2BEDF39574D5C1558BDB0FEBBD9'
+$checksum = 'C40B72FC8423CDFA5C24D68FFBDB49B787AC26E45DDA62FE3C8FB2D1327AA130'
+$checksum64 = 'A5D9AE88B52FC902B1ACC0B3D1CF7FDA44E960B519E68DC8B7595A6F21B0C138'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
