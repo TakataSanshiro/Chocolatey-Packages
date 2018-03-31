@@ -17,8 +17,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 							 -Url64bit "$url64" `
 							 -Checksum64 "$checksum64" `
 							 -ChecksumType64 "$checksumType64"
-							 
-# Create a portable execution file shotcut at the desktop.
-Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\UninstallView.lnk" `
-						     -TargetPath "$toolsDir\UninstallView\UninstallView.exe"
+
 							 
