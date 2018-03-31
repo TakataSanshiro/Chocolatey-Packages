@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>zerofill</id>
+    <title>ZEROFILL </title>
+    <version>1.06</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/zerofill</packageSourceUrl>
+    <authors>javiergutierrezchamorro</authors>
+    <owners>Sanshiro</owners>
+    <summary>ZEROFILL writes zeros on the empty disk space for the selected drive. It helps virtual machine, and disk compression software to compact the allocated space in the volume, and so on reducing its disk usage. </summary>
+    <description>
+ZEROFILL has been specially optimized to run on pure DOS enviroments, no matter if the are on the top of physical machines, or virtual machines. It is written using Open Watcom C++ 2.0 beta, with plain C language using DOS tiny memory model in order to keep it compact.
+
+Even if FAT32 partitions are not explicitilly supported, its 64 bit arithmetic should make it support volumes of up to 256 GB in size, depending if DOS is able to properly inform about it on service 36h. If not, it will only be able to fill reported size at most. 
+    </description>
+    <projectUrl>https://nikkhokkho.sourceforge.io/static.php?page=ZEROFILL</projectUrl>
+    <tags>portable cli</tags>
+    <copyright>(cc) 2004-2017 Javier Gutiérrez Chamorro (Guti) </copyright>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://nikkhokkho.sourceforge.io/static.php?page=ZEROFILL</releaseNotes>
+	</metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
