@@ -2,10 +2,10 @@
 
 $packageName    = 'pia'
 $installerType  = 'exe'
-$url            = 'https://installers.privateinternetaccess.com/download/pia-v75-installer-win.exe'
-$checksum       = '9AEFDC1B64EBB256150CE1734833DD4411E336B92F02AF7405D5F85A05B7ADBA'
+$url            = 'https://installers.privateinternetaccess.com/download/pia-v78-installer-win.exe'
+$checksum       = '66E147355EC534C67875FD6CDA457EE9214E15F91F28A567F48B237BE3911555'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$silentArgs     = '/quiet'
+$silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
 $ahkExe         = 'AutoHotKey'
 $ahkFile        = Join-Path $toolsDir "piaInstall.ahk"
