@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>awesomebump</id>
+    <title>AwesomeBump</title>
+    <version>5.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/awesomebump</packageSourceUrl>
+    <authors>kmkolasinski</authors>
+    <owners>Sanshiro</owners>
+    <summary>AwesomeBump is a free program written using Qt library designed to generate normal, height, specular or ambient occlusion textures from a single image. Since the image processing is done in 99% on GPU the program runs very fast and all the parameters can be changed in real time. AB was made to be a new alternative to known gimp plugin called Ins… </summary>
+    <description>
+AwesomeBump is totaly written in Qt thus you don’t need to install any aditionall libraries. Just download and install Qt SDK, download the project from the repository, build and run. It will work (or should) on any platform supported by Qt.
+
+What can AwesomeBump do?
+* convert from normal map to height map,
+* convert from height map (bump map) to normal map,
+* extract the bump from the arbitrary image,
+* calculate ambient occlusion and specularity of image.
+* perspective tranformation of the image,
+* creating seamless texture (simple linear filter, random mode, or mirror filter),
+* generate roughness and metallic textures (different types of surface analysis are available),
+* real time tessellation is available,
+* saving images to following formats: PNG, JPG,BMP,TGA
+* edit one texture which contains different materials
+* add some grunge to your map with grunge texture.
+* mix two bumpmaps togheter with normal map mixer.
+* and many others, see our videos on YouTube
+    </description>
+    <projectUrl>https://github.com/kmkolasinski/AwesomeBump</projectUrl>
+    <tags>portable textures</tags>
+    <copyright>kmkolasinski</copyright>
+    <licenseUrl>https://github.com/kmkolasinski/AwesomeBump</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+    <releaseNotes>https://github.com/kmkolasinski/AwesomeBump/releases</releaseNotes>
+	</metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
