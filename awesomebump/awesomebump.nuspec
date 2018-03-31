@@ -31,7 +31,7 @@ What can AwesomeBump do?
     <copyright>kmkolasinski</copyright>
     <licenseUrl>https://github.com/kmkolasinski/AwesomeBump</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/704471dd/awesomebump/awesomebump.png</iconUrl>
     <releaseNotes>https://github.com/kmkolasinski/AwesomeBump/releases</releaseNotes>
 	</metadata>
   <files>
