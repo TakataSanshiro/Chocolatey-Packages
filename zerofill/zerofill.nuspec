@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>zerofill</id>
-    <title>ZEROFILL </title>
+    <title>ZEROFILL</title>
     <version>1.06</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/zerofill</packageSourceUrl>
     <authors>javiergutierrezchamorro</authors>
