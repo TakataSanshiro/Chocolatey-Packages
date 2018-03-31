@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'socket-io-tester'
-$url = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.1.1/socket-io-tester-win32-ia32.zip' 
-$url64 = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.1.1/socket-io-tester-win32-x64.zip'
-$checksum = '6CDD2A26CFD157ED7266B2EB0A201B08C726CA6FFF8C5A467E71EDD60ED93133'
-$checksum64 = '777E043BE5E626B3A93AA685D5438DF20FD532D8D3A75A610E518B5B032626EB'
+$url = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.1/socket-io-tester-win32-ia32.zip' 
+$url64 = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.1/socket-io-tester-win32-x64.zip'
+$checksum = 'D5501AE8A580E4FE05279752596D35A51344356F5E5B36764BD62048399EDCA6'
+$checksum64 = '176D189F95665B529DA2097FFEB401B0DB84444B22FE34AC4FE8675EF1110A8E'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
