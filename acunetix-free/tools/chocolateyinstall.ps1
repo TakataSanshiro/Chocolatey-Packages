@@ -10,7 +10,7 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-  checksum      = '8465C53ACD36FC19D2BE976BE63523746979343CA9F123CF58F92CDE21E59601'
+  checksum      = '5AA83682C05AA9A5F2C658841FA3091319DB9E41FA97E031C095655A468C3842'
   checksumType  = 'sha256'
   validExitCodes = @(0)
 }
