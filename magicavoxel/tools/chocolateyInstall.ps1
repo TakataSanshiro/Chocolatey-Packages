@@ -1,9 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'magicavoxel'
-$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.98.2-win.zip' 
-$checksum = '89315119A4C4BA0553C358F83474916DE044C03DF03778A8A6D90CF990D15CE7'
+$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.1-alpha-win32.zip' 
+$url64 = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.1-alpha-win64.zip' 
+$checksum = '775CC7D4FFE2F803DF1D8AE84FC01034D6D66FFB4261BE3973215893520DED4E'
+$checksum64 = 'D2C7B2D5E86D8024D87FD7C48B747E59950715B3EAE0918F09DD8E8C8371E8E1'
 $checksumType = 'sha256'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -11,8 +14,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
-
-# Create a folder shotcut at the desktop.
-Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\MagicaVoxel.lnk" `
-						     -TargetPath "$toolsDir\MagicaVoxel-0.98.2-win"
+							 -Url64bit "$url64" `
+							 -Checksum64 "$checksum64" `
+							 -ChecksumType64 "$checksumType64"
 							 
