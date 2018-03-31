@@ -1,7 +1,7 @@
 ﻿$packageName    = 'mamp'
 $installerType  = 'exe'
-$url            = 'https://downloads2.mamp.info/MAMP-PRO-WINDOWS/releases/3.3.1/MAMP_MAMP_PRO_3.3.1.exe'
-$checksum       = 'BB7D900D692399E11121B88F502AC954828C3D01E7F64BCCC255E4D75EB22783'
+$url            = 'https://downloads8.mamp.info/MAMP-PRO-WINDOWS/releases/4.0/MAMP_MAMP_PRO_4.0.exe'
+$checksum       = '6B36FB7D3E609A90F52374772A2AAB07E4307290E0FAB7B48B36751719569144'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
