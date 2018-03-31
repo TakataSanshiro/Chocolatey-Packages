@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'whale'
-$url = 'https://github.com/1000ch/whale/releases/download/v0.14.0/Whale-windows-v0.14.0.zip'
-$checksum = 'B84339FE64A0D69BFC8F3FF06284B354F911619F4A2831CAC164C0E33A8EADED'
+$url = 'https://github.com/1000ch/whale/releases/download/v0.15.0/Whale-windows-v0.15.0.zip'
+$checksum = 'EA5401BB7E02B4184AEBD1F26A381C5E4D52206AEE02829C4D4E1C185D37C270'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
