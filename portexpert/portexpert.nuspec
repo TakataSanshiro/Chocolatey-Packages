@@ -26,7 +26,7 @@
     <copyright>© KC Softwares</copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/96a1b1cd/portexpert/portexpert.png</iconUrl>
     <releaseNotes>[Changelog](http://www.kcsoftwares.com/bugs/changelog_page.php?project_id=11)</releaseNotes>
   </metadata>
 </package>
