@@ -5,10 +5,6 @@ $checksum       = '6B36FB7D3E609A90F52374772A2AAB07E4307290E0FAB7B48B36751719569
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
-$ahkExe         = 'AutoHotKey'
-$ahkFile        = Join-Path $toolsDir "mampInstall.ahk"
-
-Start-Process $ahkExe $ahkFile
 
 $packageArgs = @{
   packageName   = $packageName
