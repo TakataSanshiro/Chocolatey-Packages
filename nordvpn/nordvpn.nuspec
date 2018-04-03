@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nordvpn</id>
+    <title>NordVPN</title>
+    <version>6.10.6</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/nordvpn</packageSourceUrl>
+    <authors>NordVPN.com</authors>
+    <owners>Sanshiro</owners>
+    <summary>Enjoy secure and private access to the Internet.</summary>
+    <description>
+With NordVPN, encrypt your online activity to protect your private data from hackers or snoopy advertisers. Enjoy global connectivity along with high-performance speed and secure access to streaming websites, censored content and social networks.
+    </description>
+    <projectUrl>https://nordvpn.com/</projectUrl>
+    <tags>admin vpn security privacy multi-platform</tags>
+    <copyright>Copyright © 2012-2018 NordVPN.com</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl></iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
