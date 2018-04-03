@@ -3,7 +3,7 @@
   <metadata>
     <id>nordvpn</id>
     <title>NordVPN</title>
-    <version>6.10.6</version>
+    <version>6.12.11</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/nordvpn</packageSourceUrl>
     <authors>NordVPN.com</authors>
     <owners>Sanshiro</owners>
