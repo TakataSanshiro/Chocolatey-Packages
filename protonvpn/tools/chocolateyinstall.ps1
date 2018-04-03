@@ -2,15 +2,11 @@
 
 $packageName    = 'protonvpn'
 $installerType  = 'exe'
-$url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.3.0.exe'
-$checksum       = '749FAB1BA256C36C662ABA88C54071FAC802ADDD4167E9F05A31E514831D2EC0'
+$url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.3.4.exe'
+$checksum       = 'AD74F2179724CCBD0E0B73FF4365E2C2EA01FF4E6303650FC3F3BEFB766FC4FD'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/quiet'
 $validExitCodes = @(0)
-$ahkExe         = 'AutoHotKey'
-$ahkFile        = Join-Path $toolsDir "protonvpnInstall.ahk"
-
-Start-Process $ahkExe $ahkFile
 
 $packageArgs = @{
   packageName   = $packageName
@@ -24,4 +20,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Start-Sleep -s 30

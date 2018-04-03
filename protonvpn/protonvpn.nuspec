@@ -3,7 +3,7 @@
   <metadata>
     <id>protonvpn</id>
     <title>ProtonVPN</title>
-    <version>1.3.0</version>
+    <version>1.3.4</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/protonvpn</packageSourceUrl>
     <authors>ProtonVPN AG</authors>
     <owners>Sanshiro</owners>
@@ -27,9 +27,6 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     <copyright>ProtonVPN AG</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/3a763283/icons/protonvpn.png</iconUrl>
-    <dependencies>
-      <dependency id="autohotkey.portable" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
