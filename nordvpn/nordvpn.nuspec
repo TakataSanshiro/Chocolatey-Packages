@@ -15,7 +15,6 @@ With NordVPN, encrypt your online activity to protect your private data from hac
     <tags>admin vpn security privacy multi-platform</tags>
     <copyright>Copyright © 2012-2018 NordVPN.com</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl></iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
