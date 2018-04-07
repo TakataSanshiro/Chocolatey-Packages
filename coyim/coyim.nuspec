@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>coyim</id>
+    <title>CoyIM</title>
+    <version>0.3.8</version>
+    <authors>Sofía Celi, Reinaldo de Souza Jr</authors>
+    <owners>Sanshiro</owners>
+    <summary> CoyIM is a new chat client that is safe and secure by default: no settings to change, no plugins to install, no computer configuration to change.</summary>
+    <description>
+## Features that set us apart
+* Support of the latest version of OTR.
+* Detection of Tor (if installed) and connection through it.
+* Use of Tor Onion Service if it is known by the server in question.
+* Use of separate Tor circuits for each account in order to make it harder to tie accounts together.
+* Insertion of random delays before connecting to each account in order to make fingerprinting of connections between accounts harder.
+* SRV lookup for the server over Tor if available.
+* Import of account settings, OTR settings, fingerprints, and private keys from other clients like Pidgin, Adium, Gajim or xmpp-client.
+* Saving of all your configuration, including OTR fingerprints and keys, in an encrypted configuration file.
+    </description>
+    <projectUrl>https://coy.im/</projectUrl>
+    <projectSourceUrl>https://github.com/coyim/coyim/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/coyim/coyim/issues</bugTrackerUrl>
+    <tags>im xmpp client tor privacy otr chat portable</tags>
+    <copyright>Sofía Celi, Reinaldo de Souza Jr</copyright>
+    <licenseUrl>https://github.com/coyim/coyim/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/coyim/coyim/releases</releaseNotes>
+    <dependencies>
+      <dependency id="tor" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
