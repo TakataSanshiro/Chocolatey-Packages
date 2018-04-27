@@ -15,8 +15,8 @@ Updating a chocolatey package is very easy.
 In most cases, you need to change the three variables of a chocolatey package.  
 You can update chocolatey packages if you don't know how to create chocolatey packages and programming.
 
-1. Change the <version> in the packageName.nuspec to the latest version number.  
-<version>changeIt</version>
+1. Change the &lt;version&gt; in the packageName.nuspec to the latest version number.  
+&lt;version&gt;changeIt&lt;/version&gt;
 
 2. Change the $url in the chocolateyinstall.ps1 in the packageName directory to the latest version download link.  
 $url = 'changeIt'
