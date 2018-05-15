@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tad</id>
+    <title>Tad</title>
+    <version>0.8.5</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/tad</packageSourceUrl>
+    <authors>antonycourtney</authors>
+    <owners>Sanshiro</owners>
+    <summary>A desktop application for viewing and analyzing tabular data </summary>
+    <description>
+## Features
+* A fast CSV file viewer that works on large files.
+CSV data is imported into SQLite for fast, accurate processing.
+* It's a Pivot Table for analyzing and exploring data in SQL data sources.
+* Designed to fit in to the workflow of data engineers and data scientists.
+    </description>
+    <projectUrl>http://tadviewer.com/</projectUrl>
+    <projectSourceUrl>https://github.com/antonycourtney/tad</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/antonycourtney/tad/issues</bugTrackerUrl>
+    <tags>admin electron multi-platform tabular data sqlite csv viewer</tags>
+    <copyright>antonycourtney</copyright>
+    <licenseUrl>https://github.com/antonycourtney/tad/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0d3f551c/tad/icon.png</iconUrl>
+    <releaseNotes>http://tadviewer.com/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
