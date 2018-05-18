@@ -28,7 +28,7 @@ Save and share:
     <tags>admin screenshot</tags>
     <copyright>Monosnap</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/461dd109/monosnap/monosnap.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
