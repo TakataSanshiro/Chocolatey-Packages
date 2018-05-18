@@ -27,6 +27,10 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     <copyright>ProtonVPN AG</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/3a763283/icons/protonvpn.png</iconUrl>
+    <dependencies>
+      <dependency id="kb2919355" />
+      <dependency id="dotnet4.6.2" version="4.6.01590.20170129" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
