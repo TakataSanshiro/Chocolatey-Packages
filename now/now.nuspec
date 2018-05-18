@@ -3,7 +3,7 @@
   <metadata>
     <id>now</id>
     <title>Now Desktop</title>
-    <version>3.8.25</version>
+    <version>3.8.28</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/now</packageSourceUrl>
     <authors>Zeit, Inc.</authors>
     <owners>Sanshiro</owners>
