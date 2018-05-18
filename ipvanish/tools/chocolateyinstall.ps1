@@ -14,7 +14,7 @@ $packageArgs = @{
   url           = $url
   silentArgs    = $silentArgs
   validExitCodes= $validExitCodes
-  softwareName  = 'ProtonVPN*'
+  softwareName  = 'ipvanish*'
   checksum      = $checksum
   checksumType  = 'sha256'
 }
