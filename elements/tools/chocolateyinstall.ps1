@@ -3,8 +3,8 @@
 $packageName = 'elements'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/FlorianFe/Elements/releases/download/v1.1.4/Elements.exe'
-$checksum = 'C9EF66EB8DC60018E05FE9006D3F658DC400AED665BA464D7C04D9002CB533BB'
+$url = 'https://github.com/FlorianFe/Elements/releases/download/v1.1.5/Elements.exe'
+$checksum = '5535817B54357FA70189AB711651BDE3320B020DBED6EE95565C2F8335151C27'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
