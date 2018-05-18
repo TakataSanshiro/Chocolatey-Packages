@@ -3,7 +3,7 @@
   <metadata>
     <id>socket-io-tester</id>
     <title>socket.io-tester</title>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/socket-io-tester</packageSourceUrl>
     <authors>AppSaloon</authors>
     <owners>Sanshiro</owners>
