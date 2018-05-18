@@ -3,11 +3,11 @@
 $packageName = 'webtorrent-desktop'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.19.0/WebTorrentSetup-v0.19.0-ia32.exe'
-$checksum = 'E1D29517F9E15C593669A632FDB48606727CC1DFC37D9C7ADAF95D810B3BE562'
+$url = 'https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.20.0/WebTorrentSetup-v0.20.0-ia32.exe'
+$checksum = '985D5EC6658627A3DD0A65767406677562E61722253B04956BC8BACC4776CEAF'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.19.0/WebTorrentSetup-v0.19.0.exe'
-$checksum64 = '5E682F62D55380C9632C2724DE5BC80D8D101BE5DF35C3CC1F519A167C6F15F4'
+$url64 = 'https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.20.0/WebTorrentSetup-v0.20.0.exe'
+$checksum64 = '0FD0DEDDC7EC34DEEDC298B831156578C0BCC5D66FA99F6FCA3131BE4BC3F3DE'
 $checksumType64 = 'sha256'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0) 
