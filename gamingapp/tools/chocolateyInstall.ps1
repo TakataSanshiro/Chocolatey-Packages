@@ -8,5 +8,5 @@ $validExitCodes = @(0)
 $scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $exe = "$scriptDir\Gaming APP\Gaming APP.exe"
 
-Install-ChocolateyZipPackage "$packageName" "$url" "$scriptDir" -Checksum C71EA1A82162E56012A2D37EA834DDA89636E566276277AA55B83A832F1B770E -ChecksumType sha256
+Install-ChocolateyZipPackage "$packageName" "$url" "$scriptDir" -Checksum F0B3A3591675B9838D88F34350DE38ABC210488CAEAE9E827283AF4468330E84 -ChecksumType sha256
 Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$exe"
