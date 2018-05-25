@@ -2,8 +2,8 @@
 
 $packageName    = 'pia'
 $installerType  = 'exe'
-$url            = 'https://installers.privateinternetaccess.com/download/pia-v79-installer-win.exe'
-$checksum       = 'ea50acfab0d8be8cc118886c0ab5b07c5142eb906ea1b08cfe4afa8689670bda'
+$url            = 'https://installers.privateinternetaccess.com/download/pia-v80-installer-win.exe'
+$checksum       = '45838571bef6ee9bda8694475f71e0b6fdf2c12192a228335abf9d36ad8811c4'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
