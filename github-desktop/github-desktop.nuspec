@@ -3,7 +3,7 @@
   <metadata>
     <id>github-desktop</id>
     <title>GitHub Desktop the new native</title>
-    <version>1.2.0</version>
+    <version>1.2.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
@@ -11,12 +11,12 @@
     <description>
 ## This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.
 Your Desktop upgrade.
-* Experience Electron 
-Whether you’re using a Mac or Windows, Desktop Beta gives you a simplified experience with more space for what matters—your code. 
-* Streamline your workflow 
-Create branches, collaborate with other developers, and commit changes without touching the command line. 
-* Make it your own 
-Every pixel is completely open source. Build the features you need, and be a part of future GitHub Desktop releases. 
+* Experience Electron
+Whether you’re using a Mac or Windows, Desktop Beta gives you a simplified experience with more space for what matters—your code.
+* Streamline your workflow
+Create branches, collaborate with other developers, and commit changes without touching the command line.
+* Make it your own
+Every pixel is completely open source. Build the features you need, and be a part of future GitHub Desktop releases.
     </description>
     <projectUrl>https://desktop.github.com/</projectUrl>
     <projectSourceUrl>https://github.com/desktop/desktop</projectSourceUrl>

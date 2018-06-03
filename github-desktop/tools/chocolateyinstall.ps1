@@ -3,11 +3,11 @@
 $packageName = 'github-desktop'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://desktop.githubusercontent.com/releases/1.2.0-480dfdb1/GitHubDesktopSetup.exe'
-$checksum = 'B4406FA8F839294CBB53CC4EE8B3D8C36EE12957CB6B45F4CBBA7BACC9EB6D14'
+$url = 'https://desktop.githubusercontent.com/releases/1.2.2-e1bb5d3e/GitHubDesktopSetup.exe'
+$checksum = '5BD7B2160789CDE73C55A0E354204DDD87ED712C4806EB6FE8AFCD411BE32FD7'
 $checksumType = 'sha256'
 $silentArgs = '/S'
-$validExitCodes = @(0) 
+$validExitCodes = @(0)
 
 Install-ChocolateyPackage `
   -PackageName "$packageName" `
