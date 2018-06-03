@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>processing</id>
+    <title>Processing</title>
+    <version>3.3.7</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/processing</packageSourceUrl>
+    <authors>Processing Foundation</authors>
+    <owners>Sanshiro</owners>
+    <summary>Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.</summary>
+    <description>
+Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping.
+* Free to download and open source
+* Interactive programs with 2D, 3D or PDF output
+* OpenGL integration for accelerated 2D and 3D
+* For GNU/Linux, Mac OS X, Windows, Android, and ARM
+* Over 100 libraries extend the core software
+* Well documented, with many books available
+    </description>
+    <projectUrl>https://processing.org/</projectUrl>
+    <projectSourceUrl>https://github.com/processing/processing</projectSourceUrl>
+    <docsUrl>https://processing.org/reference/</docsUrl>
+    <bugTrackerUrl>https://github.com/processing/processing/issues</bugTrackerUrl>
+    <tags>java art design</tags>
+    <copyright>Processing Foundation</copyright>
+    <licenseUrl>https://github.com/processing/processing/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/processing/processing/9b39c88b/core/src/icon/icon-512.png</iconUrl>
+    <releaseNotes>https://github.com/processing/processing/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
