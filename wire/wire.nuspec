@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wire</id>
+    <title>Wire (Personal)</title>
+    <version>3.0.2828</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wire</packageSourceUrl>
+    <authors>Wire Swiss GmbH</authors>
+    <owners>Sanshiro</owners>
+    <summary>The most secure collaboration platform.</summary>
+    <description>
+Business chats, one-click conference calls and shared documents — all protected with end-to-end encryption.
+* Protected group chats
+* Crystal clear calls
+* Two in one
+* Teams mean business
+* End-to-end encrypted
+* Europe based
+* Open source
+* Secure group calls
+* Secure screen sharing
+* Secure file sharing
+* Team admin
+    </description>
+    <projectUrl>https://wire.com/en/</projectUrl>
+    <projectSourceUrl>https://github.com/wireapp/wire-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/wireapp/wire-desktop/issues</bugTrackerUrl>
+    <tags>admin chat secure electron multi-platform</tags>
+    <copyright>Wire Swiss GmbH</copyright>
+    <licenseUrl>https://github.com/wireapp/wire-desktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <releaseNotes>https://github.com/wireapp/wire-desktop/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
