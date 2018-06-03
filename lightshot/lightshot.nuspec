@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>lightshot</id>
+    <version>5.4.0.36</version>
+    <title>Lightshot</title>
+    <authors>Skillbrains</authors>
+    <owners>Sanshiro</owners>
+    <projectUrl>https://app.prntscr.com/</projectUrl>
+    <iconUrl>https://pbs.twimg.com/profile_images/2530932809/6dagi36ft16ya5hw0txm.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>**Fast screenshot of selected area** - Our app allows you to select any area on your desktop and take its screenshot with 2 button-clicks
+
+    **Share screenshots via Internet** - Upload your screenshot to the server and get its short link right away.
+
+
+    **Similar image search** - Find similar images. Select any image on your screen and find dozens similar images.
+
+
+    **Easy-to-use application** - Simple and intuitive user interface makes your work with the app easier and faster.
+
+
+    **Powerful editors** - You can edit screenshots instantly when taking them or later using a powerful online editor.</description>
+    <summary>The fastest way to take a customizable screenshot</summary>
+    <tags>admin lightshot.install lightshot screen screenshot print save capture</tags>
+    <dependencies>
+      <dependency id="lightshot.install" version="5.4.0.36" />
+    </dependencies>
+  </metadata>
+</package>
