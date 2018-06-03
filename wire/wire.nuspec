@@ -29,7 +29,7 @@ Business chats, one-click conference calls and shared documents — all protecte
     <copyright>Wire Swiss GmbH</copyright>
     <licenseUrl>https://github.com/wireapp/wire-desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/17281bb6/wire/wire.png</iconUrl>
     <releaseNotes>https://github.com/wireapp/wire-desktop/releases</releaseNotes>
   </metadata>
   <files>
