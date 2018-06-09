@@ -18,7 +18,7 @@ This pacakge is for Windows 10.
     <tags>admin maps</tags>
     <copyright>xnormal.net</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/8811d17c/xnormal/xnormal.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
