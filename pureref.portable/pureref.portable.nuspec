@@ -23,7 +23,7 @@ Knowing that you appreciate our program gives us a warm and fuzzy feeling inside
     <tags>portable reference viewer images</tags>
     <copyright>pureref.com</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0c7290e1/pureref.portable/pureref.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
