@@ -6,4 +6,4 @@ $url = 'https://download-editor.grammarly.com/windows/GrammarlySetup.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum AB010D2DE9C3A5910356B0C83F46CABE6E4AFDA9167913022DE3C96D35204B17 -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum E1239CEDBEF533145072D0B1C7619D87AEC977C634363FBFBACF53FF0D8FB4E3 -ChecksumType sha256
