@@ -6,4 +6,4 @@ $url = 'https://d3kedtkr0tjlm2.cloudfront.net/ConfideSetup.exe'
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 7449A364F908C1F030E73AAE70159ED4C654C52EA2DCEB3EA9BFF2C322E36AEE -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 8B9C385F32A9B06C32FE50F35966A2FFFED427FAA1FDD3583B00997D30AFBAA9 -ChecksumType sha256
