@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>perfect-privacy</id>
+    <title>Perfect Privacy</title>
+    <version>1.10.23</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/perfect-privacy</packageSourceUrl>
+    <authors>Perfect Privacy</authors>
+    <owners>Sanshiro</owners>
+    <summary>Perfect Privacy VPN Protects Your Privacy</summary>
+    <description>
+## Your advantages with Perfect Privacy
+* SSH and proxies for advanced users
+* IPv6 Support
+* Stealth VPN Technology
+* NeuroRouting
+
+This package is for Windows 10.
+    </description>
+    <projectUrl>https://www.perfect-privacy.com/</projectUrl>
+    <tags>admin vpn security privacy multi-platform</tags>
+    <copyright>Perfect Privacy</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+      <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
