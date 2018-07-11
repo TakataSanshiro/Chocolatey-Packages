@@ -6,6 +6,8 @@ SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it 
 
 Loop, 10000
 {
+sleep 10000
+
 IfWinExist, Windows Security
   {
   WinActivate
