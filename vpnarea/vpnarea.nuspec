@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vpnarea</id>
+    <title>VPNArea</title>
+    <version>2.0.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/vpnarea</packageSourceUrl>
+    <authors>Offshore Security LTD</authors>
+    <owners>Sanshiro</owners>
+    <summary>VPNArea means Privacy, Security, Freedom.
+Stay safe and secure with an easy to use VPN. Even grandma can do it.</summary>
+    <description>
+## Features
+* Change IP to 70 countries 
+* Access Streaming sites 
+* Ad Blocking &amp; Malware prevention
+* Connect 6 devices. Share account.
+* No Logs. Shared IPs. 
+* Go faster with IKEv2 VPN 
+    </description>
+    <projectUrl>https://vpnarea.com/front/home</projectUrl>
+    <tags>admin vpn security privacy multi-platform</tags>
+    <copyright>© 2018 Offshore Security LTD, all rights reserved</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
