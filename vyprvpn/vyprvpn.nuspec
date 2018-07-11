@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vyprvpn</id>
+    <title>VyprVPN</title>
+    <version>2.13.1.8166</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/vyprvpn</packageSourceUrl>
+    <authors>Golden Frog</authors>
+    <owners>Sanshiro</owners>
+    <summary>Achieve a Private, Secure and Open Internet with a VPN</summary>
+    <description>
+## VyprVPN: The Best VPN For You
+* Fast VPN Without Third Parties
+* Technology to Defeat VPN Blocking
+* VPN Apps for All Devices
+    </description>
+    <projectUrl>https://www.goldenfrog.com/vyprvpn</projectUrl>
+    <tags>admin vpn security privacy multi-platform</tags>
+    <copyright>Copyright © 2018 Golden Frog, GmbH All rights reserved. Switzerland</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
