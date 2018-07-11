@@ -3,8 +3,8 @@
 
 $packageName= 'charles4' 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.charlesproxy.com/assets/release/4.2.5/charles-proxy-4.2.5-win32.msi'
-$url64bit   = 'https://www.charlesproxy.com/assets/release/4.2.5/charles-proxy-4.2.5-win64.msi'
+$url        = 'https://www.charlesproxy.com/assets/release/4.2.6/charles-proxy-4.2.6-win32.msi'
+$url64bit   = 'https://www.charlesproxy.com/assets/release/4.2.6/charles-proxy-4.2.6-win64.msi'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -17,9 +17,9 @@ $packageArgs = @{
   validExitCodes= @(0) 
 
   softwareName  = 'Charles' 
-  checksum      = '244D6E3489ADEF8E64AD57CF68A51E515F2B4E44D42972FEC887567A05B0538F'
+  checksum      = 'F423BC11F5F2E149847E3B74F0CCB5B64343AB8EBD3C6D6CEBC479CC96A50DB8'
   checksumType  = 'sha256'
-  checksum64    = '95F999CE90C73544368F18AC9502D79EE811E1EABB5E37A0C9B71464C805120A'
+  checksum64    = '8F097C183F3374DCACD89240E6AA183D432915C0C56308562F548EFA228E72D0'
   checksumType64= 'sha256' 
 }
 
