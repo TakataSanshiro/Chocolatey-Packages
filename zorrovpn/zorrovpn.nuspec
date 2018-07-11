@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>zorrovpn</id>
+    <title>ZorroVPN</title>
+    <version>0.2.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/zorrovpn</packageSourceUrl>
+    <authors>ZorroVPN.com</authors>
+    <owners>Sanshiro</owners>
+    <summary>Anonymity on the internet</summary>
+    <description>
+## Features
+*  Switch IP on-the-fly
+*  VPN + Tor
+*  VPN chains
+    </description>
+    <projectUrl>https://zorrovpn.com/</projectUrl>
+    <tags>admin vpn tor security privacy multi-platform</tags>
+    <copyright>Copyright © 2012-2018, ZorroVPN.com</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
