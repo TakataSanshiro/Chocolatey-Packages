@@ -3,7 +3,7 @@
   <metadata>
     <id>pixelshop</id>
     <title>PixelShop</title>
-    <version>1.0.0</version>
+    <version>1.0.0.20180711</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pixelshop</packageSourceUrl>
     <authors>BlackFlux</authors>
     <owners>Sanshiro</owners>
