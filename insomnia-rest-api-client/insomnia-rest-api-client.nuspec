@@ -3,8 +3,8 @@
   <metadata>
     <id>insomnia-rest-api-client</id>
     <title>Insomnia</title>
-    <version>5.16.1</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
+    <version>5.16.6</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
     <authors>Floating Keyboard Software</authors>
     <owners>Sanshiro</owners>
     <summary> Debug APIs like a human, not a robot. Finally, a REST client you'll love. For 64bit only.</summary>
@@ -23,11 +23,11 @@ Enhance the power of the app.
 * Plus
 * Teams
 [Pricing](https://insomnia.rest/pricing/)
-	</description>
+    </description>
     <projectUrl>https://insomnia.rest/</projectUrl>
-	<projectSourceUrl>https://github.com/getinsomnia/insomnia</projectSourceUrl>
-	<docsUrl>https://insomnia.rest/documentation/</docsUrl>
-	<bugTrackerUrl>https://github.com/getinsomnia/insomnia/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/getinsomnia/insomnia</projectSourceUrl>
+    <docsUrl>https://insomnia.rest/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/getinsomnia/insomnia/issues</bugTrackerUrl>
     <tags>admin electron rest api curl http client multi-platform</tags>
     <copyright>© 2017 Floating Keyboard Software, Victoria BC, Canada</copyright>
     <licenseUrl>https://github.com/getinsomnia/insomnia/blob/develop/LICENSE</licenseUrl>
