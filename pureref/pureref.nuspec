@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pureref</id>
+    <title>PureRef</title>
+    <version>1.9.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pureref</packageSourceUrl>
+    <authors>pureref.com</authors>
+    <owners>Sanshiro</owners>
+    <summary>PureRef was created to be a simple and lightweight tool for artists to organize and view their reference images.</summary>
+    <description>
+Following is an overview of the features and at the bottom you will find a list of keybinds.
+
+## Features
+* Edit images
+* Control the canvas
+* Customization
+
+[Name your price](https://www.pureref.com/download.php)
+Knowing that you appreciate our program gives us a warm and fuzzy feeling inside!
+    </description>
+    <projectUrl>https://www.pureref.com/about.php</projectUrl>
+    <tags>portable reference viewer images</tags>
+    <copyright>pureref.com</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0c7290e1/pureref.portable/pureref.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
