@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dnspy</id>
+    <title>dnSpy</title>
+    <version>5.0.5</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/dnspy</packageSourceUrl>
+    <authors>0xd4d</authors>
+    <owners>Sanshiro</owners>
+    <summary>.NET assembly editor, decompiler, and debugger</summary>
+    <description>dnSpy is a tool to reverse engineer .NET assemblies. It includes a decompiler, a debugger and an assembly editor (and more) and can be easily extended by writing your own extension. It uses dnlib to read and write assemblies so it can handle obfuscated assemblies (eg. malware) without crashing.</description>
+    <projectUrl>https://github.com/0xd4d/dnSpy</projectUrl>
+    <tags>dnspy assembly cil debugger decompiler dnlib dotnet editor il ilspy msil net .net</tags>
+    <copyright>0xd4d</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/0xd4d/dnSpy/master/dnSpy/dnSpy/LicenseInfo/GPLv3.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnspy/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
