@@ -2,7 +2,7 @@
 
 $packageName = 'wpd'
 $url = 'https://getwpd.com/get/latest.zip' 
-$checksum = '96D89F71D8C69A53D99E2D1F8050FFC601DCC39CCA1CA678628F5F84BA656D2E'
+$checksum = '495A197EAB63D4C22B4E5E06CECCBEFE3A12F9211902261E1A1686CD6CA7FE7A'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
@@ -11,7 +11,3 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
-
-# Create an exe shotcut at the desktop.
-Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\WPD.lnk" `
-						     -TargetPath "$toolsDir\WPD.exe"
