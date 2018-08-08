@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>appaudioconfig</id>
+    <version>1.05</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/appaudioconfig</packageSourceUrl>
+    <owners>Sanshiro</owners>
+    <title>AppAudioConfig</title>
+    <authors>2017 Nir Sofer</authors>
+    <projectUrl>https://www.nirsoft.net/utils/app_audio_config.html</projectUrl>
+    <copyright>Copyright (c) 2017 Nir Sofer</copyright>
+    <licenseUrl>https://www.nirsoft.net/utils/app_audio_config.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>utility nirsoft audio freeware portable</tags>
+    <summary>You are allowed to change the sound volume of every application separately</summary>
+    <description>
+and after you exit from the application, the last settings are saved in the Registry under HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig\PropertyStore so in the next time you run the application, your last settings are used.
+This tool displays your current audio settings of every application on your system, and allows you to easily change the setting of multiple applications at once. You can change the mute/unmute status, the sound volume level, and the right/left audio balance of the application. 
+    </description>
+    <releaseNotes>https://www.nirsoft.net/utils/app_audio_config.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
