@@ -29,7 +29,7 @@ You may ask, why you write this when there several alternatives available on the
     <docsUrl>https://github.com/QL-Win/QuickLook/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/QL-Win/QuickLook/issues</bugTrackerUrl>
     <tags>admin viewer quicklook preview</tags>
-    <copyright>xupefei</copyright>
+    <copyright>QL-Win</copyright>
     <licenseUrl>https://github.com/QL-Win/QuickLook/blob/master/LICENSE-GPL.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e99a1acf/quicklook/icon.png</iconUrl>
