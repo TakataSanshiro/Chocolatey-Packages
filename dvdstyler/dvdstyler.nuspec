@@ -22,7 +22,7 @@ It allows not only burning of video files on DVD that can be played practically 
     <licenseUrl>https://sourceforge.net/projects/dvdstyler/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright © 2003 - 2018 Alex Thüring. All Rights Reserved.</copyright>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/79acc4ab/dvdstyler/dvdstyler.png</iconUrl>
     <releaseNotes>https://www.dvdstyler.org/en/news</releaseNotes>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/dvdstyler</packageSourceUrl>
   </metadata>
