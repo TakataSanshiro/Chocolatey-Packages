@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dvdstyler</id>
+    <title>DVDStyler</title>
+    <version>3.0.4</version>
+    <authors>Alex Thüring</authors>
+    <owners>Sanshiro</owners>
+    <summary>DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs</summary>
+    <description>
+It allows not only burning of video files on DVD that can be played practically on any standalone DVD player, but also creation of individually designed DVD menus. It is Open Source Software and is completely free.
+
+## Features
+* create and burn DVD video with interactive menus
+* design your own DVD menu or select one from the list of ready to use menu templates
+* create photo slideshow
+* add multiple subtitle and audio tracks
+* support of AVI, MOV, MP4, MPEG, OGG, WMV and other file formats
+</description>
+    <projectUrl>http://www.dvdstyler.org/</projectUrl>
+    <tags>admin dvdstyler dvd authoring</tags>
+    <licenseUrl>https://sourceforge.net/projects/dvdstyler/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © 2003 - 2018 Alex Thüring. All Rights Reserved.</copyright>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <releaseNotes>https://www.dvdstyler.org/en/news</releaseNotes>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/dvdstyler</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
