@@ -3,8 +3,8 @@
 $packageName = 'pycharm'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://download.jetbrains.com/python/pycharm-professional-2018.2.exe' 
+$url = 'https://download.jetbrains.com/python/pycharm-professional-2018.2.3.exe' 
 $silentArgs = '/S'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum f347ade952097d1ba1ffc3b2be91ceb2e741c6db96899a0305ba15e7d12b3274  -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 2886351088ff1de3beb92cd9749f7a1160d7933e425ec1eca264bac411961411  -ChecksumType sha256
