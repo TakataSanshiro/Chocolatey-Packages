@@ -3,7 +3,7 @@
   <metadata>
     <id>quicklook</id>
     <title>QuickLook</title>
-    <version>0.3.5</version>
+    <version>0.3.6</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/quicklook</packageSourceUrl>
     <authors>xupefei</authors>
     <owners>Sanshiro</owners>
@@ -25,15 +25,15 @@ You may ask, why you write this when there several alternatives available on the
 * Strict GPL license to keep it free forever
     </description>
     <projectUrl>http://pooi.moe/QuickLook/</projectUrl>
-    <projectSourceUrl>https://github.com/xupefei/QuickLook</projectSourceUrl>
-    <docsUrl>https://github.com/xupefei/QuickLook/wiki</docsUrl>
-    <bugTrackerUrl>https://github.com/xupefei/QuickLook/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/QL-Win/QuickLook</projectSourceUrl>
+    <docsUrl>https://github.com/QL-Win/QuickLook/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/QL-Win/QuickLook/issues</bugTrackerUrl>
     <tags>admin viewer quicklook preview</tags>
-    <copyright>xupefei</copyright>
-    <licenseUrl>https://github.com/xupefei/QuickLook/blob/master/LICENSE-GPL.txt</licenseUrl>
+    <copyright>QL-Win</copyright>
+    <licenseUrl>https://github.com/QL-Win/QuickLook/blob/master/LICENSE-GPL.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e99a1acf/quicklook/icon.png</iconUrl>
-    <releaseNotes>https://github.com/xupefei/QuickLook/releases</releaseNotes>
+    <releaseNotes>https://github.com/QL-Win/QuickLook/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
