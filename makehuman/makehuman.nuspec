@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>makehuman</id>
+    <title>MakeHuman</title>
+    <version>1.1.1</version>
+    <authors>MakeHuman Team</authors>
+    <owners>Sanshiro</owners>
+    <summary>MakeHuman™ is a completely free, innovative and professional software for the modelling of 3-Dimensional humanoid characters.</summary>
+    <description>MakeHuman is the free and open source software to create realistic 3d humans for:
+
+    Illustrations
+    Animations
+    Games
+    Zbrush/Mudbox sculpting
+
+THE MOST LIBERAL LICENSE IN THE WORLD!!
+
+Content created with MakeHuman is licensed under the CC0 license, giving artists unprecedented freedom for using their MakeHuman creations in any way they can imagine.
+
+FREE!!
+
+Download and use it for free. Download MakeHuman now
+OPENSOURCE!
+
+The knowledge, the code, the algorithms and the technology developed by the MakeHuman team are freely shared with the world.
+WHY IT'S FREE?
+
+Because we develop it for passion.
+It's our contribution for a better world.
+
+1170 MORPHINGS FOR EFFECTIVE PARAMETRIC MODELLING
+
+Easy and intuitive parameters,  including
+
+    Age, gender, height, weight
+    Body proportions, face shapes
+    Eyes, nose, mouth, chin, ears, neck...
+    Hands details, feet..
+    And more...
+
+12 YEARS OF RESEARCH IN BODY TOPOLOGY!
+
+Since the first release, makehuman uses a unique mesh, that has evolved through successive releases, incorporating community feedback and the result of studies and experimentation.
+
+    Optimized for subdivision, Mudbox and Zbrush
+    Loops optimized for animations
+    No triangles, quads only
+    Max pole edges: 5
+    Poles smaller 1 percent
+    Topologies library.
+
+PYTHON POWERED
+
+MakeHuman 1.0 alpha8 is completely written in python, the widely used scripting language used at ILM (Industrial Light and Magic) since 1996.
+
+    Simple
+    Highly portable
+    No code compilation required
+    Completely customizablle thanks to  full plugin support</description>
+    <projectUrl>http://www.makehumancommunity.org/</projectUrl>
+    <projectSourceUrl>https://github.com/makehumancommunity/makehuman</projectSourceUrl>
+    <tags>MakeHuman Illustration Animation Games Zbrush Mudbox sculpting Modelling Python 3D Human Body</tags>
+    <copyright>Copyright (C) 2001-2015 MakeHuman Team (makehuman.org)</copyright>
+    <licenseUrl>https://github.com/makehumancommunity/makehuman/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/</iconUrl>
+    <releaseNotes>http://www.makehumancommunity.org/wiki/Releases</releaseNotes>
+    <docsUrl>http://www.makehumancommunity.org/wiki/Main_Page</docsUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/makehuman</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
