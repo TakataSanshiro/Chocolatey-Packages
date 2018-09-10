@@ -64,7 +64,7 @@ MakeHuman 1.0 alpha8 is completely written in python, the widely used scripting 
     <copyright>Copyright (C) 2001-2015 MakeHuman Team (makehuman.org)</copyright>
     <licenseUrl>https://github.com/makehumancommunity/makehuman/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/acb8a2bf/makehuman/makehuman.png</iconUrl>
     <releaseNotes>http://www.makehumancommunity.org/wiki/Releases</releaseNotes>
     <docsUrl>http://www.makehumancommunity.org/wiki/Main_Page</docsUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/makehuman</packageSourceUrl>
