@@ -14,7 +14,7 @@
     <copyright>Copyright (c) 2013-2018 Ghost Foundation</copyright>
     <licenseUrl>https://github.com/TryGhost/Ghost-Desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c5d30e57/ghost-desktop/ghost.png</iconUrl>
     <releaseNotes>https://github.com/TryGhost/Ghost-Desktop/releases</releaseNotes>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ghost-desktop</packageSourceUrl>
   </metadata>
