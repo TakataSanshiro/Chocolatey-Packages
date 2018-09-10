@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ghost-desktop</id>
+    <title>Ghost Desktop Native Apps</title>
+    <version>1.7.0</version>
+    <authors>TryGhost</authors>
+    <owners>Sanshiro</owners>
+    <summary>Ghost Desktop - Manage your Ghost blogs natively</summary>
+    <description>Ghost Desktop is a beautiful desktop application that allows you to easily manage multiple Ghost blogs and work without distractions. If you're interested in giving us a hand, check out the contributing guide!</description>
+    <projectUrl>https://ghost.org/downloads/</projectUrl>
+    <projectSourceUrl>https://github.com/TryGhost/Ghost-Desktop</projectSourceUrl>
+    <tags>admin ghost blogs electron</tags>
+    <copyright>Copyright (c) 2013-2018 Ghost Foundation</copyright>
+    <licenseUrl>https://github.com/TryGhost/Ghost-Desktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/</iconUrl>
+    <releaseNotes>https://github.com/TryGhost/Ghost-Desktop/releases</releaseNotes>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ghost-desktop</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
