@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>actiona.portable</id>
+    <title>Actiona (Portable)</title>
+    <version>3.9.4</version>
+    <authors>Jmgr</authors>
+    <owners>Sanshiro</owners>
+    <summary>Actiona is a task automation tool. It allows you to create and execute action lists.</summary>
+    <description>You don't need to know any programming language to use it: its intuitive interface allows you to create action lists (scripts) using drag and drop.
+Advanced users can use JavaScript (EcmaScript) to extend its functionality.
+
+Actiona is free software and runs under Windows and GNU/Linux. Binaries are available for Windows and Ubuntu for both 32 and 64 bits.
+
+The program is developed in C++ and uses the Qt framework.</description>
+    <projectUrl>https://wiki.actiona.tools/doku.php?id=:en:start</projectUrl>
+    <projectSourceUrl>https://github.com/Jmgr/actiona</projectSourceUrl>
+    <tags>admin automation cross-platform</tags>
+    <copyright>Jmgr</copyright>
+    <licenseUrl>https://github.com/Jmgr/actiona/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e9fbda99/actiona/actiona.png</iconUrl>
+    <releaseNotes>https://wiki.actiona.tools/doku.php?id=en:changelog</releaseNotes>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/actiona</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
