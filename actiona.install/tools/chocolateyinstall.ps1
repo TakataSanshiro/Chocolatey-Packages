@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName = 'actiona.install'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
