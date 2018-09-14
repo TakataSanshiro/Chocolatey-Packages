@@ -3,21 +3,17 @@
   <metadata>
     <id>grammarly</id>
     <title>Grammarly for Windows</title>
-    <version>1.5.41</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/grammarly</packageSourceUrl>
+    <version>1.5.43</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/grammarly</packageSourceUrl>
     <authors>Grammarly Inc.</authors>
     <owners>Sanshiro</owners>
-    <summary>
-Grammarly is the world’s leading automated proofreader. It checks for more than 250 types of spelling, grammar, and punctuation errors, enhances vocabulary usage, and suggests citations.
-	</summary>
-    <description>
-Grammarly is an online grammar and spelling checker that improves communication by helping users find and correct writing mistakes. It’s easy to use:
+    <summary>Grammarly is the world’s leading automated proofreader. It checks for more than 250 types of spelling, grammar, and punctuation errors, enhances vocabulary usage, and suggests citations.</summary>
+    <description>Grammarly is an online grammar and spelling checker that improves communication by helping users find and correct writing mistakes. It’s easy to use:
 Copy and paste any English text into Grammarly’s online text editor, or install Grammarly’s free browser extension for Chrome, Safari, and Firefox.
-Grammarly’s algorithms flag potential issues in the text and suggest context-specific corrections for grammar, spelling, and vocabulary. Grammarly explains the reasoning behind each correction, so you can make an informed decision about whether, and how, to correct an issue.
-	</description>
+Grammarly’s algorithms flag potential issues in the text and suggest context-specific corrections for grammar, spelling, and vocabulary. Grammarly explains the reasoning behind each correction, so you can make an informed decision about whether, and how, to correct an issue.</description>
     <projectUrl>https://www.grammarly.com/native/windows</projectUrl>
     <tags>admin grammar spelling vocabulary</tags>
-    <copyright>2017 © Grammarly Inc.</copyright>
+    <copyright>2018 © Grammarly Inc.</copyright>
     <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/c3c619a2/grammarly/icon.png</iconUrl>
