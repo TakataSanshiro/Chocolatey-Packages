@@ -16,7 +16,7 @@
     <copyright>Copyright 2018 Spectre Systems AB</copyright>
     <licenseUrl>https://raw.githubusercontent.com/spectresystems/jarvis/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/af9848de/jarvis/jarvis.png</iconUrl>
     <releaseNotes>https://github.com/spectresystems/jarvis/releases/</releaseNotes>
   </metadata>
   <files>
