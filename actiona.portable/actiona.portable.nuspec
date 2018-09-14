@@ -16,7 +16,7 @@ The program is developed in C++ and uses the Qt framework.</description>
     <projectUrl>https://wiki.actiona.tools/doku.php?id=:en:start</projectUrl>
     <projectSourceUrl>https://github.com/Jmgr/actiona</projectSourceUrl>
     <tags>admin automation cross-platform portable</tags>
-    <copyright>Jmgr</copyright>
+    <copyright>Copyright Jmgr</copyright>
     <licenseUrl>https://github.com/Jmgr/actiona/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e9fbda99/actiona/actiona.png</iconUrl>
