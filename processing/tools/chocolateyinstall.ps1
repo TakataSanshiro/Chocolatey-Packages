@@ -1,11 +1,11 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'processing'
-$url = 'https://github.com/processing/processing/releases/download/processing-0264-3.3.7/processing-3.3.7-windows32.zip'
-$checksum = '538AC761C805556DC2E3FE50FE512D681E7A078A6DAA34CFEDFFD5CDF4CE7AC4'
+$url = 'https://github.com/processing/processing/releases/download/processing-0265-3.4/processing-3.4-windows32.zip'
+$checksum = '971FB0360E1A5ED51EA300E91651BB8BA6E95B5BEB983E9847BBEC267621049E'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/processing/processing/releases/download/processing-0264-3.3.7/processing-3.3.7-windows64.zip'
-$checksum64 = '1D8EC0940315BD0F677D4358761ED01A1098E4E5A020E736C3AE0D510FBD346A'
+$url64 = 'https://github.com/processing/processing/releases/download/processing-0265-3.4/processing-3.4-windows64.zip'
+$checksum64 = '5EF6B2D59A82B3900F3FBDC6A816CCEA9BCC67DFCE8A7A240476CB26A74DAC80'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
