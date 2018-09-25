@@ -3,7 +3,7 @@
   <metadata>
     <id>kuadro</id>
     <title>Kuadro</title>
-    <version>0.8.5</version>
+    <version>0.9.5</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/kuadro</packageSourceUrl>
     <authors>Kruel Games</authors>
     <owners>Sanshiro</owners>
