@@ -11,7 +11,3 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -Url "$url" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType"
-
-# Create an exe shotcut at the desktop.
-Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\kuadro.lnk" `
-						     -TargetPath "$toolsDir\kuadro-0.9.5.exe"
