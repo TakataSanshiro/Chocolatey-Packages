@@ -37,3 +37,7 @@ If you change the download link to another domain, then I reject it.
 $checksum = 'changeIt'
 
 I've been waiting for your PRs.
+
+## Notes
+I do not use Disqus due to privacy reason.
+
