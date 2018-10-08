@@ -3,7 +3,7 @@
   <metadata>
     <id>github-desktop</id>
     <title>GitHub Desktop the new native</title>
-    <version>1.3.5</version>
+    <version>1.4.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
@@ -23,7 +23,7 @@ Every pixel is completely open source. Build the features you need, and be a par
     <docsUrl>https://github.com/desktop/desktop/tree/master/docs</docsUrl>
     <bugTrackerUrl>https://github.com/desktop/desktop/issues</bugTrackerUrl>
     <tags>admin electron git github desktop typescript developer</tags>
-    <copyright>© 2017 GitHub, Inc. All rights reserved.</copyright>
+    <copyright>© GitHub, Inc. All rights reserved.</copyright>
     <licenseUrl>https://github.com/desktop/desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/github-desktop/icon.png</iconUrl>
