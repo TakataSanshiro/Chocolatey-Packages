@@ -1,9 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'itch' 
-$installerType = 'exe' 
-$url = 'https://github.com/itchio/itch/releases/download/v23.6.3/itchSetup.exe' 
-$silentArgs = '/S' 
+$packageName    = 'itch' 
+$installerType  = 'exe' 
+$url            = 'https://nuts.itch.zone/download/windows' 
+$silentArgs     = '' 
+$toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $validExitCodes = @(0) 
+$ahkExe         = 'AutoHotKey'
+$ahkFile        = Join-Path $toolsDir "itchInstall.ahk"
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum C273D92AF33AD1A74E40CCBAC72322B79051E2A367A215C0875794D3A8C4F9AA -ChecksumType sha256
+Start-Process $ahkExe $ahkFile
+
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 182C6B7A103A1532306D42EBF7023A66DAEC31DD3D43C1A32A82AA45DA92DD24 -ChecksumType sha256

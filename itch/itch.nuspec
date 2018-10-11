@@ -3,7 +3,7 @@
   <metadata>
     <id>itch</id>
     <title>itch.io</title>
-    <version>23.6.3</version>
+    <version>25.3.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/itch</packageSourceUrl>
     <authors>itch corp</authors>
     <owners>Sanshiro</owners>
@@ -15,11 +15,14 @@ The itch.io app, itch, lets you effortlessly download and run games and software
     <projectSourceUrl>https://github.com/itchio/itch</projectSourceUrl>
     <bugTrackerUrl>https://github.com/itchio/itch/issues</bugTrackerUrl>
     <tags>admin game indie game-development typescript electron</tags>
-    <copyright>Copyright © 2017 itch corp</copyright>
+    <copyright>Copyright © itch corp</copyright>
     <licenseUrl>https://github.com/itchio/itch/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/itchio/itch/97c20475/appsrc/static/images/window/itch/icon.png</iconUrl>
     <releaseNotes>https://github.com/itchio/itch/releases</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
