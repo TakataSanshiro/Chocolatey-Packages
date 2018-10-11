@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'magicavoxel'
-$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.1-alpha-win32.zip' 
-$url64 = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.1-alpha-win64.zip' 
-$checksum = '775CC7D4FFE2F803DF1D8AE84FC01034D6D66FFB4261BE3973215893520DED4E'
-$checksum64 = 'D2C7B2D5E86D8024D87FD7C48B747E59950715B3EAE0918F09DD8E8C8371E8E1'
+$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win32.zip' 
+$url64 = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win64.zip' 
+$checksum = 'E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855'
+$checksum64 = '2B5E10DF8E3733DEF08357469FFA2D7D32BD2E3F6D5F14B5E5BD4AB258A05DCA'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -14,7 +14,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType" `
-							 -Url64bit "$url64" `
-							 -Checksum64 "$checksum64" `
-							 -ChecksumType64 "$checksumType64"
+							               -Url64bit "$url64" `
+							               -Checksum64 "$checksum64" `
+							               -ChecksumType64 "$checksumType64"
 							 
