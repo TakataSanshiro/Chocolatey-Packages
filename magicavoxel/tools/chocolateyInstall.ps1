@@ -3,8 +3,8 @@
 $packageName = 'magicavoxel'
 $url = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win32.zip' 
 $url64 = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win64.zip' 
-$checksum = 'E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855'
-$checksum64 = '2B5E10DF8E3733DEF08357469FFA2D7D32BD2E3F6D5F14B5E5BD4AB258A05DCA'
+$checksum = 'C6B02488A7EF5DC0DC7851E45A4D21FC0F3DCE74F3B9ABBC1CD3CFECC0F55FD5'
+$checksum64 = '149A9B919DC389552A4FE2F8B125979806CBD78F44AB498740A36A6C93E3DB01'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
