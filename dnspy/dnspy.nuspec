@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnspy/icon.png</iconUrl>
     <dependencies>
-      <dependency id="dotnet4.7" />
+      <dependency id="dotnet4.7.1" />
     </dependencies>
   </metadata>
   <files>
