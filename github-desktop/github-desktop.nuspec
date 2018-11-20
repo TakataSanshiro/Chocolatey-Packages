@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>github-desktop</id>
-    <title>GitHub Desktop the new native</title>
-    <version>1.4.3</version>
+    <title>GitHub Desktop</title>
+    <version>1.5.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
