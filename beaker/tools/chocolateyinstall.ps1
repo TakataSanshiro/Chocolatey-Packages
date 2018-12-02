@@ -3,8 +3,8 @@
 $packageName = 'beaker'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/beakerbrowser/beaker/releases/download/0.7.11/beaker-browser-setup-0.7.11.exe' 
-$checksum = '256700612164fbd29b79823ef94e211e41645ec708e65be2b5b04fd3e1c74401'
+$url = 'https://github.com/beakerbrowser/beaker/releases/download/0.8.2/beaker-browser-setup-0.8.2.exe' 
+$checksum = '9ECD96E90DEF2FA42B060D64290129903115D7410B2C2008E8D4B928C4B5846A'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
