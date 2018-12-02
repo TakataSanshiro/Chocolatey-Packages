@@ -2,8 +2,8 @@
 
 $packageName    = 'protonvpn'
 $installerType  = 'exe'
-$url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.6.3.exe'
-$checksum       = 'FC1B8FD56DB63D37245B41E71928819AF7B572F1F8E7310D06577FA7D0CC8400'
+$url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.6.4.exe'
+$checksum       = 'F7DACEF0DD6313EC4B0698E28CE64CC6E96A8CCA7E1D311966EB7507B9E2F9FE'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/quiet'
 $validExitCodes = @(0)
