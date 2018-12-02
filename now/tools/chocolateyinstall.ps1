@@ -2,8 +2,8 @@
 
 $packageName = 'now' 
 $installerType = 'exe' 
-$url = 'https://github.com/zeit/now-desktop/releases/download/3.8.28/now-desktop-Setup-3.8.28.exe' 
+$url = 'https://github.com/zeit/now-desktop/releases/download/4.0.12/now-desktop-Setup-4.0.12.exe' 
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 725282BB1E1843D3B58ECD4021C9E901E17F9362859866F82BFA7E7E951E646D -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 639B4D3EB0531F5189A7CE1F934FF6582C6E414352564FFF8B470DECB1D7AE05 -ChecksumType sha256
