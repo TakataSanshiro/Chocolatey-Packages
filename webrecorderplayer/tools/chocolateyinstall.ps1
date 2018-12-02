@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'webrecorderplayer'
-$url = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.9/webrecorderplayer-electron-win-x86-1.0.9.exe' 
-$url64 = 'https://github.com/webrecorder/webrecorderplayer-electron/releases/download/v1.0.9/webrecorderplayer-electron-win-x86_64-1.0.9.exe' 
-$checksum = '2EEEED7C3C855173D07BA065AF4CE1BC4B586FDA0B0F83FFF25CD9C3A69585B1'
-$checksum64 = 'C55784A8B014509745F959C123DC358BF68E7621098843891CA0742CDA6B6655'
+$url = 'https://github.com/webrecorder/webrecorder-player/releases/download/v1.6.1/webrecorder-player-win-x86-1.6.1.exe' 
+$url64 = 'https://github.com/webrecorder/webrecorder-player/releases/download/v1.6.1/webrecorder-player-win-x86_64-1.6.1.exe' 
+$checksum = 'CD1A1587BA59C01EFE127467AC37CD20AD72465046402F1B3E031AF6A8734353'
+$checksum64 = '4D6A949B682270424E0BB4427103B0AE73E6E1D92EA3E1AB5A8F64A4C79C7CF0'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -22,6 +22,6 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -Url "$url" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType" `
-					  -Url64bit "$url64" `
-					  -Checksum64 "$checksum64" `
-					  -ChecksumType64 "$checksumType64"
+					            -Url64bit "$url64" `
+					            -Checksum64 "$checksum64" `
+					            -ChecksumType64 "$checksumType64"
