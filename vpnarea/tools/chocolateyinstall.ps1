@@ -3,7 +3,7 @@
 $packageName    = 'vpnarea'
 $installerType  = 'exe'
 $url            = 'https://vpnarea.com/VPNArea.exe'
-$checksum       = '145AF4ACBD58D3FE9E964CC22BD8176027F97FCA8BFEA0E8FF7F2E6893FE70E1'
+$checksum       = '63EBD171AF7DB5D70F8062861DF13C38D2FE95FF3AB8BF180E4704ED3532F001'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/S'
 $validExitCodes = @(0)
