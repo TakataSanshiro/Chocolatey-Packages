@@ -2,7 +2,7 @@
 
 $packageName= 'postbox'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://d3nx85trn0lqsg.cloudfront.net/win/postbox-6.1.2-win32.exe'
+$url        = 'https://d3nx85trn0lqsg.cloudfront.net/win/postbox-6.1.6-win32.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   softwareName  = 'Postbox*'
-  checksum      = 'EE74FDBD65493E795E3C4903A8F231D1A230E3485344DB878626517468D9F092'
+  checksum      = '779997550A9716A0F6D3C03215F759F72A0DDCA535276C41B7383B9807CE405B'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
