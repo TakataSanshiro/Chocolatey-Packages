@@ -2,7 +2,7 @@
 
 $packageName = 'zeronet'
 $url = 'https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip' 
-$checksum = '14BB7642D171D9069BBF4609F46577EADD768D15130F116A1CC575893F357F01'
+$checksum = 'AEB4C584326D929B7591F237F1E347DF1FDA0FC2C1581AC5681D357A8D9826B1'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
