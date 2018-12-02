@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'socket-io-tester'
-$url = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.2/socket-io-tester-win32-ia32.zip' 
-$url64 = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.2/socket-io-tester-win32-x64.zip'
-$checksum = '73AF82FA773F86A9D7D05E146781F87C11BD453753247BFC2BF5AFE5C06B5C86'
-$checksum64 = 'F6A78392CB53588E859574758B1FCD52AFB3AFD8FE0C413169B34D3FC6BBD9EE'
+$url = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.3/socket-io-tester-win32-ia32.zip' 
+$url64 = 'https://github.com/AppSaloon/socket.io-tester/releases/download/v1.2.3/socket-io-tester-win32-x64.zip'
+$checksum = 'C4E5670C1E05EE84CFDF654612A03656DD5E707931CDC9043ACC80E07CF117C0'
+$checksum64 = '8F0E6364690F7BA3B8BE35786985689123994CBB23C5B969E27390F4B36BD669'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -22,11 +22,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType" `
-							 -Url64bit "$url64" `
-							 -Checksum64 "$checksum64" `
-							 -ChecksumType64 "$checksumType64"
-
-# Create an .exe shotcut at the desktop.
-Install-ChocolateyShortcut   -ShortcutFilePath "$Home\Desktop\socket.io-tester.exe.lnk" `
-						     -TargetPath "$path"
-							 
+							               -Url64bit "$url64" `
+							               -Checksum64 "$checksum64" `
+							               -ChecksumType64 "$checksumType64"
