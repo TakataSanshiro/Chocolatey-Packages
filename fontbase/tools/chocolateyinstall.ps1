@@ -3,8 +3,8 @@
 $packageName = 'fontbase'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://releases.fontba.se/win/FontBase-2.6.3.exe'
-$checksum = '0256E8DA5FE6EA89A677AAC6A8B664B7FB34459D09B6562BC56D63899DBAD118'
+$url = 'https://releases.fontba.se/win/FontBase-2.6.4.exe'
+$checksum = '24FF560F1E51691FEE273886988043168B26FFEFB3A25CFDB7498E4B0C935FEF'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
