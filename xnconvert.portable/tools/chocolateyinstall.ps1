@@ -3,8 +3,8 @@
 $packageName = 'xnconvert.portable'
 $url = 'http://download.xnview.com/XnConvert-win.zip' 
 $url64 = 'http://download.xnview.com/XnConvert-win-x64.zip'
-$checksum = '5B214A43351C31E403EC77A9C84801724FDE7043E44FC460A401D7CB9D978327'
-$checksum64 = '01597416FC7567BBBCB521542C478DF0A206191966C926B8772DB746734E174A'
+$checksum = '9BCE1B31EBAD1BCFD1BBCDAC2900E6F448727FDB3DD815BE0DCC73808A7A90D7'
+$checksum64 = '40FCC56C2852280A88AC100FDBE49D20D20999998E788E48641FE85D7EE4C0EB'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -14,6 +14,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType" `
-							 -Url64bit "$url64" `
-							 -Checksum64 "$checksum64" `
-							 -ChecksumType64 "$checksumType64"
+							               -Url64bit "$url64" `
+							               -Checksum64 "$checksum64" `
+							               -ChecksumType64 "$checksumType64"
