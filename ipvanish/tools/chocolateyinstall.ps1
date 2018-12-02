@@ -3,7 +3,7 @@
 $packageName    = 'ipvanish'
 $installerType  = 'exe'
 $url            = 'https://www.ipvanish.com/software/setup-prod-v2/ipvanish-setup.exe'
-$checksum       = '01F11375163817FC708B4FBA6469ADFE0104881764AA5617C3A60D31961559E4'
+$checksum       = 'B1CCA8E7B43849B1CEC6B088584DD6E6693A91FD159D33DF01C1D528B2FAF8CF'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/quiet'
 $validExitCodes = @(0)
