@@ -2,7 +2,7 @@
 
 $packageName = 'puredata'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://msp.ucsd.edu/Software/pd-0.48-1.windows-installer.exe'
+$url = 'http://msp.ucsd.edu/Software/pd-0.49-0.windows-installer.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   silentArgs  = "/S"
   softwareName  = '*puredata*'
-  checksum      = '394DB06AE1BD775773288090E3D81978D5A482AE735A01502A10820A3DA35DFE'
+  checksum      = 'EC3B60668826F4C2C3B092AA6C441A83A71FE3524B135F395D4015C6B8A1F5FC'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
