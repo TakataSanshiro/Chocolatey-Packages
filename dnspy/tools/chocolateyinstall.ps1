@@ -2,7 +2,7 @@
 
 $packageName = 'dnspy'
 $url = 'https://github.com/0xd4d/dnSpy/releases/download/v5.0.0/dnSpy.zip' 
-$checksum = '9930E3B3E460D3082F23ABD7EBFB1C00B6666667F9D7CC03C03EA6B3C6AB404B'
+$checksum = '4571CCF630C408B0AF5E01ABC012C1B9354733C33DC1F5C70903169F0C0F065C'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
