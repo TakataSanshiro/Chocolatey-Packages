@@ -3,8 +3,8 @@
 $packageName = 'networkusageview'
 $url = 'https://www.nirsoft.net/utils/networkusageview.zip' 
 $url64 = 'https://www.nirsoft.net/utils/networkusageview-x64.zip' 
-$checksum = 'E10E8BF003AA0399E9D305A453984F03214F4B5EF1B936C4B5B7F517B2F08DCA'
-$checksum64 = '3B4DE0208725B430E6BF06101A62237BF6B296FA76A9C9D8CA6286DF7F8E669C'
+$checksum = '0425823901AF49CDBFFF38C571CCA66B44EB26FA2B04887E0038ACF6B278F2B4'
+$checksum64 = 'C96C88F56A10554AB8717E80D5AE831AD5CF7875B72EBEEDD89BC82FE4044ECE'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -14,6 +14,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -UnzipLocation "$toolsDir\NetworkUsageView" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"`
-							 -Url64bit "$url64" `
-							 -Checksum64 "$checksum64" `
-							 -ChecksumType64 "$checksumType64"
+							               -Url64bit "$url64" `
+							               -Checksum64 "$checksum64" `
+							               -ChecksumType64 "$checksumType64"

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>networkusageview</id>
-    <version>1.10</version>
+    <version>1.12</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/networkusageview</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>Nir NetworkUsageView</title>
