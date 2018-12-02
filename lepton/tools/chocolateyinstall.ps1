@@ -3,8 +3,8 @@
 $packageName = 'lepton'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/hackjutsu/Lepton/releases/download/v1.6.2/Lepton-Setup-1.6.2.exe'
-$checksum = 'FD6702DAB02083A0B2576D490B3C22C08318F89C4B5D7752FB28CDB24F26E141'
+$url = 'https://github.com/hackjutsu/Lepton/releases/download/v1.7.0/Lepton-Setup-1.7.0.exe'
+$checksum = '5B1D8D87B1429211A5FAAAF8754E31C901E27E85DA13A6C3DDC4DDA207430BE0'
 $checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0) 
