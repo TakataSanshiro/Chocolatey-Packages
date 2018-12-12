@@ -26,7 +26,7 @@ Every pixel is completely open source. Build the features you need, and be a par
     <copyright>© GitHub, Inc. All rights reserved.</copyright>
     <licenseUrl>https://github.com/desktop/desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/github-desktop/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@92acaf11375e3abb6c55f8515cd8b6f4e15104a7/github-desktop/icon.png</iconUrl>
     <releaseNotes>https://desktop.github.com/release-notes/windows/</releaseNotes>
   </metadata>
   <files>
