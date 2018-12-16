@@ -3,11 +3,11 @@
 $packageName = 'hain'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://github.com/hainproject/hain/releases/download/v0.6.4/HainSetup-ia32-v0.6.4.exe'
-$checksum = 'DBC061F65CDC4593DCBC7C6B8CD7D543CFE0A3D3A4F14D1DB0AE829DE95F7B1A'
+$url = 'https://github.com/hainproject/hain/releases/download/v0.6.6/HainSetup-ia32-v0.6.6.exe'
+$checksum = 'A7DA87019AC4D0D9F62BF9AA82E0A37DF0EA3E56C9C578605D7CF328D4D39E88'
 $checksumType = 'sha256'
-$url64 = 'https://github.com/hainproject/hain/releases/download/v0.6.4/HainSetup-x64-v0.6.4.exe'
-$checksum64 = 'BAE46BD5781C90A63FAA849B349809AD8FBB77BC9117A35E5F158E2DD5F48F85'
+$url64 = 'https://github.com/hainproject/hain/releases/download/v0.6.6/HainSetup-x64-v0.6.6.exe'
+$checksum64 = '59B048C9FB4E635DBE7FBEB1576C62D25FA7A58E84CFF709F228D97961F6378D'
 $checksumType64 = 'sha256'
 $silentArgs = '/VERYSILENT'
 $validExitCodes = @(0) 
