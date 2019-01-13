@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'steam-cleaner'
-$url = 'https://github.com/Codeusa/SteamCleaner/releases/download/2.3/SteamCleaner.exe' 
-$checksum = '119B7E6CEDAE5660C69E6C85284824A6787A08C0522EE1D2140AE9D0180E3DF7'
+$url = 'https://github.com/Codeusa/SteamCleaner/releases/download/2.4/SteamCleaner.exe' 
+$checksum = 'C7319112D5C5C7C666CCD8BBAC622FBE6E4845BCF309FE269EC86314CD936579'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
