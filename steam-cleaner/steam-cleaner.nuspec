@@ -3,7 +3,7 @@
   <metadata>
     <id>steam-cleaner</id>
     <title>Steam Cleaner</title>
-    <version>2.3</version>
+    <version>2.4</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/steam-cleaner</packageSourceUrl>
     <authors>Codeusa</authors>
     <owners>Sanshiro</owners>
