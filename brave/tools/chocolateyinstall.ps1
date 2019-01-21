@@ -3,11 +3,11 @@
 $packageName = 'brave'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'https://laptop-updates.brave.com/latest/winia32'
-$checksum = '217C9CA3AA78B854A4E9CE91E177E6F20214BAEF514BA3A5D0B991E0206883FE'
+$url = 'https://github.com/brave/brave-browser/releases/download/v0.58.21/BraveBrowserSetup32.exe'
+$checksum = '1EAB064F9D598EF1D77A15B9C581E1E5B0EE37114CDD4A4AAA990254917860B8'
 $checksumType = 'sha256'
-$url64 = 'https://laptop-updates.brave.com/latest/winx64'
-$checksum64 = 'E272E22B7E0D0214E9689A96C2A97F200475C158F6E43FAB9D470D07F46B22FB'
+$url64 = 'https://github.com/brave/brave-browser/releases/download/v0.58.21/BraveBrowserSetup.exe'
+$checksum64 = '244EEBC168E87DC352C86346091CB392145F57BF9795FAEFA7CEAD20EB1A744A'
 $checksumType64 = 'sha256'
 $silentArgs = ''
 $validExitCodes = @(0) 
