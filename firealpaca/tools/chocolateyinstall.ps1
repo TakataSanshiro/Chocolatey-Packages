@@ -3,7 +3,7 @@
 $packageName    = 'firealpaca'
 $installerType  = 'exe'
 $url            = 'https://firealpaca.com/download/win64'
-$checksum       = 'E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855'
+$checksum       = '5037CD16DE1CE0FAE69D84D5CFD9A5A3F9DE57183C23608BD662A570A216F6F9'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
