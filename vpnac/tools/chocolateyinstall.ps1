@@ -3,7 +3,7 @@
 $packageName    = 'vpnac'
 $installerType  = 'exe'
 $url            = 'https://vpn.ac/download/vpn.ac-setup.exe'
-$checksum       = '7D0B80E87BE9F079467D4CECCE746EFCD66D591A3A4026280BEB470274E8BAA6'
+$checksum       = '13D9ED3F84FDDC2644E101A48A9A64E1F2C3A01E99EE89561B9380D6983C9911'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
