@@ -3,7 +3,7 @@
   <metadata>
     <id>confide</id>
     <title>Confide</title>
-    <version>1.6.0</version>
+    <version>1.6.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/confide</packageSourceUrl>
     <authors>© 2017 Confide, Inc.</authors>
     <owners>Sanshiro</owners>
