@@ -1,13 +1,13 @@
 ﻿$tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$pmd_home = Join-path $package 'pmd-bin-6.8.0'
+$pmd_home = Join-path $package 'pmd-bin-6.11.0'
 $pmd_bin = Join-Path $pmd_home 'bin/pmd.bat'
 $cpd_bin = Join-Path $pmd_home 'bin/cpd.bat'
  
 Install-ChocolateyZipPackage `
     -PackageName 'pmd' `
-    -Url 'https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.8.0/pmd-bin-6.8.0.zip' `
-    -Checksum '7945B49658791C5CBDDA975B42D8313340153E7873DB843484AA503DA878D3ED' `
+    -Url 'https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.11.0/pmd-bin-6.11.0.zip' `
+    -Checksum '8BE994696DA17C393056B446F918BC7E631A1F07CCC1365509974843ED12E355' `
     -ChecksumType 'SHA256'`
     -UnzipLocation $package `
  
