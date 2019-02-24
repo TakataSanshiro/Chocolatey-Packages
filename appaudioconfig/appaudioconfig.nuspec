@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>appaudioconfig</id>
-    <version>1.05</version>
+    <version>1.10</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/appaudioconfig</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>AppAudioConfig</title>
