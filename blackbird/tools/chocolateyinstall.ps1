@@ -1,20 +1,20 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'blackbird'
-$url = 'https://www.getblackbird.net/download/Blackbird_v1.0.28_x32.zip' 
-$url64 = 'https://www.getblackbird.net/download/Blackbird_v1.0.28_x64.zip'
-$checksum = '9A2AE0006707DCA44699BBFF4F11C8735EB6130649F3DA35EA721241EFA02A2F'
-$checksum64 = 'FA27EAC556546D0A313F8EFD254D520456DE30CD39767252AD5C87317804F9F9'
+$url = 'https://www.getblackbird.net/download/Blackbird_v1.0.4_x32.zip' 
+$url64 = 'https://www.getblackbird.net/download/Blackbird_v1.0.4_x64.zip'
+$checksum = '36FDF1235ABA72E31CEF7776131606C2A68F2A51E7A3DDFF5BFDBFA8939CE381'
+$checksum64 = '4B221AADF19E9F53C804E2E16CDB2111103976E010CDC7D22C340A3FFC78703F '
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $is64bit = Get-ProcessorBits 64
 if ($is64bit) {
-	$path = "$toolsDir\blackbird_v0.9.98_64\blackbird.exe"
+	$path = "$toolsDir\blackbird_v1.0.4_64\blackbird.exe"
 	}
 	else{
-	$path = "$toolsDir\blackbird_v0.9.98_32\blackbird.exe"
+	$path = "$toolsDir\blackbird_v1.0.4_32\blackbird.exe"
 }
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
