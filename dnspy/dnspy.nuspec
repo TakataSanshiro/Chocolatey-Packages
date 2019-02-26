@@ -3,7 +3,7 @@
   <metadata>
     <id>dnspy</id>
     <title>dnSpy</title>
-    <version>5.0.12</version>
+    <version>6.0.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/dnspy</packageSourceUrl>
     <authors>0xd4d</authors>
     <owners>Sanshiro</owners>
@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnspy/icon.png</iconUrl>
     <dependencies>
-      <dependency id="dotnet4.7.1" />
+      <dependency id="dotnet4.7.2" />
     </dependencies>
   </metadata>
   <files>
