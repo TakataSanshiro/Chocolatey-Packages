@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'winxcorners'
-$url = 'https://doc-0o-a8-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4qb67l6lrdsla72lpoo2eu6s5nr55khc/1531296000000/12606421919403606798/*/0B_iiJl28uix-ZlluRFZDVnFzRVU?e=download' 
-$checksum = '5D2ECA3BE0CDA7C8DADF18D465C7E7B99B0EDE7979DBE65AF31CF9CE9A99BFEB'
+$url = 'https://doc-0k-a8-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/oebbobuv3v30seq3i18qltf5dsmk3se0/1551722400000/12606421919403606798/*/0B_iiJl28uix-MG84QTI2cFlNUWs?e=download' 
+$checksum = 'C2AE7DD33557629DA1984B35D8BC200817AFD3D727129F1D00575E30E2F56EB7'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
