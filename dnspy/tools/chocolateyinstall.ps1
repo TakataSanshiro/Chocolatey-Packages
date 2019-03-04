@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'dnspy'
-$url = 'https://github.com/0xd4d/dnSpy/releases/download/v5.0.11/dnSpy.zip' 
-$checksum = 'E61BBCA2E920216CC50E1FB5835E8501D29B3C335E0EB59975F78CA55A9E1DE4'
+$url = 'https://github.com/0xd4d/dnSpy/releases/download/v6.0.3/dnSpy-net472.zip' 
+$checksum = 'BE368CE75245BFAFDA75335DC18AA82F763CFB3137B40A039ECAD375575E20B6'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
