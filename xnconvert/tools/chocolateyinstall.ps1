@@ -1,1 +1,1 @@
-﻿# Install-VirtualPackage 'xnconvert.portable' 'xnconvert.install'[1.77]
+﻿# Install-VirtualPackage 'xnconvert.portable' 'xnconvert.install'[1.79]
