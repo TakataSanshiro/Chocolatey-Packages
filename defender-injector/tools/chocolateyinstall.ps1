@@ -18,7 +18,7 @@ $packageArgs = @{
   packageName   = $packageName
   url           = $url
   checksum      = $checksum
-  checksumType  = 'sha256'
+  checksumType  = $checksumType
   UnzipLocation = $toolsDir
   Options       = $options
 }
