@@ -8,6 +8,14 @@ $checksum64 = '4B221AADF19E9F53C804E2E16CDB2111103976E010CDC7D22C340A3FFC78703F 
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$options = @{
+  Headers = @{
+    Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8';
+    'Accept-Charset' = 'ISO-8859-1,utf-8;q=0.7,*;q=0.3';
+    'Accept-Language' = 'en-US,en;q=0.5';
+    Referer = 'https://www.getblackbird.net/download/';
+  }
+}
 
 $is64bit = Get-ProcessorBits 64
 if ($is64bit) {
@@ -17,11 +25,16 @@ if ($is64bit) {
 	$path = "$toolsDir\blackbird_v1.0.4_32\blackbird.exe"
 }
 
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType" `
-							               -Url64bit "$url64" `
-							               -Checksum64 "$checksum64" `
-							               -ChecksumType64 "$checksumType64"
+$packageArgs = @{
+  packageName   = $packageName
+  url           = $url
+  Url64bit      = $url64
+  checksum      = $checksum
+  Checksum64    = $checksum64
+  checksumType  = $checksumType
+  ChecksumType64= $checksumType64
+  UnzipLocation = $toolsDir
+  Options       = $options
+}
+
+Install-ChocolateyZipPackage @packageArgs
