@@ -3,7 +3,7 @@
   <metadata>
     <id>disable-nvidia-telemetry</id>
     <title>Disable Nvidia Telemetry</title>
-    <version>1.1.0</version>
+    <version>1.1.0.20190306</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/disable-nvidia-telemetry</packageSourceUrl>
     <authors>Nate Shoffner</authors>
     <owners>Sanshiro</owners>
