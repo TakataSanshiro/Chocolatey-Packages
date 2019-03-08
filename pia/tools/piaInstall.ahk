@@ -7,31 +7,18 @@ SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it 
 
 Loop, 10000
 {
-IfWinExist, Select Setup Language
+IfWinExist, Replace existing version?
   {
   WinActivate
-  Send {enter}
-  Send {enter}
-  Send {enter}
-  Send {space}
-  Send {enter}
-  }
-
-sleep 10000
-
-IfWinExist, Windows Security
-  {
-  WinActivate
-  Send {i}
+  Send {y}
   }
 
 sleep 10000
 
 IfWinExist, Private Internet Access
   {
-  Run, %comspec% /c "taskkill /F /T /IM pia_manager.exe"
-  Run, %comspec% /c "taskkill /F /T /IM rubyw.exe"
-  Run, %comspec% /c "taskkill /F /T /IM pia_nw.exe"
+  Run, %comspec% /c "taskkill /F /T /IM pia-service.exe"
+  Run, %comspec% /c "taskkill /F /T /IM pia-client.exe"
   ExitApp
   }
 }
