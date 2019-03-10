@@ -24,9 +24,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/Automattic/wp-desktop/329205c3/resource/app-icon/icon_512x512.png</iconUrl>
     <releaseNotes>https://github.com/Automattic/wp-desktop/releases</releaseNotes>
-    <dependencies>
-      <dependency id="autohotkey.portable" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
