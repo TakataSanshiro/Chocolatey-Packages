@@ -3,11 +3,11 @@
 $packageName = 'xnconvert.install'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType = 'exe'
-$url = 'http://download.xnview.com/XnConvert-win.exe'
-$checksum = '26D7FAB024EEEECE556AE11A4DA970BD41D5E8D873CD515FDE766409C498CEA2'
+$url = 'https://download.xnview.com/XnConvert-win.exe'
+$checksum = 'FA79A72C765A3C2E81B2E45952A969DD79BB982138872DA588DE6C33E71CF0D7'
 $checksumType = 'sha256'
-$url64 = 'http://download.xnview.com/XnConvert-win-x64.exe'
-$checksum64 = 'F3C7B7F0A18433B6198BABC505C40026D29529729E3393D9C74193DACAC26CE3'
+$url64 = 'https://download.xnview.com/XnConvert-win-x64.exe'
+$checksum64 = '4DC63CFA5D2CB05FE633C454C4A1F1B64F3957449D518FCF3125C6B8D771C8C9'
 $checksumType64 = 'sha256'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) 
