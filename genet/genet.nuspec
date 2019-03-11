@@ -24,7 +24,7 @@
     <licenseUrl>https://github.com/genet-app/genet/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   <docsUrl>https://docs.genet.app/</docsUrl>
-    <iconUrl>h</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/npm/@genet/image-assets@0.1.0/genet.png</iconUrl>
     <releaseNotes>https://github.com/genet-app/genet/releases</releaseNotes>
   <dependencies>
       <dependency id="winpcap" />
