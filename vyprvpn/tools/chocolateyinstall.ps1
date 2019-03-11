@@ -2,8 +2,8 @@
 
 $packageName    = 'vyprvpn'
 $installerType  = 'exe'
-$url            = 'https://www.goldenfrog.com/downloads/vyprvpn/desktop/windows/production/2.15.0.8591/VyprVPN-2.15.0.8591-installer.exe'
-$checksum       = '9BC54A1E76AA46AD132B8C92550313FC090EA4A6FCA6DAD2279DF1372DDBEF01'
+$url            = 'https://downloads-goldenfrog.netdna-ssl.com/downloads/vyprvpn/desktop/windows/production/2.16.2.8727/VyprVPN-2.16.2.8727-installer.exe'
+$checksum       = 'E637CF012D72B3759BBCBB3108B546B7446D2E47030C4AEFD9C24B0F265179F1'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/S'
 $validExitCodes = @(0)
