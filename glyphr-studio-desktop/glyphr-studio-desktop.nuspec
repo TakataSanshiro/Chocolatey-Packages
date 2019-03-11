@@ -3,13 +3,13 @@
   <metadata>
     <id>glyphr-studio-desktop</id>
     <title>Glyphr Studio Desktop</title>
-    <version>0.4.4</version>
+    <version>0.5.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/glyphr-studio-desktop</packageSourceUrl>
     <authors>glyphrstudio</authors>
     <owners>Sanshiro</owners>
     <summary>Glyphr Studio was just begging to be a desktop application so here it is!</summary>
     <description>
-Font design has a high barrier of entry. Professional font design programs are very complex, and/or quite expensive. Glyphr Studio is streamlined and made for font design hobbyists... and it's free!
+Font design has a high barrier of entry. Professional font design programs are very complex, and/or quite expensive. Glyphr Studio is streamlined and made for font design hobbyists... and it's free! 64bit only.
 
 ## Features galore.
 * Editing Tools
