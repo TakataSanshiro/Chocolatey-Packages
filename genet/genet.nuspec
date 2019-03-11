@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>genet</id>
+    <title>genet</title>
+    <version>0.5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/genet</packageSourceUrl>
+    <authors>h2so5</authors>
+    <owners>Sanshiro</owners>
+    <summary>genet is a graphical network analyzer powered by web technologies. Written in TypeScript, C++ and Rust.</summary>
+    <description>
+## Features
+* Cross-Platform (macOS, Linux, Windows)
+* Web-based UI (Electron)
+* Built-in Package Manager
+* Rust SDK
+* Concurrency Support
+  </description>
+    <projectUrl>https://docs.genet.app/</projectUrl>
+  <projectSourceUrl>https://github.com/genet-app/genet</projectSourceUrl>
+  <bugTrackerUrl>https://github.com/genet-app/genet/issues</bugTrackerUrl>
+    <tags>admin packet analyzer capture security network electron</tags>
+    <copyright>h2so5</copyright>
+    <licenseUrl>https://github.com/genet-app/genet/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  <docsUrl>https://docs.genet.app/</docsUrl>
+    <iconUrl>h</iconUrl>
+    <releaseNotes>https://github.com/genet-app/genet/releases</releaseNotes>
+  <dependencies>
+      <dependency id="winpcap" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
