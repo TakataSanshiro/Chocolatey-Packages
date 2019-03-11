@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'xnconvert.portable'
-$url = 'http://download.xnview.com/XnConvert-win.zip' 
-$url64 = 'http://download.xnview.com/XnConvert-win-x64.zip'
-$checksum = '1991BAF5F37F1FD764D480056A94DF17D81DC505A81E2EA16F22390C24FCC859'
-$checksum64 = 'A695F1B8E6F1966A41F86E245ADE1B3F525C31170CF266A5E9418CF2040789B4'
+$url = 'https://download.xnview.com/XnConvert-win.zip' 
+$url64 = 'https://download.xnview.com/XnConvert-win-x64.zip'
+$checksum = '27C4F7D5821C7077AF6D35E9873A330F83512D29C5CDA83EC7A1765E02106F6F'
+$checksum64 = 'EA11B5F68426BF07251087C93EF7705E997D833A91E8D112A89CCAFED663521D'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
