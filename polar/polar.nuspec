@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>polar</id>
+    <title>Polar-bookshelf</title>
+    <version>1.13.12</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/polar</packageSourceUrl>
+    <authors>burtonator</authors>
+    <owners>Sanshiro</owners>
+    <summary>POLAR makes it easy to manage your reading.</summary>
+    <description>
+A powerful document manager for Mac, Windows, and Linux for managing web content, books, and notes - supports tagging, annotation, highlighting and keeps track of your reading progress.
+    </description>
+    <projectUrl>https://getpolarized.io/</projectUrl>
+    <projectSourceUrl>https://github.com/burtonator/polar-bookshelf</projectSourceUrl>
+    <docsUrl>https://getpolarized.io/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/burtonator/polar-bookshelf/issues</bugTrackerUrl>
+    <tags>admin electron pdf ebooks notes</tags>
+    <copyright>burtonator</copyright>
+    <licenseUrl>https://github.com/burtonator/polar-bookshelf/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/burtonator/polar-bookshelf@1.13.12/icon.png</iconUrl>
+    <releaseNotes>https://github.com/burtonator/polar-bookshelf/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
