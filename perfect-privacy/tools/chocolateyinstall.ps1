@@ -3,7 +3,7 @@
 $packageName    = 'perfect-privacy'
 $installerType  = 'exe'
 $url            = 'https://www.perfect-privacy.com/downloads_public/Perfect-Privacy-VPN_Setup.exe'
-$checksum       = 'B39209648C6715730B53219FD8C912875D55EAAF6197FD28A245C9E296B08706'
+$checksum       = '62E5E3DC16855807124124301A8151D4EE7CAF443C17E80A312A0F67EEC11F92'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/S'
 $validExitCodes = @(0)
