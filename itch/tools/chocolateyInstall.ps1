@@ -19,4 +19,4 @@ $ahkFile        = Join-Path $toolsDir "itchInstall.ahk"
 
 Start-Process $ahkExe $ahkFile
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 63E21381BE337F57CA65686DF6821C9B27139B8758B31CF52AB2E456CCEB952D -ChecksumType sha256 -Options $options
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 9E4C7004C885836812AEB40874DF07D6F58E9989A851729EC4F51CA2DF23B6BC -ChecksumType sha256 -Options $options
