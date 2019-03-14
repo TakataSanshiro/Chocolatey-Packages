@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shadowsocks</id>
+    <title>shadowsocks</title>
+    <version>4.1.5</version>
+    <authors>shadowsocks</authors>
+    <owners>chantisnake, Sanshiro</owners>
+    <summary>If you want to keep a secret, you must also hide it from yourself. </summary>
+    <description>
+[中文说明](https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+[full readme](https://github.com/shadowsocks/shadowsocks-windows/blob/master/README.md)
+
+#### Features
+
+1. System proxy configuration
+2. PAC mode and global mode
+3. [GFWList](https://github.com/gfwlist/gfwlist) and user rules
+4. Supports HTTP proxy
+5. Supports server auto switching
+6. Supports UDP relay (see Usage)
+
+#### Basic
+
+1. Find Shadowsocks icon in the notification tray
+2. You can add multiple servers in servers menu
+3. Select `Enable System Proxy` menu to enable system proxy. Please disable other
+proxy addons in your browser, or set them to use system proxy
+4. You can also configure your browser proxy manually if you don't want to enable
+system proxy. Set Socks5 or HTTP proxy to 127.0.0.1:1080. You can change this
+port in `Servers -> Edit Servers`
+    </description>
+    <projectUrl>https://github.com/shadowsocks/shadowsocks-windows</projectUrl>
+    <projectSourceUrl>https://github.com/shadowsocks/shadowsocks-windows</projectSourceUrl>
+    <tags>shadowsocks vpn</tags>
+    <copyright>shadowsocks</copyright>
+    <iconUrl>https://github.com/chantisnake/chocolateyPackage/raw/master/shadowsocks-choco/icon.png</iconUrl>
+    <licenseUrl>https://github.com/shadowsocks/shadowsocks-windows/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/shadowsocks/shadowsocks-windows/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/shadowsocks/shadowsocks-windows/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/shadowsocks/shadowsocks-windows/releases</releaseNotes>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/shadowsocks</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
