@@ -19,7 +19,7 @@ Dropped supports msi installer version.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/DynamoRIO/drmemory/releases</releaseNotes>
     <dependencies>
-      <dependency id="drmemory" />
+      <dependency id="drmemory" version="2.0.17959"/>
     </dependencies>
   </metadata>
   <files>
