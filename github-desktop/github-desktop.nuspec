@@ -3,7 +3,7 @@
   <metadata>
     <id>github-desktop</id>
     <title>GitHub Desktop</title>
-    <version>1.6.2</version>
+    <version>1.6.4</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
     <owners>Sanshiro</owners>
