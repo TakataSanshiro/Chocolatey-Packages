@@ -3,7 +3,7 @@
   <metadata>
     <id>coyim</id>
     <title>CoyIM</title>
-    <version>0.3.8</version>
+    <version>0.3.10</version>
     <authors>Sofía Celi, Reinaldo de Souza Jr</authors>
     <owners>Sanshiro</owners>
     <summary> CoyIM is a new chat client that is safe and secure by default: no settings to change, no plugins to install, no computer configuration to change.</summary>
@@ -25,6 +25,7 @@
     <copyright>Sofía Celi, Reinaldo de Souza Jr</copyright>
     <licenseUrl>https://github.com/coyim/coyim/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/coyim/coyim@5f958129c12a1685a567957f204dd4802e5dcbb8/build/mac-bundle/coy.iconset/icon_256x256.png</iconUrl>
     <releaseNotes>https://github.com/coyim/coyim/releases</releaseNotes>
     <dependencies>
       <dependency id="tor" />

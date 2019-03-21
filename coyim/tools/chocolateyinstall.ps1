@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'coyim'
-$url = 'https://dl.bintray.com/twstrike/coyim/master/windows/CoyIM.zip' 
-$checksum = '291875744F40110F11CF4112D94E24647B5FEDC8680F61C511C84C2ED26CA465'
+$url = 'https://dl.bintray.com/coyim/coyim-bin/v0.3.10/windows/CoyIM.zip' 
+$checksum = '25E980F9C016CD93068BD01A0E793E47E423633596621B38E6E7CDC301613711'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
