@@ -3,7 +3,7 @@
   <metadata>
     <id>beaker</id>
     <title>Beaker</title>
-    <version>0.8.5</version>
+    <version>0.8.8</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/beaker</packageSourceUrl>
     <authors>pfrazee, taravancil</authors>
     <owners>Sanshiro</owners>
