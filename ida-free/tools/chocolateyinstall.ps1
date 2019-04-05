@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $url
   silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
   softwareName  = '*idafree*'
-  checksum      = '970AAF1F535F4285D73666DAD587C6CDD300E0E21A4E3C04FD1D2D663BD1C208'
+  checksum      = '4C96E3AE2B33D5D69F338E332B548410252A89092A0305335705BE650162C3CE'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
