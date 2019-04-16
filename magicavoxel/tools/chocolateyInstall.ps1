@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'magicavoxel'
-$url = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win32.zip' 
-$url64 = 'http://192.241.207.218/uploads/MagicaVoxel-0.99.2-alpha-win64.zip' 
-$checksum = 'C6B02488A7EF5DC0DC7851E45A4D21FC0F3DCE74F3B9ABBC1CD3CFECC0F55FD5'
-$checksum64 = '149A9B919DC389552A4FE2F8B125979806CBD78F44AB498740A36A6C93E3DB01'
-$checksumType = 'sha256'
+$packageName    = 'magicavoxel'
+$url            = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/v0.99.3/MagicaVoxel-0.99.3-alpha-win32.zip' 
+$url64          = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/v0.99.3/MagicaVoxel-0.99.3-alpha-win64.zip' 
+$checksum       = 'CD0C3890F38E11D6921DC13F397AE14E4B00FC37A34DB737593F0C7B9C9A3EB1'
+$checksum64     = 'BA26565ED2C48CA51FC684EF88C4D37BB7B8815CF06B9FDC40FF7CFC748523B7'
+$checksumType   = 'sha256'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
