@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wordpress-com-for-desktop'
   installerType  = 'exe'
-  url            = 'https://github.com/Automattic/wp-desktop/releases/download/v3.9.0/WordPressDesktop-Setup-3.9.0.exe'
-  checksum       = 'F467AD96F8A5159652E844AD7A8454D2D7E3792194236F1BAF2CA16F0CE5DFC0'
+  url            = 'https://github.com/Automattic/wp-desktop/releases/download/v4.0.0/WordPressDesktop-Setup-4.0.0.exe'
+  checksum       = '8E9769E2C5FE8F1A2EF290A0C7460B20AE262A446E760FFDD8B60D6E7FACB0C3'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
