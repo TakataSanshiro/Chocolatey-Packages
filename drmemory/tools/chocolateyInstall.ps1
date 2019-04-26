@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'drmemory'
-$url = 'https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.0.17959/DrMemory-Windows-1.11.17959-1.zip' 
-$checksum = '2B94346B80C5388EC480EAD15247F0CB5FB21580E2870EFD1BC8EAE01B2BAD45'
+$url = 'https://github.com/DynamoRIO/drmemory/releases/download/cronbuild-2.1.17972/DrMemory-Windows-2.1.17972-1.zip' 
+$checksum = '6BBCD41F4CC8AFD5C70AB0A8736F9E8CF37B5CE27A6EB1610CC295950EA10817'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
