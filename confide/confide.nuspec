@@ -3,9 +3,9 @@
   <metadata>
     <id>confide</id>
     <title>Confide</title>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/confide</packageSourceUrl>
-    <authors>© 2017 Confide, Inc.</authors>
+    <authors>©Confide, Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Confide lets you take your messages off the record.</summary>
     <description>
