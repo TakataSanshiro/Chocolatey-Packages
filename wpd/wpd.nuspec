@@ -24,9 +24,9 @@ WPD is free, totally portable, has a nice user-friendly interface and doesn't co
     </description>
     <projectUrl>https://wpd.app/</projectUrl>
     <tags>privacy freeware portable</tags>
-    <copyright>© 2016-2018 WPD Team.</copyright>
+    <copyright>© 2016-2019 WPD Team.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/531d5e2d/wpd/wpd.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/wpd/wpd.png</iconUrl>
     <releaseNotes>https://wpd.app/changelog</releaseNotes>
   </metadata>
   <files>
