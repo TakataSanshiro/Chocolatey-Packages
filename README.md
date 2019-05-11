@@ -40,4 +40,6 @@ I've been waiting for your PRs.
 
 ## Notes
 I do not use Disqus due to privacy reason.
+But, when you send a message to my chocolatey packages page via Disqus, I'll get your message via e-mail.
+If you want a reply then open an issue or send an e-mail to Contact Maintainers link.
 
