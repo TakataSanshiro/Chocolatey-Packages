@@ -11,7 +11,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'msi' 
   url           = $url
-  url64bit      = $url64
+  url64bit      = $url64bit
 
   silentArgs   = '/qb' 
   validExitCodes= @(0) 
