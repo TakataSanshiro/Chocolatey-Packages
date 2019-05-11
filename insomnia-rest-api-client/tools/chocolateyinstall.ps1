@@ -2,8 +2,8 @@
 
 $packageName    = 'insomnia-rest-api-client'
 $installerType  = 'exe'
-$url            = 'https://github.com/getinsomnia/insomnia/releases/download/v6.3.2/Insomnia.Setup.6.3.2.exe'
-$checksum       = '4C566F5F9453AE3898A7992B2C1C2D853E163673E3221AE0155B6CDA97E3D558'
+$url            = 'https://github.com/getinsomnia/insomnia/releases/download/v6.5.1/Insomnia.Setup.6.5.1.exe'
+$checksum       = '63D7E11ACEA6AD0774AA9AE7EF3CDF86287C4C93DEB4600E2A8C814F4F5CCF4D'
 $toolsDir       = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/VERYSILENT'
 $validExitCodes = @(0)
