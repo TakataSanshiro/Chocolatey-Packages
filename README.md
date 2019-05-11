@@ -16,10 +16,10 @@ In most cases, you need to change the three variables of a chocolatey package.
 You can update chocolatey packages if you don't know how to create chocolatey packages and programming.
 
 1. Change the &lt;version&gt; in the packageName.nuspec to the latest version number.  
-&lt;version&gt;changeIt&lt;/version&gt;
+&lt;version&gt;changeMe&lt;/version&gt;
 
 2. Change the $url in the chocolateyinstall.ps1 in the packageName directory to the latest version download link.  
-$url = 'changeIt'
+$url = 'changeMe'
 
 But, the app website offers only the latest version, then you don't need to change the $url.  
 ex)   
@@ -34,7 +34,7 @@ You have to specify the same domain download link that previous version of the c
 If you change the download link to another domain, then I reject it.
 
 3. Change the $checksum in the chocolateyinstall.ps1 in the packageName directory to the latest version's sha256 checksum.  
-$checksum = 'changeIt'
+$checksum = 'changeMe'
 
 I've been waiting for your PRs.
 
