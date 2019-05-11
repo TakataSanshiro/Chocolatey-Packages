@@ -22,4 +22,4 @@ if (-not $env:ChocolateyForce) {
   }
 }
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 075A3DFA76461D6C95FAAFD948B118665369D97E2191A37479B5C84E9E38AA0B -ChecksumType sha256
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 3EA8C2FC3FD30874A0E1058B35ADA04C4A830FF4EE6416CCF6F925101B59898A -ChecksumType sha256
