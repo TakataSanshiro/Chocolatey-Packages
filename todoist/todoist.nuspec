@@ -2,28 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>todoist</id>
-    <title>Todoist</title>
-    <version>2.7.6.20170718</version>
+    <title>[Deprecated] Todoist</title>
+    <version>2.7.6.20190524</version>
     <authors>Doist</authors>
     <owners>Sanshiro</owners>
-    <summary>Todo list application</summary>
+    <summary>todoist is distributing on Microsoft Store</summary>
     <description>
-Todoist lets you manage your tasks anywhere. At home. At school. At work. Online. Offline. And on 13 platforms and devices.
-
-Achieve more everyday in your work and your daily life.
-
-**Please Note**: This is an automatically updated package. If you find it is 
-out of date by more than a day or two, please contact the maintainer(s) and
-let them know the package is no longer updating correctly.
-
+[https://www.microsoft.com/store/apps/9nblggh1rl1k](https://www.microsoft.com/store/apps/9nblggh1rl1k)
     </description>
     <projectUrl>http://todoist.com</projectUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/todoist</packageSourceUrl>
-    <tags>todoist admin todo task manager</tags>
+    <tags>deprecated</tags>
     <copyright></copyright>
     <licenseUrl>https://todoist.com/Help/EULA</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/a75ae0d3/icons/todoist.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
