@@ -2,17 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>todoist</id>
-    <title>[Deprecated] Todoist</title>
+    <title>Todoist (legacy)</title>
     <version>2.7.6.20190524</version>
     <authors>Doist</authors>
     <owners>Sanshiro</owners>
-    <summary>todoist is distributing on Microsoft Store</summary>
+    <summary>todoist for Windows XP / 7 / 8.1</summary>
     <description>
+The latest version of todoist is distributing on Microsoft Store
 [https://www.microsoft.com/store/apps/9nblggh1rl1k](https://www.microsoft.com/store/apps/9nblggh1rl1k)
     </description>
     <projectUrl>http://todoist.com</projectUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/todoist</packageSourceUrl>
-    <tags>deprecated</tags>
+    <tags>todoist admin todo task manager</tags>
     <copyright></copyright>
     <licenseUrl>https://todoist.com/Help/EULA</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
