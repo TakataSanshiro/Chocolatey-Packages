@@ -8,6 +8,9 @@ Chocolatey - like yum or apt-get, but for Windows
 More information about chocolatey is here.  
 https://github.com/chocolatey/choco
 
+## Chocolatey Automatic Package Updater
+My AU packages are in automatic directory.
+
 ## Contribution
 PRs to this project are welcome.  
 Updating a chocolatey package is very easy.
