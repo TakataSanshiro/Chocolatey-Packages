@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>boostnote</id>
+    <title>Boostnote</title>
+    <version>0.11.16</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/boostnote</packageSourceUrl>
+    <authors>Maisin&amp;Co.</authors>
+    <owners>Sanshiro</owners>
+    <summary>Boostnote is an open source note-taking app. Evernote alternative for programmers! For Windows 64bit.</summary>
+    <description>
+## What makes Boostnote great?
+* Using Boostnote Offline - There is no internet connection? It's OK. You can use the Boostnote.
+* Markdown Note - Keep Markdown Notes with a instant renderer.
+* Snippet Note - Just like Gist, keep your snippets as a note.
+* Multiple Hotkeys - Like Command N and D, you can use multiple hotkeys.
+* Finder Popup - Just like spotlight of OS X, Search your note when working with other app.
+* Latex Support - With $$ and $$$, write some equations.
+    </description>
+    <projectUrl>https://boostnote.io/</projectUrl>
+    <projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/BoostIO/Boostnote/issues</bugTrackerUrl>
+    <tags>note programmer programming snippet markdown latex admin</tags>
+    <copyright>Copyright (C) 2017 Maisin&amp;Co.</copyright>
+    <licenseUrl>https://github.com/BoostIO/Boostnote/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@a72f84bf/boostnote/icon.png</iconUrl>
+    <releaseNotes>https://github.com/BoostIO/boost-releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
