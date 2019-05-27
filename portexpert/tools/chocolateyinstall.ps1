@@ -16,7 +16,4 @@ Install-ChocolateyPackage `
   -Url "$url" `
   -Checksum "$checksum" `
   -ChecksumType "$checksumType" `
-  -Url64bit "$url64" `
-  -Checksum64 "$checksum64" `
-  -ChecksumType64 "$checksumType64" `
   -ValidExitCodes "$validExitCodes"
