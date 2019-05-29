@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>shadowsocks</id>
     <title>shadowsocks</title>
-    <version>4.1.5</version>
+    <version>4.1.6</version>
     <authors>shadowsocks</authors>
     <owners>chantisnake, Sanshiro</owners>
     <summary>If you want to keep a secret, you must also hide it from yourself. </summary>
@@ -28,7 +28,7 @@
 proxy addons in your browser, or set them to use system proxy
 4. You can also configure your browser proxy manually if you don't want to enable
 system proxy. Set Socks5 or HTTP proxy to 127.0.0.1:1080. You can change this
-port in `Servers -> Edit Servers`
+port in `Servers -&gt; Edit Servers`
     </description>
     <projectUrl>https://github.com/shadowsocks/shadowsocks-windows</projectUrl>
     <projectSourceUrl>https://github.com/shadowsocks/shadowsocks-windows</projectSourceUrl>
