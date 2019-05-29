@@ -40,7 +40,7 @@ port in `Servers -&gt; Edit Servers`
     <docsUrl>https://github.com/shadowsocks/shadowsocks-windows/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/shadowsocks/shadowsocks-windows/issues</bugTrackerUrl>
     <releaseNotes>https://github.com/shadowsocks/shadowsocks-windows/releases</releaseNotes>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/shadowsocks</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/shadowsocks</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
