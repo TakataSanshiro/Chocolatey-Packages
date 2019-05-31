@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>magicavoxel</id>
+    <title>MagicaVoxel</title>
+    <version>0.99.4</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/magicavoxel</packageSourceUrl>
+    <authors>ephtracy</authors>
+    <owners>Sanshiro</owners>
+    <summary>A free lightweight 8-bit voxel editor and interactive path tracing renderer.</summary>
+    <description>
+## Features
+* Selection Tool, Frame Based Animation
+* Emissive Area Lighting, Fog, Scattering
+* Transparent voxels with Refraction and Attenuation
+* Voxel Shader, Marching Cube Export
+    </description>
+    <projectUrl>https://ephtracy.github.io/</projectUrl>
+    <projectSourceUrl>https://voxel.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <tags>voxel 3dcg</tags>
+    <copyright>Copyright © ephtracy 2013-2017</copyright>
+    <licenseUrl>https://ephtracy.github.io/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@83e52150/magicavoxel/icon.png</iconUrl>
+    <releaseNotes>https://ephtracy.github.io/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
