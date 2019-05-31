@@ -4,7 +4,7 @@
     <id>magicavoxel</id>
     <title>MagicaVoxel</title>
     <version>0.99.4</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/magicavoxel</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/magicavoxel</packageSourceUrl>
     <authors>ephtracy</authors>
     <owners>Sanshiro</owners>
     <summary>A free lightweight 8-bit voxel editor and interactive path tracing renderer.</summary>
