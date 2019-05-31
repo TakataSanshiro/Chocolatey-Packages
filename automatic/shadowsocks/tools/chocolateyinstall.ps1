@@ -6,6 +6,6 @@ $packageArgs = @{
   checksum       = 'e9fad6bcba22427d7efb3d9b341d11173659a06cc12670ba9d542aeb670284b8'
   checksumType   = 'sha256'
   softwareName   = 'Shadowsocks'
-  unzipLocation  = '$(Split-Path -parent $MyInvocation.MyCommand.Definition)'
+  unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
 Install-ChocolateyZipPackage @packageArgs
