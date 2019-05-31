@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName    = 'magicavoxel'
-$url            = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/v0.99.3/MagicaVoxel-0.99.3-alpha-win32.zip' 
-$url64          = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/v0.99.3/MagicaVoxel-0.99.3-alpha-win64.zip' 
-$checksum       = 'CD0C3890F38E11D6921DC13F397AE14E4B00FC37A34DB737593F0C7B9C9A3EB1'
-$checksum64     = 'BA26565ED2C48CA51FC684EF88C4D37BB7B8815CF06B9FDC40FF7CFC748523B7'
+$url            = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4-alpha-win32.zip' 
+$url64          = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4-alpha-win64.zip' 
+$checksum       = 'E0199606C6ACF1783AE0422E3E48576AD2B84ACDF7BFC680CB673591BCE6F671'
+$checksum64     = '37404690D5DB7A7024BE729DDF5DA813F333781DD853AFA32AEB7478331CE6AC'
 $checksumType   = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
