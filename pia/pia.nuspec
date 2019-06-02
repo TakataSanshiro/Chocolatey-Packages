@@ -3,7 +3,7 @@
   <metadata>
     <id>pia</id>
     <title>Private Internet Access</title>
-    <version>111.02545</version>
+    <version>120.02681</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pia</packageSourceUrl>
     <authors>London Trust Media, Inc.</authors>
     <owners>Sanshiro</owners>
@@ -19,7 +19,7 @@ VPN Service encrypts your connection and provides you with an anonymous IP to pr
     <tags>admin vpn tor security privacy multi-platform</tags>
     <copyright>Copyright© London Trust Media, Inc. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/554c3bd2/pia/pia.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@554c3bd2/pia/pia.png</iconUrl>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>
