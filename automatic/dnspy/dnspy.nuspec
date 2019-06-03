@@ -4,7 +4,7 @@
     <id>dnspy</id>
     <title>dnSpy</title>
     <version>6.0.5</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/dnspy</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dnspy</packageSourceUrl>
     <authors>0xd4d</authors>
     <owners>Sanshiro</owners>
     <summary>.NET assembly editor, decompiler, and debugger</summary>
