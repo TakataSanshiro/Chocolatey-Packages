@@ -4,7 +4,7 @@
     <id>boostnote</id>
     <title>Boostnote</title>
     <version>0.11.17</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/boostnote</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/automatic/boostnote</packageSourceUrl>
     <authors>Maisin&amp;Co.</authors>
     <owners>Sanshiro</owners>
     <summary>Boostnote is an open source note-taking app. Evernote alternative for programmers! For Windows 64bit.</summary>
