@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wordpress-com-for-desktop</id>
+    <title>WordPress.com Desktop</title>
+    <version>4.1.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wordpress-com-for-desktop</packageSourceUrl>
+    <authors>Automattic Inc.</authors>
+    <owners>Sanshiro</owners>
+    <summary>A desktop app that gives WordPress a permanent home in your taskbar.</summary>
+    <description>
+## Features
+* A control panel for all your WordPress sites
+* Focus on your content
+* Speed is a feature
+* Not one size fits all
+    </description>
+    <projectUrl>https://apps.wordpress.com/desktop/</projectUrl>
+    <projectSourceUrl>https://github.com/Automattic/wp-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Automattic/wp-desktop/issues</bugTrackerUrl>
+    <tags>admin electron wordpress blog editor</tags>
+    <copyright>© Automattic Inc.</copyright>
+    <licenseUrl>https://github.com/Automattic/wp-desktop/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Automattic/wp-desktop@329205c3/resource/app-icon/icon_512x512.png</iconUrl>
+    <releaseNotes>https://github.com/Automattic/wp-desktop/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
