@@ -3,7 +3,7 @@
   <metadata>
     <id>wingide</id>
     <title>Wing Python IDE</title>
-    <version>6.1.5</version>
+    <version>7.0.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wingide</packageSourceUrl>
     <authors>Wingware</authors>
     <owners>Sanshiro</owners>
@@ -14,7 +14,7 @@ It includes powerful editing, code intelligence, refactoring, debugging, search,
     </description>
     <projectUrl>https://wingware.com/</projectUrl>
     <tags>admin python ide programming debugging trial</tags>
-    <copyright>© 1999-2017 Wingware</copyright>
+    <copyright>© 1999-2019 Wingware</copyright>
     <licenseUrl>https://wingware.com/store/purchase</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/538fcfac/wingide/icon.png</iconUrl>
