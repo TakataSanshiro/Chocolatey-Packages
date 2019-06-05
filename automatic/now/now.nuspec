@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>now</id>
+    <title>Now Desktop</title>
+    <version>4.0.19</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/now</packageSourceUrl>
+    <authors>Zeit, Inc.</authors>
+    <owners>Sanshiro</owners>
+    <summary>Our app is the recommended way to deploy and use our services.
+It installs and maintains the command line program up to date automatically.</summary>
+    <description>
+## How Does It Work?
+* Drag and Drop Anything
+* The Upload Begins Instantly
+* The Deployment Is Ready
+
+## Automatic Updates
+
+## Command Line
+
+## Open Source
+    </description>
+    <projectUrl>https://zeit.co/</projectUrl>
+    <projectSourceUrl>https://github.com/zeit/now-desktop</projectSourceUrl>
+    <tags>admin server electron multi-platform</tags>
+    <copyright>Copyright © Zeit, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://zeit.co/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@63540d94/icons/now.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
