@@ -3,7 +3,7 @@
   <metadata>
     <id>firealpaca</id>
     <title>FireAlpaca</title>
-    <version>2.1.18</version>
+    <version>2.1.20</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/firealpaca</packageSourceUrl>
     <authors>firealpaca.com</authors>
     <owners>Sanshiro</owners>
@@ -28,7 +28,7 @@ FireAlpaca is the free paint tool that is available in 10 languages and compatib
     <copyright>Copyright ©2017 firealpaca.com All Rights Reserved.</copyright>
     <licenseUrl>https://firealpaca.com/download/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/06c63076/firealpaca/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@06c63076/firealpaca/icon.png</iconUrl>
     <releaseNotes>https://firealpaca.com/download/</releaseNotes>
   </metadata>
   <files>
