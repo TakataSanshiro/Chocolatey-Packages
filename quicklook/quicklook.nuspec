@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>quicklook</id>
     <title>QuickLook</title>
-    <version>3.6.4</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/quicklook</packageSourceUrl>
+    <version>3.6.5</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/quicklook</packageSourceUrl>
     <authors>xupefei</authors>
     <owners>Sanshiro</owners>
     <summary>Bring macOS “Quick Look” feature to Windows</summary>
