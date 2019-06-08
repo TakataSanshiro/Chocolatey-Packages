@@ -3,8 +3,8 @@
   <metadata>
     <id>wire</id>
     <title>Wire (Personal)</title>
-    <version>3.6.2908</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wire</packageSourceUrl>
+    <version>3.9.2928</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wire</packageSourceUrl>
     <authors>Wire Swiss GmbH</authors>
     <owners>Sanshiro</owners>
     <summary>The most secure collaboration platform.</summary>
