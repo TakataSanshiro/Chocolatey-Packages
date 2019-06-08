@@ -17,7 +17,7 @@ It includes powerful editing, code intelligence, refactoring, debugging, search,
     <copyright>© 1999-2017 Wingware</copyright>
     <licenseUrl>https://wingware.com/store/purchase</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/538fcfac/wingide/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@538fcfac/wingide/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
