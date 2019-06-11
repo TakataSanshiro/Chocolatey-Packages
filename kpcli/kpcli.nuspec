@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>kpcli</id>
+    <title>kpcli</title>
+    <version>3.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/kpcli</packageSourceUrl>
+    <authors>Lester Hightower</authors>
+    <owners>Sanshiro</owners>
+    <summary>A command line interface to KeePass database files.</summary>
+    <description>
+A command line interface (interactive shell) to work with KeePass 1.x or 2.x database files. This program was inspired by my use of the CLI of the Ked Password Manager ("kedpm -c") combined with my need to migrate to KeePass.
+
+This program may be distributed under the same terms as Perl itself.
+    </description>
+    <projectUrl>http://kpcli.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/kpcli/</projectSourceUrl>
+    <tags>kpcli keepass password safe encryption cli</tags>
+    <copyright>Lester Hightower</copyright>
+    <licenseUrl>http://dev.perl.org/licenses/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/narnaud/chocolatey-packages@master/icons/kpcli.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
