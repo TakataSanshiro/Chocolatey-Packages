@@ -3,7 +3,7 @@
   <metadata>
     <id>winxcorners</id>
     <title>WinXcorners</title>
-    <version>1.1.0.320190512</version>
+    <version>1.1.0.320190612</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/winxcorners</packageSourceUrl>
     <authors>vhanla</authors>
     <owners>Sanshiro</owners>
@@ -23,7 +23,7 @@ WinXcorners allows you to assign events to trigger on your main monitor corners,
     <tags>window utility portable</tags>
     <copyright>vhanla</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/761fa26b/winxcorners/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@761fa26b/winxcorners/icon.png</iconUrl>
     <releaseNotes>http://apps.codigobit.info/2015/10/winxcorners-hot-corners-for-windows-10.html</releaseNotes>
   </metadata>
   <files>
