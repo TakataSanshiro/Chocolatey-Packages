@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'fontbase'
-$toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$installerType = 'exe'
-$url = 'https://releases.fontba.se/win/FontBase-2.7.0.exe'
-$checksum = '65F867A3DB3771215D00F22FC31EFFFA685C16A6A3C1868D9487D81A8DCD0DAC'
-$checksumType = 'sha256'
-$silentArgs = '/S'
+$packageName    = 'fontbase'
+$toolsDir       = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$installerType  = 'exe'
+$url            = 'https://releases.fontba.se/win/FontBase-2.8.2.exe'
+$checksum       = 'D7552BFE94D009A764FAAF5DB61FBE6E0BD4F838F744DE1D0747B5080DA19214'
+$checksumType   = 'sha256'
+$silentArgs     = '/S'
 $validExitCodes = @(0) 
 
 Install-ChocolateyPackage `
