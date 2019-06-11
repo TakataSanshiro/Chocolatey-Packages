@@ -3,7 +3,7 @@
   <metadata>
     <id>monosnap</id>
     <title>Monosnap</title>
-    <version>3.6.36</version>
+    <version>4.0.8</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/monosnap</packageSourceUrl>
     <authors>Monosnap</authors>
     <owners>Sanshiro</owners>
@@ -28,7 +28,7 @@ Save and share:
     <tags>admin screenshot</tags>
     <copyright>Monosnap</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/461dd109/monosnap/monosnap.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@461dd109/monosnap/monosnap.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
