@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wunderlist</id>
-    <title>wunderlist</title>
-    <version>3.19.7</version>
+    <title>wunderlist (legacy)</title>
+    <version>3.19.7.20190617</version>
     <authors>6 Wunderkinder GmBH</authors>
     <owners>Sanshiro</owners>
-    <summary>Todo list application</summary>
+    <summary>wunderlist for Windows 7</summary>
     <description>
-Wunderlist is the easiest way to manage and share your to-do lists. Whether you're planning an overseas adventure, sharing a shopping list with a loved one or running your very own business, Wunderlist is here to help you achieve great things.
+The latest version of wunderlist is distributing on Microsoft Store.
+https://www.microsoft.com/en-us/p/wunderlist-to-do-list-tasks/9wzdncrdfxzs
     </description>
     <projectUrl>https://www.wunderlist.com/</projectUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wunderlist</packageSourceUrl>
     <tags>wunderlist admin todo task manager</tags>
     <licenseUrl>https://www.wunderlist.com/terms-of-use/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/aff6aaa1/icons/wunderlist.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
