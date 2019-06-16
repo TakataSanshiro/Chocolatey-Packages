@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>lepton</id>
+    <title>Lepton</title>
+    <version>1.8.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/lepton</packageSourceUrl>
+    <authors>Cosmo</authors>
+    <owners>Sanshiro</owners>
+    <summary>Lepton is a lean GitHub Gist Desktop Client based on Electron.</summary>
+    <description>
+## Features
+* Group your gists by languages
+* Create, Edit, Delete gists
+* Instant search
+* Custom tags
+* Markdown rendering
+* Cross-platform support
+    </description>
+    <projectUrl>http://hackjutsu.com/Lepton/</projectUrl>
+    <projectSourceUrl>https://github.com/hackjutsu/Lepton</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hackjutsu/Lepton/issues</bugTrackerUrl>
+    <tags>admin electron github gist markdown note developer</tags>
+    <copyright>Copyright © Lepton 2017</copyright>
+    <licenseUrl>https://github.com/hackjutsu/Lepton/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/hackjutsu/Lepton@a7866f27/docs/img/logo.png</iconUrl>
+    <releaseNotes>https://github.com/hackjutsu/Lepton/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
