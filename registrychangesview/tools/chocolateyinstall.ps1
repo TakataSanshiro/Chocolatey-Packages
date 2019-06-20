@@ -3,8 +3,8 @@
 $packageName = 'registrychangesview'
 $url = 'https://www.nirsoft.net/utils/registrychangesview.zip' 
 $url64 = 'https://www.nirsoft.net/utils/registrychangesview-x64.zip' 
-$checksum = '8FCCDFEE1914212706E07ABCE39F0FD116C9D1BED08EB9C3CF9925AA8FA667B3'
-$checksum64 = 'E52DC1BC29219BD19384E8986F1E81834C1352FB68ECC1410BCC53C0785C8007'
+$checksum = '54A75493EA571E676E1BDDFBC4B8F34F51DAAB84C765A7E4E2938624EACFCFA8'
+$checksum64 = '43BBDAC0F7A39BA41157AAB6DEF5C86C381F2287610117A5A0955F350CA5DF2F'
 $checksumType = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
