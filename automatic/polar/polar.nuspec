@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>polar</id>
     <title>Polar-bookshelf</title>
-    <version>1.13.12</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/polar</packageSourceUrl>
+    <version>1.19.8</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/polar</packageSourceUrl>
     <authors>burtonator</authors>
     <owners>Sanshiro</owners>
     <summary>POLAR makes it easy to manage your reading.</summary>
