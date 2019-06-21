@@ -3,7 +3,7 @@
   <metadata>
     <id>blackbird</id>
     <title>Blackbird</title>
-    <version>1.0.40</version>
+    <version>1.0.60</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/blackbird</packageSourceUrl>
     <authors>getblackbird.net</authors>
     <owners>Sanshiro</owners>
@@ -28,7 +28,7 @@
     <copyright>getblackbird.net</copyright>
     <licenseUrl>http://getblackbird.net/documentation/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0966167c/blackbird/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@0966167c/blackbird/icon.png</iconUrl>
     <releaseNotes>http://getblackbird.net/documentation/changelog/</releaseNotes>
   </metadata>
   <files>
