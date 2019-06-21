@@ -5,8 +5,13 @@ $installerType  = 'exe'
 $url            = 'https://www.ipvanish.com/software/setup-prod-v2/ipvanish-setup.exe'
 $checksum       = 'B98D964D098396B1697131009A760A49DB58DC58776EF920B3B61B957A764EFC'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$silentArgs     = '/quiet'
+$silentArgs     = ''
 $validExitCodes = @(0)
+
+$ahkExe         = 'AutoHotKey'
+$ahkFile        = Join-Path $toolsDir "ipvanishInstall.ahk"
+
+Start-Process $ahkExe $ahkFile
 
 $packageArgs = @{
   packageName   = $packageName
