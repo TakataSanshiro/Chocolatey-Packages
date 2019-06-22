@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tinc</id>
+    <title>tinc</title>
+    <version>1.0.35</version>
+    <authors>Guus Sliepen</authors>
+    <owners>Sanshiro</owners>
+    <summary>Tinc is a Virtual Private Network (VPN) daemon.</summary>
+    <description>Tinc is a Virtual Private Network (VPN) daemon that uses tunneling and encryption to create
+a secure private network between hosts on the Internet.
+Because the tunnel appears to the IP level network code as a normal network device, there
+is no need to adapt any existing software. The encrypted tunnels allows VPN sites to share
+information with each other over the Internet without exposing any information to others.</description>
+    <projectUrl>http://www.tinc-vpn.org</projectUrl>
+    <projectSourceUrl>https://github.com/gsliepen/tinc</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/gsliepen/tinc/issues</bugTrackerUrl>
+    <tags>vpn tunnel openvpn open source free fast encryption private internet admin</tags>
+    <copyright>tinc is Copyright (C) by: Ivo Timmermans, Guus Sliepen, and others.</copyright>
+    <licenseUrl>https://github.com/gsliepen/tinc/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://www.tinc-vpn.org/images/tinclogo.png</iconUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/automatic/tinc</packageSourceUrl>
+    <docsUrl>http://www.tinc-vpn.org/docs/</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
