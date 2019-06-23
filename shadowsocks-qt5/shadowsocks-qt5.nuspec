@@ -26,7 +26,7 @@ Please check [project's wiki](https://github.com/shadowsocks/shadowsocks-qt5/wik
     <copyright>Copyright © Symeon Huang</copyright>
     <licenseUrl>https://github.com/shadowsocks/shadowsocks-qt5/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@6b20a5b300ff0be5fe0491e0e930290654a760fb/shadowsocks-qt5/ss-qt5.png</iconUrl>
     <releaseNotes>https://github.com/shadowsocks/shadowsocks-qt5/releases</releaseNotes>
   </metadata>
   <files>
