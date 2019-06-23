@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shadowsocks-qt5</id>
+    <title>Shadowsocks-Qt5</title>
+    <version>2.9.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/shadowsocks-qt5</packageSourceUrl>
+    <authors>Symeon Huang</authors>
+    <owners>Sanshiro</owners>
+    <summary>A cross-platform shadowsocks GUI client.</summary>
+    <description>
+Shadowsocks-Qt5 is a native and cross-platform [shadowsocks](http://shadowsocks.org) GUI client with advanced features.
+Please check [project's wiki](https://github.com/shadowsocks/shadowsocks-qt5/wiki) for "how-tos".
+
+##Features
+* Shadowsocks-Qt5 is written in C++ with Qt5;
+* Support traffic statistics;
+* Support server latency (lag) test;
+* Use multiple profiles simultaneously;
+* `config.ini` is located the application's directory on Windows.
+    </description>
+    <projectUrl>https://shadowsocks.org/</projectUrl>
+    <projectSourceUrl>https://github.com/shadowsocks/shadowsocks-qt5</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/shadowsocks/shadowsocks-qt5/issues</bugTrackerUrl>
+    <tags>cross-platform foss portable shadowsocks qt5 qt gui client socks proxy</tags>
+    <copyright>Copyright © Symeon Huang</copyright>
+    <licenseUrl>https://github.com/shadowsocks/shadowsocks-qt5/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/</iconUrl>
+    <releaseNotes>https://github.com/shadowsocks/shadowsocks-qt5/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
