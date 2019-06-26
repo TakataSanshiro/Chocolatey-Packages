@@ -1,19 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'zazu'
-$toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$installerType = 'exe'
-$url = 'https://github.com/tinytacoteam/zazu/releases/download/v0.5.2/zazu-Setup-0.5.2.exe'
-$checksum = 'EDCCF301C4C53C4227FDAAC7D2EA56A5805DF5BDDBB6FF627176509ECA02B455'
-$checksumType = 'sha256'
-$silentArgs = '/S'
-$validExitCodes = @(0) 
-
-Install-ChocolateyPackage `
-  -PackageName "$packageName" `
-  -FileType "$installerType" `
-  -SilentArgs "$silentArgs" `
-  -Url "$url" `
-  -Checksum "$checksum" `
-  -ChecksumType "$checksumType" `
-  -ValidExitCodes "$validExitCodes"
+$packageArgs = @{
+  packageName    = 'zazu'
+  installerType  = 'exe'
+  url            = 'https://github.com/tinytacoteam/zazu/releases/download/v0.6.0/Zazu.Setup.0.6.0.exe'
+  checksum       = '186c0d850b62f9c39e0f43e925d17d1582cbc02736407961c584a8bdf344c7ce'
+  checksumType   = 'sha256'
+  silentArgs     = '/S'
+  validExitCodes = @(0)
+  softwareName   = 'Zazu'
+}
+Install-ChocolateyPackage @packageArgs
