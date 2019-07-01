@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>coyim</id>
     <title>CoyIM</title>
-    <version>0.3.11</version>
+    <version>0.3.11.20190702</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/automatic/coyim</packageSourceUrl>
     <authors>Sofía Celi, Reinaldo de Souza Jr</authors>
     <owners>Sanshiro</owners>
     <summary> CoyIM is a new chat client that is safe and secure by default: no settings to change, no plugins to install, no computer configuration to change.</summary>
