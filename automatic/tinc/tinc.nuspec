@@ -19,7 +19,7 @@ information with each other over the Internet without exposing any information t
     <copyright>tinc is Copyright (C) by: Ivo Timmermans, Guus Sliepen, and others.</copyright>
     <licenseUrl>https://github.com/gsliepen/tinc/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://www.tinc-vpn.org/images/tinclogo.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@93c59ee60d2a1ca0bab7f631aabb01c2687187e4/automatic/tinc/tinc.png</iconUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tinc</packageSourceUrl>
     <docsUrl>http://www.tinc-vpn.org/docs/</docsUrl>
   </metadata>
