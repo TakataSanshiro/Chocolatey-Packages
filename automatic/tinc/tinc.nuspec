@@ -20,7 +20,7 @@ information with each other over the Internet without exposing any information t
     <licenseUrl>https://github.com/gsliepen/tinc/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://www.tinc-vpn.org/images/tinclogo.png</iconUrl>
-    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/automatic/tinc</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tinc</packageSourceUrl>
     <docsUrl>http://www.tinc-vpn.org/docs/</docsUrl>
   </metadata>
   <files>
