@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'zeronet'
-$url = 'https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip' 
-$checksum = '51BBB85A6882F53AF6CDDD0F0939BE19177607BB29E3FDE7567EA6568C2DF30E'
+$packageName  = 'zeronet'
+$url          = 'https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip' 
+$checksum     = '11AA3D06CF09F57EB1DE1B15763D0A10773CDF77FE8E8F21C780053A345146CC'
 $checksumType = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
