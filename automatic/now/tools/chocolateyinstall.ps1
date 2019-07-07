@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'now'
   installerType  = 'exe'
-  url            = 'https://github.com/zeit/now-desktop/releases/download/4.0.19/now-desktop-Setup-4.0.19.exe'
-  checksum       = '8eb55a5af5e83ab24ea79408d112319bdb460ad4902d83db861aea02f754319c'
+  url            = 'https://github.com/zeit/now-desktop/releases/download/5.0.0/now-desktop-Setup-5.0.0.exe'
+  checksum       = 'befc095d17b285e66f3831f8187be663602bef70de63de3daf1387b66b3f4540'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
