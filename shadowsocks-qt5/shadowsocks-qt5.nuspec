@@ -4,7 +4,7 @@
     <id>shadowsocks-qt5</id>
     <title>Shadowsocks-Qt5</title>
     <version>2.9.0.20190623</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/shadowsocks-qt5</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/shadowsocks-qt5</packageSourceUrl>
     <authors>Symeon Huang</authors>
     <owners>Sanshiro</owners>
     <summary>A cross-platform shadowsocks GUI client.</summary>
