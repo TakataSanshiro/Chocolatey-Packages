@@ -4,7 +4,7 @@
     <id>now</id>
     <title>Now Desktop</title>
     <version>5.0.0</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/now</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/now</packageSourceUrl>
     <authors>Zeit, Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Our app is the recommended way to deploy and use our services.
