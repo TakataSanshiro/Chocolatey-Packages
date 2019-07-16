@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'uninstallview'
-$url = 'https://www.nirsoft.net/utils/uninstallview.zip' 
-$url64 = 'https://www.nirsoft.net/utils/uninstallview-x64.zip' 
-$checksum = '62C048F4A04F8BBD45732E25F44CADE67B145F1143AF9198B9F1C7E25FBC9FEF'
-$checksum64 = 'CA7A0319BEA7436D64CF3A0DC2434EE26C958598C829627BD1259CA616AB95F1'
-$checksumType = 'sha256'
+$packageName    = 'uninstallview'
+$url            = 'https://www.nirsoft.net/utils/uninstallview.zip' 
+$url64          = 'https://www.nirsoft.net/utils/uninstallview-x64.zip' 
+$checksum       = 'EBC476BA2D09E863C4A637B4E59B54FE612D283830786BDEAF445684120146D9'
+$checksum64     = '8EF78DB367222E0FA5AEB644702D48C3D62E7A995BAB2067DFDD9DB7939CC5F7'
+$checksumType   = 'sha256'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
