@@ -2,8 +2,8 @@
 
 $packageName    = 'monosnap'
 $installerType  = 'msi'
-$url            = 'https://static.monosnap.com/windows/Monosnap.4.0.8.msi?web'
-$checksum       = '8392CB3D37C52A5D1AD9BB99EBC580134428AFEB123607296AB0B0D6C15139DA'
+$url            = 'https://static.monosnap.com/windows/Monosnap.4.0.9.msi?web'
+$checksum       = '62B0B44F88A76A2C1997C538A6BCE7F6ED1AFA002FABE4EC0386D81134027862'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = '/quiet'
 $validExitCodes = @(0)
