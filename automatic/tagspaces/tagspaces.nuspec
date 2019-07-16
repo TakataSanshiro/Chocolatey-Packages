@@ -25,7 +25,7 @@
     <bugTrackerUrl>https://github.com/tagspaces/tagspaces/issues</bugTrackerUrl>
     <tags>electron javascript note self-hosting</tags>
     <copyright>TagSpaces UG</copyright>
-    <licenseUrl>https://github.com/tagspaces/tagspaces/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/tagspaces/tagspaces/blob/develop/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/tagspaces/tagspaces@e2c2982a/data/assets/icons/512x512.png</iconUrl>
     <releaseNotes>https://github.com/tagspaces/tagspaces/releases</releaseNotes>
