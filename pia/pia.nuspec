@@ -3,7 +3,7 @@
   <metadata>
     <id>pia</id>
     <title>Private Internet Access</title>
-    <version>132.0</version>
+    <version>133.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pia</packageSourceUrl>
     <authors>London Trust Media, Inc.</authors>
     <owners>Sanshiro</owners>

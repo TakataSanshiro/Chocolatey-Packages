@@ -2,11 +2,11 @@
 
 $packageName    = 'pia'
 $installerType  = 'exe'
-$url            = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-1.3.2-02865.exe'
-$checksum       = '220a2d27b24e255a94ac22a7e57d8d91777e6d095b4ce6b520bce9be12a61d6c'
+$url            = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-1.3.3-02880.exe'
+$checksum       = '034E93989E93EF6CC658ED5E9D9FACE7A5C312003181C56C9CDD53F6C05F10F7'
 $checksumType   = 'sha256'
-$url64          = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.2-02865.exe'
-$checksum64     = 'a6ec87b263baeafa64ff2a9f8ca63fead3fed4f9489dcf8972392ce91ebf66c2'
+$url64          = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.3-02880.exe'
+$checksum64     = 'E70A38C0B489CB6475943F88EC7C895DD6235A43BD31828C115AAB85E3C57B2B'
 $checksumType64 = 'sha256'
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $silentArgs     = ''
