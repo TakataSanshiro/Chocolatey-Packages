@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'registrychangesview'
-$url = 'https://www.nirsoft.net/utils/registrychangesview.zip' 
-$url64 = 'https://www.nirsoft.net/utils/registrychangesview-x64.zip' 
-$checksum = '54A75493EA571E676E1BDDFBC4B8F34F51DAAB84C765A7E4E2938624EACFCFA8'
-$checksum64 = '43BBDAC0F7A39BA41157AAB6DEF5C86C381F2287610117A5A0955F350CA5DF2F'
-$checksumType = 'sha256'
+$packageName    = 'registrychangesview'
+$url            = 'https://www.nirsoft.net/utils/registrychangesview.zip' 
+$url64          = 'https://www.nirsoft.net/utils/registrychangesview-x64.zip' 
+$checksum       = '39A361D63ABF877BC5774B0E3EE1FB39E2EBB827AC8A731058DA21899D71ED75'
+$checksum64     = 'CAA1573AE066D1B1882D7B94F3AB648A18752474F272F0DABF902E9DF9155A46'
+$checksumType   = 'sha256'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

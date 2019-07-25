@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>registrychangesview</id>
-    <version>1.15</version>
+    <version>1.20</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/registrychangesview</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>RegistryChangesView</title>
