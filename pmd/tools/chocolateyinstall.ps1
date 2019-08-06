@@ -6,8 +6,8 @@ $cpd_bin  = Join-Path $pmd_home 'bin/cpd.bat'
  
 Install-ChocolateyZipPackage `
     -PackageName 'pmd' `
-    -Url 'https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.16.0/pmd-bin-6.16.0.zip' `
-    -Checksum 'C2785FCDF8B5DEAB2921AA2B60699E265264EE7A60F61002271A751E9D878F24' `
+    -Url 'https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.17.0/pmd-bin-6.17.0.zip' `
+    -Checksum 'B636989467AE1F9D72269D3FF54B20F42B59C43C096908134C5EB78C7E7DF467' `
     -ChecksumType 'SHA256'`
     -UnzipLocation $package `
  
