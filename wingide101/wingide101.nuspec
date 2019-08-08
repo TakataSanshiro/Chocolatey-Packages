@@ -3,7 +3,7 @@
   <metadata>
     <id>wingide101</id>
     <title>Wing 101 Python IDE</title>
-    <version>7.0.3</version>
+    <version>7.1.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wingide101</packageSourceUrl>
     <authors>Wingware</authors>
     <owners>Sanshiro</owners>
@@ -14,7 +14,7 @@ Wing 101 is free to use for any purpose and does not require a license to run.
     </description>
     <projectUrl>https://wingware.com/</projectUrl>
     <tags>admin python ide programming debugging</tags>
-    <copyright>© 1999-2017 Wingware</copyright>
+    <copyright>© 1999-2019 Wingware</copyright>
     <licenseUrl>https://wingware.com/store/purchase</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@538fcfac/wingide/icon.png</iconUrl>
