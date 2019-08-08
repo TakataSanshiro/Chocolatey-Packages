@@ -3,7 +3,7 @@
   <metadata>
     <id>blackbird</id>
     <title>Blackbird</title>
-    <version>1.0.75</version>
+    <version>1.0.78</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/blackbird</packageSourceUrl>
     <authors>getblackbird.net</authors>
     <owners>Sanshiro</owners>
