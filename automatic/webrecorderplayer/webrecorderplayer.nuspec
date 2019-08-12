@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>webrecorderplayer</id>
+    <title>Webrecorder Player</title>
+    <version>1.7.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/webrecorderplayer</packageSourceUrl>
+    <authors>rhizome</authors>
+    <owners>Sanshiro</owners>
+    <summary>Webrecorder Player is a desktop application for viewing high-fidelity web archives on your local machine, no internet connection required. Webrecorder Player is available for download for OSX, Windows and Linux (experimental).</summary>
+    <description>
+## Usage
+Download the latest version for your platform. On OSX, you can move the extracted Webrecorder Player app into your Applications directory.
+Start the application. (Note: At this time, Webrecorder Player is not yet signed through official app store, so you may have to accept launching unsigned apps).
+Click Load Web Archive to select a web archive file and start browsing.
+
+## What are Web Archives?
+A web archive is a record of web resources. It may include HTML and images, scripts, stylesheets, as well as video, audio and other elements that web pages and web apps are made of, all in one file.
+Webrecorder Player currently supports browsing web archives in the following formats:
+    </description>
+    <projectUrl>https://webrecorder.io/</projectUrl>
+    <projectSourceUrl>https://github.com/webrecorder/webrecorderplayer-electron</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/webrecorder/webrecorderplayer-electron/issues</bugTrackerUrl>
+    <tags>web-recorder web-archiving snapshot electron portable</tags>
+    <copyright>rhizome</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f5755873/webrecorderplayer/icon.png</iconUrl>
+    <releaseNotes>https://github.com/webrecorder/webrecorderplayer-electron/releases/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
