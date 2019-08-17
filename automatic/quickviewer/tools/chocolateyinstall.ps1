@@ -2,7 +2,6 @@
 
 $packageArgs = @{
   packageName    = 'quickviewer'
-  installerType  = 'exe'
   url            = 'https://github.com/kanryu/quickviewer/releases/download/v1.1.6/QuickViewer-portable-1.1.6-x86.zip'
   url64          = 'https://github.com/kanryu/quickviewer/releases/download/v1.1.6/QuickViewer-portable-1.1.6-x64.zip' 
   checksum       = 'a415cf4d27e22a544a2ae8b4a781dfc50bd37aa6d8b6e769997a4f938d3775e9'
