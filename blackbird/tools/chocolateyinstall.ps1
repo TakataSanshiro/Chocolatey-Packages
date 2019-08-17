@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName    = 'blackbird'
-$url            = 'https://www.getblackbird.net/download/Blackbird_v1.0.78_x32.zip' 
-$url64          = 'https://www.getblackbird.net/download/Blackbird_v1.0.78_x64.zip'
-$checksum       = '3943CBA373A690847EFF6121CF11BC8DB7A09A9E3170656D1A5F6795741607F9'
-$checksum64     = 'BB6482BA1B5A5574D98B448863F2868D65D6AB350A6AAC31B4B5BDBE18883204'
+$url            = 'https://www.getblackbird.net/download/Blackbird_v1.0.79_x32.zip' 
+$url64          = 'https://www.getblackbird.net/download/Blackbird_v1.0.79_x64.zip'
+$checksum       = '8FE4BEAB55A8992943EB7F7A50AE1B7618BBB88722729ED31367B099C8389189'
+$checksum64     = 'F45D983D4084FC203253357B4E9C2B9083A83E05FB9ACE7B932808D2EA94B344'
 $checksumType   = 'sha256'
 $checksumType64 = 'sha256'
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
