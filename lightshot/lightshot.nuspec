@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>lightshot</id>
-    <version>5.4.0.36</version>
+    <version>5.5.0.4</version>
     <title>Lightshot</title>
     <authors>Skillbrains</authors>
     <owners>Sanshiro</owners>
@@ -24,7 +24,7 @@
     <summary>The fastest way to take a customizable screenshot</summary>
     <tags>admin lightshot.install lightshot screen screenshot print save capture</tags>
     <dependencies>
-      <dependency id="lightshot.install" version="5.4.0.36" />
+      <dependency id="lightshot.install" version="5.5.0.4" />
     </dependencies>
   </metadata>
 </package>
