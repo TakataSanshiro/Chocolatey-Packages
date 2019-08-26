@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'tinc'
   installerType  = 'exe'
-  url            = 'https://www.tinc-vpn.org/packages/windows/tinc-1.0.35-install.exe'
-  checksum       = '0f8b6d9129d0f8e4603b4e96be70d6ba518bb2e2e6c695d6bb83e92d80d8c685'
+  url            = 'https://www.tinc-vpn.org/packages/windows/tinc-1.0.36-install.exe'
+  checksum       = '513b2afb0f391f36184779ff998ed2b1ac306dd6ac9b8a5f180e65a19b79fdc4'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
