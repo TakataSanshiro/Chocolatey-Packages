@@ -22,10 +22,10 @@
     </description>
     <projectUrl>http://ugetdm.com/</projectUrl>
     <tags>portable cli download manager</tags>
-    <copyright>Copyright © 2003-2017 uGetdm.com</copyright>
+    <copyright>Copyright © uGetdm.com</copyright>
     <licenseUrl>https://sourceforge.net/directory/license:lgpl/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/66add252/uget/uget.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@66add252/uget/uget.png</iconUrl>
     <releaseNotes>http://ugetdm.com/</releaseNotes>
 	</metadata>
   <files>
