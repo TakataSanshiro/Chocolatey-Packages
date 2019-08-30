@@ -3,7 +3,7 @@
   <metadata>
     <id>kpcli</id>
     <title>kpcli</title>
-    <version>3.2</version>
+    <version>3.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/kpcli</packageSourceUrl>
     <authors>Lester Hightower</authors>
     <owners>Sanshiro</owners>
