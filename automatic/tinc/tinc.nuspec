@@ -3,7 +3,7 @@
   <metadata>
     <id>tinc</id>
     <title>tinc</title>
-    <version>1.0.36</version>
+    <version>1.0.36.20190831</version>
     <authors>Guus Sliepen</authors>
     <owners>Sanshiro</owners>
     <summary>Tinc is a Virtual Private Network (VPN) daemon.</summary>
