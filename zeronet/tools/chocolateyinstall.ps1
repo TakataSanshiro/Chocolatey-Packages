@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName  = 'zeronet'
-$url          = 'https://github.com/HelloZeroNet/ZeroNet-win/archive/dist/ZeroNet-win.zip' 
-$checksum     = '11AA3D06CF09F57EB1DE1B15763D0A10773CDF77FE8E8F21C780053A345146CC'
+$url          = 'https://github.com/HelloZeroNet/ZeroNet-win/archive/dist-win64/ZeroNet-py3-win64.zip' 
+$checksum     = 'E0B159740B42C05DE96FD8F557C52124B50F66F9E6E142872D9FAEF61556F207'
 $checksumType = 'sha256'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
