@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gitg</id>
+    <title>gitg</title>
+    <version>3.32.1</version>
+    <authors>Jesse Van Den Kieboom, Ignacio Casal Quintero, Paolo Borelli</authors>
+    <owners>DUVERGIER Claude, Sanshiro</owners>
+    <licenseUrl>https://git.gnome.org/browse/gitg/tree/COPYING</licenseUrl>
+    <projectUrl>https://wiki.gnome.org/Apps/Gitg</projectUrl>
+    <projectSourceUrl>https://gitlab.gnome.org/GNOME/gitg/</projectSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>gitg is a graphical user interface for git. It aims at being a small, fast and convenient tool to visualize the history of git repositories. Besides visualization, gitg also provides several utilities to manage your repository and commit your work.</description>
+    <summary>gitg is a graphical user interface for git. 64bit binary.</summary>
+    <copyright>GNOME</copyright>
+    <tags>admin git vcs dvcs</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/gitg</packageSourceUrl>
+    <mailingListUrl>http://mail.gnome.org/mailman/listinfo/gitg-list</mailingListUrl>
+    <bugTrackerUrl>https://bugzilla.gnome.org/browse.cgi?product=gitg</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
