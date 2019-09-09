@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>onlyoffice</id>
+    <version>5.3.5</version>
+    <title>ONLYOFFICE (Install)</title>
+    <authors>Ascensio System SIA</authors>
+    <owners>dimqua, Akipe, Sanshiro</owners>
+    <licenseUrl>https://github.com/ONLYOFFICE/DesktopEditors/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://www.onlyoffice.com/</projectUrl>
+    <projectSourceUrl>https://github.com/ONLYOFFICE/DesktopEditors</projectSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/Akipe/chocolatey-packages@d902e27e/icons/onlyoffice/onlyoffice.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ONLYOFFICE is a project developed by experienced IT experts from Ascensio System SIA, leading IT company with headquarters in Riga, Latvia. Originally ONLYOFFICE was designed for internal team collaboration. An attempt to introduce it to a wider audience proved to be successful: ONLYOFFICE received very positive feedback from the Internet community. As a result, its functionality was considerably revised and expanded that brought about a high and stable growth of users from different countries.
+    
+    Free ONLYOFFICE Desktop Editors
+    ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/da4392e4/icons/onlyoffice/onlyoffice-screenshot.png)</description>
+    <summary>ONLYOFFICE Desktop Editors is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.</summary>
+    <releaseNotes>https://github.com/ONLYOFFICE/DesktopEditors/releases/latest</releaseNotes>
+    <tags>admin onlyoffice office suite open-source</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/onlyoffice</packageSourceUrl>
+    <docsUrl>https://helpcenter.onlyoffice.com/desktop/documents/index.aspx</docsUrl>
+    <bugTrackerUrl>https://github.com/ONLYOFFICE/DesktopEditors/issues</bugTrackerUrl>
+  </metadata>
+</package>
