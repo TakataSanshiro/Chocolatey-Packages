@@ -3,7 +3,7 @@
   <metadata>
     <id>magicavoxel</id>
     <title>MagicaVoxel</title>
-    <version>0.99.4.20190605</version>
+    <version>0.99.4.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/magicavoxel</packageSourceUrl>
     <authors>ephtracy</authors>
     <owners>Sanshiro</owners>
@@ -17,8 +17,8 @@
     </description>
     <projectUrl>https://ephtracy.github.io/</projectUrl>
     <projectSourceUrl>https://ephtracy.github.io/</projectSourceUrl>
-    <tags>voxel 3dcg</tags>
-    <copyright>Copyright © ephtracy 2013-2017</copyright>
+    <tags>voxel 3d modeling</tags>
+    <copyright>Copyright © ephtracy</copyright>
     <licenseUrl>https://ephtracy.github.io/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@83e52150/magicavoxel/icon.png</iconUrl>
