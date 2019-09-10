@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gitg.install</id>
+    <version>3.32.1</version>
+    <title>[Deprecated] gitg (Install) </title>
+    <authors>Jesse Van Den Kieboom, Ignacio Casal Quintero, Paolo Borelli</authors>
+    <owners>DUVERGIER Claude, Sanshiro</owners>
+    <licenseUrl>https://git.gnome.org/browse/gitg/tree/COPYING</licenseUrl>
+    <projectUrl>https://wiki.gnome.org/Apps/Gitg</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>gitg is a graphical user interface for git. It aims at being a small, fast and convenient tool to visualize the history of git repositories. Besides visualization, gitg also provides several utilities to manage your repository and commit your work.</description>
+    <summary>gitg is a graphical user interface for git.</summary>
+    <copyright>GNOME</copyright>
+    <tags>deprecated</tags>
+    <projectSourceUrl>http://git.gnome.org/browse/gitg/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/gitg.install</packageSourceUrl>
+    <mailingListUrl>http://mail.gnome.org/mailman/listinfo/gitg-list</mailingListUrl>
+    <bugTrackerUrl>https://bugzilla.gnome.org/browse.cgi?product=gitg</bugTrackerUrl>
+    <dependencies>
+      <dependency id="gitg" />
+    </dependencies>
+  </metadata>
+</package>
