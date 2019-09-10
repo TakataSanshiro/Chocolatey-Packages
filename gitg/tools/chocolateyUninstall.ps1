@@ -1,4 +1,3 @@
-# MSI-uninstallation code from https://groups.google.com/forum/#!searchin/chocolatey/Get-WmiObject|sort:relevance/chocolatey/aQAAh21a6uM/vEzbX1OSrXQJ
 $packageWildCard = 'gitg'
 
 $packageUninstallArgsTemplate = @{
