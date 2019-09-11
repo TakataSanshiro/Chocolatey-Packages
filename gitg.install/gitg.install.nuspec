@@ -9,7 +9,7 @@
     <licenseUrl>https://git.gnome.org/browse/gitg/tree/COPYING</licenseUrl>
     <projectUrl>https://wiki.gnome.org/Apps/Gitg</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>gitg is a graphical user interface for git. It aims at being a small, fast and convenient tool to visualize the history of git repositories. Besides visualization, gitg also provides several utilities to manage your repository and commit your work.</description>
+    <description>gitg replaced gitg.install. The gitg portable version is not available.</description>
     <summary>gitg is a graphical user interface for git.</summary>
     <copyright>GNOME</copyright>
     <tags>deprecated</tags>
