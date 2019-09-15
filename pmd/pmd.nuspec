@@ -3,7 +3,7 @@
   <metadata>
     <id>pmd</id>
     <title>PMD</title>
-    <version>6.17.0.20190809</version>
+    <version>6.18.0</version>
     <authors>PMD</authors>
     <owners>Anthony Mastrean, Sanshiro</owners>
     <summary>PMD is a source code analyzer.</summary>
@@ -15,7 +15,7 @@ PMD is a source code analyzer. It finds common programming flaws like unused var
     <projectSourceUrl>https://github.com/pmd/pmd</projectSourceUrl>
     <bugTrackerUrl>https://github.com/pmd/pmd/issues</bugTrackerUrl>
     <docsUrl>https://pmd.github.io/</docsUrl>
-    <releaseNotes>https://pmd.github.io/pmd-6.17.0/pmd_release_notes.html</releaseNotes>
+    <releaseNotes>https://pmd.github.io/pmd-6.18.0/pmd_release_notes.html</releaseNotes>
     <mailingListUrl>https://pmd.github.io/#support</mailingListUrl>
     <tags>source code analyze lint</tags>
     <licenseUrl>https://github.com/pmd/pmd/blob/6d4e902a2a36df937bb445a53223485a2e16e473/LICENSE</licenseUrl>
