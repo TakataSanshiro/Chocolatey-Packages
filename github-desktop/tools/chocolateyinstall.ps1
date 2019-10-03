@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'github-desktop'
   installerType  = 'exe'
-  url            = 'https://desktop.githubusercontent.com/releases/2.1.3-ed83ffb7/GitHubDesktopSetup.exe'
-  checksum       = '823ABCAF8DD1ED32C47EDC30875BB2370D4285CB3123F3E832CCD872B494FA14'
+  url            = 'https://desktop.githubusercontent.com/releases/2.2.0-2beb5d52/GitHubDesktopSetup.exe'
+  checksum       = '9907B6AFF6B2B72DCE83FD1B44FAA6F40E735222E65C7570BF6D609E395C84F5'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
