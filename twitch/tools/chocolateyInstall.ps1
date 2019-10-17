@@ -1,11 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'twitch'
-$installerType = 'exe'
-$url = 'https://desktop.twitchsvc.net/installer/windows/TwitchSetup.exe'
-$silentArgs = '/silent'
-$validExitCodes = @(0, 1638)
-
 if (-not $env:ChocolateyForce) {
   try {
     $TwitchExeHandler = Get-ItemPropertyValue -Path "Microsoft.PowerShell.Core\Registry::HKEY_CLASSES_ROOT\twitch\shell\open\command"-Name "(default)"
@@ -22,4 +16,14 @@ if (-not $env:ChocolateyForce) {
   }
 }
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum 8E6EA6E9B53D2A2C7DD6B3A17DAB0D42145A189F0C32F6C50D9754E2523DA900 -ChecksumType sha256
+$packageArgs = @{
+  packageName    = 'twitch'
+  installerType  = 'exe'
+  url            = 'https://desktop.twitchsvc.net/installer/windows/TwitchSetup.exe'
+  checksum       = '0345f2851b862388b83e054ca5084a92f170ef7c8fa41282cdd7102b6653499c'
+  checksumType   = 'sha256'
+  silentArgs     = '/silent'
+  validExitCodes = @(0, 1638)
+  softwareName   = 'Twitch'
+}
+Install-ChocolateyPackage @packageArgs

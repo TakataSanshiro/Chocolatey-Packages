@@ -3,7 +3,7 @@
   <metadata>
     <id>twitch</id>
     <title>Twitch Desktop App</title>
-    <version>7.5.6746.20190803</version>
+    <version>8.0.0.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/twitch</packageSourceUrl>
     <authors>Twitch Interactive, Inc.</authors>
     <owners>Sanshiro</owners>
@@ -17,10 +17,10 @@
     </description>
     <projectUrl>https://app.twitch.tv/download</projectUrl>
     <tags>admin game streaming</tags>
-    <copyright>© 2017 Twitch Interactive, Inc. </copyright>
+    <copyright>© Twitch Interactive, Inc. </copyright>
     <licenseUrl>https://www.twitch.tv/p/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/twitch/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/twitch/icon.png</iconUrl>
     <releaseNotes>https://blog.twitch.tv/search?q=release</releaseNotes>
   </metadata>
   <files>
