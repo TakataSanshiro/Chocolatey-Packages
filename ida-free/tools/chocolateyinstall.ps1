@@ -1,18 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'ida-free'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://out7.hex-rays.com/files/idafree70_windows.exe'
-
 $packageArgs = @{
-  packageName   = $packageName
-  fileType      = 'exe'
-  url           = $url
-  silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-  softwareName  = '*idafree*'
-  checksum      = '4C96E3AE2B33D5D69F338E332B548410252A89092A0305335705BE650162C3CE'
-  checksumType  = 'sha256'
+  packageName    = 'ida-free'
+  fileType       = 'exe'
+  url            = 'https://out7.hex-rays.com/files/idafree70_windows.exe'
+  silentArgs     = "--unattendedmodeui minimal --mode unattended --installpassword freeware"
+  softwareName   = '*idafree*'
+  checksum       = '64C4073CA57DC612963413C337FD7F802BF812E01E655D0F4F33827342F7A772'
+  checksumType   = 'sha256'
   validExitCodes = @(0, 3010, 1641)
+  toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
-
 Install-ChocolateyPackage @packageArgs
