@@ -1,20 +1,14 @@
-﻿$packageName    = 'mamp'
-$installerType  = 'exe'
-$url            = 'https://downloads.mamp.info/MAMP-PRO-WINDOWS/releases/4.1/MAMP_MAMP_PRO_4.1.exe'
-$checksum       = '5AF38B47A42484E907B995D9FC05F579E6A22A896D4BEAAEABDC441ACDA54F22'
-$toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0)
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $packageName
-  fileType      = $installerType
-  url           = $url
-  silentArgs    = $silentArgs
-  validExitCodes= $validExitCodes
-  softwareName  = 'MAMP*'
-  checksum      = $checksum
-  checksumType  = 'sha256'
+  packageName    = 'mamp'
+  fileType       = 'exe'
+  url            = 'https://downloads.mamp.info/MAMP-PRO-WINDOWS/releases/4.1.1/MAMP_MAMP_PRO_4.1.1.exe'
+  silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  validExitCodes = @(0)
+  softwareName   = 'MAMP*'
+  checksum       = 'e16b9b98e5bd72329c9587ccdcb67e9f9b309161f41d002645ba18a06c892ea6'
+  checksumType   = 'sha256'
+  toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
-
 Install-ChocolateyPackage @packageArgs
