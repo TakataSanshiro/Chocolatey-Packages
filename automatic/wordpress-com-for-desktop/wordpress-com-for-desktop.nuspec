@@ -3,7 +3,7 @@
   <metadata>
     <id>wordpress-com-for-desktop</id>
     <title>WordPress.com Desktop</title>
-    <version>4.3.0</version>
+    <version>4.4.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wordpress-com-for-desktop</packageSourceUrl>
     <authors>Automattic Inc.</authors>
     <owners>Sanshiro</owners>
