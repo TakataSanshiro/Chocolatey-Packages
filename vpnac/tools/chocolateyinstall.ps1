@@ -1,22 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName    = 'vpnac'
-$installerType  = 'exe'
-$url            = 'https://vpn.ac/download/vpn.ac-setup.exe'
-$checksum       = 'D41664960F66169F90985E2950DE032D8387CAACCE106C510324F037F70FCA3D'
-$toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0)
-
 $packageArgs = @{
-  packageName   = $packageName
-  fileType      = $installerType
-  url           = $url
-  silentArgs    = $silentArgs
-  validExitCodes= $validExitCodes
+  packageName   = 'vpnac'
+  fileType      = 'exe'
+  url           = 'https://vpn.ac/download/vpn.ac-setup.exe'
+  silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  validExitCodes= @(0)
   softwareName  = 'vpnac*'
-  checksum      = $checksum
+  checksum      = 'D731ABC1C052D6C1B7DDE814F007DDEB1A6A2141DD561DB753C32E95A28AB708'
   checksumType  = 'sha256'
+  toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
-
 Install-ChocolateyPackage @packageArgs

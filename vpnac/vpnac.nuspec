@@ -3,7 +3,7 @@
   <metadata>
     <id>vpnac</id>
     <title>VPN.ac</title>
-    <version>4.1.4</version>
+    <version>4.1.5</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/vpnac</packageSourceUrl>
     <authors>vpn.ac</authors>
     <owners>Sanshiro</owners>
@@ -26,7 +26,7 @@ This offers you the option to use OpenVPN.
     </description>
     <projectUrl>https://vpn.ac/</projectUrl>
     <tags>admin vpn security privacy multi-platform</tags>
-    <copyright>Copyright 2018 vpn.ac</copyright>
+    <copyright>Copyright vpn.ac</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
