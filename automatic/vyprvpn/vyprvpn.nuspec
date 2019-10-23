@@ -3,8 +3,8 @@
   <metadata>
     <id>vyprvpn</id>
     <title>VyprVPN</title>
-    <version>2.16.4.9212</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/vyprvpn</packageSourceUrl>
+    <version>3.0.0.9646</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/vyprvpn</packageSourceUrl>
     <authors>Golden Frog</authors>
     <owners>Sanshiro</owners>
     <summary>Achieve a Private, Secure and Open Internet with a VPN</summary>
@@ -16,7 +16,7 @@
     </description>
     <projectUrl>https://www.goldenfrog.com/vyprvpn</projectUrl>
     <tags>admin vpn security privacy multi-platform</tags>
-    <copyright>Copyright © 2018 Golden Frog, GmbH All rights reserved. Switzerland</copyright>
+    <copyright>Copyright © Golden Frog, GmbH All rights reserved. Switzerland</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@ea868b51/vyprvpn/vyprvpn.png</iconUrl>
     <dependencies>
