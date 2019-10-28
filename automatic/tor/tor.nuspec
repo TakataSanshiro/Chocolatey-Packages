@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tor</id>
-    <version>0.4.1.5</version>
+    <version>0.4.1.6</version>
     <title>Tor</title>
     <authors>Tor Project</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -30,7 +30,7 @@ This package provides a command-line interface for creating Tor clients and conf
     <copyright>© The Tor Project, Inc.</copyright>
     <tags>tor relay privacy anonymity security onion network service cli</tags>
     <projectSourceUrl>https://gitweb.torproject.org/tor.git/tree/</projectSourceUrl>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/tor</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tor</packageSourceUrl>
     <docsUrl>https://www.torproject.org/docs/tor-manual.html#content</docsUrl>
     <mailingListUrl>https://www.torproject.org/docs/documentation.html#MailingLists</mailingListUrl>
     <bugTrackerUrl>https://trac.torproject.org/projects/tor</bugTrackerUrl>
