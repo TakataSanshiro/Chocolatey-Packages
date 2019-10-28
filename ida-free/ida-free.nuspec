@@ -28,6 +28,9 @@ The freeware version of IDA v7.0 has the following limitations:
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@0b281fe3/ida-free/icon.png</iconUrl>
     <releaseNotes>https://www.hex-rays.com/products/ida/news.shtml</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
