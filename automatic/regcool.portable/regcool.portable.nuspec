@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>regcool.portable</id>
     <title>RegCool (Portable)</title>
-    <version>1.106</version>
+    <version>1.111</version>
     <authors>Kurt Zimmermann</authors>
     <owners>Sanshiro</owners>
     <summary>RegCool - Advanced Registry-Editor</summary>
@@ -22,7 +22,7 @@
 * Secure registry keys
     </description>
     <projectUrl>https://kurtzimmermann.com/regcoolext_en.html</projectUrl>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/regcool.portable</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/regcool.portable</packageSourceUrl>
     <tags>registry portable</tags>
     <copyright>Kurt Zimmermann</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
