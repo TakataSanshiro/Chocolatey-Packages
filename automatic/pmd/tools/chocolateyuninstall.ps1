@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $id       = "pmd"
-
 $tools    = Split-Path $MyInvocation.MyCommand.Definition
 $content  = Split-Path $tools
 $pmd_home = Join-Path $content "pmd-bin-6.19.0"
