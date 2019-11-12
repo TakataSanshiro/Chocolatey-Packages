@@ -1,26 +1,15 @@
-﻿$ErrorActionPreference = 'Stop'; 
-# Thanks. https://github.com/kevnord/CharlesChocolateyPackage/tree/master/Source
-
-$packageName= 'charles4' 
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.charlesproxy.com/assets/release/4.2.8/charles-proxy-4.2.8-win32.msi'
-$url64bit   = 'https://www.charlesproxy.com/assets/release/4.2.8/charles-proxy-4.2.8-win64.msi'
+﻿# Thanks. https://github.com/kevnord/CharlesChocolateyPackage/tree/master/Source
+$ErrorActionPreference = 'Stop'; 
 
 $packageArgs = @{
-  packageName   = $packageName
-  unzipLocation = $toolsDir
-  fileType      = 'msi' 
-  url           = $url
-  url64bit      = $url64bit
-
-  silentArgs   = '/qb' 
-  validExitCodes= @(0) 
-
-  softwareName  = 'Charles' 
-  checksum      = 'FDFEC8E011170F970C4D7104B7E3D8FB5CDE2AA47E344BF4D35FEB2F785937D8'
-  checksumType  = 'sha256'
-  checksum64    = '448FB0B76A0ECCD93580C986F77D5621C7CA7B2E138588436DC30DE67436308E'
-  checksumType64= 'sha256' 
+  packageName    = 'charles4'
+  fileType       = 'msi' 
+  url            = 'https://www.charlesproxy.com/assets/release/4.5.4/charles-proxy-4.5.4-win64.msi'
+  silentArgs     = '/qb' 
+  validExitCodes = @(0) 
+  softwareName   = 'Charles'
+  checksum       = '695f4880e7090ac49f48df573c8ce3f8e60104b198c1df69195404860d8e8a9a'
+  checksumType   = 'sha256'
+  toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
-
 Install-ChocolateyPackage @packageArgs

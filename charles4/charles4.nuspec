@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>charles4</id>
     <title>Charles Web Debugging Proxy Application</title>
-    <version>4.2.8.20190512</version>
+    <version>4.5.4</version>
     <authors>Charles</authors>
     <owners>Sanshiro</owners>
     <summary>Charles Web Debugging Proxy Application</summary>
@@ -14,11 +13,11 @@ Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer
 Charles 4 was a major update to Charles 3, and it is a paid upgrade. Please download a trial of Charles 4; we think you're going to love it! If you would like to continue using Charles 4, you will need to purchase a license upgrade.
 </description>
     <projectUrl>https://www.charlesproxy.com/</projectUrl>
-    <tags>charles web debugging proxy admin trial</tags>
+    <tags>web debugging proxy admin trial</tags>
     <licenseUrl>https://www.charlesproxy.com/buy/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>XK72 Limited</copyright>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/550aec5b/icons/charles.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@550aec5b/icons/charles.png</iconUrl>
     <releaseNotes>https://www.charlesproxy.com/documentation/version-history/</releaseNotes>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/charles4</packageSourceUrl>
   </metadata>
