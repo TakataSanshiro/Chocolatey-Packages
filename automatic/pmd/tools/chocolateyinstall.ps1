@@ -1,5 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 
+﻿$tools    = Split-Path $MyInvocation.MyCommand.Definition
+$package  = Split-Path $tools
+$pmd_home = Join-path $package 'pmd-bin-6.19.0'
+$pmd_bin  = Join-Path $pmd_home 'bin/pmd.bat'
+$cpd_bin  = Join-Path $pmd_home 'bin/cpd.bat'
+
 $packageArgs = @{
   packageName    = 'pmd'
   url            = 'https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.19.0/pmd-bin-6.19.0.zip'
@@ -9,11 +15,6 @@ $packageArgs = @{
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
 Install-ChocolateyZipPackage @packageArgs
-
-$package  = Split-Path $unzipLocation
-$pmd_home = Join-path $package 'pmd-bin-6.19.0'
-$pmd_bin  = Join-Path $pmd_home 'bin/pmd.bat'
-$cpd_bin  = Join-Path $pmd_home 'bin/cpd.bat'
 
 Install-ChocolateyEnvironmentVariable `
     -VariableName 'PMD_HOME' `
