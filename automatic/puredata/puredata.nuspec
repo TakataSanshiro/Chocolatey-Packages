@@ -4,7 +4,7 @@
     <id>puredata</id>
     <title>Pure Data</title>
     <version>0.50.0</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/puredata</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/puredata</packageSourceUrl>
     <authors>Miller Puckette</authors>
     <owners>Sanshiro</owners>
     <summary>Pd (aka Pure Data) is a real-time graphical programming environment for audio, video, and graphical processing.</summary>
