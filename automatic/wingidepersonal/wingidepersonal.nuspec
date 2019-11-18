@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wingidepersonal</id>
+    <title>Wing Personal Python IDE</title>
+    <version>7.1.3</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wingidepersonal</packageSourceUrl>
+    <authors>Wingware</authors>
+    <owners>Sanshiro</owners>
+    <summary>Wing Personal is a free Python IDE designed for students and hobbyists. </summary>
+    <description>
+It omits many features found in Wing Pro. Compare Products.
+Wing Personal is free to use for any purpose and does not require a license to run. 
+    </description>
+    <projectUrl>https://wingware.com/</projectUrl>
+    <tags>admin python ide programming debugging</tags>
+    <copyright>© 1999-2019 Wingware</copyright>
+    <licenseUrl>https://wingware.com/store/purchase</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@538fcfac/wingide/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
