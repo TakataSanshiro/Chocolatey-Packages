@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>pia</id>
     <title>Private Internet Access</title>
-    <version>151.0</version>
+    <version>160.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/pia</packageSourceUrl>
     <authors>London Trust Media, Inc.</authors>
     <owners>Sanshiro</owners>
