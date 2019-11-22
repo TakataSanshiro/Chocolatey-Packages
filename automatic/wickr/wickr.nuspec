@@ -3,8 +3,8 @@
   <metadata>
     <id>wickr</id>
     <title>Wickr Me</title>
-    <version>5.40.11</version>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wickr</packageSourceUrl>
+    <version>5.41.14</version>
+	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wickr</packageSourceUrl>
     <authors>Wickr Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>Wickr is a free end-to-end encrypted text, video, picture and voice messenger with full sender control. </summary>
@@ -22,13 +22,13 @@ Anonymous – Your Wickr ID is anonymous to us and anyone outside your Wickr net
 Your conversations can not be tracked, intercepted or monitored.
 Groups – Communicate with groups of up to 10 contacts
 Fun – Add stickers, graffiti and photo filters
-	</description>
+	  </description>
     <projectUrl>https://www.wickr.com/personal</projectUrl>
     <tags>admin secure messanger chat end-to-end encryption filesharing selfdestructingmessages</tags>
     <copyright>© Wickr Inc.</copyright>
     <licenseUrl>https://www.wickr.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f4ec0961/wickr/icon.png</iconUrl>
+	  <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f4ec0961/wickr/icon.png</iconUrl>
     <releaseNotes>https://wickr.com/personal/wickr-messenger-release-notes</releaseNotes>
   </metadata>
   <files>
