@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tinywall</id>
+    <title>TinyWall</title>
+    <version>2.1.12</version>
+	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tinywall</packageSourceUrl>
+    <authors>Károly Pados</authors>
+    <owners>Sanshiro</owners>
+    <summary>A free, lightweight and non-intrusive firewall</summary>
+    <description>
+## Features
+TinyWall includes a combination of features that sets it apart from both commercial and freeware firewalls.
+TinyWall does not annoy you with popups at all, yet it is still extremely easy to add exceptions to your firewall rules.
+TinyWall actively blocks hundreds of trojans, viruses and worms.
+TinyWall does not require you to know about ports, protocols and application details.
+TinyWall prevents malicious programs from modifying the settings of Windows Firewall.
+TinyWall does not install drivers or other kernel components, is free and lightweight.
+
+NOTE: After installation TinyWall blocks most communication. To use the internet or network-enabled applications, select one of the "Whitelist by ..." options in the tray menu to unblock specific programs.
+
+Do not install TinyWall over a remote connection, or you will risk locking yourself out until TinyWall gets properly configured.
+	</description>
+    <projectUrl>https://tinywall.pados.hu/</projectUrl>
+    <tags>admin firewall software-firewall security</tags>
+    <copyright>Károly Pados</copyright>
+    <licenseUrl>https://tinywall.pados.hu/faq.php</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@92acaf11375e3abb6c55f8515cd8b6f4e15104a7/tinywall/icon.png</iconUrl>
+    <releaseNotes>https://tinywall.pados.hu/docs/whatsnew.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
