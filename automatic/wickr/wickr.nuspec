@@ -3,7 +3,7 @@
   <metadata>
     <id>wickr</id>
     <title>Wickr Me</title>
-    <version>5.41.14</version>
+    <version>5.42.15</version>
 	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wickr</packageSourceUrl>
     <authors>Wickr Inc.</authors>
     <owners>Sanshiro</owners>
