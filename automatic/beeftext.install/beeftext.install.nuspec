@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>beeftext.install</id>
+    <title>Beeftext (Install)</title>
+    <version>6.0</version>
+	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/beeftext.install</packageSourceUrl>
+    <projectSourceUrl>https://github.com/xmichelo/Beeftext</projectSourceUrl>
+    <authors>Xavier Michelon</authors>
+    <owners>Sanshiro</owners>
+    <summary>An open-source text substitution tool for Windows.</summary>
+    <description>
+Beeftext makes your typing life easier
+Are you tired of repeatedly typing the same text over and over again? 
+* The custom email signature you only use for your close friends.
+* The markdown snippet you use 5 times a day.
+* The text emoji you like so much (\/) (°,,,°) (\/).
+Beeftext is made for you. Beeftext allows you to define combos. A Combo associates a short word that you are unlikely to type in a normal situation (a keyword) with a piece of long or complex text you often need to type (a snippet). From now on, every time you type the keyword, in any text area of any application that support copy/paste (99.9% of them do), the combo is triggered and Beeftext automatically replaces the keyword by its associated snippet. Thanks to Unicode encoding, this text can be in any language, using any kind of characters, even exotic ones. 
+	  </description>
+    <projectUrl>https://beeftext.org/</projectUrl>
+    <tags>admin snippet</tags>
+    <copyright>© Xavier Michelon. All rights reserved</copyright>
+    <licenseUrl>https://github.com/xmichelo/Beeftext/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	  <iconUrl>https://cdn.jsdelivr.net/gh/xmichelo/Beeftext@ff223f4b6354113d587d0bbc50ffd04bce7bf0f3/Website/images/favicon.png</iconUrl>
+    <releaseNotes>https://github.com/xmichelo/Beeftext/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
