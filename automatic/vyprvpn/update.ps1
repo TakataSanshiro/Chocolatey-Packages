@@ -23,8 +23,4 @@ function global:au_GetLatest {
     }
 }
 
-try {
-    update
-} catch  {
-    if ($_ -match '404') { Write-Host "$_"; return 'ignore' }
-}
+update -ChecksumFor all

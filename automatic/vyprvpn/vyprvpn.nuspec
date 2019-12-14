@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>vyprvpn</id>
     <title>VyprVPN</title>
-    <version>3.0.0.9646</version>
+    <version>3.1.0.10143</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/vyprvpn</packageSourceUrl>
     <authors>Golden Frog</authors>
     <owners>Sanshiro</owners>
