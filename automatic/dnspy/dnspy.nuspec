@@ -3,7 +3,7 @@
   <metadata>
     <id>dnspy</id>
     <title>dnSpy</title>
-    <version>6.1.0</version>
+    <version>6.1.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dnspy</packageSourceUrl>
     <authors>0xd4d</authors>
     <owners>Sanshiro</owners>

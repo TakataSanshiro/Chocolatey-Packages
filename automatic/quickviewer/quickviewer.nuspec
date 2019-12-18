@@ -3,7 +3,7 @@
   <metadata>
     <id>quickviewer</id>
     <title>QuickViewer</title>
-    <version>1.1.7</version>
+    <version>1.1.8</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/quickviewer</packageSourceUrl>
     <authors>kanryu</authors>
     <owners>Sanshiro</owners>
