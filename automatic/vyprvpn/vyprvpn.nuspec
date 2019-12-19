@@ -21,6 +21,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@ea868b51/vyprvpn/vyprvpn.png</iconUrl>
     <dependencies>
       <dependency id="autohotkey.portable" />
+      <dependency id="vcredist140" />
     </dependencies>
   </metadata>
   <files>
