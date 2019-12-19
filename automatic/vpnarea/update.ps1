@@ -5,24 +5,21 @@ $url = 'https://vpnarea.com/VPNArea.exe'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            #  "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum)'"
+            #  "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
 
 function global:au_BeforeUpdate() {
-    $Latest.Checksum = Get-RemoteChecksum $Latest.URL
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL
 }
 
 function global:au_GetLatest {
-    $current_checksum = (gi .\tools\chocolateyInstall.ps1 | sls '\bchecksum\b') -split "=|'" | Select -Last 1 -Skip 1
+    $currentChecksum = (gi .\tools\chocolateyInstall.ps1 | sls '\bchecksum\b') -split "=|'" | Select -Last 1 -Skip 1
 
-    if ($current_checksum -ne $Latest.Checksum) {
+    if ($currentChecksum -ne $Latest.Checksum32) {
         Write-Host 'Remote checksum is different then the current one, forcing update'
-        
-        $global:au_old_force = $global:au_force
-        $global:au_force = $true
 
         Write-Host $url
  
@@ -32,6 +29,14 @@ function global:au_GetLatest {
         
         $version = (Get-Command $temp_file).Version
         Write-Host $version
+
+        $currentVersion = (gi .\vpnarea.nuspec | sls '\bversion\b')
+
+        if ($currentVersion -eq $version) {
+            Write-Host 'The version number has not changed, forcing update'
+            $global:au_old_force = $global:au_force
+            $global:au_force = $true
+        }
      }
 
     @{
@@ -40,4 +45,4 @@ function global:au_GetLatest {
     }
 }
 
-update -ChecksumFor none -NoCheckUrl
+update -ChecksumFor 32 -NoCheckUrl
