@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName    = 'tinywall'
   installerType  = 'msi'
   url            = 'https://tinywall.pados.hu/ccount/click.php?id=3'
-  checksum       = '85115eb9dd1f5b2a7d6c63dcc46f49f8554c63c7687331b4d348256e27f7587a'
+  checksum       = '2a2a6619ca06ee9a56fd9b5f9f17cb967465e99385af6487288164fc49897062'
   checksumType   = 'sha256'
   silentArgs     = '/qn /norestart'
   validExitCodes = @(0, 3010, 1641)
