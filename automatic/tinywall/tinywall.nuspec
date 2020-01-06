@@ -17,9 +17,12 @@ TinyWall does not require you to know about ports, protocols and application det
 TinyWall prevents malicious programs from modifying the settings of Windows Firewall.
 TinyWall does not install drivers or other kernel components, is free and lightweight.
 
+## Notes
 NOTE: After installation TinyWall blocks most communication. To use the internet or network-enabled applications, select one of the "Whitelist by ..." options in the tray menu to unblock specific programs.
 
 Do not install TinyWall over a remote connection, or you will risk locking yourself out until TinyWall gets properly configured.
+
+The upgrading and uninstalling are NOT silent.
 	</description>
     <projectUrl>https://tinywall.pados.hu/</projectUrl>
     <tags>admin firewall software-firewall security</tags>
