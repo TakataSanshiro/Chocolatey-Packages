@@ -28,7 +28,7 @@ FireAlpaca is the free paint tool that is available in 10 languages and compatib
     <copyright>Copyright © firealpaca.com All Rights Reserved.</copyright>
     <licenseUrl>https://firealpaca.com/download/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@06c63076/firealpaca/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/firealpaca/icon.png</iconUrl>
     <releaseNotes>https://firealpaca.com/download/</releaseNotes>
   </metadata>
   <files>

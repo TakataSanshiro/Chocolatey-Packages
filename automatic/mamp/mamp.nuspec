@@ -31,7 +31,7 @@ MAMP installs a local server environment in a matter of seconds on your computer
     <copyright>© Copyright appsolute GmbH</copyright>
     <licenseUrl>https://www.mamp.info/en/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@d7648cc5/icons/mamp.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/mamp/mamp.png</iconUrl>
     <dependencies>
       <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
     </dependencies>

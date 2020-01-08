@@ -14,7 +14,7 @@
     <copyright>0xd4d</copyright>
     <licenseUrl>https://raw.githubusercontent.com/0xd4d/dnSpy/master/dnSpy/dnSpy/LicenseInfo/GPLv3.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/saneki/chocolatey-packages/master/dnspy/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/saneki/chocolatey-packages@master/dnspy/icon.png</iconUrl>
     <dependencies>
       <dependency id="dotnet4.7.2" />
     </dependencies>

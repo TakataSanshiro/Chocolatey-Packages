@@ -7,7 +7,7 @@
     <title>Postbox</title>
     <authors>Postbox Inc</authors>
     <projectUrl>https://www.postbox-inc.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@2377748d/icons/postbox.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/postbox/postbox.png</iconUrl>
     <licenseUrl>https://www.postbox-inc.com/legal</licenseUrl>
     <projectSourceUrl>https://www.postbox-inc.com/coveredcode</projectSourceUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/postbox</packageSourceUrl>

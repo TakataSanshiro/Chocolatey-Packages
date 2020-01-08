@@ -20,7 +20,7 @@
     <copyright>Copyright © ephtracy</copyright>
     <licenseUrl>https://ephtracy.github.io/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@83e52150/magicavoxel/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/magicavoxel/icon.png</iconUrl>
     <releaseNotes>https://ephtracy.github.io/</releaseNotes>
   </metadata>
   <files>

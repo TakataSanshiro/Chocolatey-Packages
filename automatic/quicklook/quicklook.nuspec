@@ -32,7 +32,7 @@ You may ask, why you write this when there several alternatives available on the
     <copyright>QL-Win</copyright>
     <licenseUrl>https://github.com/QL-Win/QuickLook/blob/master/LICENSE-GPL.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e99a1acf/quicklook/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/quicklook/icon.png</iconUrl>
     <releaseNotes>https://github.com/QL-Win/QuickLook/releases</releaseNotes>
   </metadata>
   <files>

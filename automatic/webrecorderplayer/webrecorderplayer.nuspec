@@ -24,7 +24,7 @@ Webrecorder Player currently supports browsing web archives in the following for
     <tags>web-recorder web-archiving snapshot electron portable</tags>
     <copyright>rhizome</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f5755873/webrecorderplayer/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/webrecorderplayer/icon.png</iconUrl>
     <releaseNotes>https://github.com/webrecorder/webrecorderplayer-electron/releases/</releaseNotes>
   </metadata>
   <files>

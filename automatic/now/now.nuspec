@@ -27,7 +27,7 @@ It installs and maintains the command line program up to date automatically.</su
     <copyright>Copyright © Zeit, Inc. All rights reserved.</copyright>
     <licenseUrl>https://zeit.co/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@63540d94/icons/now.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/now/now.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

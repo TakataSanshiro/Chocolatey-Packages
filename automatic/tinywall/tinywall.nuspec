@@ -29,7 +29,7 @@ The upgrading and uninstalling are NOT silent.
     <copyright>Károly Pados</copyright>
     <licenseUrl>https://tinywall.pados.hu/faq.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@92acaf11375e3abb6c55f8515cd8b6f4e15104a7/tinywall/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/tinywall/icon.png</iconUrl>
     <releaseNotes>https://tinywall.pados.hu/docs/whatsnew.html</releaseNotes>
   </metadata>
   <files>

@@ -18,7 +18,7 @@
     <tags>admin vpn security privacy multi-platform</tags>
     <copyright>Copyright © Golden Frog, GmbH All rights reserved. Switzerland</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@ea868b51/vyprvpn/vyprvpn.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/vyprvpn/vyprvpn.png</iconUrl>
     <dependencies>
       <dependency id="autohotkey.portable" />
       <dependency id="vcredist140" />

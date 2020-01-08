@@ -24,7 +24,7 @@
     <copyright>Copyright (C) 2017 Maisin&amp;Co.</copyright>
     <licenseUrl>https://github.com/BoostIO/Boostnote/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@a72f84bf/boostnote/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/boostnote/icon.png</iconUrl>
     <releaseNotes>https://github.com/BoostIO/boost-releases</releaseNotes>
   </metadata>
   <files>

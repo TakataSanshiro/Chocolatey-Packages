@@ -26,7 +26,7 @@
     <tags>registry portable</tags>
     <copyright>Kurt Zimmermann</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.staticaly.com/gh/TakataSanshiro/Chocolatey-Packages/master/regcool.portable/regcool.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/regcool.portable/regcool.png</iconUrl>
     <releaseNotes>https://kurtzimmermann.com/regcoolversions_de.html</releaseNotes>
   </metadata>
   <files>

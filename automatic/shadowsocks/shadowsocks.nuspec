@@ -34,7 +34,7 @@ port in `Servers -&gt; Edit Servers`
     <projectSourceUrl>https://github.com/shadowsocks/shadowsocks-windows</projectSourceUrl>
     <tags>shadowsocks vpn</tags>
     <copyright>shadowsocks</copyright>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@413b28de471d1651c40d79cea9f649f18ccb3f38/shadowsocks/Shadowsocks.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/shadowsocks/Shadowsocks.png</iconUrl>
     <licenseUrl>https://github.com/shadowsocks/shadowsocks-windows/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://github.com/shadowsocks/shadowsocks-windows/wiki</docsUrl>

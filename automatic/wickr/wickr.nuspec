@@ -28,7 +28,7 @@ Fun – Add stickers, graffiti and photo filters
     <copyright>© Wickr Inc.</copyright>
     <licenseUrl>https://www.wickr.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	  <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f4ec0961/wickr/icon.png</iconUrl>
+	  <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/wickr/icon.png</iconUrl>
     <releaseNotes>https://wickr.com/personal/wickr-messenger-release-notes</releaseNotes>
   </metadata>
   <files>

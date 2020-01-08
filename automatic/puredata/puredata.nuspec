@@ -19,7 +19,7 @@ Pd is free software and can be downloaded either as an OS-specific package, sour
     <copyright>Institute of Electronic Music and Acoustics</copyright>
     <licenseUrl>http://puredata.info/about/pdlicense/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@dd100b6a/puredata/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/puredata/icon.png</iconUrl>
     <releaseNotes>http://puredata.info/downloads/pure-data/releases</releaseNotes>
   </metadata>
   <files>

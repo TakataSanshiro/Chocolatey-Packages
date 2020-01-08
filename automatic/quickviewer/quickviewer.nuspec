@@ -32,7 +32,7 @@ QuickViewer is a free software lisenced under GPLv3.
     <copyright>kanryu</copyright>
     <licenseUrl>https://github.com/kanryu/quickviewer/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@f33dda4e/quickviewer/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/quickviewer/icon.png</iconUrl>
     <releaseNotes>https://github.com/kanryu/quickviewer/releases</releaseNotes>
   </metadata>
   <files>

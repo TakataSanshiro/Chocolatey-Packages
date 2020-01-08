@@ -22,7 +22,7 @@ Stay safe and secure with an easy to use VPN. Even grandma can do it.</summary>
     <tags>admin vpn security privacy multi-platform</tags>
     <copyright>© Offshore Security LTD, all rights reserved</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@085c4a69/vpnarea/vpnarea.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/vpnarea/vpnarea.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

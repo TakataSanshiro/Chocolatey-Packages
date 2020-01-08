@@ -16,7 +16,7 @@ Textify was created to solve this problem: you can point your mouse over the tex
     <tags>admin windows utility</tags>
     <copyright>RaMMicHaeL</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@a3b57698/textify/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/textify/icon.png</iconUrl>
     <releaseNotes>http://rammichael.com/downloads/textify_setup.exe?changelog</releaseNotes>
   </metadata>
   <files>

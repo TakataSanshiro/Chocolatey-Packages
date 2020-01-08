@@ -16,7 +16,7 @@ Grammarly’s algorithms flag potential issues in the text and suggest context-s
     <copyright>© Grammarly Inc.</copyright>
     <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@c3c619a2/grammarly/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/grammarly/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

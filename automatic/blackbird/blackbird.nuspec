@@ -30,7 +30,7 @@ Server/pre-release versions are NOT supported so use at your own risk.
     <copyright>getblackbird.net</copyright>
     <licenseUrl>http://getblackbird.net/documentation/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@0966167c/blackbird/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/blackbird/icon.png</iconUrl>
     <releaseNotes>http://getblackbird.net/documentation/changelog/</releaseNotes>
   </metadata>
   <files>

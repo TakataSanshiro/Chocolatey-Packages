@@ -19,7 +19,7 @@ VPN Service encrypts your connection and provides you with an anonymous IP to pr
     <tags>admin vpn tor security privacy multi-platform</tags>
     <copyright>Copyright© London Trust Media, Inc. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@554c3bd2/pia/pia.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/pia/pia.png</iconUrl>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>
