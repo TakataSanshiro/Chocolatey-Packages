@@ -20,7 +20,7 @@
     <copyright>© Twitch Interactive, Inc. </copyright>
     <licenseUrl>https://www.twitch.tv/p/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/twitch/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/twitch/icon.png</iconUrl>
     <releaseNotes>https://blog.twitch.tv/search?q=release</releaseNotes>
   </metadata>
   <files>
