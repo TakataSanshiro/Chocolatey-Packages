@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>uninstallview</id>
+    <version>1.35</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/uninstallview</packageSourceUrl>
+    <owners>Sanshiro</owners>
+    <title>Nir UninstallView</title>
+    <authors>Nir Sofer</authors>
+    <projectUrl>http://www.nirsoft.net/utils/uninstall_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/uninstallview/icon.png</iconUrl>
+    <copyright>Copyright (c) Nir Sofer</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/uninstall_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>utility nirsoft uninstall registry freeware portable</tags>
+    <summary>UninstallView is a tool for Windows that collects information about all programs installed on your system and displays the details of the installed programs in one table.
+    </summary>
+    <description>
+You can use it to get installed programs information for your local system, for remote computer on your network, and for external hard-drive plugged to your computer. It also allows you to easily uninstall a software on your local computer and remote computer (Including quiet uninstall if the installer supports it). 
+MyUninstaller vs UninstallView
+MyUninstaller is a very old tool originally developed in 2003 and it's now considered as outdated. UninstallView replaces the old MyUninstaller tool. 
+System Requirements
+This tool works on any version of Windows, starting from Windows XP and up to Windows 10. Both 32-bit and 64-bit systems are supported. 
+    </description>
+    <releaseNotes>http://www.nirsoft.net/utils/uninstall_view.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
