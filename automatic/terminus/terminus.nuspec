@@ -3,7 +3,7 @@
   <metadata>
     <id>terminus</id>
     <title>Terminus</title>
-    <version>1.0.99</version>
+    <version>1.0.100</version>
     <authors>Eugene Pankov (and contributors)</authors>
     <owners>Hadrien Dussuel, Sanshiro</owners>
     <summary>Terminus is a web technology based terminal heavily inspired by Hyper.</summary>
