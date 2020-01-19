@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>xnconvert.portable</id>
+    <title>XnConvert (Portable)</title>
+    <version>1.82</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/xnconvert.portable</packageSourceUrl>
+    <authors>XnSoft</authors>
+    <owners>Sanshiro</owners>
+    <summary>Image Batch Converter for Everyone</summary>
+    <description>
+XnConvert is a powerful and free cross-platform batch image processor, allowing you to combine over 80 actions. Compatible with 500 formats. It uses the batch processing module of XnViewMP
+
+## Features
+* Extensive Toolset
+Combine and choose between more than 80 different operations including:
+* For Everyone
+XnConvert is Multi-platform, it is available for Windows, Mac, and Linux for both 32-bit and 64-bit editions.
+* Unrivaled Compatibility
+XnConvert is compatible with more than 500 formats and Export to about 70 different file formats.
+    </description>
+    <projectUrl>http://www.xnview.com/en/xnconvert/</projectUrl>
+    <tags>portable image file converter batch multi-platform</tags>
+    <copyright>© XnSoft</copyright>
+    <licenseUrl>http://newsgroup.xnview.com/viewtopic.php?t=22190&amp;p=92188</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master@automatic/xnconvert/xnconvert.png</iconUrl>
+    <releaseNotes>http://newsgroup.xnview.com/viewtopic.php?f=79&amp;t=35362</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
