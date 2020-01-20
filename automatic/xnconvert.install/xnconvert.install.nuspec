@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>xnconvert.install</id>
@@ -24,7 +24,7 @@ XnConvert is compatible with more than 500 formats and Export to about 70 differ
     <copyright>© XnSoft</copyright>
     <licenseUrl>http://newsgroup.xnview.com/viewtopic.php?t=22190&amp;p=92188</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master@automatic/xnconvert/xnconvert.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/xnconvert/xnconvert.png</iconUrl>
     <releaseNotes>http://newsgroup.xnview.com/viewtopic.php?f=79&amp;t=35362</releaseNotes>
   </metadata>
   <files>
