@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://wingware.com/'
+$releases = 'https://wingware.com/downloads/wing-pro'
 
 function global:au_SearchReplace {
    @{
@@ -14,12 +14,14 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
     # -UseBasicParsing
-    $version = $download_page.ParsedHtml.querySelector(".home-other-editions > a").innerText
-    $urlVersion = $version + '.0'
+    $version = $download_page.ParsedHtml.querySelector(".download-button").outerHTML
+    $version = $version -split ">" | select -first 1
+    $version = $version -split "/" | select -first 4
+    $version = $version[3]
 
     @{
         Version   = $version
-        URL32     = "https://wingware.com/pub/wing-101/$urlVersion/wing-101-$urlVersion.exe"
+        URL32     = "https://wingware.com/pub/wing-101/$version/wing-101-$version.exe"
     }
 }
 
