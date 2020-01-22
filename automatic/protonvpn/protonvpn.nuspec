@@ -3,8 +3,8 @@
   <metadata>
     <id>protonvpn</id>
     <title>ProtonVPN</title>
-    <version>1.10.1</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/protonvpn</packageSourceUrl>
+    <version>1.12.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/protonvpn</packageSourceUrl>
     <authors>ProtonVPN AG</authors>
     <owners>Sanshiro</owners>
     <summary>SECURE INTERNET ANYWHERE. EASY TO USE VPN FOR EVERYONE.</summary>
@@ -24,9 +24,10 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     </description>
     <projectUrl>https://protonvpn.com/</projectUrl>
     <tags>admin vpn tor security privacy multi-platform</tags>
+    <projectSourceUrl>https://github.com/ProtonVPN/win-app</projectSourceUrl>
     <copyright>ProtonVPN AG</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/3a763283/icons/protonvpn.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/protonvpn/protonvpn.png</iconUrl>
     <dependencies>
       <dependency id="kb2919355" />
       <dependency id="dotnet4.6.2" version="4.6.01590.20170129" />
