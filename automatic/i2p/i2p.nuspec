@@ -17,25 +17,25 @@
 
 #### Post-install notes
 * Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
-* Interface is via web browser with default address http://localhost:7657/index.jsp
+* Interface is via web browser with default address `http://localhost:7657/index.jsp`
 * [Ports used](https://geti2p.net/en/faq#ports) 
-* Configuration page: http://localhost:7657/confignet.jsp  
+* Configuration page: `http://localhost:7657/confignet.jsp`
 - If inbound TCP is forwarded, also enable inbound TCP  
-- Adjust bandwidth settings as appropriate</description>
-    <summary>Anonymizing network</summary>
-    <releaseNotes>#### Program
+- Adjust bandwidth settings as appropriate
+
+#### Program
 * [News](https://geti2p.net/blog/)
 * [Roadmap](https://trac.i2p2.de/roadmap)
 * [Changelog](https://trac.i2p2.de/milestone/)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)</releaseNotes>
+</description>
+    <summary>Anonymizing network</summary>
+    <releaseNotes>https://trac.i2p2.de/milestone/</releaseNotes>
     <copyright>© I2P Team</copyright>
     <tags>security privacy anonymity darknet admin</tags>
     <projectSourceUrl>https://geti2p.net/en/get-involved/guides/new-developers</projectSourceUrl>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/i2p/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/i2p</packageSourceUrl>
     <docsUrl>https://geti2p.net/docs</docsUrl>
-    <mailingListUrl>http://forum.i2p/</mailingListUrl>
+    <mailingListUrl>https://i2pforum.net/</mailingListUrl>
     <bugTrackerUrl>https://trac.i2p2.de/report/1</bugTrackerUrl>
     <dependencies>
       <dependency id="autohotkey.portable" version="1.1.32.00" />
