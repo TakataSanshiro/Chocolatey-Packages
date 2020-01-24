@@ -17,9 +17,15 @@
 
 #### Post-install notes
 * Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
-* Interface is via web browser with default address `http://localhost:7657/index.jsp`
+* Interface is via web browser with default address:
+```
+http://localhost:7657/index.jsp
+```
 * [Ports used](https://geti2p.net/en/faq#ports) 
-* Configuration page: `http://localhost:7657/confignet.jsp`
+* Configuration page: 
+```
+http://localhost:7657/confignet.jsp
+```
 - If inbound TCP is forwarded, also enable inbound TCP  
 - Adjust bandwidth settings as appropriate
 
