@@ -9,19 +9,20 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/vector-im/riot-web/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://riot.im/</projectUrl>
-	<projectSourceUrl>https://github.com/vector-im/riot-web</projectSourceUrl>
-	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/riot-web</packageSourceUrl>
-    <iconUrl>hhttps://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/xnconvert/riot-web.svg</iconUrl>
-    <description>Riot (formerly known as Vector) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk).
+	  <projectSourceUrl>https://github.com/vector-im/riot-web</projectSourceUrl>
+	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/riot-web</packageSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/xnconvert/riot-web.svg</iconUrl>
+    <description>
+Riot (formerly known as Vector) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk)
 
-##Features
-
+## Features
 * Group chat
 * VoIP and video calling
 * File transfer
 * Bridge networks
 * Integrations
-* End-to-end crypto</description>
+* End-to-end crypto
+    </description>
     <summary>A glossy Matrix collaboration client.</summary>
     <releaseNotes>https://github.com/vector-im/riot-web/releases</releaseNotes>
     <tags>foss cross-platform admin riot im matrix client web riot-web riot.im react</tags>
