@@ -1,8 +1,8 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jpegtran</id>
-    <version>9.0.0.20180223</version>
+    <version>9.0.0.20200129</version>
     <title>JpegTran</title>
     <authors>Thomas G. Lane, Guido Vollbeding</authors>
     <owners>Sanshiro</owners>
@@ -15,6 +15,9 @@ It can also perform some rearrangements of the image data, for example turning a
 jpegtran works by rearranging the compressed data (DCT coefficients), without ever fully decoding the image.  Therefore, its transformations are lossless: there is no image degradation at all, which would not be true if you used djpeg followed by cjpeg to accomplish the same conversion.  But by the same token, jpegtran cannot perform lossy operations such as changing the image quality.
     </description>
     <tags>jpegtran exif image portable</tags>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/jpegtran</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/jpegtran</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
