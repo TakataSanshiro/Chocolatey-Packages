@@ -25,7 +25,7 @@ Use the HTTP Editor to modify or craft HTTP requests and analyze responses, inte
     <copyright>© Acunetix, 2017 </copyright>
     <licenseUrl>https://www.acunetix.com/ordering/order_help/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/5eef4f38/icons/acunetix.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/acunetix/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

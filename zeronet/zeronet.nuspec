@@ -31,7 +31,7 @@ We believe in open, free, and uncensored network and communication.
     <licenseUrl>https://github.com/HelloZeroNet/ZeroNet/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://zeronet.readthedocs.io/en/latest/</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0eff869c/icons/zeronet.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/zeronet/icon.png</iconUrl>
     <releaseNotes>https://github.com/HelloZeroNet/ZeroNet/releases</releaseNotes>
   </metadata>
   <files>
