@@ -24,7 +24,7 @@ let them know the package is no longer updating correctly.
     <copyright></copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e92524f4/icons/instantbird.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/instantbird/icon.png</iconUrl>
     <releaseNotes>http://www.instantbird.com/release-notes.html</releaseNotes>
   </metadata>
   <files>

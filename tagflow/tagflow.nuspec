@@ -29,7 +29,7 @@ The main problem with the files is that one can have only one access for each fi
     <tags>admin file tag manager electron multi-platform</tags>
     <copyright>© 2017 TagFlow. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/8a7f7b72/icons/tagflow.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/tagflow/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

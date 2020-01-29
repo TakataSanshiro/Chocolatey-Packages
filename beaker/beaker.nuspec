@@ -27,7 +27,7 @@ Beaker is the world's first Web browser with builtin tools for hosting content d
     <tags>admin browser p2p peer-to-peer sharing electron</tags>
     <copyright>pfrazee, taravancil</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/54ff378c/icons/beaker.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/beaker/icon.png</iconUrl>
     <releaseNotes>https://github.com/beakerbrowser/beaker/releases</releaseNotes>
   </metadata>
   <files>
