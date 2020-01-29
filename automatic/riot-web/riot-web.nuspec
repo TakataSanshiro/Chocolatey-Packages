@@ -11,7 +11,7 @@
     <projectUrl>https://riot.im/</projectUrl>
 	  <projectSourceUrl>https://github.com/vector-im/riot-web</projectSourceUrl>
 	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/riot-web</packageSourceUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/xnconvert/riot-web.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/riot-web/icon.png</iconUrl>
     <description>
 Riot (formerly known as Vector) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk)
 
