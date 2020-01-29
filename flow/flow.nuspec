@@ -27,7 +27,7 @@ When apps like Todoist and Trello are too lean... Or when tools like Wrike, JIRA
     <copyright>Copyright 2017 Flow. All rights reserved</copyright>
     <licenseUrl>https://www.getflow.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/flow/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/4438836d/icons/flow.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

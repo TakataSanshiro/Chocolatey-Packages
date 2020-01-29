@@ -19,7 +19,7 @@ Divvy is designed to be quick, simple and elegant. We want it to stay out of you
     <tags>admin tiling window manager trial</tags>
     <copyright>Mizage, LLC.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/divvy/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/56d2d0ee/icons/divvy.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
