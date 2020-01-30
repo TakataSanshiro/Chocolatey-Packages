@@ -4,7 +4,7 @@
     <id>wordpress-com-for-desktop</id>
     <title>WordPress.com Desktop</title>
     <version>4.7.0</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wordpress-com-for-desktop</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wordpress-com-for-desktop</packageSourceUrl>
     <authors>Automattic Inc.</authors>
     <owners>Sanshiro</owners>
     <summary>A desktop app that gives WordPress a permanent home in your taskbar.</summary>
