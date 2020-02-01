@@ -20,11 +20,11 @@ Every pixel is completely open source. Build the features you need, and be a par
     </description>
     <projectUrl>https://desktop.github.com/</projectUrl>
     <projectSourceUrl>https://github.com/desktop/desktop</projectSourceUrl>
-    <docsUrl>https://github.com/desktop/desktop/tree/master/docs</docsUrl>
+    <docsUrl>https://github.com/desktop/desktop/tree/development/docs</docsUrl>
     <bugTrackerUrl>https://github.com/desktop/desktop/issues</bugTrackerUrl>
     <tags>admin electron git github desktop typescript developer</tags>
     <copyright>© GitHub, Inc. All rights reserved.</copyright>
-    <licenseUrl>https://github.com/desktop/desktop/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/desktop/desktop/blob/development/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/github-desktop/icon.png</iconUrl>
     <releaseNotes>https://desktop.github.com/release-notes/windows/</releaseNotes>
