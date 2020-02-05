@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName    = 'magicavoxel'
-  url            = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4.1-alpha-win32.zip'
+  url            = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4.2-alpha-win32.zip'
   url64          = 'https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.4/MagicaVoxel-0.99.4.2-alpha-win64.zip'
-  checksum       = '4FFA20069F6356758AE4882142C50D381BD2A26E404E9D835BC808A8967482BF'
-  checksum64     = '8268F71DF96FBE76DAC0A20A577F3C55B4CF27900F5E1B9E3D0516AAB1BA08B2'
+  checksum       = 'A28558A0DB69691B7D4B46A750C08D8EDE6EE8EC7044C04615B130EB7205113F'
+  checksum64     = '1E52C08448527814AECC3FA2C1051AD9401A9CE43DFBB86CE03CD74E6FE81820'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   softwareName   = 'MagicaVoxel'
