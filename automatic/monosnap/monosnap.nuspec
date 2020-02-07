@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>monosnap</id>
     <title>Monosnap</title>
-    <version>4.0.10</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/monosnap</packageSourceUrl>
+    <version>4.1.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/monosnap</packageSourceUrl>
     <authors>Monosnap</authors>
     <owners>Sanshiro</owners>
     <summary>Monosnap is a perfect screenshot tool for Windows</summary>
@@ -28,7 +28,7 @@ Save and share:
     <tags>admin screenshot</tags>
     <copyright>Monosnap</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@461dd109/monosnap/monosnap.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/monosnap/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
