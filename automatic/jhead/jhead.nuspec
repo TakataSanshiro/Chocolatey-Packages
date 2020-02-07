@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>jhead</id>
-    <version>3.04</version>
+    <version>3.04.20200208</version>
     <title>jhead</title>
     <authors>Matthias Wandel</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -23,7 +23,7 @@ Though there are many programs out there now that can manipulate Exif headers to
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/jhead</packageSourceUrl>
     <docsUrl>http://www.sentex.net/~mwandel/jhead/usage.html</docsUrl>
     <dependencies>
-      <dependency id="jpegtran" version="9.0" />
+      <dependency id="jpegtran" version="9.0.0.20200129" />
     </dependencies>
   </metadata>
   <files>
