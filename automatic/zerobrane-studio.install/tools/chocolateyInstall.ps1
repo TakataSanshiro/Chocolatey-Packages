@@ -1,5 +1,4 @@
 ﻿<#
-
 Currently Zerobrane provides a portable .zip
 and an "installer" .exe which is really a self-extracting zip
 that also adds a shortcut to the Start Menu.
@@ -18,22 +17,20 @@ So the .install package only differs in that it adds a shortcut :)
 
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'zerobrane-studio.install'
-$url = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.80-win32.zip' 
-$checksum = '5B47B7C1825CDF04742138796DA066B75692BBFE967042058138403ABFA5F783'
-$checksumType = 'sha256'
-$toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
+$packageArgs = @{
+  packageName    = 'zerobrane-studio.install'
+  url            = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.90-win32.exe'
+  checksum       = '6649bac74b39947d1d2e5ad4340f6d116cdabf2580953000fd11bccefe71089e'
+  checksumType   = 'sha256'
+  unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  softwareName   = 'zerobrane-studio.install'
+}
+Install-ChocolateyZipPackage @packageArgs
 
 # Place Start Menu Shortcut (mimicking Zerobrane's own self-extracting .exe)
 $shortcutPath = join-path $env:appdata "Microsoft\Windows\Start Menu\Programs"
 $shortcutName = "ZeroBrane Studio Lua IDE"
-$lnkPath = join-path $shortcutPath ($shortcutName + ".lnk")
-$targetPath = join-path $toolsDir "zbstudio.exe"
+$lnkPath      = join-path $shortcutPath ($shortcutName + ".lnk")
+$targetPath   = join-path $toolsDir "zbstudio.exe"
 
 Install-ChocolateyShortcut -shortcutFilePath $lnkPath -targetPath $targetPath -description $shortcutName

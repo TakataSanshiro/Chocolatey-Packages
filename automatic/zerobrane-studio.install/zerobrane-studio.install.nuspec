@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>zerobrane-studio</id>
-    <title>Zerobrane Studio</title>
-    <version>1.80</version>
+    <id>zerobrane-studio.install</id>
+    <title>Zerobrane Studio (Install)</title>
+    <version>1.90</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>Sanshiro, beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
@@ -47,7 +47,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
 [more-features]: http://studio.zerobrane.com/features
     </description>
     <projectUrl>http://studio.zerobrane.com/</projectUrl>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/zerobrane-studio</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/zerobrane-studio.install</packageSourceUrl>
     <projectSourceUrl>https://github.com/pkulchenko/ZeroBraneStudio/</projectSourceUrl>
     <docsUrl>http://studio.zerobrane.com/documentation</docsUrl>
     <mailingListUrl>http://studio.zerobrane.com/community</mailingListUrl>
@@ -55,10 +55,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <copyright>Paul Kulchenko, ZeroBrane® LLC</copyright>
     <licenseUrl>https://raw.githubusercontent.com/pkulchenko/ZeroBraneStudio/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
-    <dependencies>
-      <dependency id="zerobrane-studio.install"/>
-    </dependencies>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/zerobrane-studio/icon.png</iconUrl>
     <releaseNotes>https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
