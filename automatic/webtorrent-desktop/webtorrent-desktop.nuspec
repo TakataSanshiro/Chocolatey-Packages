@@ -4,7 +4,7 @@
     <id>webtorrent-desktop</id>
     <title>WebTorrent</title>
     <version>0.21.0</version>
-	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/webtorrent-desktop</packageSourceUrl>
+	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/webtorrent-desktop</packageSourceUrl>
     <authors>WebTorrent, LLC.</authors>
     <owners>Sanshiro</owners>
     <summary> Streaming torrent app for Mac, Windows, and Linux.</summary>
