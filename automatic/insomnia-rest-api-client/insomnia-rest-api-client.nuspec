@@ -3,7 +3,7 @@
   <metadata>
     <id>insomnia-rest-api-client</id>
     <title>Insomnia</title>
-    <version>7.0.6</version>
+    <version>7.1.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
     <authors>Floating Keyboard Software</authors>
     <owners>Sanshiro</owners>
@@ -29,10 +29,10 @@ Enhance the power of the app.
     <docsUrl>https://insomnia.rest/documentation/</docsUrl>
     <bugTrackerUrl>https://github.com/getinsomnia/insomnia/issues</bugTrackerUrl>
     <tags>admin electron rest api curl http client multi-platform</tags>
-    <copyright>© 2017 Floating Keyboard Software, Victoria BC, Canada</copyright>
+    <copyright>© Floating Keyboard Software, Victoria BC, Canada</copyright>
     <licenseUrl>https://github.com/getinsomnia/insomnia/blob/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/getinsomnia/insomnia@develop/app/static/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/insomnia-rest-api-client/icon.png</iconUrl>
     <releaseNotes>https://github.com/getinsomnia/insomnia/releases</releaseNotes>
   </metadata>
   <files>
