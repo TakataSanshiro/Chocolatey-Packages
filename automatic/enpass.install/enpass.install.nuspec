@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>enpass.install</id>
+    <title>Enpass Password Manager</title>
+    <version>6.3.3.597</version>
+    <authors>Sinew Software Systems</authors>
+    <owners>w0ndersp00n alazare619 royvou, Sanshiro</owners>
+    <summary>Enpass</summary>
+    <description>Enpass takes care of all your life important credentials and online accounts in best way. All your data is secured offline on your device only, not on our servers. Enpass encrypts your data by AES 256 bit Encryption using open-source encryption engine SQLCipher to ensure maximum security with trust.</description>
+    <projectUrl>https://www.enpass.io/downloads/</projectUrl>
+    <tags>password security cloud googledrive dropbox webdav onedrive box local passwordmanager admin</tags>
+    <copyright>© Sinew Software Systems</copyright>
+    <licenseUrl>https://www.enpass.io/legal-end-user-license-agreement/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/enpass.install</packageSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/enpass.install/icon.png</iconUrl>
+    <releaseNotes>https://www.enpass.io/release-notes/windowspc/</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
