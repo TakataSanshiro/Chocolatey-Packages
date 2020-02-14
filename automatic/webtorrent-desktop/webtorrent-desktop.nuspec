@@ -31,7 +31,7 @@ It can talk to peers running Transmission or uTorrent, and it can also talk to w
     <copyright>MIT. Copyright (c) WebTorrent, LLC.</copyright>
     <licenseUrl>https://github.com/webtorrent/webtorrent-desktop/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/webtorrent/webtorrent-desktop/a82498ba/static/WebTorrent.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/webtorrent/webtorrent-desktop@a82498ba/static/WebTorrent.png</iconUrl>
     <releaseNotes>https://github.com/webtorrent/webtorrent-desktop/releases</releaseNotes>
   </metadata>
   <files>
