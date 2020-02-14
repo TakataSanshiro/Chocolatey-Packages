@@ -4,7 +4,7 @@
     <id>insomnia-rest-api-client</id>
     <title>Insomnia</title>
     <version>7.1.0</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/insomnia-rest-api-client</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/insomnia-rest-api-client</packageSourceUrl>
     <authors>Floating Keyboard Software</authors>
     <owners>Sanshiro</owners>
     <summary> Debug APIs like a human, not a robot. Finally, a REST client you'll love. For 64bit only.</summary>
