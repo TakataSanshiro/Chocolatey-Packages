@@ -2,7 +2,7 @@
 
 $packageName= 'todoist'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://dateist.todoist.com.s3.amazonaws.com/Todoist_for_Windows_Desktop_2_7_6.exe'
+$url        = 'https://d2092e1xll5m4f.cloudfront.net/Todoist_for_Windows_Desktop_2_7_6.exe'
 
 $packageArgs = @{
   packageName   = $packageName
