@@ -17,12 +17,14 @@ So the .install package only differs in that it adds a shortcut :)
 
 $ErrorActionPreference = 'Stop';
 
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 $packageArgs = @{
   packageName    = 'zerobrane-studio.install'
   url            = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.90-win32.exe'
   checksum       = '6649bac74b39947d1d2e5ad4340f6d116cdabf2580953000fd11bccefe71089e'
   checksumType   = 'sha256'
-  toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'zerobrane-studio.install'
 }
 Install-ChocolateyZipPackage @packageArgs
