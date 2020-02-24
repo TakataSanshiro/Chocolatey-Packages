@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'boostnote'
   installerType  = 'exe'
-  url            = 'https://github.com/BoostIO/boost-releases/releases/download/v0.14.0/BoostnoteSetup.exe'
-  checksum       = '1db899e83ddf502d8c022a4ba98362afb65d2daee2003f95ce14b8e88c3f431c'
+  url            = 'https://github.com/BoostIO/boost-releases/releases/download/v0.15.0/BoostnoteSetup.exe'
+  checksum       = 'be1a1640a301fffc05fedf3cc8da5252a05623a8b4f9e843d9386a814f150b70'
   checksumType   = 'sha256'
   silentArgs     = '/VERYSILENT'
   validExitCodes = @(0)
