@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>i2p</id>
-    <version>0.9.44</version>
+    <version>0.9.45</version>
     <title>I2P</title>
     <authors>I2P Team</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -17,22 +17,8 @@
 
 #### Post-install notes
 * Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
-* Interface is via web browser with default address:
-```
-http://localhost:7657/index.jsp
-```
-* [Ports used](https://geti2p.net/en/faq#ports) 
-* Configuration page: 
-```
-http://localhost:7657/confignet.jsp
-```
-- If inbound TCP is forwarded, also enable inbound TCP  
-- Adjust bandwidth settings as appropriate
 
-#### Program
-* [News](https://geti2p.net/blog/)
-* [Roadmap](https://trac.i2p2.de/roadmap)
-* [Changelog](https://trac.i2p2.de/milestone/)
+You can learn more about i2p at the Software Site.
 </description>
     <summary>Anonymizing network</summary>
     <releaseNotes>https://trac.i2p2.de/milestone/</releaseNotes>
