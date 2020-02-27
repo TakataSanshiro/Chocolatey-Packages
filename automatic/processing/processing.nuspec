@@ -3,8 +3,8 @@
   <metadata>
     <id>processing</id>
     <title>Processing</title>
-    <version>3.5.3</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/processing</packageSourceUrl>
+    <version>3.5.4</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/processing</packageSourceUrl>
     <authors>Processing Foundation</authors>
     <owners>Sanshiro</owners>
     <summary>Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.</summary>
@@ -25,7 +25,7 @@ Since 2001, Processing has promoted software literacy within the visual arts and
     <copyright>Processing Foundation</copyright>
     <licenseUrl>https://github.com/processing/processing/blob/master/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/processing/processing/9b39c88b/core/src/icon/icon-512.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/processing/processing@9b39c88b/core/src/icon/icon-512.png</iconUrl>
     <releaseNotes>https://github.com/processing/processing/releases</releaseNotes>
   </metadata>
   <files>
