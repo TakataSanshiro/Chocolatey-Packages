@@ -9,7 +9,9 @@ More information about chocolatey is here.
 https://github.com/chocolatey/choco
 
 ## Chocolatey Automatic Package Updater
-My AU packages are in automatic directory.
+My AU packages are in the automatic directory.
+The apps in the automatic folder don't need to update manually via the following method.
+Fix AU packages are also welcome.
 
 ## Contribution
 PRs to this project are welcome.  
