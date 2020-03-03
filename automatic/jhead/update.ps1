@@ -24,7 +24,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL32   = "http://www.sentex.net/~mwandel/jhead/jhead.exe"
+        URL32   = "https://www.sentex.net/~mwandel/jhead/jhead.exe"
     }
 }
 update -ChecksumFor 32 -NoCheckUrl
