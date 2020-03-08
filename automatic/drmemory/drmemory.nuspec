@@ -27,7 +27,4 @@ Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.
       <dependency id="drmemory.install" version="2.3.18322" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
