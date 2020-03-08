@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://github.com/DynamoRIO/drmemory/releases/download/release_$version/DrMemory-Windows-$version-1.msi"
+        URL64   = "https://github.com/DynamoRIO/drmemory/releases/download/release%5F$version/DrMemory-Windows-$version.msi"
     }
 }
 
