@@ -12,10 +12,6 @@ function global:au_SearchReplace {
     }
 }
 
-function global:au_BeforeUpdate() {
-    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL
-}
-
 function global:au_GetLatest {
     $twitch_file = $env:AppData + '\Twitch\Bin\TwitchAgent.exe'
     $version = (Get-Command $twitch_file).Version
