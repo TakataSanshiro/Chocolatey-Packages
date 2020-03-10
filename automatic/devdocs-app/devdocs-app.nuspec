@@ -16,7 +16,7 @@ DevDocs.io combines multiple API documentations in a fast, organized, and search
 * Build-in shortcuts
 * Global shortcut
     </description>
-    <projectUrl>https://github.com/egoist/devdocs-app</projectUrl>
+    <projectUrl>https://devdocs.egoist.sh/</projectUrl>
     <projectSourceUrl>https://github.com/egoist/devdocs-app</projectSourceUrl>
     <bugTrackerUrl>https://github.com/egoist/devdocs-app/issues</bugTrackerUrl>
     <tags>admin electron devloper development docs documents viewer</tags>
