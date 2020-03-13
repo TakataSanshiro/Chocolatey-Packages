@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>beaker</id>
     <title>Beaker</title>
-    <version>0.8.8</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/beaker</packageSourceUrl>
+    <version>0.8.10</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/beaker</packageSourceUrl>
     <authors>pfrazee, taravancil</authors>
     <owners>Sanshiro</owners>
     <summary>Beaker is a peer-to-peer browser with tools to create and host websites. Don't just browse the Web, build it.</summary>
@@ -27,7 +27,7 @@ Beaker is the world's first Web browser with builtin tools for hosting content d
     <tags>admin browser p2p peer-to-peer sharing electron</tags>
     <copyright>pfrazee, taravancil</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/beaker/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/beaker/icon.png</iconUrl>
     <releaseNotes>https://github.com/beakerbrowser/beaker/releases</releaseNotes>
   </metadata>
   <files>
