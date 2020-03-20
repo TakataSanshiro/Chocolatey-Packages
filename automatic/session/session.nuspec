@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>session</id>
+    <title>Session</title>
+    <version>1.0.5</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/session</packageSourceUrl>
+    <authors>loki-project</authors>
+    <owners>Sanshiro</owners>
+    <summary>Session is an end-to-end encrypted messenger that removes sensitive metadata collection, and is designed for people who want privacy and freedom from any forms of surveillance.</summary>
+    <description>
+Session uses the Signal encryption protocol and the Loki blockchain’s decentralised Service Node network to provide anonymous, end-to-end encrypted messaging without relying on central servers.
+
+## Benefits
+* No Phone Numbers - No identification is required to create a Session account.
+* No Data Breaches - Session doesn’t collect data, so there’s nothing to leak.
+* No Footprints - Send messages through our onion routing network and leave no trace.
+* Open Source - Session’s code has nothing to hide. Anyone can view, audit and contribute.
+* Sync Across Devices - One account, many devices. Session works wherever you go.
+* Censorship Resistant - With no central point of failure, its harder to shut Session down.
+    </description>
+    <projectUrl>https://getsession.org/</projectUrl>
+    <projectSourceUrl>https://github.com/loki-project/session-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/loki-project/session-desktop/issues</bugTrackerUrl>
+    <tags>admin signal-protocol messenger otr private anonymity anonimity</tags>
+    <copyright>Copyright 2019-2020 The Loki Project</copyright>
+    <licenseUrl>https://github.com/loki-project/session-desktop/blob/clearnet/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/session/icon.png</iconUrl>
+    <releaseNotes>https://github.com/loki-project/session-desktop/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
