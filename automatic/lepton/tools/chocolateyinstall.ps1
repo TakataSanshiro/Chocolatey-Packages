@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'lepton'
   installerType  = 'exe'
-  url            = 'https://github.com/hackjutsu/Lepton/releases/download/v1.8.2/Lepton-Setup-1.8.2.exe'
-  checksum       = 'd424efc682cbf402597b395ec299c3c4e2eab0189fedf63f8c38ef44f21e23e1'
+  url            = 'https://github.com/hackjutsu/Lepton/releases/download/v1.9.0/Lepton-Setup-1.9.0.exe'
+  checksum       = '798ced955e58ef5e7436f5e72d6c9ec014eb266049f693e1a01f4997f0b7d5fa'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
