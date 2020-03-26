@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'terminus'
   installerType  = 'exe'
-  url            = 'https://github.com/Eugeny/terminus/releases/download/v1.0.104/terminus-1.0.104-setup.exe'
-  checksum       = 'E9DE87CC396E2335C677D85B6C722D0B96FDC834F6018E629F518CBB16BF53EE'
+  url            = 'https://github.com/Eugeny/terminus/releases/download/v1.0.105/terminus-1.0.105-setup.exe'
+  checksum       = '6785d9f4079bae9e49ca44030ebbd42551616af66fe5936bb37ef21d9ca2d69d'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
