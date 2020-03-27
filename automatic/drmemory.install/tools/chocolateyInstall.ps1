@@ -1,4 +1,6 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
+$toolsPath = Split-Path $MyInvocation.MyCommand.Definition
+. $toolsPath\helpers.ps1
 
 $packageArgs = @{
   packageName    = 'drmemory.install'
@@ -8,6 +10,7 @@ $packageArgs = @{
   checksumType   = 'sha256'
   silentArgs     = '/qn'
   validExitCodes = @(0, 3010, 1641)
-  softwareName   = 'drmemory*'
+  softwareName   = 'Dr. Memory*'
+  toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
 Install-ChocolateyPackage @packageArgs
