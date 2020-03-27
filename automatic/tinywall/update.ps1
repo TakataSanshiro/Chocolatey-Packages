@@ -21,7 +21,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL     = 'https://tinywall.pados.hu/ccount/click.php?id=3'
+        URL     = 'https://tinywall.pados.hu/ccount/click.php?id=4'
     }
 }
 
