@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wingidepersonal'
   installerType  = 'exe'
-  url            = 'https://wingware.com/pub/wing-personal/7.2.1.0/wing-personal-7.2.1.0.exe'
-  checksum       = '313be24e6e5609a9e05a7341398b094c5ded1fb4e7d0e5c100905c5b5514bb12'
+  url            = 'https://wingware.com/pub/wing-personal/7.2.2.0/wing-personal-7.2.2.0.exe'
+  checksum       = '3d4c7eaf53917c6b37de6dda0fb6d6c6540bacf7b931d812cc898c4c43cf50a5'
   checksumType   = 'sha256'
   silentArgs     = '/VERYSILENT'
   validExitCodes = @(0, 3010, 1641)
