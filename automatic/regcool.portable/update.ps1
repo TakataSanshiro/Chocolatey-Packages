@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://kurtzimmermann.com/index_e.html'
+$releases = 'https://kurtzimmermann.com/regcoolversions_de.html'
 
 function global:au_SearchReplace {
    @{
@@ -16,8 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
     #  -UseBasicParsing
-    $version = $download_page.ParsedHtml.querySelector(".mbr-cards-col:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2)").outerText
-    $version = $version.split("`r`n") | select -last 9 | select -first 1
+    $version = $download_page.ParsedHtml.querySelector("#header3-2h > div > div > div > small").outerText
     $version = $version.split() | select -first 1
     $version = $version.Substring(1)
 
