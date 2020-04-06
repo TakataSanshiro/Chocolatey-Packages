@@ -5,8 +5,8 @@ $releases = 'https://me-download.wickr.com/api/download/me/download/windows'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
@@ -22,7 +22,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL     = "https://s3.amazonaws.com/static.wickr.com/downloads/win/me/WickrMe-$version.msi"
+        URL32     = "https://s3.amazonaws.com/static.wickr.com/downloads/win/me/WickrMe-$version.msi"
     }
 }
 

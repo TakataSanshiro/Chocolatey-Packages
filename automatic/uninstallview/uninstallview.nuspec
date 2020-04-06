@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>uninstallview</id>
-    <version>1.35</version>
+    <version>1.36</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/uninstallview</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>Nir UninstallView</title>
