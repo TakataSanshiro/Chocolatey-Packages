@@ -5,8 +5,8 @@ $releases = 'https://protonvpn.com/download/win-update.json'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -17,7 +17,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL     = "https://protonvpn.com/download/ProtonVPN_win_v$version.exe"
+        URL64   = "https://protonvpn.com/download/ProtonVPN_win_v$version.exe"
     }
 }
 
