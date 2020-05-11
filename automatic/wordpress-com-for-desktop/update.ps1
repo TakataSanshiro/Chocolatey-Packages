@@ -19,7 +19,7 @@ function global:au_GetLatest {
     
     @{
         Version = $version
-        URL64   = "https://github.com/Automattic/wp-desktop/releases/download/v$version/WordPress.com-Setup-$version.exe"
+        URL64   = "https://github.com/Automattic/wp-desktop/releases/download/v$version/wordpress.com-win32-setup-$version.exe"
     }
 }
 
