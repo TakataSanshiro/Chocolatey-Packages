@@ -3,10 +3,10 @@
 $packageArgs = @{
   packageName   = 'quicklook'
   installerType = 'msi'
-  url           = 'https://github.com/QL-Win/QuickLook/releases/download/3.6.7/QuickLook-3.6.7.msi'
+  url           = 'https://github.com/QL-Win/QuickLook/releases/download/3.6.8/QuickLook-3.6.8.msi'
   silentArgs    = '/qn'
   softwareName  = 'quicklook*'
-  checksum      = 'cc3c5688c92e09d509c1df06fd9482b6cbe2af92d626ebacab2cbbf64ab3c99a'
+  checksum      = '12c23308152f2128de62383c612cc606fce91fcec38eabe42763614fc9aa8c58'
   checksumType  = 'sha256'
   validExitCodes = @(0, 3010, 1641)
 }
