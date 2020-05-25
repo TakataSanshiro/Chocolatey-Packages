@@ -3,7 +3,7 @@
   <metadata>
     <id>wpd</id>
     <title>WPD</title>
-    <version>1.3.1323.20200123</version>
+    <version>1.3.1532</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wpd</packageSourceUrl>
     <authors>WPD Team</authors>
     <owners>Sanshiro</owners>
@@ -13,18 +13,18 @@ You can customize Group Policy, Services and Tasks responsible for data collecti
 WPD is free, totally portable, has a nice user-friendly interface and doesn't contain any advertisement or malicious code. 
 
 ## Supported OS
-* Windows 10 Enterprise 1909, 1903, 1809, 1803, 1709, 1703, 1607
+* Windows 10 Enterprise 2004, 1909, 1903, 1809, 1803, 1709, 1703, 1607
 * Windows 10 Enterprise LTSC 2019, 2016, 2015
-* Windows 10 Education 1909, 1903, 1809, 1803, 1709, 1703
-* Windows 10 Pro 1909, 1903, 1809, 1803, 1709, 1703, 1607
-* Windows 10 Home 1909, 1903, 1809, 1803, 1709, 1703
+* Windows 10 Education 2004, 1909, 1903, 1809, 1803, 1709, 1703
+* Windows 10 Pro 2004, 1909, 1903, 1809, 1803, 1709, 1703, 1607
+* Windows 10 Home 2004, 1909, 1903, 1809, 1803, 1709, 1703
 * Windows Server Standard 2016, 2019
 * Windows 8-8.1
 * Windows 7      
     </description>
     <projectUrl>https://wpd.app/</projectUrl>
     <tags>privacy freeware portable</tags>
-    <copyright>© 2016-2019 WPD Team.</copyright>
+    <copyright>© 2016-2020 WPD Team.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/wpd/wpd.png</iconUrl>
     <releaseNotes>https://wpd.app/changelog</releaseNotes>
