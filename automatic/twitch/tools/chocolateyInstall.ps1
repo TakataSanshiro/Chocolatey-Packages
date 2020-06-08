@@ -20,9 +20,9 @@ $packageArgs = @{
   packageName    = 'twitch'
   installerType  = 'exe'
   url            = 'https://desktop.twitchsvc.net/installer/windows/TwitchSetup.exe'
-  checksum       = '7bec767d623aff386319bf98d0aecc483d7a086ca9f2a424a2660451562c7329'
+  checksum       = '3B596BE3E11B1F86A47209CC44D5B2DFD1C11FAE116C2105BB35CB33B4607447'
   checksumType   = 'sha256'
-  silentArgs     = '/silent'
+  silentArgs     = '/silent /nolaunch'
   validExitCodes = @(0, 1638)
   softwareName   = 'Twitch'
 }
