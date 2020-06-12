@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>magicavoxelviewer</id>
+    <title>MagicaVoxel Viewer</title>
+    <version>0.41.0.20170719</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/magicavoxelviewer</packageSourceUrl>
+    <authors>ephtracy</authors>
+    <owners>Sanshiro</owners>
+    <summary>A free interactive voxel path tracing renderer.</summary>
+    <description>
+## Features
+* Sparse volume size up to 2048^3
+* 8-bit or 16-bit color palette (.xraw)
+* Minecraft schematic model (.schematic)
+    </description>
+    <projectUrl>https://ephtracy.github.io/index.html?page=mv_renderer</projectUrl>
+    <tags>voxel 3dcg viewer</tags>
+    <copyright>Copyright © ephtracy</copyright>
+    <licenseUrl>https://ephtracy.github.io/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/magicavoxel/icon.png</iconUrl>
+    <releaseNotes>https://ephtracy.github.io/index.html?page=mv_renderer</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
