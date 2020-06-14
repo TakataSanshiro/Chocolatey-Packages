@@ -3,7 +3,7 @@
   <metadata>
     <id>whale</id>
     <title>Whale</title>
-    <version>0.17.0</version>
+    <version>1.1.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/whale</packageSourceUrl>
     <authors>Shogo Sensui</authors>
     <owners>Sanshiro</owners>
