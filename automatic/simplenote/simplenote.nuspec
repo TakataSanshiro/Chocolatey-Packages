@@ -23,7 +23,7 @@ Light, clean, and free. Simplenote is now available for iOS, Android, Mac, Windo
 	  <bugTrackerUrl>https://github.com/Automattic/simplenote-electron/issues</bugTrackerUrl>
     <tags>admin electron note memo</tags>
     <copyright>© Automattic</copyright>
-    <licenseUrl>https://github.com/Automattic/simplenote-electron/blob/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/Automattic/simplenote-electron/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/Automattic/simplenote-electron@c74221d9/resources/images/icon_512x512.png</iconUrl>
     <releaseNotes>https://github.com/Automattic/simplenote-electron/releases</releaseNotes>
