@@ -7,7 +7,7 @@ $packageArgs = @{
   silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'Confide*'
-  checksum       = '85cef39b3b02ff3dd45f7c811ea6467bef791e08e73d4c9af2d1b019bf9e6e3e'
+  checksum       = 'a70528904ab1241da133b619c4e89703c260587f97a11e1da20e22346bf87495'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
