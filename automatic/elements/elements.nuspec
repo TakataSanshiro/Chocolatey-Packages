@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>elements</id>
+    <title>Elements</title>
+    <version>1.2.1</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/elements</packageSourceUrl>
+    <authors>FlorianFe</authors>
+    <owners>Sanshiro</owners>
+    <summary>A desktop App which displays the periodic table</summary>
+    <description>
+## This periodic table has following properties.
+* atomic number
+* atomic weight
+* electronegativity
+* boiling point
+* melting point
+* Temperature - Kelvin, Fahrenheit, Celsius
+    </description>
+    <projectUrl>https://github.com/FlorianFe/Elements</projectUrl>
+    <projectSourceUrl>https://github.com/FlorianFe/Elements</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/FlorianFe/Elements/issues</bugTrackerUrl>
+    <tags>admin electron polymer periodic-table chemistry </tags>
+    <copyright>FlorianFe</copyright>
+    <licenseUrl>https://github.com/FlorianFe/Elements/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/elements/icon.png</iconUrl>
+    <releaseNotes>https://github.com/FlorianFe/Elements/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
