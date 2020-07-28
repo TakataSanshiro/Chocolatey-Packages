@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>element-desktop</id>
+    <version>1.7.1</version>
+    <title>Element (Riot) Desktop</title>
+    <authors>Element</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/vector-im/riot-desktop/blob/master/LICENSE</licenseUrl>
+	<copyright>2020 Element</copyright>
+    <projectUrl>https://riot.im/</projectUrl>
+    <projectSourceUrl>https://github.com/vector-im/riot-desktop</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/vector-im/riot-web/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/element-desktop</packageSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/element-desktop/element.png</iconUrl>
+    <description>
+Element (formerly known as Vector and Riot) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk)
+
+## Features
+* Group chat
+* VoIP and video calling
+* File transfer
+* Bridge networks
+* Integrations
+* End-to-end crypto
+    </description>
+    <summary>A glossy Matrix collaboration client.</summary>
+    <releaseNotes>https://github.com/vector-im/riot-desktop/releases</releaseNotes>
+    <tags>foss cross-platform element desktop riot im matrix client web riot-web riot.im react</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
