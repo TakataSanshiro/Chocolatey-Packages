@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>riot-web</id>
-    <version>1.5.15</version>
-    <title>Riot</title>
+    <version>1.5.15.20200728</version>
+    <title>[Deprecated] Riot</title>
     <authors>New Vector</authors>
     <owners>dimqua, Sanshiro</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,22 +12,28 @@
 	  <projectSourceUrl>https://github.com/vector-im/riot-web</projectSourceUrl>
 	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/riot-web</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/riot-web/icon.png</iconUrl>
-    <description>
-Riot (formerly known as Vector) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk)
+    <description>#### New package name: **[element-desktop](https://chocolatey.org/packages/element-desktop)**
 
-## Features
-* Group chat
-* VoIP and video calling
-* File transfer
-* Bridge networks
-* Integrations
-* End-to-end crypto
-    </description>
+---
+
+`riot-web` has been deprecated because the software has been rebranded to Element desktop. 
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.</description>
     <summary>A glossy Matrix collaboration client.</summary>
-    <releaseNotes>https://github.com/vector-im/riot-web/releases</releaseNotes>
+    <releaseNotes>#### New users
+* Do not install this package. Install **element-desktop** package instead.
+
+#### Existing users - Updating
+* Updating this package will automatically install the most recent version of the **element-desktop** chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name **element-desktop**
+
+#### Existing users - Post-update Cleanup (optional)
+`choco uninstall riot-web --whatif`</releaseNotes>
     <tags>foss cross-platform admin riot im matrix client web riot-web riot.im react</tags>
+	<dependencies>
+      <dependency id="element-desktop" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
   </files>
 </package>
