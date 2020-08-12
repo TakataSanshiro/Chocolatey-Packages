@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'simplenote'
   installerType  = 'exe'
-  url            = 'https://github.com/Automattic/simplenote-electron/releases/download/v1.20.0/Simplenote-win-1.20.0.exe'
-  checksum       = '81ba859caf19cbb6b9261fb3e87d750740c3ba53ef882420909aa984802cfdbf'
+  url            = 'https://github.com/Automattic/simplenote-electron/releases/download/v1.21.0/Simplenote-win-1.21.0.exe'
+  checksum       = '4a8dccdac46c9294b85659ce282d0fb046862253ffdea8bc141a1736e5c4ad1c'
   checksumType   = 'sha256'
   silentArgs     = '/S /nolaunch'
   validExitCodes = @(0)
