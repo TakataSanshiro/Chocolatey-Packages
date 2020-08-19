@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'fontbase'
   installerType  = 'exe'
-  url            = 'https://releases.fontba.se/win/FontBase-2.11.3.exe'
-  checksum       = '3c5dcc9d66a7d56b39d476f8c2b46226ebd3669a75e878f4b9c6d6bc2c9415d6'
+  url            = 'https://releases.fontba.se/win/FontBase-2.13.2.exe'
+  checksum       = '439bdfa10cc1af178c81817f7ad884e944cb0841c3740a97d2e89d51df303107'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
