@@ -3,7 +3,7 @@
   <metadata>
     <id>twitch</id>
     <title>Twitch Desktop App</title>
-    <version>8.0.0.20200609</version>
+    <version>8.0.0.20200823</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/twitch</packageSourceUrl>
     <authors>Twitch Interactive, Inc.</authors>
     <owners>Sanshiro</owners>
