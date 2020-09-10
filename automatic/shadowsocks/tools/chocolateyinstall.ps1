@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName    = 'shadowsocks'
-  url            = 'https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.10.0/Shadowsocks-4.1.10.0.zip'
-  checksum       = '97c1afbdfbe31e7fed17143d9885be6588be294488cffc83661a5ef55655d3d2'
+  url            = 'https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.2.0.0/Shadowsocks-4.2.0.0.zip'
+  checksum       = '662f875055d740d98e0047adeb2b632b85cafffa2129c1635c5312217ca978f3'
   checksumType   = 'sha256'
   softwareName   = 'Shadowsocks'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
