@@ -4,7 +4,7 @@
     <id>kpcli</id>
     <title>kpcli</title>
     <version>3.5</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/au-packages/tree/master/automatic/kpcli</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/kpcli</packageSourceUrl>
     <authors>Lester Hightower</authors>
     <owners>Sanshiro</owners>
     <summary>A command line interface to KeePass database files.</summary>
