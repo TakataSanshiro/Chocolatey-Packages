@@ -3,7 +3,7 @@
   <metadata>
     <id>shadowsocks</id>
     <title>shadowsocks</title>
-    <version>4.2.0.0</version>
+    <version>4.2.0.1</version>
     <authors>shadowsocks</authors>
     <owners>chantisnake, Sanshiro</owners>
     <summary>If you want to keep a secret, you must also hide it from yourself. </summary>
