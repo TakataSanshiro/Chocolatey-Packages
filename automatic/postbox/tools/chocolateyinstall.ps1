@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = 'postbox'
   installerType = 'exe'
-  url           = 'https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.30-win32.exe'
-  checksum      = 'edc28269d2365d579a60275d7d616e1284c55fa9535b6a94bbbb3f1d0cde0d10'
+  url           = 'https://d3nx85trn0lqsg.cloudfront.net/win/postbox-7.0.31-win32.exe'
+  checksum      = '7b807be04efb60f71c055e0d2786a8d80220e459cfe717ea20bccddd69ae364b'
   checksumType  = 'sha256'
   silentArgs    = '/S'
   toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
