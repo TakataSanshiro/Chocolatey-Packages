@@ -3,7 +3,7 @@
   <metadata>
     <id>uget</id>
     <title>uGet</title>
-    <version>2.2.2</version>
+    <version>2.2.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/uget</packageSourceUrl>
     <authors>C.H. Huang, Michael Tunnell</authors>
     <owners>Sanshiro</owners>

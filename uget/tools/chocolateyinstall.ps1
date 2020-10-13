@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName  = 'uget'
-$url          = 'https://downloads.sourceforge.net/project/urlget/uget%20%28stable%29/2.2.2/uget-2.2.2-win32%2Bgtk3.7z?r=&ts=1566914697&use_mirror=svwh' 
-$checksum     = '340F7C4622428704B76BB34F93BC4129313E89D66071D73FA0CCE2DC259F48A3'
+$url          = 'https://sourceforge.net/projects/urlget/files/uget%20%28stable%29/2.2.3/uget-2.2.3-1-win32%2Bgtk3.7z/download' 
+$checksum     = '169C3E638DDF59212D2849BC320796D86CDD6426596EE913900E9BAC28928A80'
 $checksumType = 'sha256'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
  
