@@ -2,7 +2,7 @@
 
 $packageName    = 'itch' 
 $installerType  = 'exe' 
-$url            = 'https://nuts.itch.zone/download/windows' 
+$url            = 'https://itch.io/app/download?platform=windows' 
 $silentArgs     = '' 
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $validExitCodes = @(0) 
@@ -19,4 +19,4 @@ $ahkFile        = Join-Path $toolsDir "itchInstall.ahk"
 
 Start-Process $ahkExe $ahkFile
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Checksum D251D2A658CF6EF6FE82203578F685F0D635B07F577C598D661DC331B5DB8E0B -ChecksumType sha256 -Options $options
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes -Options $options

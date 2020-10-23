@@ -3,7 +3,7 @@
   <metadata>
     <id>itch</id>
     <title>itch.io</title>
-    <version>25.4.0.20190311</version>
+    <version>25.4.0.20201024</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/itch</packageSourceUrl>
     <authors>itch corp</authors>
     <owners>Sanshiro</owners>
