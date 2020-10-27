@@ -5,8 +5,10 @@ $releases = 'https://www.torproject.org/download/tor/'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
+            "(?i)(^\s*url64\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -24,7 +26,8 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://archive.torproject.org/tor-package-archive/torbrowser/$torbrowserversion/tor-win32-$version.zip"
+        URL32   = "https://archive.torproject.org/tor-package-archive/torbrowser/$torbrowserversion/tor-win32-$version.zip"
+        URL64   = "https://archive.torproject.org/tor-package-archive/torbrowser/$torbrowserversion/tor-win64-$version.zip"
     }
 }
 
