@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wickr'
   installerType  = 'msi'
-  url            = 'https://s3.amazonaws.com/static.wickr.com/downloads/win/me/WickrMe-5.65.3.msi'
-  checksum       = '405731dc37fe92bce825ef53ce17a658a62b4c33e80b2fa411d7917ed67174c3'
+  url            = 'https://s3.amazonaws.com/static.wickr.com/downloads/win/me/WickrMe-5.65.4.msi'
+  checksum       = '41a6899631b60592d2e14804bd22444ecab83570ac229daefa3488ff08e8fc1a'
   checksumType   = 'sha256'
   silentArgs     = '/qb'
   validExitCodes = @(0)

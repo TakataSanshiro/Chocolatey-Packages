@@ -3,7 +3,7 @@
   <metadata>
     <id>tinywall</id>
     <title>TinyWall</title>
-    <version>3.0.8</version>
+    <version>3.0.9</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tinywall</packageSourceUrl>
     <authors>Károly Pados</authors>
     <owners>Sanshiro</owners>
