@@ -3,14 +3,13 @@ import-module au
 $releases = 'https://central.github.com/deployments/desktop/desktop/latest/win32'
 
 function global:au_BeforeUpdate {
-  $Latest.Checksum32 = Get-RemoteChecksum -Url $Latest.Url32 -Algorithm 'SHA256'
+  Get-RemoteFiles -Purge -NoSuffix 
 }
 
 function global:au_SearchReplace {
   @{
-    ".\tools\chocolateyInstall.ps1" = @{
-        "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
-        "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
+    ".\tools\VERIFICATION.txt" = @{
+      "(?i)(32-Bit.+)\<.*\>"     = "`${1}<$($Latest.URL32)>"
     }
   }
 }
