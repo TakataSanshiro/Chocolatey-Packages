@@ -7,8 +7,8 @@ function global:au_SearchReplace {
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
             "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
-            "(?i)(^\s*url64\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -21,8 +21,8 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL32   = "https://github.com/burtonator/polar-bookshelf/releases/download/v$version/polar-bookshelf-$version-nsis-ia32.exe"
-        URL64   = "https://github.com/burtonator/polar-bookshelf/releases/download/v$version/polar-bookshelf-$version-nsis-x64.exe"
+        URL32   = "https://github.com/burtonator/polar-bookshelf/releases/download/v$version/polar-desktop-app-$version-nsis-ia32.exe"
+        URL64   = "https://github.com/burtonator/polar-bookshelf/releases/download/v$version/polar-desktop-app-$version-nsis-x64.exe"
     }
 }
 
