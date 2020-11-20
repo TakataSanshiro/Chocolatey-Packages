@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName    = 'tor'
-  url            = 'https://archive.torproject.org/tor-package-archive/torbrowser/10.0/tor-win32-0.4.4.5.zip'
-  url64          = 'https://archive.torproject.org/tor-package-archive/torbrowser/10.0/tor-win64-0.4.4.5.zip'
-  checksum       = '058ca6179a8edc375e85449d9a2efcc6742fe1e08ab7571761944229e738fb89'
-  checksum64     = '94ECCEDC4B41A8DAFC7F20B12937A2F0839F5286807FBD31153846BF6E555E73'
+  url            = 'https://archive.torproject.org/tor-package-archive/torbrowser/10.0.5/tor-win32-0.4.4.6.zip'
+  url64          = 'https://archive.torproject.org/tor-package-archive/torbrowser/10.0.5/tor-win64-0.4.4.6.zip'
+  checksum       = 'e42d0fb5440da4ca4a8fe661cd10db52d3f2a432acf3dd80f2d558ac702f68a3'
+  checksum64     = '9ac20dec529edcc92547862ec2371e32011e5dcba8e22dfab0ff46dd4c3e9f74'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   softwareName   = 'Tor'

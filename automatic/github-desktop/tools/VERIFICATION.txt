@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
  
 1. Download release from 
-    32-Bit: <https://desktop.githubusercontent.com/releases/2.5.7-cfea2832/GitHubDesktopSetup.exe>
+    32-Bit: <https://desktop.githubusercontent.com/releases/2.6.0-b666c0f3/GitHubDesktopSetup.exe>
 
 2. Get sha256 checksum with utility of choice
 
