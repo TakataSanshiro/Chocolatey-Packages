@@ -1,10 +1,10 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
-$packageName = 'makehuman'
-$url = 'https://download.tuxfamily.org/makehuman/releases/1.1.1/makehuman-1.1.1-win32.zip' 
-$checksum = '913A60823F5E4AB73ED9614EE60E71CCF3D8234A3257DA9DC980A25447FB842E'
+$packageName  = 'makehuman'
+$url          = 'http://download.tuxfamily.org/makehuman/releases/makehuman-community-1.2.0-windows.zip' 
+$checksum     = '7F801801F4307A89C8DC91E5713553000A37D1225F25CB1C32AFAD20F3B0F4EE'
 $checksumType = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
