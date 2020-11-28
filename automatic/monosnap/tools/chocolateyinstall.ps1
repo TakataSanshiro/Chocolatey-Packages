@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'monosnap'
   fileType       = 'msi'
-  url            = 'https://static.monosnap.com/windows/Monosnap.4.1.1.msi?web'
+  url            = 'https://static.monosnap.com/windows/Monosnap.Web.Installer.msi'
   silentArgs     = '/quiet'
   validExitCodes = @(0)
   softwareName   = 'monosnap*'
-  checksum       = 'FED271AFC6BFC583C1D350B1C07FE12FD3B218F5D0D2DC13FC62B1EA9A1550D6'
+  checksum       = 'ECEAC3760067D7FDDD3672894297803A4623208456F48C389C5F1FD4F32314B6'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
