@@ -23,6 +23,9 @@ Save and share:
 * Login to get free cloud storage space
 * Upload your snapshot to our storage in one click
 * Or save it to your local folder and copy it to clipboard
+
+#### This is an auto update application
+* It's moved to webinstaller and It'll install the latest version automatically.
     </description>
     <projectUrl>https://monosnap.com/welcome</projectUrl>
     <tags>admin screenshot</tags>
