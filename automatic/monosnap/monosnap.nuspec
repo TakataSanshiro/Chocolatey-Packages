@@ -3,7 +3,7 @@
   <metadata>
     <id>monosnap</id>
     <title>Monosnap</title>
-    <version>4.1.1</version>
+    <version>4.1.16</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/monosnap</packageSourceUrl>
     <authors>Monosnap</authors>
     <owners>Sanshiro</owners>
