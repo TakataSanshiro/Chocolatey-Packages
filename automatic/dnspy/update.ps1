@@ -5,8 +5,10 @@ $releases = 'https://github.com/0xd4d/dnSpy/tags'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
+            "(?i)(^\s*url64\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -19,7 +21,8 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://github.com/0xd4d/dnSpy/releases/download/v$version/dnSpy-net472.zip"
+        URL32   = "https://github.com/dnSpy/dnSpy/releases/download/v$version/dnSpy-net-win32.zip"
+        URL64   = "https://github.com/dnSpy/dnSpy/releases/download/v$version/dnSpy-net-win64.zip"
     }
 }
 
