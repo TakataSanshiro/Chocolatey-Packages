@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName    = 'drmemory.portable'
-  url            = 'https://github.com/DynamoRIO/drmemory/releases/download/release%5F2.3.18351/DrMemory-Windows-2.3.18351.zip'
-  checksum       = '3365bc698fe63d47164dedc54f0529f2a37dab5a903840e64c56f5612d9f9a15'
+  url            = 'https://github.com/DynamoRIO/drmemory/releases/download/release%5F2.3.18609-10/DrMemory-Windows-2.3.18609-10.zip'
+  checksum       = '8915fd5e516186d01080cbf80212153cfd7a65e65da9471633dc5d4fd648db0e'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'drmemory.portable*'

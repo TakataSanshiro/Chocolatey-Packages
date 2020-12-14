@@ -3,7 +3,7 @@
   <metadata>
     <id>drmemory.install</id>
     <title>Dr. Memory (Install)</title>
-    <version>2.3.18351</version>
+    <version>2.3.1860910</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/drmemory.install</packageSourceUrl>
     <authors>VMWare, Google</authors>
     <owners>Sanshiro</owners>
