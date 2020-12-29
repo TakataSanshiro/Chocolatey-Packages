@@ -34,7 +34,6 @@ By running this program you contribute to the security of the overall Freenet ne
     <tags>anonymity privacy p2p decentralized darknet admin</tags>
     <projectSourceUrl>https://github.com/freenet/fred</projectSourceUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/freenet</packageSourceUrl>
-    <docsUrl>https://freenetproject.org/documentation.html</docsUrl>
     <bugTrackerUrl>https://bugs.freenetproject.org/view_all_bug_page.php?filter=48936</bugTrackerUrl>
     <dependencies>
       <dependency id="javaruntime" version="8.0.231" />
