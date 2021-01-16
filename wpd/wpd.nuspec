@@ -3,7 +3,7 @@
   <metadata>
     <id>wpd</id>
     <title>WPD</title>
-    <version>1.4.1722</version>
+    <version>1.4.1765</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/wpd</packageSourceUrl>
     <authors>WPD Team</authors>
     <owners>Sanshiro</owners>
@@ -24,7 +24,7 @@ WPD is free, totally portable, has a nice user-friendly interface and doesn't co
     </description>
     <projectUrl>https://wpd.app/</projectUrl>
     <tags>privacy freeware portable</tags>
-    <copyright>© 2016-2020 WPD Team.</copyright>
+    <copyright>© 2016-2021 WPD Team.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/wpd/wpd.png</iconUrl>
     <releaseNotes>https://wpd.app/changelog</releaseNotes>
