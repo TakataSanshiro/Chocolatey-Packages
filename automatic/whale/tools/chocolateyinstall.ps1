@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'whale'
   installerType  = 'exe'
-  url            = 'https://github.com/1000ch/whale/releases/download/v2.1.0/Whale.Setup.2.1.0.exe'
-  checksum       = '68621d064ccc853c29bef4a1d1e0c6f894cab3e127e1b83a1d899a5195944880'
+  url            = 'https://github.com/1000ch/whale/releases/download/v2.3.0/Whale.Setup.2.3.0.exe'
+  checksum       = '6195e231cdf244d3139cea4bfb87fb5db98ff60335ef397d0578651bf5fc75b5'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
