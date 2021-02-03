@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>appaudioconfig</id>
-    <version>1.10</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/appaudioconfig</packageSourceUrl>
+    <version>1.15</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/appaudioconfig</packageSourceUrl>
     <owners>Sanshiro</owners>
     <title>AppAudioConfig</title>
     <authors>Nir Sofer</authors>
