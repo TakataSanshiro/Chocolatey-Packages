@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>networkusageview</id>
+    <version>1.25</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/networkusageview</packageSourceUrl>
+    <owners>Sanshiro</owners>
+    <title>Nir NetworkUsageView</title>
+    <authors>Nir Sofer</authors>
+    <projectUrl>http://www.nirsoft.net/utils/network_usage_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/networkusageview/icon.png</iconUrl>
+    <copyright>Copyright (c) Nir Sofer</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/network_usage_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>utility nirsoft network analysis freeware portable</tags>
+    <summary>NetworkUsageView extracts and displays the network usage information stored in the SRUDB.dat database of Windows 8 and Windows 10.
+    </summary>
+    <description>
+The network usage data is collected every hour by Windows operating systems and includes the following information: The name and description of the service or application, the name and SID of the user, the network adapter, and the total number of bytes sent and received by the specified service/application. 
+
+## System Requirements
+This tools works on Windows 8 and Windows 10. Previous versions of Windows are not supported because the operating system doesn't collect the network usage information. 
+
+## Start Using NetworkUsageView
+NetworkUsageView doesn't require any installation process or additional DLL files. In order to start using it, simply run the executable file - NetworkUsageView.exe
+
+After running NetworkUsageView - if the SRUDB.dat database file is locked , NetworkUsageView will ask you whether you want to run it as administrator in order to access the locked file. If the file is not locked, NetworkUsageView will load it instantly. 
+    </description>
+    <releaseNotes>http://www.nirsoft.net/utils/network_usage_view.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
