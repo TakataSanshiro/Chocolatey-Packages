@@ -7,7 +7,7 @@ $packageArgs = @{
   silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'VPNArea*'
-  checksum       = '32d6b4484b656c7130e074254bfaccc177ba76b8f7fe5c484bd4f7e5b039a8e9'
+  checksum       = '087ED25D267D6C7D13AA623B862D15A635BD326CA0BDCE28DC36E8BA3A166B9B'
   checksumType   = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
