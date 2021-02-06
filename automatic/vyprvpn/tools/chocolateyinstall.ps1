@@ -9,11 +9,11 @@ Start-Process $ahkExe $ahkFile
 $packageArgs = @{
   packageName    = 'vyprvpn'
   fileType       = 'exe'
-  url            = 'https://downloads-goldenfrog.netdna-ssl.com/downloads/vyprvpn/desktop/windows/production/4.2.0.10666/VyprVPN-4.2.0.10666-installer.exe'
+  url            = 'https://downloads-goldenfrog.netdna-ssl.com/downloads/vyprvpn/desktop/windows/production/4.2.1.10702/VyprVPN-4.2.1.10702-installer.exe'
   silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'vyprvpn*'
-  checksum       = '739d86385cdeb8169caf0f29bbb50062193b0313da7b36478090ea4da9bb0e9f'
+  checksum       = '0eaa9f35469540ab620402f658e7d7bccffa49adea3b0534a72cbc1c895514b0'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }

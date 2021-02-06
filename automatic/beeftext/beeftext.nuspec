@@ -3,7 +3,7 @@
   <metadata>
     <id>beeftext</id>
     <title>Beeftext</title>
-    <version>8.0</version>
+    <version>8.1</version>
 	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/beeftext</packageSourceUrl>
     <projectSourceUrl>https://github.com/xmichelo/Beeftext</projectSourceUrl>
     <authors>Xavier Michelon</authors>
@@ -25,7 +25,7 @@ Beeftext is made for you. Beeftext allows you to define combos. A Combo associat
 	  <iconUrl>https://cdn.jsdelivr.net/gh/xmichelo/Beeftext@ff223f4b6354113d587d0bbc50ffd04bce7bf0f3/Website/images/favicon.png</iconUrl>
     <releaseNotes>https://github.com/xmichelo/Beeftext/releases</releaseNotes>
     <dependencies>
-      <dependency id="beeftext.install" version="8.0" />
+      <dependency id="beeftext.install" version="8.1" />
     </dependencies>
   </metadata>
   <files>
