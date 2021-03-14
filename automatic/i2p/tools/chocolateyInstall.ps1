@@ -12,7 +12,7 @@ $packageArgs = @{
   silentArgs     = ''
   validExitCodes = @(0)
   softwareName   = 'i2p*'
-  checksum       = 'e48939761c8d0303903b16b1480152de8b4f08ca918d5df0b1ae5c417f15f23a'
+  checksum       = 'AF4F022F3532B46DD341717FD08447007CA5217B6C88664BE693CAC7F71912EA'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
