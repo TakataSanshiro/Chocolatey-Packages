@@ -28,7 +28,6 @@ You can learn more about i2p at the Software Site.
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/i2p</packageSourceUrl>
     <docsUrl>https://geti2p.net/docs</docsUrl>
     <mailingListUrl>https://i2pforum.net/</mailingListUrl>
-    <bugTrackerUrl>https://trac.i2p2.de/report/1</bugTrackerUrl>
     <dependencies>
       <dependency id="autohotkey.portable" version="1.1.32.00" />
       <dependency id="javaruntime" version="8.0.231" />
