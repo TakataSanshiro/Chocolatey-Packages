@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://github.com/wireapp/wire-desktop/releases/download/windows%2F$version/WireSetup.$version.exe"
+        URL64   = "https://github.com/wireapp/wire-desktop/releases/download/windows%2F$version/Wire-Setup.exe"
     }
 }
 
