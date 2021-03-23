@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/shadowsocks/shadowsocks-windows/tags'
+$releases = 'https://github.com/shadowsocks/shadowsocks-windows/releases'
 
 function global:au_SearchReplace {
    @{
@@ -14,11 +14,13 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $version = $download_page.links.href -match 'tag/' | Select -First 1 | % { $_ -split '/' | select -Last 1 }
+    $url = $download_page.links.href -match 'shadowsocks-windows/releases/download/' | Select -First 1
+    $version = $download_page.links.href -match 'shadowsocks-windows/releases/download/' | Select -First 1 | % { $_ -split '/' | select -Last 2 }
+    $version = $version[0]
 
     @{
         Version = $version
-        URL64   = "https://github.com/shadowsocks/shadowsocks-windows/releases/download/$version/Shadowsocks-$version.zip"
+        URL64   = "https://github.com$url"
     }
 }
 
