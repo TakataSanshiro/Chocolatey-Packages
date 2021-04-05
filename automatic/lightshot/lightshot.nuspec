@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>lightshot</id>
-    <version>5.5.0.7</version>
+    <version>5.5.0.720210406</version>
     <title>Lightshot</title>
     <authors>Skillbrains</authors>
     <owners>Sanshiro</owners>
