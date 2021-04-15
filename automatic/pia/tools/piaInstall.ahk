@@ -22,6 +22,14 @@ IfWinExist, Windows Security
   Send {i}
   }
 
+sleep 50000
+
+IfWinExist, Error
+  {
+  WinActivate
+  Send {c}
+  }
+
 sleep 100000
 
 IfWinExist, Private Internet Access
