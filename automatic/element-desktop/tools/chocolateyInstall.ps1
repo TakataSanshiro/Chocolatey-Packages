@@ -1,9 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir              = Split-Path $MyInvocation.MyCommand.Definition
-$file64                = (Get-Childitem -Path $toolsDir -Filter "*_x64.exe").fullname
 
 $packageArgs = @{
-  file64         = $file64
+  file64         = Join-Path $toolsDir 'Element%20Setup%201.7.25_x64.exe'
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
   silentArgs     = '--silent'
@@ -13,4 +12,4 @@ $packageArgs = @{
 
 Install-ChocolateyInstallPackage @packageArgs
 
-Remove-Item -ea 0 -Force $file64 
+Remove-Item -ea 0 -Force -Path $toolsDir\*.exe
