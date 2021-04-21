@@ -3,7 +3,7 @@
   <metadata>
     <id>devdocs-app</id>
     <title>DevDocs-app</title>
-    <version>0.7.1</version>
+    <version>0.7.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/devdocs-app</packageSourceUrl>
     <authors>EGOIST</authors>
     <owners>Sanshiro</owners>

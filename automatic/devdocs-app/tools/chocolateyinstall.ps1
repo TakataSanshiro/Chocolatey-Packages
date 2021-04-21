@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'devdocs-app'
   installerType  = 'exe'
-  url            = 'https://github.com/egoist/devdocs-desktop/releases/download/v0.7.1/DevDocs-Setup-0.7.1.exe'
-  checksum       = 'f7c8e51ce59167946c236b44a454e8726614139a23c87e4b9c7316995e8a54ab'
+  url            = 'https://github.com/egoist/devdocs-desktop/releases/download/v0.7.2/DevDocs-Setup-0.7.2.exe'
+  checksum       = '0e9a034affc3e966e8f68aa794a97a1daea80f4f2c080910e75c47c0782d9ae0'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
