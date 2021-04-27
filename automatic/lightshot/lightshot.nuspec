@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>lightshot</id>
@@ -7,7 +7,7 @@
     <authors>Skillbrains</authors>
     <owners>Sanshiro</owners>
     <projectUrl>https://app.prntscr.com/</projectUrl>
-    <iconUrl>https://pbs.twimg.com/profile_images/2530932809/6dagi36ft16ya5hw0txm.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/alan-null/choco-lightshot.install@7224c47d5f5b8d87722b0893cd4ebf4e5434badc/icon.png</iconUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/lightshot</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>**Fast screenshot of selected area** - Our app allows you to select any area on your desktop and take its screenshot with 2 button-clicks
@@ -28,4 +28,5 @@
       <dependency id="lightshot.install" version="5.5.0.7" />
     </dependencies>
   </metadata>
+  <files />
 </package>
