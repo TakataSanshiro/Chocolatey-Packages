@@ -61,7 +61,5 @@ For those interested in **game and mobile development**, the IDE supports debugg
     </dependencies>
     <releaseNotes>https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files />
 </package>
