@@ -7,7 +7,7 @@ $packageArgs = @{
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0)
   softwareName  = 'vpnac*'
-  checksum      = '45ad1b7be7d7511bfc6d73fff23260ddba86e85cc8420e68ecc0ca7d808dbbba'
+  checksum      = 'c4c41b7f2d8d4ed136ea939f9af0a7c73011bb684b8b59912fe4bc14af4faeef'
   checksumType  = 'sha256'
   toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
