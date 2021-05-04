@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wordpress-com-for-desktop'
   installerType  = 'exe'
-  url            = 'https://github.com/Automattic/wp-calypso/releases/download/v6.13.0/wordpress.com-win32-setup-6.13.0.exe'
-  checksum       = '7695d5b201b46bfcc5ff0dc9c4ac2fe950f86b812dd6881be50ac1db7e39240b'
+  url            = 'https://github.com/Automattic/wp-calypso/releases/download/v6.14.0/wordpress.com-win32-setup-6.14.0.exe'
+  checksum       = '5942d44a8b013a3034d101c38b3c5715ddd7f471ab3213d18c01e51cd663d6e4'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
