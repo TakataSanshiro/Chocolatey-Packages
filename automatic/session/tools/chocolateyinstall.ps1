@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'session'
   installerType  = 'exe'
-  url            = 'https://github.com/loki-project/session-desktop/releases/download/v1.5.5/session-desktop-win-1.5.5.exe'
-  checksum       = '8f0316db6405c6d6fb20dfa3c7ad1e17fed25613171a2756236717a43025e9f8'
+  url            = 'https://github.com/loki-project/session-desktop/releases/download/v1.6.0/session-desktop-win-1.6.0.exe'
+  checksum       = '525fb69d8e93490444bf20b3e5f08791e4fd5dca81b351eb0319911f8b7c4db8'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
