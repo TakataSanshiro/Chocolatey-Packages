@@ -3,7 +3,7 @@
   <metadata>
     <id>session</id>
     <title>Session</title>
-    <version>1.6.3</version>
+    <version>1.6.4</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/session</packageSourceUrl>
     <authors>loki-project</authors>
     <owners>Sanshiro</owners>
