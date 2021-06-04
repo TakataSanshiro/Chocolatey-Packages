@@ -3,7 +3,7 @@
   <metadata>
     <id>ida-free</id>
     <title>IDA free</title>
-    <version>7.07.0</version>
+    <version>7.6.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ida-free</packageSourceUrl>
     <authors>Hex-Rays SA.</authors>
     <owners>Sanshiro</owners>
@@ -12,12 +12,13 @@
 The IDA Disassembler and Debugger is an interactive, programmable, extendible, multi-processor disassembler hosted on Windows, Linux, or Mac OS X. IDA has become the de-facto standard for the analysis of hostile code, vulnerability research and COTS validation. See this executive overview for a summary of its features and uses. 
 Multitarget Disassembler
 Multitarget Debugger
-IDA 7.0 Freeware version is free for non-commercial use.
+IDA 7.6 Freeware version is free for non-commercial use.
 
-The freeware version of IDA v7.0 has the following limitations: 
+The freeware version of IDA v7.6 comes with the following limitations:
 * no commercial use is allowed
-* lacks all features introduced in IDA > v7.0
-* lacks support for many processors, file formats, debugging etc...
+* lacks all features introduced in IDA > v7.6
+* cloud-based decompiler lacks certain advanced commands
+* lacks support for many processors, file formats, etc…
 * comes without technical support
     </description>
     <projectUrl>https://www.hex-rays.com/products/ida/index.shtml</projectUrl>
