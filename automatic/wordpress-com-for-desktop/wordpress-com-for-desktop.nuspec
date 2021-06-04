@@ -3,7 +3,7 @@
   <metadata>
     <id>wordpress-com-for-desktop</id>
     <title>WordPress.com Desktop (Calypso)</title>
-    <version>6.14.0</version>
+    <version>6.15.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wordpress-com-for-desktop</packageSourceUrl>
     <authors>Automattic Inc.</authors>
     <owners>Sanshiro</owners>
