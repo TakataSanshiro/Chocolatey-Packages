@@ -15,15 +15,15 @@
 * Speed is a feature
 * Not one size fits all
     </description>
-    <projectUrl>https://apps.wordpress.com/desktop/</projectUrl>
-    <projectSourceUrl>https://github.com/Automattic/wp-desktop</projectSourceUrl>
-    <bugTrackerUrl>https://github.com/Automattic/wp-desktop/issues</bugTrackerUrl>
+    <projectUrl>https://developer.wordpress.com/calypso/</projectUrl>
+    <projectSourceUrl>https://github.com/Automattic/wp-calypso</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Automattic/wp-calypso/issues</bugTrackerUrl>
     <tags>admin electron wordpress blog editor</tags>
     <copyright>© Automattic Inc.</copyright>
-    <licenseUrl>https://github.com/Automattic/wp-desktop/blob/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/Automattic/wp-calypso/blob/trunk/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/Automattic/wp-desktop@329205c3/resource/app-icon/icon_512x512.png</iconUrl>
-    <releaseNotes>https://github.com/Automattic/wp-desktop/releases</releaseNotes>
+    <releaseNotes>https://github.com/Automattic/wp-calypso/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
