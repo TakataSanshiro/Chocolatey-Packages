@@ -14,7 +14,10 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
     # -UseBasicParsing
-    $version = $download_page.ParsedHtml.querySelector(".update.latest > div > h1").innerHTML
+    $version = $download_page.ParsedHtml.querySelector("h1").innerHTML
+    $version = $version | % { $_ -split '/' | select -FIRST 3 }
+    $version = $version[2] | % { $_ -split '>' | select -FIRST 3 }
+    $version = $version[0].Substring(0,$version[0].Length-1)
 
     @{
         Version = $version
