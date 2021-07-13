@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>glasswire</id>
+    <version>2.3.323</version>
+    <title>GlassWire</title>
+    <authors>GlassWire</authors>
+    <owners>MANICX100, dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.glasswire.com/license</licenseUrl>
+    <projectUrl>https://www.glasswire.com</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/MANICX100/chocolatey/a2a73f354e6504643e2b8db2148b25d29db2eb78/glasswire/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GlassWire is a free network monitor and security tool with a built in firewall. GlassWire displays your network activity on an easy to understand graph while searching for unusual Internet behavior that could indicate malware or violations of your privacy. Once unusual network activity is discovered you're instantly alerted with detailed information so you can protect your computer, privacy, and data.
+
+#### [Features](https://www.glasswire.com/features/)
+
+#### [Privacy Policy](https://www.glasswire.com/privacy/)
+
+#### Documentation
+* [Quick start guide](https://www.glasswire.com/quickstartguide/)
+* [Alert dictionary](https://www.glasswire.com/dictionary/)
+* [FAQ](https://www.glasswire.com/faq/)
+* [Manual](https://www.glasswire.com/userguide/)
+
+#### Community
+* [Forum](https://forum.glasswire.com/)
+* [Facebook](https://www.facebook.com/glasswirelabs)
+* [Google+](https://plus.google.com/+glasswire)
+* [Twitter](https://twitter.com/GlassWireLabs)</description>
+    <summary>Firewall and network monitor that visualizes network data over time to assist in malware discovery</summary>
+    <releaseNotes>#### Program
+* [News](https://blog.glasswire.com/)
+* [Changelog](https://www.glasswire.com/changes/)</releaseNotes>
+    <copyright>© 2021 GlassWire</copyright>
+    <tags>visualize network traffic monitor firewall malware freeware admin</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
