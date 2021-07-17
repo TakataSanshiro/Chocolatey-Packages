@@ -16,9 +16,9 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
     # -UseBasicParsing
-    $version = $download_page.ParsedHtml.querySelector(".muted").innerText
-    $version = $version.split(" ") | select -first 2
-    $version = $version[1]
+    $version = $download_page.ParsedHtml.querySelector(".h5").innerText
+    $version = $version.split(" ") | select -last 1
+    $version = $version.Replace(':', '')
 
     @{
         Version = $version
