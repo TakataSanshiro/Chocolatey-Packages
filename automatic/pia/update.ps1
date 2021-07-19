@@ -18,9 +18,10 @@ function global:au_GetLatest {
     $version = $download_page.links.href -match 'pia-windows' | Select -First 1 | % { $_ -split '-' | select -Last 2 }
     $secondVersion = $version[1].Substring(0,$version[1].length-4)
     $version = $version[0]
+    $chocoPackageVersion = '290.' + $version
 
     @{
-        Version   = $version
+        Version   = $chocoPackageVersion
         URL32     = "https://installers.privateinternetaccess.com/download/pia-windows-x86-$version-$secondVersion.exe"
         URL64     = "https://installers.privateinternetaccess.com/download/pia-windows-x64-$version-$secondVersion.exe"
     }
