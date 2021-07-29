@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'terminus'
   installerType  = 'exe'
-  url            = 'https://github.com/Eugeny/tabby/releases/download/v1.0.148/tabby-1.0.148-setup.exe'
-  checksum       = '6e5dd916043391cc817e148cb3bca233f2ed5a03ddba1aca06a9d8c9760c8e47'
+  url            = 'https://github.com/Eugeny/tabby/releases/download/v1.0.149/tabby-1.0.149-setup.exe'
+  checksum       = 'ce688b9c53d2559220d5e41de0306bd17a4cad69be8b2786bc08102162a280b7'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
