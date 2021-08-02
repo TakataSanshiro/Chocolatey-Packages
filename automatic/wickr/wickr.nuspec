@@ -22,14 +22,13 @@ Anonymous – Your Wickr ID is anonymous to us and anyone outside your Wickr net
 Your conversations can not be tracked, intercepted or monitored.
 Groups – Communicate with groups of up to 10 contacts
 Fun – Add stickers, graffiti and photo filters
-	  </description>
-    <projectUrl>https://www.wickr.com/personal</projectUrl>
+    </description>
+    <projectUrl>https://wickr.com/me/</projectUrl>
     <tags>admin secure messanger chat end-to-end encryption filesharing selfdestructingmessages</tags>
     <copyright>© Wickr Inc.</copyright>
     <licenseUrl>https://www.wickr.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	  <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/wickr/icon.png</iconUrl>
-    <releaseNotes>https://wickr.com/personal/wickr-messenger-release-notes</releaseNotes>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/wickr/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
