@@ -30,7 +30,7 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/protonvpn/protonvpn.png</iconUrl>
     <dependencies>
       <dependency id="kb2919355" version="1.0.20160915" />
-      <dependency id="dotnet4.6.2" version="4.6.01590.20170129" />
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
     </dependencies>
   </metadata>
   <files>
