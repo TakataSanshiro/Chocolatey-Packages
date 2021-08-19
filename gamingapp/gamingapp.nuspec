@@ -3,7 +3,7 @@
   <metadata>
     <id>gamingapp</id>
     <title>MSI Gaming App</title>
-    <version>6.2.0.97</version>
+    <version>6.2.0.98</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/gamingapp</packageSourceUrl>
     <authors>MSI</authors>
     <owners>Sanshiro</owners>
