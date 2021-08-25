@@ -6,7 +6,7 @@
     <version>2.9.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/github-desktop</packageSourceUrl>
     <authors>GitHub</authors>
-    <owners>Sanshiro</owners>
+    <owners>Sanshiro virtualex</owners>
     <summary>The new native. Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</summary>
     <description>
 ## This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.
