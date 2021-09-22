@@ -3,7 +3,7 @@
   <metadata>
     <id>mamp</id>
     <title>MAMP &amp; MAMP PRO</title>
-    <version>5.0</version>
+    <version>5.0.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/mamp</packageSourceUrl>
     <authors>appsolute GmbH</authors>
     <owners>Sanshiro</owners>
