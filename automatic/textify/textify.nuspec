@@ -13,6 +13,7 @@ Have you ever wanted to copy some text from a dialog box which doesn’t provide
 Textify was created to solve this problem: you can point your mouse over the text, click on the mouse shortcut (Shift + Middle click by default), and get a selectable view of the text.
     </description>
     <projectUrl>http://rammichael.com/textify</projectUrl>
+    <projectSourceUrl>https://github.com/m417z/Textify</projectSourceUrl>
     <tags>admin windows utility</tags>
     <copyright>RaMMicHaeL</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
