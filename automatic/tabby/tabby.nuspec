@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tabby</id>
+    <title>Tabby(Terminus)</title>
+    <version>1.0.158</version>
+    <authors>Eugene Pankov (and contributors)</authors>
+    <owners>Hadrien Dussuel, Sanshiro</owners>
+    <summary>A terminal for a more modern age (formerly Terminus)</summary>
+    <description>Tabby is a web technology based terminal heavily inspired by Hyper. It is, however, designed for people who need to get things done.
+
+Runs on Windows, macOS and Linux
+Theming and color schemes
+Configurable hotkey schemes
+GNU Screen style hotkeys available by default
+Full Unicode support including double-width characters
+Doesn't choke on fast-flowing outputs
+Tab persistence on macOS and Linux
+Proper shell-like experience on Windows including tab completion (thanks, Clink!)
+CMD, PowerShell, Cygwin, Git-Bash and Bash on Windows support
+Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
+</description>
+    <projectUrl>https://github.com/Eugeny/tabby</projectUrl>
+    <tags>terminal console windows admin</tags>
+    <copyright>© Eugene Pankov</copyright>
+    <licenseUrl>https://github.com/Eugeny/tabby/blob/master/LICENSE</licenseUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tabby</packageSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/tabby/tabby.png</iconUrl>
+    <docsUrl>https://github.com/Eugeny/tabby/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/Eugeny/tabby/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Eugeny/tabby</projectSourceUrl>
+    <releaseNotes>https://github.com/Eugeny/tabby/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
