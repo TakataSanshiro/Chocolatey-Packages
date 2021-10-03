@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>onlyoffice</id>
-    <version>6.3.1</version>
+    <version>6.4.1</version>
     <title>ONLYOFFICE (Install)</title>
     <authors>Ascensio System SIA</authors>
     <owners>dimqua, Akipe, Sanshiro</owners>
