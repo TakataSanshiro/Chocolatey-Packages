@@ -11,3 +11,10 @@ $packageArgs = @{
   softwareName   = 'Tabby*'
 }
 Install-ChocolateyPackage @packageArgs
+
+
+$installLocation = Get-AppInstallLocation $packageArgs.softwareName
+if (!$installLocation)  {  Write-Warning "Can't find $PackageName install location"; return }
+
+Write-Host "$packageName installed to '$installLocation'"
+Install-BinFile -Path "$installLocation\Tabby.exe" -Name 'tabby'
