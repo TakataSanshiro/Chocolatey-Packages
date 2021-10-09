@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tabby</id>
     <title>Tabby(Terminus)</title>
-    <version>1.0.158</version>
+    <version>1.0.159</version>
     <authors>Eugene Pankov (and contributors)</authors>
     <owners>Hadrien Dussuel, Sanshiro</owners>
     <summary>A terminal for a more modern age (formerly Terminus)</summary>

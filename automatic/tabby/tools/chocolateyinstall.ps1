@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'tabby'
   installerType  = 'exe'
-  url            = 'https://github.com/Eugeny/tabby/releases/download/v1.0.158/tabby-1.0.158-setup.exe'
-  checksum       = '455c87839aef0dc761de500c10208585a044f9c994da5febffbdb5d74912ab1f'
+  url            = 'https://github.com/Eugeny/tabby/releases/download/v1.0.159/tabby-1.0.159-setup.exe'
+  checksum       = 'd308a0d3b72ad72d5f945e88ae4c3b4f96c290ac1275230cc6a28cd6cb44d05a'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
