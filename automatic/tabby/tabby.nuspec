@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>tabby</id>
@@ -19,6 +19,11 @@ Tab persistence on macOS and Linux
 Proper shell-like experience on Windows including tab completion (thanks, Clink!)
 CMD, PowerShell, Cygwin, Git-Bash and Bash on Windows support
 Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
+
+## Package parameters
+- `/allusers` - Install in allusers folder(C:\Program Files\Tabby) instead of user profile's folder.
+
+Example: choco install tabby --params "/allusers"
 </description>
     <projectUrl>https://github.com/Eugeny/tabby</projectUrl>
     <tags>terminal console windows admin</tags>
@@ -31,6 +36,9 @@ Default Linux style hotkeys for copy (Ctrl+Shift+C) and paste (Ctrl+Shift+V)
     <bugTrackerUrl>https://github.com/Eugeny/tabby/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/Eugeny/tabby</projectSourceUrl>
     <releaseNotes>https://github.com/Eugeny/tabby/releases</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
