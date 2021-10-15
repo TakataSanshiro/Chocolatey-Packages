@@ -9,14 +9,14 @@ Start-Process $ahkExe $ahkFile
 $packageArgs = @{
   packageName    = 'pia'
   fileType       = 'exe'
-  url            = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-3.0.1-06696.exe'
-  checksum       = '77f655bb4c2f81be72a2a3910a80b1474491c063003ebc1a4be49cd29bc7d317'
+  url            = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-3.1-06756.exe'
+  checksum       = '8b5b2403cbf10b1b04bbef12b9364753d43c119fde05879547e187e2977d87f9'
   checksumType   = 'sha256'
   silentArgs     = ''
   validExitCodes = @(0)
   softwareName   = 'pia*'
-  url64          = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.0.1-06696.exe'
-  checksum64     = 'bf69fe2e83a9d8963ac3a43ab3439e3961e083bc0345b870374ce1e786302a14'
+  url64          = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.1-06756.exe'
+  checksum64     = '4217a60a3fe0cf58c21f7786002231fcd23fa3629b03efdf5a64d41bf22484fb'
   checksumType64 = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
