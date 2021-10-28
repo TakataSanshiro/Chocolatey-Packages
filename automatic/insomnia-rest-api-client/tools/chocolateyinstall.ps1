@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = 'insomnia-rest-api-client'
   installerType = 'exe'
-  url           = 'https://github.com/Kong/insomnia/releases/download/core%402021.5.3/Insomnia.Core-2021.5.3.exe'
-  checksum      = '3ba3821a13ad4589e14e3ff09f2def8068cb93b7f0171006ed21796cf6333b99'
+  url           = 'https://github.com/Kong/insomnia/releases/download/core%402021.6.0/Insomnia.Core-2021.6.0.exe'
+  checksum      = 'bc9ed4ec13792ae22e55a93e1c1fcb0a6f062433d1c10d16a5c3460e5cd0cb11'
   checksumType  = 'sha256'
   silentArgs    = '--silent'
   validExitCodes= @(0)

@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/Kong/insomnia/releases/latest'
+$releases = 'https://github.com/Kong/insomnia/releases'
 
 function global:au_SearchReplace {
    @{
@@ -14,7 +14,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $version = $download_page.links.href -match 'exe' | Select -First 1 | % { $_ -split '/' | select -Last 2 }
+    $version = $download_page.links.href -match 'exe' -notmatch 'portable' | Select -First 1 | % { $_ -split '/' | select -Last 2 }
     $version = $version[0] | % { $_ -split '%40' | select -Last 1 }
 
     @{
