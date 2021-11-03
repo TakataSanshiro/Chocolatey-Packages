@@ -16,11 +16,11 @@ function global:au_GetLatest {
 
     $version = $download_page.links.href -match 'tag/' -notmatch 'cronbuild' | Select -First 1 | % { $_ -split '/' | select -Last 1 }
     $version = $version.Substring(8)
-    $versionUrl = $version.Substring(0,$version.Length-2)
+    #$versionUrl = $version.Substring(0,$version.Length-2)
 
     @{
-        Version = $versionUrl
-        URL64   = "https://github.com/DynamoRIO/drmemory/releases/download/release%5F$versionUrl/DrMemory-Windows-$version.zip"
+        Version = $version
+        URL64   = "https://github.com/DynamoRIO/drmemory/releases/download/release%5F$version/DrMemory-Windows-$version.zip"
     }
 }
 
