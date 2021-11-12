@@ -3,7 +3,7 @@
   <metadata>
     <id>magicavoxel</id>
     <title>MagicaVoxel</title>
-    <version>0.99.6.2</version>
+    <version>0.99.6.4</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/magicavoxel</packageSourceUrl>
     <authors>ephtracy</authors>
     <owners>Sanshiro</owners>
@@ -14,6 +14,15 @@
 * Emissive Area Lighting, Fog, Scattering
 * Transparent voxels with Refraction and Attenuation
 * Voxel Shader, Marching Cube Export
+
+## Notes
+If you saved your voxel art at default magicavoxel folder(needs admin permission). The folder path is here.
+C:\ProgramData\chocolatey\lib\magicavoxel\tools\"previous-version-number"\vox (or \export folder)
+
+I recommend use your home folder instead of above.
+choco upgrade will not delete the previous version magicavoxel folder, but choco uninstall will delete all magicavoxel folder.
+
+64bit only from 0.99.6.4 version.
     </description>
     <projectUrl>https://ephtracy.github.io/</projectUrl>
     <tags>voxel 3d modeling</tags>
