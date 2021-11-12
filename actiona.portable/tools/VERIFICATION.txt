@@ -5,14 +5,14 @@ in verifying that this package's contents are trustworthy.
 The installer have been downloaded from here and can be verified like this:
  
 1. Download the following installers:
-  32-Bit: <https://jmgr.net/download/130/actiona-3.9.4-windows-32bit.7z>
-  64-Bit: <https://jmgr.net/download/131/actiona-3.9.4-windows-64bit.7z>
+  32-Bit: <https://jmgr.net/download/133/actiona-3.10.0-windows-32bit.7z>
+  64-Bit: <https://jmgr.net/download/135/actiona-3.10.0-windows-64bit.7z>
 2. You can use one of the following methods to obtain the checksum
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
  
   checksum type: sha256
-  checksum32: 2787CF85679ABC9E6ECCC56C5A4EAC116230B60D86D0BE9D8CFD649EF031A3B9
-  checksum64: F0C658A9C1219048B8059D9900DCBC361A3E2406EF885A001134EB2C2613C799
+  checksum32: 9D3411B528F56F446B64B75A6F2B18B57AEDF2D9312C938F400730A04906352C
+  checksum64: 3E017B4804B10EF6457D5CD4BE59CDFAE476F94F60B50427476A82A55D17B901
  
 File 'LICENSE.txt' is obtained from <https://github.com/Jmgr/actiona/blob/master/LICENSE>

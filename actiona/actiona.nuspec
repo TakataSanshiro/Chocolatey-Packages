@@ -3,7 +3,7 @@
   <metadata>
     <id>actiona</id>
     <title>Actiona</title>
-    <version>3.9.4</version>
+    <version>3.10.0</version>
     <authors>Jmgr</authors>
     <owners>Sanshiro</owners>
     <summary>Actiona is a task automation tool. It allows you to create and execute action lists.</summary>
@@ -19,14 +19,11 @@ The program is developed in C++ and uses the Qt framework.</description>
     <copyright>Copyright Jmgr</copyright>
     <licenseUrl>https://github.com/Jmgr/actiona/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/e9fbda99/actiona/actiona.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@21a91409c98034ac1f59bf8abd7eac7d6a83cd72/actiona/actiona.png</iconUrl>
     <releaseNotes>https://wiki.actiona.tools/doku.php?id=en:changelog</releaseNotes>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/actiona</packageSourceUrl>
     <dependencies>
       <dependency id="actiona.install" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
