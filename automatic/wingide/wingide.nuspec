@@ -3,7 +3,7 @@
   <metadata>
     <id>wingide</id>
     <title>Wing Python IDE</title>
-    <version>8.1.0.0</version>
+    <version>8.1.1.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wingide</packageSourceUrl>
     <authors>Wingware</authors>
     <owners>Sanshiro</owners>
