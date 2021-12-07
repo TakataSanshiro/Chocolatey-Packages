@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://download.i2p2.de/releases/$version/i2pinstall%5F$version%5Fwindows.exe"
+        URL64   = "https://files.i2p-projekt.de/$version/i2pinstall%5F$version%5Fwindows.exe"
     }
 }
 

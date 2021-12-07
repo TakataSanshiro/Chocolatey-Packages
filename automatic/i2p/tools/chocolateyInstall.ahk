@@ -59,3 +59,4 @@ Loop, 1000 {
     break
   Sleep 150
 }
+ExitApp

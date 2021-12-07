@@ -21,3 +21,4 @@ Sleep 2000
 Send {ENTER}
 Sleep 2000
 Send {ENTER}
+ExitApp
