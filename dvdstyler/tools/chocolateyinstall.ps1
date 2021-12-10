@@ -3,11 +3,11 @@
 $packageName    = 'dvdstyler'
 $toolsDir       = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $installerType  = 'exe'
-$url            = 'https://sourceforge.net/projects/dvdstyler/files/dvdstyler/3.1/DVDStyler-3.1-win32.exe/download'
-$checksum       = '45E747A6F0057BEADDF7A5206326EC2A1F7BFC8D73A1FF923352C2E63048A0BB'
+$url            = 'https://sourceforge.net/projects/dvdstyler/files/dvdstyler/3.2.1/DVDStyler-3.2.1-win32.exe/download'
+$checksum       = '1E8482DFC9857BFCF7BCB60245EDEC178FC496B78D07DD4309548B67F0ECF0F1'
 $checksumType   = 'sha256'
-$url64          = 'https://sourceforge.net/projects/dvdstyler/files/dvdstyler/3.1/DVDStyler-3.1-win64.exe/download'
-$checksum64     = '85D91E6C8B17D56E9EC1CAFB2723C889E0220F19EDCE41FCC9B992DB83B8265F'
+$url64          = 'https://sourceforge.net/projects/dvdstyler/files/dvdstyler/3.2.1/DVDStyler-3.2.1-win64.exe/download'
+$checksum64     = '99B74055E9B5CCEAE29B153158563E454905531C966F3CDBE98EA390A6A0E713'
 $checksumType64 = 'sha256'
 $silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) 
