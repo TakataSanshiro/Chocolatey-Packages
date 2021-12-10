@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'mamp'
   fileType       = 'exe'
-  url            = 'https://downloads.mamp.info/MAMP-PRO-WINDOWS/releases/5.0.3/MAMP_MAMP_PRO_5.0.3.exe'
+  url            = 'https://downloads.mamp.info/MAMP-PRO-WINDOWS/releases/5.0.4/MAMP_MAMP_PRO_5.0.4.exe'
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
   softwareName   = 'MAMP*'
-  checksum       = 'ceb97858e2752775e3fe5e7c01f2727939f39dafb539990c6966c93f73ad9250'
+  checksum       = 'da924f995dc5f01817fd56f10b727dd48a929a57a1ae6b497855428049f2b3bb'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
