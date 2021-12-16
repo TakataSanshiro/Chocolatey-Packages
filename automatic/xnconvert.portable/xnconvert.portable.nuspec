@@ -3,7 +3,7 @@
   <metadata>
     <id>xnconvert.portable</id>
     <title>XnConvert (Portable)</title>
-    <version>1.94</version>
+    <version>1.95</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/xnconvert.portable</packageSourceUrl>
     <authors>XnSoft</authors>
     <owners>Sanshiro</owners>
