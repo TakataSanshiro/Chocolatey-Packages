@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'protonvpn'
   fileType       = 'exe'
-  url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.24.2.exe'
+  url            = 'https://protonvpn.com/download/ProtonVPN_win_v1.25.0.exe'
   silentArgs     = '/quiet'
   validExitCodes = @(0)
   softwareName   = 'ProtonVPN*'
-  checksum       = 'ba05cc468d6c24a1c61483815583c63e3d7bf4b779a54db300a8ac340c4359fb'
+  checksum       = 'be8500bb0c29417d4dbc543aabdfa1817363176e3fdcb651e916015d11d91ea3'
   checksumType   = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
