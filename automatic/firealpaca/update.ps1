@@ -19,9 +19,10 @@ function global:au_GetLatest {
     $version = $version[0]
 
     @{
-        Version = $version
-        URL     = 'https://firealpaca.com/download/win64'
+        Version  = $version
+        URL      = 'https://firealpaca.com/download/win64'
+        Checksum = Get-RemoteChecksum -Url 'https://firealpaca.com/download/win64'
     }
 }
 
-update -ChecksumFor none -NoCheckUrl
+update -NoCheckUrl
