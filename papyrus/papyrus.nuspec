@@ -3,7 +3,7 @@
   <metadata>
     <id>papyrus</id>
     <title>Papyrus</title>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/papyrus</packageSourceUrl>
     <authors>morkro</authors>
     <owners>Sanshiro</owners>

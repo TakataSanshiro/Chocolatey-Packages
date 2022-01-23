@@ -3,7 +3,7 @@
   <metadata>
     <id>snips</id>
     <title>Snips</title>
-    <version>1.1</version>
+    <version>1.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/snips</packageSourceUrl>
     <authors>Ethan Piliavin</authors>
     <owners>Sanshiro</owners>
