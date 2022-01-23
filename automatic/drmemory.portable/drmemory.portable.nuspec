@@ -14,6 +14,11 @@ Dr. Memory is a memory monitoring tool capable of identifying memory-related pro
 Dr. Memory operates on unmodified application binaries running on Windows or Linux on commodity IA-32 and AMD64 hardware. Dr. Memory currently targets 32-bit applications only.
   
 Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.
+
+## Notes
+Many Antivirus programs display false alerts. For more information about false positive problems, read [this](https://drmemory.org/page_release_notes.html#sec_interop).
+
+Dr. Memory may have conflicts with security software or with other software that injects into the same process as Dr. Memory. There are known interoperability problems with some anti-virus applications, including Avast 8.0. 
     </description>
     <projectUrl>http://www.drmemory.org/</projectUrl>
     <projectSourceUrl>https://github.com/DynamoRIO/drmemory</projectSourceUrl>
