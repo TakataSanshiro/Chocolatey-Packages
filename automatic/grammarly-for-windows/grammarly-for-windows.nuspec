@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>grammarly-for-windows</id>
+    <title>Grammarly for Windows</title>
+    <version>1.0.0.92</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/grammarly-for-windows</packageSourceUrl>
+    <authors>Grammarly Inc.</authors>
+    <owners>Sanshiro</owners>
+    <summary>An all-in-one writing assistant that works on your desktop and in your browser. Use it in apps, word processors, email clients, and more.</summary>
+    <description>Use it with emails, messages, documents, and more
+Check your grammar, spelling, and punctuation
+Make your ideas clear
+Adjust your tone
+    </description>
+    <projectUrl>https://www.grammarly.com/desktop/windows</projectUrl>
+    <tags>admin grammar spelling vocabulary</tags>
+    <copyright>© Grammarly Inc.</copyright>
+    <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/grammarly-for-windows/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
