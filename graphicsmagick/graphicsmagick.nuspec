@@ -31,4 +31,7 @@ GraphicsMagick is originally derived from ImageMagick 5.5.2 as of November 2002 
       <dependency id="chocolatey-uninstall.extension" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
