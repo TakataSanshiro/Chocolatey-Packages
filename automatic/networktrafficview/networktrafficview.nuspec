@@ -8,7 +8,7 @@
     <owners>dtgm, Sanshiro</owners>
     <licenseUrl>http://www.nirsoft.net/utils/network_traffic_view.html</licenseUrl>
     <projectUrl>http://www.nirsoft.net/utils/network_traffic_view.html</projectUrl>
-    <iconUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/networktrafficview/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/networktrafficview/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>NetworkTrafficView is a network monitoring tool that captures the packets pass through your network adapter,
 and displays general statistics about your network traffic. The packets statistics is grouped by the
