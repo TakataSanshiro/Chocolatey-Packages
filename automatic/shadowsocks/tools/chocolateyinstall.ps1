@@ -1,11 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop';
 
+$unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$pp = Get-PackageParameters
+if ($pp['user']) { $unzipLocation = "$env:AppData\shadowsocks" }
+
 $packageArgs = @{
   packageName    = 'shadowsocks'
-  url            = 'https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.4.0.0/Shadowsocks-4.4.0.185.zip'
-  checksum       = 'a5e9856fc84492bf129cca06659842ccc9705f7e24eaa9bd6ec5d529f7c61abb'
+  url            = 'https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.4.1.0/Shadowsocks-4.4.1.0.zip'
+  checksum       = '62b74a688d22bfdf20f673a351580029d7b9de67c6facc9a5613b22b3f798968'
   checksumType   = 'sha256'
   softwareName   = 'Shadowsocks'
-  unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  unzipLocation  = $unzipLocation
 }
 Install-ChocolateyZipPackage @packageArgs

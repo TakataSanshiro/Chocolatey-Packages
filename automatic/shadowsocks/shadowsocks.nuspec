@@ -3,7 +3,7 @@
   <metadata>
     <id>shadowsocks</id>
     <title>shadowsocks</title>
-    <version>4.4.0.0</version>
+    <version>4.4.1.0</version>
     <authors>shadowsocks</authors>
     <owners>chantisnake, Sanshiro</owners>
     <summary>If you want to keep a secret, you must also hide it from yourself. </summary>
@@ -29,6 +29,14 @@ proxy addons in your browser, or set them to use system proxy
 4. You can also configure your browser proxy manually if you don't want to enable
 system proxy. Set Socks5 or HTTP proxy to 127.0.0.1:1080. You can change this
 port in `Servers -&gt; Edit Servers`
+
+
+## Package parameters
+- `/user` - Install in user profile's folder(C:\Users\user\AppData\Roaming\shadowsocks) instead of allusers(administrator) folder(C:\ProgramData\chocolatey\lib\shadowsocks\tools).
+
+Example: choco install shadowsocks --params "/user"
+
+shadowsocks in user profile's folder will not get uninstalled automatically by this package. Please remove shadowsocks manually after choco uninstall shadowsocks.
     </description>
     <projectUrl>https://github.com/shadowsocks/shadowsocks-windows</projectUrl>
     <projectSourceUrl>https://github.com/shadowsocks/shadowsocks-windows</projectSourceUrl>
@@ -41,6 +49,9 @@ port in `Servers -&gt; Edit Servers`
     <bugTrackerUrl>https://github.com/shadowsocks/shadowsocks-windows/issues</bugTrackerUrl>
     <releaseNotes>https://github.com/shadowsocks/shadowsocks-windows/releases</releaseNotes>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/shadowsocks</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
