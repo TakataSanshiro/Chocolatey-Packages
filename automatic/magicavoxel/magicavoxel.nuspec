@@ -15,8 +15,15 @@
 * Transparent voxels with Refraction and Attenuation
 * Voxel Shader, Marching Cube Export
 
+## Package parameters
+- `/user` - Install in user profile's folder(C:\Users\user\AppData\Roaming\magicavoxel) instead of allusers(administrator) folder(C:\ProgramData\chocolatey\lib\magicavoxel\tools\MagicaVoxel-version-win64).
+
+Example: choco install magicavoxel --params "/user"
+
+magicavoxel in user profile's folder will not get uninstalled automatically by this package. Please remove magicavoxel manually after choco uninstall magicavoxel.
+
 ## Notes
-If you saved your voxel art at default magicavoxel folder(needs admin permission). The folder path is here.
+If you saved your voxel art at allusers(administrator) magicavoxel folder(needs admin permission). The folder path is here.
 C:\ProgramData\chocolatey\lib\magicavoxel\tools\"previous-version-number"\vox (or \export folder)
 
 I recommend use your home folder instead of above.
@@ -31,6 +38,9 @@ choco upgrade will not delete the previous version magicavoxel folder, but choco
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/magicavoxel/icon.png</iconUrl>
     <releaseNotes>https://ephtracy.github.io/</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
