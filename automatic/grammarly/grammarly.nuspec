@@ -20,9 +20,9 @@ It exists only for backward compatibility to provide a transitional dummy packag
     <copyright>© Grammarly Inc.</copyright>
     <licenseUrl>https://www.grammarly.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-  </metadata>
     <dependencies>
       <dependency id="grammarly-for-windows" />
     </dependencies>
+  </metadata>
   <files />
 </package>
