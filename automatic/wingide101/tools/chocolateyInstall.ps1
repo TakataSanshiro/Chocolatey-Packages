@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wingide101'
   installerType  = 'exe'
-  url            = 'https://wingware.com/pub/wing-101/8.1.3.0/wing-101-8.1.3.0.exe'
-  checksum       = '84f4c6123ce2e6869c16960e01b802439e54ebece536f31df001d7eec8a48973'
+  url            = 'https://wingware.com/pub/wing-101/8.2.0.0/wing-101-8.2.0.0.exe'
+  checksum       = 'fb2c415380c18f79645a5254e6bdc37d98978193701121a24b2f6a8ecdd87fe2'
   checksumType   = 'sha256'
   silentArgs     = '/VERYSILENT'
   validExitCodes = @(0, 3010, 1641)
