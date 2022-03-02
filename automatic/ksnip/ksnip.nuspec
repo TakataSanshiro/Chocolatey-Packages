@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ksnip</id>
+    <title>ksnip</title>
+    <version>1.9.2</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ksnip</packageSourceUrl>
+    <projectSourceUrl>https://github.com/ksnip/ksnip</projectSourceUrl>
+    <authors>DamirPorobic</authors>
+    <owners>Sanshiro</owners>
+    <summary>ksnip the cross-platform screenshot and annotation tool</summary>
+    <description>
+Ksnip is a Qt-based cross-platform screenshot tool that provides many annotation features for your screenshots.
+	</description>
+    <projectUrl>https://github.com/ksnip/ksnip</projectUrl>
+    <tags>admin screenshot annotation</tags>
+    <copyright>DamirPorobic</copyright>
+    <licenseUrl>https://github.com/ksnip/ksnip/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/ksnip/ksnip.png</iconUrl>
+    <releaseNotes>https://github.com/ksnip/ksnip/releases</releaseNotes>
+    <dependencies>
+      <dependency id="ksnip.install" version="1.9.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
