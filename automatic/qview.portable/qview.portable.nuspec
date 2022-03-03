@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>qview.portable</id>
+    <title>qView (Portable)</title>
+    <version>5.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/qview.portable</packageSourceUrl>
+    <authors>jurplel</authors>
+    <owners>Sanshiro</owners>
+    <summary>Practical and minimal image viewer</summary>
+    <description>
+qView is an image viewer designed with minimalism and usability in mind.
+    </description>
+    <projectUrl>https://github.com/jurplel/qView</projectUrl>
+    <tags>portable image viewer</tags>
+    <copyright>jurplel</copyright>
+    <licenseUrl>https://github.com/jurplel/qView/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/qview/qview.png</iconUrl>
+    <releaseNotes>https://github.com/jurplel/qView/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
