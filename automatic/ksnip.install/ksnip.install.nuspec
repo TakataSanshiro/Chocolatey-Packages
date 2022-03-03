@@ -19,6 +19,9 @@ Ksnip is a Qt-based cross-platform screenshot tool that provides many annotation
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/ksnip/ksnip.png</iconUrl>
     <releaseNotes>https://github.com/ksnip/ksnip/releases</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
