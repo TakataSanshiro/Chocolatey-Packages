@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>boostnote</id>
-    <title>Boostnote</title>
-    <version>0.16.1</version>
+    <title>Boostnote (legacy)</title>
+    <version>0.16.1.20220307</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/boostnote</packageSourceUrl>
     <authors>Maisin&amp;Co.</authors>
     <owners>Sanshiro</owners>
@@ -16,6 +16,10 @@
 * Multiple Hotkeys - Like Command N and D, you can use multiple hotkeys.
 * Finder Popup - Just like spotlight of OS X, Search your note when working with other app.
 * Latex Support - With $$ and $$$, write some equations.
+
+## Notes
+New Boost Note app is required an online account and login.
+https://github.com/BoostIO/BoostNote-App
     </description>
     <projectUrl>https://boostnote.io/</projectUrl>
     <projectSourceUrl>https://github.com/BoostIO/Boostnote</projectSourceUrl>
