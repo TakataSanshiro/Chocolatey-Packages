@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>coyim</id>
-    <title>CoyIM</title>
+    <id>coyim.install</id>
+    <title>CoyIM (Install)</title>
     <version>0.4</version>
-    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/coyim</packageSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/coyim.install</packageSourceUrl>
     <authors>Sofía Celi, Reinaldo de Souza Jr</authors>
     <owners>Sanshiro</owners>
     <summary>CoyIM is a new chat client that is safe and secure by default: no settings to change, no plugins to install, no computer configuration to change.</summary>
@@ -18,6 +18,9 @@
 * SRV lookup for the server over Tor if available.
 * Import of account settings, OTR settings, fingerprints, and private keys from other clients like Pidgin, Adium, Gajim or xmpp-client.
 * Saving of all your configuration, including OTR fingerprints and keys, in an encrypted configuration file.
+
+## Notes
+Run tor via powershell before start coyim. Otherwise display a warning window that "We could not find a running installation of Tor.
     </description>
     <projectUrl>https://coy.im/</projectUrl>
     <projectSourceUrl>https://github.com/coyim/coyim/</projectSourceUrl>
@@ -25,11 +28,11 @@
     <tags>admin im xmpp client tor privacy otr chat</tags>
     <copyright>Sofía Celi, Reinaldo de Souza Jr</copyright>
     <licenseUrl>https://github.com/coyim/coyim/blob/master/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/coyim/coyim@5f958129c12a1685a567957f204dd4802e5dcbb8/build/mac-bundle/coy.iconset/icon_256x256.png</iconUrl>
     <releaseNotes>https://github.com/coyim/coyim/releases</releaseNotes>
     <dependencies>
-      <dependency id="coyim.install" version="0.4" />
+      <dependency id="tor" version="0.4.6.9" />
     </dependencies>
   </metadata>
   <files>
