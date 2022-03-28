@@ -21,5 +21,6 @@ Elisa allows to browse music by album, artist or all tracks. The music is indexe
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
   </files>
 </package>
