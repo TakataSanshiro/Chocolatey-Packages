@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>elisa</id>
+    <version>21.12.3</version>
+    <title>Elisa</title>
+    <authors>Matthieu Gallien</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <licenseUrl>https://github.com/KDE/elisa/blob/master/COPYING</licenseUrl>
+    <projectUrl>https://www.kde.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/elisa/elisa.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Elisa is a simple music player aiming to provide a nice experience for its users.
+
+Elisa allows to browse music by album, artist or all tracks. The music is indexed using either a private indexer or an indexer using Baloo. The private one can be configured to scan music on chosen paths. The Baloo one is much faster because Baloo is providing all needed data from its own database. You can build and play your own playlist.</description>
+    <summary>Elisa is a music player designed to be simple and nice to use.</summary>
+    <releaseNotes>You can find a list of changes at [Elisa Project](https://phabricator.kde.org/project/profile/193/).</releaseNotes>
+    <tags>admin foss cross-platform music player kde qt qt5</tags>
+    <projectSourceUrl>https://github.com/KDE/elisa/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/elisa</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

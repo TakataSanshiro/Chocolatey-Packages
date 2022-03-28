@@ -1,0 +1,19 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The installer have been downloaded from binary-factory.kde.org and can be verified like this:
+
+1. Download the following installer(s):
+
+64-Bit: <https://binary-factory.kde.org/job/Elisa_Release_win64/lastStableBuild/artifact/elisa-21.12.3-1084-windows-msvc2019_64-cl.exe>
+
+2. You can use one of the following methods to obtain the checksum(s):
+  - Use powershell function 'Get-Filehash'
+  - Use chocolatey utility 'checksum.exe'
+
+  checksum type: sha256
+  checksum64: ACF4A769B06BD3060ED9B3E35D9099962B0DB01BC75FC7B58461D79F98B65E89
+
+The included 'LICENSE.txt' file have been obtained from:
+https://github.com/KDE/elisa/blob/master/COPYING
