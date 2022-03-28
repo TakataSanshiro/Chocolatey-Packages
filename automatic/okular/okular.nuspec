@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>okular</id>
+    <title>Okular</title>
+    <version>21.12.3</version>
+    <summary>Okular is a universal document viewer for KDE SC.</summary>
+    <description>
+Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited to Linux, Windows, Mac OS X, *BSD, etc.
+
+Okular combines the excellent functionalities with the versatility of supporting different kind of documents, like PDF, Postscript, DjVu, CHM, XPS, ePub and others. The [document format handlers page](https://okular.kde.org/formats.php) has a chart describing in more detail the supported formats and the features supported in each of them.
+
+## Notes
+
+The version of the package refers to the KDE Applications release version that Okular was part of. The actual Okular version as reported by the About dialog is different.
+
+This package does *not* support *32*-bit architecture.
+    </description>
+    <iconUrl>https://glcdn.githack.com/dimqua/choco/raw/stable/icons/okular.png</iconUrl>
+    <authors>The Okular developers</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <tags>admin foss cross-platform okular document viewer reader pdf postscript djvu chm xps epub kde5 kde qt qt5</tags>
+    <projectUrl>https://okular.kde.org/</projectUrl>
+    <projectSourceUrl>https://okular.kde.org/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/okular</packageSourceUrl>
+    <licenseUrl>https://okular.kde.org/</licenseUrl>
+    <dependencies>
+        <dependency id="vcredist140" version="14.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
