@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'puredata'
   installerType  = 'exe'
-  url            = 'http://msp.ucsd.edu/Software/pd-0.52-1.windows-installer.exe'
-  checksum       = '369b0a9b0c4d2f005ba4c829854d2ab2f6300a3e44484311d7a0039426c3968b'
+  url            = 'http://msp.ucsd.edu/Software/pd-0.52-2.windows-installer.exe'
+  checksum       = 'cfc2a91decf0fd195b0ed7d6aa93adb9b356e07f2f0aa51d7efba06bdacd0630'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0, 3010, 1641)
