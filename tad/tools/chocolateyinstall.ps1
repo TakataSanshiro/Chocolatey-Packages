@@ -1,18 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'tad'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/antonycourtney/tad/releases/download/v0.9.0/Tad.Setup.0.9.0.exe'
-
 $packageArgs = @{
-  packageName   = $packageName
-  fileType      = 'exe'
-  url           = $url
-  silentArgs  = "/S"
-  softwareName  = '*tad*'
-  checksum      = '8F5C469FFACDAFE7CEDB23975C565C9D76D0B0CEC311B2E56CCD352C2734D02A'
-  checksumType  = 'sha256'
+  packageName    = $packageName
+  fileType       = 'exe'
+  url            = 'https://github.com/antonycourtney/tad/releases/download/v0.10.0/Tad.Setup.0.10.0.exe'
+  silentArgs     = "/S"
+  checksum       = '35B29728A484C909721D7F9B5DF3EC080FC29FF2AEA7B010A9F38987A820D9A7'
+  checksumType   = 'sha256'
   validExitCodes = @(0, 3010, 1641)
+  softwareName   = 'tad*'
+  toolsDir       = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 }
-
 Install-ChocolateyPackage @packageArgs
