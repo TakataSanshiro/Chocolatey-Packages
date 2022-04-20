@@ -11,7 +11,8 @@ if (Test-Path $regKey) {
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   #installerType  = 'exe'
-  url            = 'https://qttabbar.wdfiles.com/local--files/qttabbar1/QTTabBar_1043.zip'
+  # use https:// then this ERROR: The remote file either doesn't exist, is unauthorized, or is forbidden for url.
+  url            = 'http://qttabbar.wdfiles.com/local--files/qttabbar1/QTTabBar_1043.zip'
   checksum       = '1A3B3469A0BFEF5EDCDEFB87007FEE09F1302F2B71B00B17E97F9DC29C09F726'
   checksumType   = 'sha256'
   #silentArgs     = "/QI"
