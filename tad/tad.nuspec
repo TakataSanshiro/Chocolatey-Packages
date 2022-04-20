@@ -20,7 +20,7 @@ CSV data is imported into SQLite for fast, accurate processing.
     <bugTrackerUrl>https://github.com/antonycourtney/tad/issues</bugTrackerUrl>
     <tags>admin electron multi-platform tabular data sqlite csv viewer</tags>
     <copyright>antonycourtney</copyright>
-    <licenseUrl>https://github.com/antonycourtney/tad/blob/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://www.tadviewer.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/0d3f551c/tad/icon.png</iconUrl>
     <releaseNotes>http://tadviewer.com/</releaseNotes>
