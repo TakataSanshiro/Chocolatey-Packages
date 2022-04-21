@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>regcool.install</id>
+    <title>RegCool (Install)</title>
+    <version>1.317</version>
+    <authors>Kurt Zimmermann</authors>
+    <owners>Sanshiro</owners>
+    <summary>RegCool - Advanced Registry-Editor</summary>
+    <description>
+## Key features:
+* Multiple undo and redo
+* Search &amp; replace
+* Compare
+* RegShot-Function
+* Cut, Copy &amp; Paste
+* Drag und Drop
+* Backup &amp; Restore
+* Defragment
+* Favorites management
+* Multiple local registry windows
+* Secure registry keys
+
+## Package parameters
+The following package parameters can be set:
+
+* `/dir:C:\DirectoryToInstall` - Change the install directory
+* `/re` - Create system restore point
+* `/st` - Create start menu entries
+* `/en` - Create desktop shortcut
+* `/la` - Start program after installation
+(/en /la options are not working on my test environment. April 21, 2022)
+
+To pass parameters, use `--params "''"` (e.g. `choco install packageID [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+
+Example: choco install regcool.install --params "/dir=C:\Users\`YourUserName`\AppData\Local\RegCool /re /st"
+
+## Notes
+
+If you want to use the /re option, System Protection must be on, otherwise will not be created a restore point.
+How to check it. Search "create a restore point" on Windows Settings. Then display the System Properties window> System Protection. If the Protection is Off, click the Configure button, check "Turn on system protection", Apply, Ok. Then, you can click the System Restore button on System Properties window.
+After regcool installation with the /re option, there is a restore point that "Installation RegCool".
+
+This will not get uninstalled automatically by this package.
+    </description>
+    <projectUrl>https://kurtzimmermann.com/regcoolext_en.html</projectUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/regcool.install</packageSourceUrl>
+    <tags>registry admin</tags>
+    <copyright>Kurt Zimmermann</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/regcool/regcool.png</iconUrl>
+    <releaseNotes>https://kurtzimmermann.com/regcoolversions_de.html</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
