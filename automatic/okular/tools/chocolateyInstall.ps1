@@ -3,7 +3,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  file64         = "$toolsDir\okular-21.12.3-967-windows-msvc2019_64-cl.exe"
+  file64         = "$toolsDir\okular-22.04.0-996-windows-msvc2019_64-cl.exe"
   silentArgs     = "/S"
   validExitCodes = @(0)
   softwareName   = 'Okular'
