@@ -20,6 +20,7 @@ function global:au_GetLatest {
     @{
         Version = $version
         URL     = 'https://rammichael.com/downloads/textify_setup.exe'
+        Checksum = Get-RemoteChecksum -Url 'https://rammichael.com/downloads/textify_setup.exe'
     }
 }
 
