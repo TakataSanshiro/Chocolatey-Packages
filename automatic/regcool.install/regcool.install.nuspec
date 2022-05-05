@@ -3,7 +3,7 @@
   <metadata>
     <id>regcool.install</id>
     <title>RegCool (Install)</title>
-    <version>1.317</version>
+    <version>1.318</version>
     <authors>Kurt Zimmermann</authors>
     <owners>Sanshiro</owners>
     <summary>RegCool - Advanced Registry-Editor</summary>
@@ -39,7 +39,7 @@ Example: choco install regcool.install --params "/dir=C:\Users\`YourUserName`\Ap
 ## Notes
 
 If you want to use the /re option, System Protection must be on, otherwise will not be created a restore point.
-How to check it. Search "create a restore point" on Windows Settings. Then display the System Properties window> System Protection. If the Protection is Off, click the Configure button, check "Turn on system protection", Apply, Ok. Then, you can click the System Restore button on System Properties window.
+How to check it. Search "create a restore point" on Windows Settings. Then display the System Properties window&gt; System Protection. If the Protection is Off, click the Configure button, check "Turn on system protection", Apply, Ok. Then, you can click the System Restore button on System Properties window.
 After regcool installation with the /re option, there is a restore point that "Installation RegCool".
 
 This will not get uninstalled automatically by this package.
