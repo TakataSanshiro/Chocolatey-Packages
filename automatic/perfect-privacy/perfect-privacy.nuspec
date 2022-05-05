@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>perfect-privacy</id>
     <title>Perfect Privacy</title>
-    <version>1.10.29</version>
+    <version>1.10.39.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/perfect-privacy</packageSourceUrl>
     <authors>Perfect Privacy</authors>
     <owners>Sanshiro</owners>
