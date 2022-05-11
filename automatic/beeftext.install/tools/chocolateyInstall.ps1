@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'beeftext.install'
   installerType  = 'exe'
-  url            = 'https://github.com/xmichelo/Beeftext/releases/download/v13.0/Beeftext-13.0-Installer.exe'
-  checksum       = '0242ddb0cef9d9cf23ce392080c7f17d0e0cfbe7e58918d41b91563c13f546f2'
+  url            = 'https://github.com/xmichelo/Beeftext/releases/download/v14.0/Beeftext-14.0-Installer.exe'
+  checksum       = 'cefd82354e42415739a0b5f4375dc628251c5262ffc4dd9b3b166a3ffb294775'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)

@@ -3,7 +3,7 @@
   <metadata>
     <id>beeftext.portable</id>
     <title>Beeftext (Portable)</title>
-    <version>13.0</version>
+    <version>14.0</version>
 	  <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/beeftext.portable</packageSourceUrl>
     <projectSourceUrl>https://github.com/xmichelo/Beeftext</projectSourceUrl>
     <authors>Xavier Michelon</authors>
