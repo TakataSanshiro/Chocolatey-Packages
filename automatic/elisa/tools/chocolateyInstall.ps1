@@ -2,7 +2,7 @@
 $toolsDir              = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  file64         = Join-Path $toolsDir 'elisa-22.04.0-1111-windows-msvc2019_64-cl_x64.exe'
+  file64         = Join-Path $toolsDir 'elisa-22.04.1-1134-windows-msvc2019_64-cl_x64.exe'
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
   silentArgs     = '/S'
