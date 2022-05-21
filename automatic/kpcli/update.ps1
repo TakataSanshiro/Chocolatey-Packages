@@ -22,6 +22,7 @@ function global:au_GetLatest {
     @{
         Version = $version
         URL64   = "https://sourceforge.net/projects/kpcli/files/kpcli-$version.exe/download"
+        Checksum = Get-RemoteChecksum -Url 'https://sourceforge.net/projects/kpcli/files/kpcli-$version.exe/download'
     }
 }
 
