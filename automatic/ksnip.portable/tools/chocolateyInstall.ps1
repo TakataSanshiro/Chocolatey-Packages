@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  url            = 'https://github.com/ksnip/ksnip/releases/download/v1.9.2/ksnip-1.9.2-windows.zip'
-  checksum       = '2bfc83cd6b0960e14567d1b536ed82dc6443c609cd7bd19205505ed9584df43b'
+  url            = 'https://github.com/ksnip/ksnip/releases/download/v1.10.0/ksnip-1.10.0-windows.zip'
+  checksum       = 'd6ee4583ed3c6ed5964356d8129ad8963677be4946343c526030a30f2129b16a'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
