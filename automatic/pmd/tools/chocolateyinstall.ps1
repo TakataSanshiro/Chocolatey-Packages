@@ -7,8 +7,8 @@ $cpd_bin  = Join-Path $pmd_home 'bin/cpd.bat'
 
 $packageArgs = @{
   packageName    = 'pmd'
-  url            = 'https://github.com/pmd/pmd/releases/download/pmd_releases/6.45.0/pmd-bin-6.45.0.zip'
-  checksum       = 'ee23c659011f1458714d43b92e4a251683910adfc6ebbf55e008402c7b4531b8'
+  url            = 'https://github.com/pmd/pmd/releases/download/pmd_releases/6.46.0/pmd-bin-6.46.0.zip'
+  checksum       = '04981da7163141300ec44a4dcc51dca205e7a83c0c39545a09a5d4724602e80a'
   checksumType   = 'sha256'
   softwareName   = 'PMD'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
