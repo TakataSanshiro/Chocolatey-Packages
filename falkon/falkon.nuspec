@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>falkon</id>
+    <version>3.1.0.20220620</version>
+    <title>Falkon</title>
+    <authors>David Rosca</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <licenseUrl>https://github.com/KDE/falkon/blob/v3.1.0/COPYING</licenseUrl>
+    <projectUrl>https://www.falkon.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/falkon/falkon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Falkon is a new KDE web browser, previously known as QupZilla. It aims to be a lightweight web browser available through all major platforms. This project has been originally started only for educational purposes. But from its start, Falkon has grown into a feature-rich browser. Falkon has all standard functions you expect from a web browser. It includes bookmarks, history (both also in sidebar) and tabs. Above that, it has by default enabled blocking ads with a built-in AdBlock plugin.
+
+### Notes
+- The software will get installed on "C:\Program Files\Falkon". The exe binary is falkon.exe. There is no Desktop icon, Start Menu entry, Names on Installing apps on Settings.
+- The MSVisualCplusplus2013-redist dependency fixes the "MSVCR120.dll was not found" error when run the falkon.exe.
+- This will not get uninstalled automatically by this package. Please, remove manually the installed folder after choco uninstall.
+    </description>
+    <summary>A cross-platform lightweight browser built on the QtWebEngine engine.</summary>
+    <tags>admin foss cross-platform falkon qupzilla web browser qt qt5 kde kde5 blink webkit qtwebkit qtwebengine</tags>
+    <projectSourceUrl>https://github.com/KDE/falkon</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/falkon</packageSourceUrl>
+    <dependencies>
+      <dependency id="MSVisualCplusplus2013-redist" version="1.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
