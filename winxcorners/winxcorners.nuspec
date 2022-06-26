@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>winxcorners</id>
-    <title>WinXcorners</title>
-    <version>1.1.0.320190708</version>
+    <title>WinXcorners(Beta)</title>
+    <version>1.2.1-beta</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/winxcorners</packageSourceUrl>
     <authors>vhanla</authors>
     <owners>Sanshiro</owners>
@@ -11,13 +11,13 @@
     <description>
 WinXcorners allows you to assign events to trigger on your main monitor corners, it activates when your mouse cursor hovers them, i.e. when you move your mouse cursor to your screen edges.
 
-## These are the options that you can select
-* Show all windows, using Task view, the new Windows 10 feature. 
-* Show desktop
-* Start Screen Saver, and
-* Turn off monitors
+### These are the options that you can select
+- Show all windows, using Task view, the new Windows 10 feature.
+- Show desktop
+- Start Screen Saver, and
+- Turn off monitors
 
-## Requirements - Windows 10 x86/x64
+### Requirements - Windows 10 x86/x64
     </description>
     <projectUrl>http://apps.codigobit.info/2015/10/winxcorners-hot-corners-for-windows-10.html</projectUrl>
     <tags>window utility portable</tags>
