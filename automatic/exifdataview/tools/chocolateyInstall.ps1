@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = 'exifdataview'
   url            = 'https://www.nirsoft.net/utils/exifdataview.zip'
-  checksum       = 'f244a806e8ef8e1a85df67dfa96e40bbf4cf9196905ebcf18d4a81c91aa69261'
+  checksum       = '0f45ca559056837401f3934a39db0b74ba24ecfde97dc6bc2e7211f2ae9e7e47'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'ExifDataView'
