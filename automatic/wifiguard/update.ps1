@@ -21,6 +21,7 @@ function global:au_GetLatest {
     @{
         Version = $version
         URL     = 'https://www.softperfect.com/download/files/wifiguard_windows_setup.exe'
+        Checksum = Get-RemoteChecksum -Url 'https://www.softperfect.com/download/files/wifiguard_windows_setup.exe'
     }
 }
 
