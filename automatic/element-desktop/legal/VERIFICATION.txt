@@ -6,10 +6,10 @@ The installer has been downloaded from their official download link listed on <h
 and can be verified like this:
 
 1. Download the following installer:
-  64-Bit: <https://packages.riot.im/desktop/install/win32/x64/Element%20Setup%201.11.0.exe>
+  64-Bit: <https://packages.riot.im/desktop/install/win32/x64/Element%20Setup%201.11.1.exe>
 2. You can use one of the following methods to obtain the checksum
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
 
   checksum type: sha256
-  checksum64: 296EA88B42C6FC7AFBD0D3FED589AB7D48BC4483A44803107C47C11837C63CC3
+  checksum64: EB1DF9474E2A145D67B735278CAD4C7138DD9BC46E03D3E187E1DFEDD40240A6
