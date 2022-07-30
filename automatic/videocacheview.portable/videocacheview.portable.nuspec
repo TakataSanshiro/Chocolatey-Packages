@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>videocacheview.portable</id>
+    <version>3.09</version>
+    <title>VideoCacheView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>http://www.nirsoft.net/utils/video_cache_view.html</licenseUrl>
+    <projectUrl>http://www.nirsoft.net/utils/video_cache_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/videocacheview/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>After watching a video in a Web site, you may want to save the video file into your local disk for playing it offline in the future.
+
+If the video file is stored in your browser's cache, this utility can help you to extract the video file from the cache and save it for watching it in the future.
+
+It automatically scans the entire cache of Internet Explorer, Mozilla-based Web browsers (Including Firefox), Opera, and Chrome, and then finds all video files that are currently stored in it.
+
+It allows you to easily copy the cached video files into another folder for playing/watching them in the future.
+
+If you have a movie player that is configured to play flv files, it also allows you to play the video directly from your browser's cache.</description>
+    <summary>Play offline/Save .flv video files from Web browser cache</summary>
+    <releaseNotes>http://www.nirsoft.net/utils/video_cache_view.html</releaseNotes>
+    <copyright>© NirSoft</copyright>
+    <tags>offline save copy download video flv flash cache browser youtube portable</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/videocacheview.portable</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
