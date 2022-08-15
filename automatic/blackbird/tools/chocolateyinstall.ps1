@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName    = 'blackbird'
-  url            = 'https://www.getblackbird.net/download/Blackbird_v1.0.85.1%5Fx32.zip' 
-  Url64          = 'https://www.getblackbird.net/download/Blackbird_v1.0.85.1%5Fx64.zip'
-  checksum       = '8f152850ae16ba20406441f508ed1cfabe679efaa5fe9807e9f6cca671b346c4'
-  Checksum64     = '65c6f89ca84b2348bfaf3d2b32667a8ea342db457ff753638732e9d451989174'
+  url            = 'https://www.getblackbird.net/download/Blackbird_v1.0.85.2%5Fx32.zip' 
+  Url64          = 'https://www.getblackbird.net/download/Blackbird_v1.0.85.2%5Fx64.zip'
+  checksum       = 'c6747aab03b0b4939df0d2a3235c1060518fdeb2128672c7887432ab5d7ef810'
+  Checksum64     = '078fe7bad0f70463d6825c66ddb5e05e7590cc632559c619ec76691543cbd4bb'
   checksumType   = 'sha256'
   ChecksumType64 = 'sha256'
   UnzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
