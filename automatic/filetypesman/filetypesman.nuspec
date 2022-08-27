@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>filetypesman</id>
+    <version>1.96</version>
+    <title>FileTypesMan</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/file_types_manager.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/file_types_manager.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/filetypesman/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FileTypesMan is an alternative to the 'File Types' tab in the 'Folder Options' of Windows.
+
+It displays the list of all file extensions and types registered on your computer.
+
+For each file type, the following information is displayed: Type Name, Description, MIME Type, Perceived Type, Flags, Browser Flags, and more.
+
+FileTypesMan also allows you to easily edit the properties and flags of each file type, as well as it allows you to add, edit, and remove actions in a file type.</description>
+    <summary>Alternative to 'File Types' manager of Windows</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>filetype extension nirsoft</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/filetypesman</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
