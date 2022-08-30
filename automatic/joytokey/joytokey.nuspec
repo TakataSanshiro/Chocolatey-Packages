@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>joytokey</id>
+    <version>6.9.1</version>
+    <title>Joy To Key</title>
+    <authors>JTKSOFT</authors>
+    <owners>Anthony Mastrean, Sanshiro</owners>
+    <licenseUrl>https://joytokey.net/en/purchase</licenseUrl>
+    <projectUrl>https://joytokey.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/joytokey/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>JoyToKey enables PC game controllers to emulate a mouse and the keyboard input, so that windows applications and web games can be controlled with your favorite joysticks! Whenever joystick buttons and sticks are pressed, JoyToKey converts them into keyboard strokes and/or mouse movements so that the targeted application will work as if you are using a real keyboard and a mouse!
+
+    ### Notes
+    Starting from 6.3 version, user configuration data will be by default stored in "JoyToKey" folder in user's "Documents" folder.
+    In case you upgrade JoyToKey from an older version, please copy (or move) the old "JoyToKey" folder into your "Documents" folder so that you can continue to access your configuration data.
+    * https://joytokey.net/en/news
+    </description>
+    <summary>JoyToKey enables PC game controllers to emulate a mouse and the keyboard input.</summary>
+    <releaseNotes>https://joytokey.net/en/news</releaseNotes>
+    <copyright>Copyright (C) JTKSOFT All Rights Reserved.</copyright>
+    <tags>joystick gaming</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/joytokey</packageSourceUrl>
+    <docsUrl>https://joytokey.net/en/overview</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
