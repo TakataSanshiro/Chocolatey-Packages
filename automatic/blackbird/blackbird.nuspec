@@ -9,7 +9,7 @@
     <owners>Sanshiro</owners>
     <summary>Don't want Windows spying on your every move?  Don't feel like spending hours messing with privacy settings that ultimately still result in data collection?  Think your private information belongs to you and no one else?  Or maybe you just want a faster PC and don't like all the new "features" Windows has to offer.</summary>
     <description>
-## Features
+### Features
 * Blocks Telemetry Completely
 * Restores Privacy
 * Removes W10 Upgrade Popups
@@ -20,8 +20,9 @@
 Runs on all recent desktop editions (Home, Pro, etc.) and versions of Windows (Vista, 7, 8, 8.1, 10).
 Server/pre-release versions are NOT supported so use at your own risk.
 
-&gt; "My antivirus reports Blackbird as malware.
-&gt; This seems to mostly happen with the 32bit version but we assure you, it's a false-positive. Use the 64bit version if possible, AVs seem to like it more for some reason. We suspect this occurs because of the nature and relative obscurity of our software (registry editing,telemetry dismantling,..) Some temporary files are created during usage but they are all deleted before you even exit the program."
+### Notes
+* "My antivirus reports Blackbird as malware.
+This seems to mostly happen with the 32bit version but we assure you, it's a false-positive. Use the 64bit version if possible, AVs seem to like it more for some reason. We suspect this occurs because of the nature and relative obscurity of our software (registry editing,telemetry dismantling,..) Some temporary files are created during usage but they are all deleted before you even exit the program."
 [https://www.getblackbird.net/documentation/](https://www.getblackbird.net/documentation/)
 	  </description>
     <projectUrl>http://getblackbird.net/</projectUrl>

@@ -16,7 +16,12 @@ Windows (Including Windows 7 and Windows Vista), Exchange Server, and SQL Server
 You can view this information for your current running operating system, or for another
 operating system/computer - by using command-line options.  
 This utility can be useful if you lost the product key of your Windows/Office, and you want
-to reinstall it on your computer.</description>
+to reinstall it on your computer.
+
+### Notes
+- Many Antivirus programs display false alerts, saying that the password-recovery utilities of NirSoft are infected with Trojan/Virus/Malware. For more information about false positive problems, read [this](http://blog.nirsoft.net/2009/05/17/antivirus-companies-cause-a-big-headache-to-small-developers). If your Antivirus software shows a false alert, you can use the following article that explains how to send a report about a false positive issue to your Antivirus company:
+[How to Report Malware or False Positives to Multiple Antivirus Vendors](https://www.techsupportalert.com/how-to-report-malware-or-false-positives-to-multiple-antivirus-vendors/)
+    </description>
     <summary>Recover lost product key (CD-Key) of Windows/MS-Office/SQL Server</summary>
     <copyright>© NirSoft</copyright>
     <tags>lost cd-key microsoft product key office windows vista 2003 2007 2010 adobe admin</tags>
