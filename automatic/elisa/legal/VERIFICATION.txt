@@ -6,14 +6,14 @@ The installer have been downloaded from binary-factory.kde.org and can be verifi
 
 1. Download the following installer(s):
 
-64-Bit: <https://binary-factory.kde.org/job/Elisa_Release_win64/lastStableBuild/artifact/elisa-22.08.0-1228-windows-msvc2019_64-cl.exe>
+64-Bit: <https://binary-factory.kde.org/job/Elisa_Release_win64/lastStableBuild/artifact/elisa-22.08.1-1252-windows-msvc2019_64-cl.exe>
 
 2. You can use one of the following methods to obtain the checksum(s):
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
 
   checksum type: sha256
-  checksum64: 652A9BAD821D29C6E61C80E22BFEDCBAB04CB616C46973F585221C56F20BB332
+  checksum64: 0BDEF8980D7AEE66773067C05715958AC2807E775D0460307D7AF6FBEFF5774E
 
 The included 'LICENSE.txt' file have been obtained from:
 https://github.com/KDE/elisa/blob/master/COPYING

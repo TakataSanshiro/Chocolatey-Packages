@@ -6,14 +6,14 @@ The installer have been downloaded from the Binary Factory for KDE and can be ve
 
 1. Download the following builds.
 
-x86_64: https://binary-factory.kde.org/job/Okular_Release_win64/lastStableBuild/artifact/okular-22.08.0-1113-windows-msvc2019_64-cl.exe
+x86_64: https://binary-factory.kde.org/job/Okular_Release_win64/lastStableBuild/artifact/okular-22.08.1-1132-windows-msvc2019_64-cl.exe
 
 2. You can use one of the following methods to obtain the checksum(s):
   - use powershell function 'Get-Filehash',
   - use chocolatey utility 'checksum.exe'.
 
   checksum type: sha256
-  checksum64: AD569F0851304F59648B87230D25139A8D4654C19103ACE51A8B152B98181F79
+  checksum64: 3497F9DD3E136715A89F7E63D76E06FECD0BEF96272B27AC34337E8CB61CD876
 
 The included 'LICENSE.txt' file have been obtained from:
 https://okular.kde.org/
