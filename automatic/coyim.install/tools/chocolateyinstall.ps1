@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
-  url            = 'https://github.com/coyim/coyim/releases/download/v0.4/CoyIM.Installer.exe'
-  checksum       = '5710b4634e2ee4c857e0c4f28cd68f5435faa983af9ebe0d4afd2d5c29935669'
+  url            = 'https://github.com/coyim/coyim/releases/download/v0.4.1/CoyIM.Installer.exe'
+  checksum       = 'b382e18f08d8b890bfa73f88adadd26c2f01f830ce1728dc1f97b380025c27bd'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)

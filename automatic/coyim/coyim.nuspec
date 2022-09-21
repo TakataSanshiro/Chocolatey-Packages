@@ -3,7 +3,7 @@
   <metadata>
     <id>coyim</id>
     <title>CoyIM</title>
-    <version>0.4</version>
+    <version>0.4.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/coyim</packageSourceUrl>
     <authors>Sofía Celi, Reinaldo de Souza Jr</authors>
     <owners>Sanshiro</owners>
@@ -29,7 +29,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/coyim/coyim@5f958129c12a1685a567957f204dd4802e5dcbb8/build/mac-bundle/coy.iconset/icon_256x256.png</iconUrl>
     <releaseNotes>https://github.com/coyim/coyim/releases</releaseNotes>
     <dependencies>
-      <dependency id="coyim.install" version="0.4" />
+      <dependency id="coyim.install" version="0.4.1" />
     </dependencies>
   </metadata>
   <files>
