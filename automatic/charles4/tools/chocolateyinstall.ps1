@@ -4,11 +4,11 @@ $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = 'charles4'
   fileType       = 'msi' 
-  url            = 'https://www.charlesproxy.com/assets/release/4.6.2/charles-proxy-4.6.2-win64.msi'
+  url            = 'https://www.charlesproxy.com/assets/release/4.6.3/charles-proxy-4.6.3-win64.msi'
   silentArgs     = "/qb /l*v `"$($env:TEMP)\$($env:chocolateyPackageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes = @(0) 
   softwareName   = 'Charles'
-  checksum       = '02117ac301edbd8a91ac0126c0709dcb3abd88a2f753cf4a369f4ae5950f4baf'
+  checksum       = 'efb8f5cda02bd6bc42860e7069ada57cd97c5d81e0965a718a419125e65c7f31'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
