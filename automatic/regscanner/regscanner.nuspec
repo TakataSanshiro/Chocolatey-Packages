@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>regscanner</id>
+    <version>2.71</version>
+    <title>RegScanner</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/regscanner.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/regscanner.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/regscanner/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RegScanner is a small utility that allows you to scan the Registry, find the desired Registry values
+that match to the specified search criteria, and display them in one list.
+
+After finding the Registry values, you can easily jump to the right value in RegEdit, simply by
+double-clicking the desired Registry item.
+
+You can also export the found Registry values into a .reg file that can be used in RegEdit.</description>
+    <summary>Alternative to RegEdit find/search/scan of Windows</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>scanner regedit scan search find windows</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/regscanner</packageSourceUrl>
+    <dependencies>
+      <dependency id="regscanner.install" version="2.71" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
