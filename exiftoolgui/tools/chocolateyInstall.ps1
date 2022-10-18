@@ -1,10 +1,14 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName  = 'exiftoolgui'
+$toolsDir     = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+
+$pp = Get-PackageParameters
+if ($pp['installPath']) { $toolsDir = $pp["installPath"] }
+
+$packageName  = $env:ChocolateyPackageName
 $url          = 'https://exiftool.org/gui/exiftoolgui516.zip'
 $checksum     = '8A55DAAE8CBF342152A0CCE53792C5EEEC2F54C64F29CB94FD841674940F344F'
 $checksumType = 'sha256'
-$toolsDir     = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
@@ -12,10 +16,4 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
 
-# create empty sidecar so shimgen creates shim for GUI rather than console
-$installFile = Join-Path -Path $toolsDir `
-                         -ChildPath "$packageName" |
-               Join-Path -ChildPath "$($packageName).exe.gui"
-
-Set-Content -Path "$installFile" `
-            -Value $null
+Install-BinFile -Path "$toolsDir\exiftoolgui\ExifToolGUI.exe" -Name 'exiftoolgui'

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>exiftoolgui</id>
-    <version>5.16.20211222</version>
+    <version>5.16.20221012</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/exiftoolgui</packageSourceUrl>
     <title>ExifToolGUI</title>
     <authors>Bogdan Hrastnik</authors>
@@ -34,7 +34,21 @@ Basic idea behind GUI is, to keep it simple! Thus, only those options are implem
 
 #### Documentation
 * [Manual](https://exiftool.org/gui/)
-* [Metadata articles](https://exiftool.org/gui/articles/)</description>
+* [Metadata articles](https://exiftool.org/gui/articles/)
+
+#### Package parameters
+
+The following package parameter can be set:
+
+* `/installPath:` specify a custom extract location as a full path - defaults to the 'C:\ProgramData\chocolatey\lib\exiftoolgui\tools' folder.
+exiftoolgui save GUI settings on the same folder.
+This parameter is for non admin privilege users.
+
+```PowerShell
+choco install exiftoolgui --params="'/installPath:C:\Users\username\Downloads\exiftoolgui'"
+```
+
+The exiftoolgui folder in a custom location will not get uninstalled automatically by this package. Please remove exiftoolgui manually after choco uninstall exiftoolgui.</description>
     <summary>GUI front-end for exiftool</summary>
     <releaseNotes>#### Program
 * [Changelog](https://exiftool.org/gui/articles/)
@@ -43,6 +57,7 @@ Basic idea behind GUI is, to keep it simple! Thus, only those options are implem
     <tags>metadata exif frontend freeware</tags>
     <dependencies>
       <dependency id="exiftool" version="12.38" />
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
   </metadata>
   <files>
