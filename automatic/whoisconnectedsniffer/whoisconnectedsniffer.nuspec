@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>whoisconnectedsniffer</id>
+    <version>1.28</version>
+    <title>WhoIsConnectedSniffer</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/who_is_connected_sniffer.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/who_is_connected_sniffer.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/whoisconnectedsniffer/icon.pngg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WhoIsConnectedSniffer is a network discovery tool that listens to network packets on your network adapter using a capture driver (WinpCap or MS network monitor) and accumulates a list of computer and devices currently connected to your network.
+
+WhoIsConnectedSniffer uses various protocols to detect the computers connected to your network, including ARP, UDP, DHCP, mDNS, and BROWSER.
+
+For every detected computer or device, the following information is displayed: (Some of the fields might be empty if the information cannot be found inside the packets) IP Address, MAC Address, name of the device/computer, description, Operating System, Network Adapter Company, IPv6 Address.</description>
+    <summary>Detect who is connected to your network without scanning</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>discovery tool sniffer detect who connected capture</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/whoisconnectedsniffer</packageSourceUrl>
+  </metadata>
+</package>
