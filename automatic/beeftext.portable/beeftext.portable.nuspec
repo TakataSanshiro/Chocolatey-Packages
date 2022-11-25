@@ -15,8 +15,13 @@ Are you tired of repeatedly typing the same text over and over again?
 * The custom email signature you only use for your close friends.
 * The markdown snippet you use 5 times a day.
 * The text emoji you like so much (\/) (°,,,°) (\/).
-Beeftext is made for you. Beeftext allows you to define combos. A Combo associates a short word that you are unlikely to type in a normal situation (a keyword) with a piece of long or complex text you often need to type (a snippet). From now on, every time you type the keyword, in any text area of any application that support copy/paste (99.9% of them do), the combo is triggered and Beeftext automatically replaces the keyword by its associated snippet. Thanks to Unicode encoding, this text can be in any language, using any kind of characters, even exotic ones. 
-	  </description>
+Beeftext is made for you. Beeftext allows you to define combos. A Combo associates a short word that you are unlikely to type in a normal situation (a keyword) with a piece of long or complex text you often need to type (a snippet). From now on, every time you type the keyword, in any text area of any application that support copy/paste (99.9% of them do), the combo is triggered and Beeftext automatically replaces the keyword by its associated snippet. Thanks to Unicode encoding, this text can be in any language, using any kind of characters, even exotic ones.
+
+## Notes
+Some Antivirus programs display false alerts. For more information about false positive problems, read [this](https://github.com/xmichelo/Beeftext/wiki/Beeftext-is-safe).
+
+The problem is linked to the way Beeftext operates. In order to properly detect keywords and trigger combo substitution, Beeftext listens to the keystrokes typed by the user. Unfortunately, this is exactly the same behavior as the one implemented in malicious keyloggers that record your keystrokes in order to intercept your usernames and passwords.
+    </description>
     <projectUrl>https://beeftext.org/</projectUrl>
     <tags>snippet</tags>
     <copyright>© Xavier Michelon. All rights reserved</copyright>
