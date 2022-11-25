@@ -20,4 +20,7 @@ For every detected computer or device, the following information is displayed: (
     <tags>discovery tool sniffer detect who connected capture</tags>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/whoisconnectedsniffer</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

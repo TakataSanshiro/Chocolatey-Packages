@@ -20,4 +20,7 @@ You can easily export the DNS queries information to csv/tab-delimited/xml/html 
     <tags>query sniffer a aaaa ip host</tags>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dnsquerysniffer</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
