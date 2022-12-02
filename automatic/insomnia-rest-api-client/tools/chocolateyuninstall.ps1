@@ -12,7 +12,3 @@ Uninstall-ChocolateyPackage `
   -SilentArgs "$silentArgs" `
   -ValidExitCodes $validExitCodes `
   -File "$file"
- 
-# Delete junk files of Insomnia at $Env:USERPROFILE\AppData
-Remove-Item $Env:USERPROFILE\AppData\Local\Insomnia -recurse
-Remove-Item $Env:USERPROFILE\AppData\Roaming\Insomnia -recurse
