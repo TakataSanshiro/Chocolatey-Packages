@@ -3,7 +3,7 @@
   <metadata>
     <id>ida-free</id>
     <title>IDA free</title>
-    <version>7.6.0</version>
+    <version>8.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ida-free</packageSourceUrl>
     <authors>Hex-Rays SA.</authors>
     <owners>Sanshiro</owners>
@@ -21,10 +21,10 @@ The freeware version of IDA v7.6 comes with the following limitations:
 * lacks support for many processors, file formats, etc…
 * comes without technical support
     </description>
-    <projectUrl>https://www.hex-rays.com/products/ida/index.shtml</projectUrl>
+    <projectUrl>https://www.hex-rays.com/ida-free/</projectUrl>
     <docsUrl>https://www.hex-rays.com/products/ida/debugger/index.shtml</docsUrl>
     <tags>admin debugger disassembler freeware non-commercial</tags>
-    <copyright>Copyright (c) Hex-Rays SA. </copyright>
+    <copyright>Copyright (c) Hex-Rays SA.</copyright>
     <licenseUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@0b281fe3/ida-free/icon.png</iconUrl>
