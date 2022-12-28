@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'wire'
   installerType  = 'exe'
-  url            = 'https://github.com/wireapp/wire-desktop/releases/download/windows/3.29.4349/Wire-Setup.exe'
-  checksum       = '0528e6bb5f86fbcefe8541d12d0ba084f986c9d66b4dfc4fa559ea0eaba9712e'
+  url            = 'https://github.com/wireapp/wire-desktop/releases/download/windows/3.30.4368/Wire-Setup.exe'
+  checksum       = 'ECE6ACA09ED5E98EA444488C57DC5F8FD066E8CAA363624DCF3305809A40B5AF'
   checksumType   = 'sha256'
   silentArgs     = '/VERYSILENT'
   validExitCodes = @(0)

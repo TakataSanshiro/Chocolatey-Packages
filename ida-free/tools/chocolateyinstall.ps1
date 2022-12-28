@@ -3,10 +3,10 @@
 $packageArgs = @{
   packageName    = 'ida-free'
   fileType       = 'exe'
-  url            = 'https://out7.hex-rays.com/files/idafree81_windows.exe'
+  url            = 'https://out7.hex-rays.com/files/idafree82_windows.exe'
   silentArgs     = "--unattendedmodeui minimal --mode unattended --installpassword freeware"
   softwareName   = '*idafree*'
-  checksum       = '89f4f2a9235fbd3bf00579653fbb6a9bbc53e89c298080b8be9386f53b1aa5f9'
+  checksum       = 'EEAFBE78C97DFD5DDCA8824959C9C3511A7113E527C4658BB47E7D0D937396D1'
   checksumType   = 'sha256'
   validExitCodes = @(0, 3010, 1641)
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

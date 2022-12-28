@@ -14,8 +14,8 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $version = $download_page.links.href -match 'exe' -notmatch 'portable' | Select -First 1 | % { $_ -split '/' | select -Last 2 }
-    $version = $version[0] | % { $_ -split '%40' | select -Last 1 }
+    $version = $download_page.links.href -match 'core' | Select -First 1 | % { $_ -split '/' | select -Last 1 }
+    $version = $version | % { $_ -split '%40' | select -Last 1 }
 
     @{
         Version = $version
