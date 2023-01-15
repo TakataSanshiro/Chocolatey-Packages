@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName    = 'beeftext.portable'
-  url            = 'https://github.com/xmichelo/Beeftext/releases/download/v15.0/Beeftext-15.0-PortableEdition.zip'
-  checksum       = '9de6d4b9240f42546e71c945ad0d4f0898dbe1c5d376816e5f96ae8d2e35f731'
+  url            = 'https://github.com/xmichelo/Beeftext/releases/download/v16.0/Beeftext-16.0-PortableEdition.zip'
+  checksum       = '4a64ed2bf2ea8a853dad4fb5453e058bd01287d9ed09185ec02e0d5f81f8018d'
   checksumType   = 'sha256'
   softwareName   = 'Beeftext'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
