@@ -14,7 +14,7 @@
     <projectSourceUrl>https://github.com/vector-im/riot-desktop</projectSourceUrl>
 	<bugTrackerUrl>https://github.com/vector-im/riot-web/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/element-desktop</packageSourceUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/element-desktop/element.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/element-desktop/element-desktop.png</iconUrl>
     <description>
 Element (formerly known as Vector and Riot) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk)
 
