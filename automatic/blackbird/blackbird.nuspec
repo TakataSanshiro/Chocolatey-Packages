@@ -24,6 +24,8 @@ Server/pre-release versions are NOT supported so use at your own risk.
 * "My antivirus reports Blackbird as malware.
 This seems to mostly happen with the 32bit version but we assure you, it's a false-positive. Use the 64bit version if possible, AVs seem to like it more for some reason. We suspect this occurs because of the nature and relative obscurity of our software (registry editing,telemetry dismantling,..) Some temporary files are created during usage but they are all deleted before you even exit the program."
 [https://www.getblackbird.net/documentation/](https://www.getblackbird.net/documentation/)
+
+This package supports the x64 version only. Chocolatey community can't approve the x86 version as many AV detections.
 	  </description>
     <projectUrl>http://getblackbird.net/</projectUrl>
 	  <docsUrl>http://getblackbird.net/documentation/</docsUrl>
