@@ -2,7 +2,7 @@
 $toolsDir              = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  file64         = Join-Path $toolsDir 'Element%20Setup%201.11.22_x64.exe'
+  file64         = Join-Path $toolsDir 'Element%20Setup%201.11.23_x64.exe'
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
   silentArgs     = '--silent'
