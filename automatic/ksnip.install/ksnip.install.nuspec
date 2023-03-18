@@ -3,7 +3,7 @@
   <metadata>
     <id>ksnip.install</id>
     <title>ksnip (Install)</title>
-    <version>1.10.0</version>
+    <version>1.10.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ksnip.install</packageSourceUrl>
     <projectSourceUrl>https://github.com/ksnip/ksnip</projectSourceUrl>
     <authors>DamirPorobic</authors>

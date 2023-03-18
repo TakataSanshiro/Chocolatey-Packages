@@ -3,7 +3,7 @@
   <metadata>
     <id>ksnip</id>
     <title>ksnip</title>
-    <version>1.10.0</version>
+    <version>1.10.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ksnip</packageSourceUrl>
     <projectSourceUrl>https://github.com/ksnip/ksnip</projectSourceUrl>
     <authors>DamirPorobic</authors>
@@ -20,7 +20,7 @@ Ksnip is a Qt-based cross-platform screenshot tool that provides many annotation
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/ksnip/ksnip.png</iconUrl>
     <releaseNotes>https://github.com/ksnip/ksnip/releases</releaseNotes>
     <dependencies>
-      <dependency id="ksnip.install" version="1.10.0" />
+      <dependency id="ksnip.install" version="1.10.1" />
     </dependencies>
   </metadata>
   <files>
