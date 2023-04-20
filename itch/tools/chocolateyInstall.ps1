@@ -12,3 +12,4 @@ $packageArgs = @{
   toolsDir       = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 }
 Install-ChocolateyPackage @packageArgs
+Start-WaitandStop "itch"
