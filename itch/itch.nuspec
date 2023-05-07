@@ -20,6 +20,9 @@ The itch.io app, itch, lets you effortlessly download and run games and software
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/itch/icon.png</iconUrl>
     <releaseNotes>https://github.com/itchio/itch/releases</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-misc-helpers.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
