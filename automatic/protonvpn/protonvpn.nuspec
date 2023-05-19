@@ -31,6 +31,7 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     <dependencies>
       <dependency id="kb2919355" version="1.0.20160915" />
       <dependency id="dotnetfx" version="4.8.0.20190930" />
+      <dependency id="chocolatey-misc-helpers.extension" />
     </dependencies>
   </metadata>
   <files>
