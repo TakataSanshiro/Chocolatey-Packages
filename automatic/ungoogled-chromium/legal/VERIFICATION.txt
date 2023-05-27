@@ -6,11 +6,11 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
 
 1. Go to
-    x86_64: https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/113.0.5672.93-1.1/ungoogled-chromium_113.0.5672.93-1.1_windows_x64.zip
+    x86_64: https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/113.0.5672.127-1.1/ungoogled-chromium_113.0.5672.127-1.1_windows_x64.zip
 to download the ZIP archive.
 
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: AA05DBA9B64130CF90DF3793AC93B0160C3232A897AE5371406CD4EF35EE4CE4
+   checksum64: 92E521C984C2BC263EA832CDE15DAE9E4D176D9CA77C31D10657EE2698EFFE83
