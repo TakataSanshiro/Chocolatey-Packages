@@ -11,3 +11,5 @@ $packageArgs = @{
   checksumType   = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
+
+Start-WaitandStop "ProtonVPN"
