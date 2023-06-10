@@ -19,7 +19,7 @@ function global:au_GetLatest {
     
     @{
         Version = $version
-        URL32   = "https://downloads-goldenfrog.netdna-ssl.com/downloads/vyprvpn/desktop/windows/production/$version/VyprVPN-$version-installer.exe"
+        URL32   = "https://www.vyprvpn.com/downloads/vyprvpn/desktop/windows/production/$version/VyprVPN-$version-installer.exe"
     }
 }
 
