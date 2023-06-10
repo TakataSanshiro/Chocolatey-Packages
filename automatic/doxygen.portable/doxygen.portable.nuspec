@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>doxygen.portable</id>
+    <version>1.9.7</version>
+    <title>Doxygen (Portable)</title>
+    <authors>Dimitri van Heesch</authors>
+    <owners>mlt, Sanshiro</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>https://www.doxygen.nl/</projectUrl>
+    <projectSourceUrl>https://github.com/doxygen/doxygen</projectSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/doxygen.portable/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Doxygen is the de facto standard tool for generating documentation from annotated C++ sources, but it also supports other popular programming languages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba, Microsoft, and UNO/OpenOffice flavors), Fortran, VHDL, Tcl, and to some extent D.</description>
+    <summary>Generate documentation from source code</summary>
+    <releaseNotes>https://www.doxygen.nl/manual/changelog.html</releaseNotes>
+    <copyright>Dimitri van Heesch</copyright>
+    <tags>development c++ java tool code source</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/doxygen.portable</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
