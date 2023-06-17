@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>privatezilla</id>
+    <title>Privatezilla</title>
+    <version>0.60.0</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/privatezilla</packageSourceUrl>
+    <authors>builtbybel</authors>
+    <owners>Sanshiro</owners>
+    <summary>Privatezilla is the simplest way to perform a quick privacy and security check of your Windows 10 copy</summary>
+    <description>
+Privatezilla integrates the most critical Windows 10 privacy settings and allows you to quickly perform a privacy check against these settings. Active settings are marked with the status "Configured" and indicates that your privacy is protected. The inactive ones are declared as "Not configured". All available settings (currently 60) can be enabled as well as disabled.
+
+## System Requirements
+* Windows 10 (supports 1809 - 2009)
+
+## Support
+If you like the tool please consider supporting me via PayPal.
+[Donate](https://github.com/builtbybel/privatezilla)
+    </description>
+    <projectUrl>https://github.com/builtbybel/privatezilla</projectUrl>
+    <tags>privacy freeware portable</tags>
+    <copyright>builtbybel</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/privatezilla/icon.png</iconUrl>
+    <releaseNotes>https://github.com/builtbybel/privatezilla/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
