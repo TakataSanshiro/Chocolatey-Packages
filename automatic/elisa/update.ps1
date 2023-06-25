@@ -24,7 +24,7 @@ function global:au_GetLatest {
 
     @{
         Version        = $version
-        URL64          = "https://binary-factory.kde.org/job/Elisa_Release_win64/lastStableBuild/artifact/elisa-$version-$build64-windows-msvc2019_64-cl.exe"
+        URL64          = "https://binary-factory.kde.org/view/Windows%2064-bit/job/Elisa_Release_win64/lastSuccessfulBuild/artifact/elisa-$version-$build64-windows-cl-msvc2019-x86_64.exe"
     }
 }
 
