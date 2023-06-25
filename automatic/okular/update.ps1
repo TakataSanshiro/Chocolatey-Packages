@@ -28,7 +28,7 @@ function global:au_GetLatest {
 
     @{
         Version      = $version
-        URL64        = "https://binary-factory.kde.org/job/Okular_Release_win64/lastStableBuild/artifact/okular-$version-$build64-windows-msvc2019_64-cl.exe"
+        URL64        = "https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/lastSuccessfulBuild/artifact/okular-$version-$build64-windows-cl-msvc2019-x86_64.exe"
         #Copying      = 'https://cgit.kde.org/okular.git/plain/COPYING.LIB?h=v' + $version
         #ReleaseNotes = 'https://www.kde.org/announcements/fulllog_applications.php?version=' + $version + '#okular'
     }
