@@ -3,7 +3,7 @@
   <metadata>
     <id>protonvpn</id>
     <title>ProtonVPN</title>
-    <version>2.4.2</version>
+    <version>3.0.5</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/protonvpn</packageSourceUrl>
     <authors>ProtonVPN AG</authors>
     <owners>Sanshiro</owners>
@@ -21,6 +21,9 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
 * 10Gbit Servers
 * Up to 10 Devices
 * Professional Support
+
+## Notes
+This package update to GitHub releases only.
     </description>
     <projectUrl>https://protonvpn.com/</projectUrl>
     <tags>admin vpn tor security privacy multi-platform</tags>
@@ -29,9 +32,10 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/protonvpn/protonvpn.png</iconUrl>
     <dependencies>
-      <dependency id="kb2919355" version="1.0.20160915" />
       <dependency id="dotnetfx" version="4.8.0.20190930" />
-      <dependency id="chocolatey-misc-helpers.extension" />
+      <dependency id="dotnet-6.0-aspnetruntime" version="6.0.13" />
+      <dependency id="dotnet-desktopruntime" version="6.0.13" />
+      <dependency id="chocolatey-misc-helpers.extension" version="0.0.4" />
     </dependencies>
   </metadata>
   <files>
