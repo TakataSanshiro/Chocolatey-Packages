@@ -8,11 +8,11 @@ Start-Process $ahkExe $ahkFile
 $packageArgs = @{
   packageName    = 'i2p'
   fileType       = 'exe'
-  url            = 'https://files.i2p-projekt.de/2.2.1/i2pinstall%5F2.2.1%5Fwindows.exe'
+  url            = 'https://files.i2p-projekt.de/2.3.0/i2pinstall%5F2.3.0%5Fwindows.exe'
   silentArgs     = ''
   validExitCodes = @(0)
   softwareName   = 'i2p*'
-  checksum       = '9e25abed16c783ed964f504f72069d07da148850471b8250ecf2f4ea5da710bd'
+  checksum       = '2081f8415013c80daa6b69b6f16f2ebf10aa20ee3cace20936e0268b2e816a3f'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
