@@ -3,7 +3,7 @@
   <metadata>
     <id>protonvpn</id>
     <title>ProtonVPN</title>
-    <version>3.0.5</version>
+    <version>3.0.7</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/protonvpn</packageSourceUrl>
     <authors>ProtonVPN AG</authors>
     <owners>Sanshiro</owners>
@@ -33,8 +33,6 @@ This package update to GitHub releases only.
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/protonvpn/protonvpn.png</iconUrl>
     <dependencies>
       <dependency id="dotnetfx" version="4.8.0.20190930" />
-      <dependency id="dotnet-6.0-aspnetruntime" version="6.0.13" />
-      <dependency id="dotnet-desktopruntime" version="6.0.13" />
       <dependency id="chocolatey-misc-helpers.extension" version="0.0.4" />
     </dependencies>
   </metadata>
