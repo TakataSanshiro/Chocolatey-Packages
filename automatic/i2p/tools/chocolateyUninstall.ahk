@@ -1,24 +1,23 @@
-﻿; default environment
-DetectHiddenWindows, off
-SetKeyDelay, 100
+﻿#Requires AutoHotkey v2.0
+; default environment
+DetectHiddenWindows False
+SetKeyDelay 100
 
 ; modified environment
-#NoEnv
 #NoTrayIcon
-DetectHiddenText, off
-SetTitleMatchMode, 2
+DetectHiddenText False
+SetTitleMatchMode 2
 
 ; variables
-winTitleInstaller = Uninstall ahk_class SunAwtFrame ahk_exe java.exe
+winTitleInstaller := "Uninstall" ; ahk_class SunAwtFrame ahk_exe java.exe
 
 ; automate uninstall with default options
-WinWait, %winTitleInstaller%, , 60
-WinActivate, %winTitleInstaller%, , 60
-Send {SPACE}
-Send {TAB}
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
+WinWaitActive(winTitleInstaller, , 60)
+Send "{SPACE}"
+Send "{TAB}"
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
 ExitApp

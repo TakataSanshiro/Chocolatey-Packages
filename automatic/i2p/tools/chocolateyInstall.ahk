@@ -1,62 +1,60 @@
-﻿; default environment
-DetectHiddenWindows, off
-SetKeyDelay, 100
+﻿#Requires AutoHotkey v2.0
+; default environment
+DetectHiddenWindows False
+SetKeyDelay 100
 
 ; modified environment
-#NoEnv
 #NoTrayIcon
-DetectHiddenText, off
-SetTitleMatchMode, 2
+DetectHiddenText False
+SetTitleMatchMode 2
 
 ; variables
-winTitleLang      = Language Selection ahk_class SunAwtDialog ahk_exe javaw.exe
-winTitleInstaller = IzPack - Installation of i2p ahk_class SunAwtFrame ahk_exe javaw.exe
-winTitleDirExist  = Warning! ahk_class SunAwtDialog ahk_exe javaw.exe
-winTitleDirNew    = Message ahk_class SunAwtDialog ahk_exe javaw.exe
+winTitleLang      := "Language Selection" ;ahk_class SunAwtDialog ahk_exe javaw.exe
+winTitleInstaller := "IzPack - Installation of i2p" ;ahk_class SunAwtFrame ahk_exe javaw.exe
+winTitleDirExist  := "Warning!" ;ahk_class SunAwtDialog ahk_exe javaw.exe
+winTitleDirNew    := "Message" ;ahk_class SunAwtDialog ahk_exe javaw.exe
 
 ; automate install with default options
-WinWait, %winTitleLang%, , 240
-WinActivate, %winTitleLang%
-Send {ENTER}
+WinWaitActive(winTitleLang, , 60)
+Send "{ENTER}"
 
-WinWait, %winTitleInstaller%, , 10
-WinActivate, %winTitleInstaller%
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 50000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
-Sleep 2000
-Send {ENTER}
+WinWaitActive(winTitleInstaller, , 10)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(50000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
+Sleep(2000)
+Send "{ENTER}"
 
-Loop, 1000 {
-  IfWinExist, %winTitleDirExist% 
+Loop 1000 {
+  If WinExist(winTitleDirExist)
   {
     WinActivate
-    Send {ENTER}
+    Send "{ENTER}"
   }
-  IfWinExist, %winTitleDirNew% 
+  If WinExist(winTitleDirNew)
   {
     WinActivate
-    Send {ENTER}
+    Send "{ENTER}"
   }
-  IfWinExist, %winTitleInstaller% 
+  If WinExist(winTitleInstaller)
   {
     WinActivate
-    Send {ENTER}
+    Send "{ENTER}"
   }
   Else
     break
-  Sleep 150
+  Sleep(150)
 }
 ExitApp
