@@ -1,41 +1,45 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#Requires AutoHotkey v2.0
+; default environment
+DetectHiddenWindows False
+SetKeyDelay 100
+
+; modified environment
 #NoTrayIcon
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it to be a match. 
+DetectHiddenText False
+SetTitleMatchMode 2
 
 
-Loop, 10000
-{
-sleep 10000
-IfWinExist, Replace existing version?
+
+Loop 1000 {
+  Sleep(2000)
+  If WinExist("Replace existing version?")
   {
   WinActivate
-  Send {y}
+  Send "{y}"
   }
 
-sleep 50000
+Sleep(20000)
 
-IfWinExist, Windows Security
+If WinExist("Windows Security")
   {
   WinActivate
-  Send {i}
+  Send "{i}"
   }
 
-sleep 50000
+Sleep(20000)
 
-IfWinExist, Error
+If WinExist("Error")
   {
   WinActivate
-  Send {c}
+  Send "{c}"
   }
 
-sleep 100000
+Sleep(40000)
 
-IfWinExist, Private Internet Access
+If WinExist("Private Internet Access")
   {
-  Run, %comspec% /c "taskkill /F /T /IM pia-service.exe"
-  Run, %comspec% /c "taskkill /F /T /IM pia-client.exe"
+  Run A_ComSpec ' /c "taskkill /F /T /IM pia-service.exe" '
+  Run A_ComSpec ' /c "taskkill /F /T /IM pia-client.exe" '
   ExitApp
   }
 }
