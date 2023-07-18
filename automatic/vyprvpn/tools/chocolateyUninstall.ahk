@@ -1,4 +1,4 @@
-#Requires AutoHotkey v2.0
+﻿#Requires AutoHotkey v2.0
 ; default environment
 DetectHiddenWindows False
 SetKeyDelay 100
@@ -12,10 +12,13 @@ SetTitleMatchMode 2
 
 sleep 10000
 
-If WinExist("Windows Security")
+If WinExist("Uninstall")
   {
   WinActivate
-  Send "{i}"
+  Send "{ENTER}"
+  Send "{ENTER}"
+  sleep 20000
+  Send "{ENTER}"
+  Send "{ENTER}"
   }
-sleep 10000
 ExitApp
