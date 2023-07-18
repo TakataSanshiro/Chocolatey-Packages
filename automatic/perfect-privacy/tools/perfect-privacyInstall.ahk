@@ -1,16 +1,21 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-#NoTrayIcon
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-SetTitleMatchMode, 2 ; A window's title can contain WinTitle anywhere inside it to be a match. 
+#Requires AutoHotkey v2.0
+; default environment
+DetectHiddenWindows False
+SetKeyDelay 100
 
-Loop, 10000
-{
+; modified environment
+#NoTrayIcon
+DetectHiddenText False
+SetTitleMatchMode 2
+
+
+
 sleep 10000
 
-IfWinExist, Windows Security
+If WinExist("Windows Security")
   {
   WinActivate
-  Send {i}
+  Send "{i}"
   }
-}
+sleep 10000
+ExitApp
