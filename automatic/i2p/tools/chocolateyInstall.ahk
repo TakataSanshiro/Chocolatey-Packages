@@ -15,7 +15,7 @@ winTitleDirExist  := "Warning!" ;ahk_class SunAwtDialog ahk_exe javaw.exe
 winTitleDirNew    := "Message" ;ahk_class SunAwtDialog ahk_exe javaw.exe
 
 ; automate install with default options
-WinWaitActive(winTitleLang, , 60)
+WinWaitActive(winTitleLang, , 300)
 Send "{ENTER}"
 
 WinWaitActive(winTitleInstaller, , 10)
