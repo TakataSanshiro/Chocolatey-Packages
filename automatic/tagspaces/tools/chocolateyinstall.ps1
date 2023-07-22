@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName    = 'tagspaces'
-  url            = 'https://github.com/tagspaces/tagspaces/releases/download/v5.4.3/tagspaces-win-x64-5.4.3.zip'
-  checksum       = '69d5b1b1e64991fc117a8e1498e3fd935e469484fb96af4e3fecd49025c47dcc'
+  url            = 'https://github.com/tagspaces/tagspaces/releases/download/v5.4.4/tagspaces-win-x64-5.4.4.zip'
+  checksum       = '598ac022c8a169bcefcb95cbd9086d3f9249c1c5dcee0ad9aa3f555d9ba15b8f'
   checksumType   = 'sha256'
   softwareName   = 'Tagspaces'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
