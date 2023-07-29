@@ -2,7 +2,7 @@
 $toolsDir              = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  packageName    = 'github-desktop'
+  packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
   file           = (Get-Childitem -Path $toolsDir -Filter "*.exe").fullname
   checksumType   = 'sha256'

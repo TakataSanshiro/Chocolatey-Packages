@@ -8,9 +8,11 @@ function global:au_BeforeUpdate {
 
 function global:au_SearchReplace {
   @{
-    ".\tools\VERIFICATION.txt" = @{
-      "(?i)(32-Bit.+)\<.*\>"     = "`${1}<$($Latest.URL32)>"
-    }
+    ".\legal\VERIFICATION.txt" = @{
+		  "(?i)(64-Bit.+)\<.*\>"     = "`${1}<$($Latest.URL64)>"
+		  "(?i)(checksum type:).*"   = "`${1} $($Latest.ChecksumType64)"
+		  "(?i)(checksum64:).*"      = "`${1} $($Latest.Checksum64)"
+		}
   }
 }
 
@@ -29,8 +31,12 @@ function global:au_GetLatest {
 
   return @{
     Version = $version
-    URL32   = $downloadUrl
+    URL64   = $downloadUrl
   }
 }
 
-update -ChecksumFor none -NoCheckUrl
+try {
+    update -ChecksumFor none -NoCheckUrl
+} catch  {
+    if ($_ -match '404') { Write-Host "$_"; return 'ignore' }
+}
