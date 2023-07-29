@@ -9,9 +9,9 @@ function global:au_SearchReplace {
 		  "(?i)(checksum type:).*"   = "`${1} $($Latest.ChecksumType64)"
 		  "(?i)(checksum64:).*"      = "`${1} $($Latest.Checksum64)"
 		}
-        ".\tools\chocolateyinstall.ps1" = @{
-            "(?i)(^\s*File64\s*=\s*)(.*)" = "`$1Join-Path `$toolsDir '$($Latest.FileName64)'"
-        }
+        #".\tools\chocolateyinstall.ps1" = @{
+        #    "(?i)(^\s*File64\s*=\s*)(.*)" = "`$1Join-Path `$toolsDir '$($Latest.FileName64)'"
+        #}
     }
 }
 
