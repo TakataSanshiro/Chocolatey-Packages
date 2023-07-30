@@ -20,3 +20,4 @@ $packageArgs = @{
   checksumType64 = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
+Start-Sleep -Seconds 60
