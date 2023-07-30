@@ -31,5 +31,6 @@ Every pixel is completely open source. Build the features you need, and be a par
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
   </files>
 </package>
