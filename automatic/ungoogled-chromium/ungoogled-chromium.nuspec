@@ -3,7 +3,7 @@
   <metadata>
     <id>ungoogled-chromium</id>
     <version>115.0.5790.991</version>
-    <title>ungoogled-chromium</title>
+    <title>ungoogled-chromium (Portable)</title>
     <authors>ungoogled-software</authors>
     <owners>dimqua, Sanshiro</owners>
     <licenseUrl>https://github.com/ungoogled-software/ungoogled-chromium-windows/blob/115.0.5790.99-1.1/LICENSE</licenseUrl>
