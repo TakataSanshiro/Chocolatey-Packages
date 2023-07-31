@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>filelight</id>
+    <version>23.04.0</version>
+    <title>Filelight</title>
+    <authors>Martin Sandsmark, Max Howell</authors>
+    <owners>Sanshiro</owners>
+    <licenseUrl>https://invent.kde.org/utilities/filelight/-/tree/master/LICENSES</licenseUrl>
+    <projectUrl>https://apps.kde.org/filelight/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/filelight/filelight.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Filelight allows you to understand exactly where your diskspace is being used by graphically representating your filesystem as a set of concentric segmented-rings.</description>
+    <summary>Quickly visualize your disk space usage</summary>
+    <tags>admin foss cross-platform kde qt</tags>
+    <projectSourceUrl>https://invent.kde.org/utilities/filelight</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/filelight</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
