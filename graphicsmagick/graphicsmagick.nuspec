@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>graphicsmagick</id>
-    <version>1.3.40</version>
+    <version>1.3.40.20230603</version>
     <title>GraphicsMagick</title>
     <authors>GraphicsMagick Group</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -20,7 +20,7 @@ GraphicsMagick is originally derived from ImageMagick 5.5.2 as of November 2002 
 * [News](http://www.graphicsmagick.org/NEWS.html)
 * [Changelog](http://www.graphicsmagick.org/Changelog.html)
 </releaseNotes>
-    <copyright>© 2022 GraphicsMagick Group</copyright>
+    <copyright>© GraphicsMagick Group</copyright>
     <tags>image graphics magick convert openmp admin</tags>
     <projectSourceUrl>https://sourceforge.net/p/graphicsmagick/code/</projectSourceUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/graphicsmagick/</packageSourceUrl>
