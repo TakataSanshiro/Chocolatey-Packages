@@ -35,20 +35,7 @@ Basic idea behind GUI is, to keep it simple! Thus, only those options are implem
 #### Documentation
 * [Manual](https://exiftool.org/gui/)
 * [Metadata articles](https://exiftool.org/gui/articles/)
-
-#### Package parameters
-
-The following package parameter can be set:
-
-* `/installPath:` specify a custom extract location as a full path - defaults to the 'C:\ProgramData\chocolatey\lib\exiftoolgui\tools' folder.
-exiftoolgui save GUI settings on the same folder.
-This parameter is for non admin privilege users.
-
-```PowerShell
-choco install exiftoolgui --params="'/installPath:C:\Users\username\Downloads\exiftoolgui'"
-```
-
-The exiftoolgui folder in a custom location will not get uninstalled automatically by this package. Please remove exiftoolgui manually after choco uninstall exiftoolgui.</description>
+</description>
     <summary>GUI front-end for exiftool</summary>
     <releaseNotes>#### Program
 * [Changelog](https://exiftool.org/gui/articles/)
