@@ -29,7 +29,7 @@ You can learn more about i2p at the Software Site.
     <docsUrl>https://geti2p.net/docs</docsUrl>
     <mailingListUrl>https://i2pforum.net/</mailingListUrl>
     <dependencies>
-      <dependency id="autohotkey.portable" version="1.1.32.00" />
+      <dependency id="autohotkey.portable" version="2.0.0" />
       <dependency id="javaruntime" version="8.0.231" />
       <dependency id="vcredist140" version="14.24.28127.4" />
     </dependencies>
