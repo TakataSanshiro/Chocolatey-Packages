@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>swftools</id>
-    <version>0.9.0.20220414</version>
+    <version>0.9.0.20230805</version>
     <title>SWFTools</title>
     <authors>Matthias Kramm</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -36,7 +36,7 @@ SWFTools has been reported to work on Solaris, Linux (both 32 as well as 64 bit)
     <copyright>© Matthias Kramm</copyright>
     <tags>notsilent swf adobe flash</tags>
     <dependencies>
-      <dependency id="autohotkey.portable" version="1.1.33.10" />
+      <dependency id="autohotkey.portable" version="2.0.0" />
     </dependencies>
   </metadata>
   <files>
