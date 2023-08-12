@@ -12,4 +12,5 @@ $packageArgs = @{
 
 Install-ChocolateyInstallPackage @packageArgs
 
+Start-Sleep -Seconds 20
 Remove-Item -ea 0 -Force -Path $toolsDir\*.exe

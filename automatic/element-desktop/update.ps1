@@ -23,7 +23,7 @@ function global:au_GetLatest {
 
     @{
         Version        = $version
-        URL64          = "https://packages.riot.im/desktop/install/win32/x64/Element Setup $version.exe"
+        URL64          = "https://packages.element.io/desktop/install/win32/x64/Element%20Setup%20$version.exe"
     }
 }
 
