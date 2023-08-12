@@ -5,21 +5,26 @@ $releases = 'https://www.enpass.io/downloads/'
 function global:au_SearchReplace {
     @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url = $download_page.ParsedHtml.getElementById('web_windows_desktop') | ForEach-Object { $_.getElementsByTagName('a') } | Where-Object { $_.className -eq 'btn btn_enpass_line btn_enpass_color' } |  Select-Object -Expand href
+    $version = $download_page.links.href -match 'dl.enpass.io/stable/windows/setup' | Select -First 1 | % { $_ -split '/' | select -Last 2 } | % { $_ -split '/' | select -First 1 }
+    $version = $version[0]
 
-    $version  = $url -match "\d+(\.\d+)+"
-    $version = $Matches[0]
-
-    return @{ URL = $url; Version = $version }
+    @{
+        Version = $version
+        URL     = "https://dl.enpass.io/stable/windows/setup/$version/Enpass-setup.exe"
+    }
 }
 
-update
+try {
+    update
+} catch  {
+    if ($_ -match '404') { Write-Host "$_"; return 'ignore' }
+}
