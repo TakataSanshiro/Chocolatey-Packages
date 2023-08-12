@@ -3,7 +3,7 @@
   <metadata>
     <id>qview.install</id>
     <title>qView (Install)</title>
-    <version>5.0</version>
+    <version>6.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/qview.install</packageSourceUrl>
     <authors>jurplel</authors>
     <owners>Sanshiro</owners>

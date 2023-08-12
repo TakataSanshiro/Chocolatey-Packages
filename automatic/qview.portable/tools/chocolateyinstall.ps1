@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  url            = 'https://github.com/jurplel/qView/releases/download/5.0/qView-5.0-win32.zip'
-  url64          = 'https://github.com/jurplel/qView/releases/download/5.0/qView-5.0-win64.zip'
-  checksum       = 'ae01ed2c7c9df553f737f148f3acda24ad01362595bfc9964474b382205f4e79'
-  checksum64     = 'd924fef14005c8d65b1523f0c146d129ab9328c7c235322de299c1f68d16b33b'
+  url            = 'https://github.com/jurplel/qView/releases/download/6.0/qView-6.0-win32.zip'
+  url64          = 'https://github.com/jurplel/qView/releases/download/6.0/qView-6.0-win64.zip'
+  checksum       = 'e9ff7145d3209e0c105891eee5061dff810000352d5fcab40f33a46ba9ce0ff8'
+  checksum64     = 'ccfc0712398a8c29e1ef09b6e5309b6a43ac9e485fac0bffc0f31a362883586e'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
