@@ -13,4 +13,6 @@ $packageArgs = @{
 
 Install-ChocolateyInstallPackage @packageArgs
 
+Start-Sleep -Seconds 60
+
 Remove-Item "$toolsDir\*.exe" -Force -EA SilentlyContinue | Out-Null
