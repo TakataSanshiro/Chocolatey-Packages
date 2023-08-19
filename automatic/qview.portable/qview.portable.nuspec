@@ -3,7 +3,7 @@
   <metadata>
     <id>qview.portable</id>
     <title>qView (Portable)</title>
-    <version>6.0</version>
+    <version>6.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/qview.portable</packageSourceUrl>
     <authors>jurplel</authors>
     <owners>Sanshiro</owners>

@@ -3,7 +3,7 @@
   <metadata>
     <id>qview</id>
     <title>qView</title>
-    <version>6.0</version>
+    <version>6.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/qview</packageSourceUrl>
     <authors>jurplel</authors>
     <owners>Sanshiro</owners>
@@ -19,7 +19,7 @@ qView is an image viewer designed with minimalism and usability in mind.
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/qview/qview.png</iconUrl>
     <releaseNotes>https://github.com/jurplel/qView/releases</releaseNotes>
     <dependencies>
-      <dependency id="qview.install" version="6.0" />
+      <dependency id="qview.install" version="6.1" />
     </dependencies>
   </metadata>
   <files>
