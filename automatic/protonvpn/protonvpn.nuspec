@@ -23,7 +23,10 @@ Unlike other VPN services, ProtonVPN is designed with security as the main focus
 * Professional Support
 
 ## Notes
-This package update to GitHub releases only.
+Starting in version 3.0.0 of this package, 32bit installation is no longer supported and will fail the installation.
+If 32bit support is needed, the last package version supporting this is [2.4.1](https://community.chocolatey.org/packages/protonvpn/2.4.1)
+
+This package update to GitHub releases only. 2.4.2, 2.4.3 are not on GitHub releases.
     </description>
     <projectUrl>https://protonvpn.com/</projectUrl>
     <tags>admin vpn tor security privacy multi-platform</tags>
