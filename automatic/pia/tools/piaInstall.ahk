@@ -9,7 +9,6 @@ DetectHiddenText False
 SetTitleMatchMode 2
 
 
-
 Loop 1000 {
   Sleep(2000)
   If WinExist("Replace existing version?")
