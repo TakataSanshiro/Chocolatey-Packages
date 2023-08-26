@@ -1,48 +1,64 @@
 import-module au
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
 $url = 'https://vpnarea.com/VPNArea.exe'
 
 function global:au_SearchReplace {
-   @{
-        ".\tools\chocolateyInstall.ps1" = @{
-            #  "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
+    return @{
+      ".\tools\chocolateyInstall.ps1" = @{
+        "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
+        "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
         }
-    }
+     }
 }
 
-function global:au_BeforeUpdate() {
-    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL
+function global:au_AfterUpdate {
+  "$($Latest.ETAG)|$($Latest.Version)" | Out-File "$PSScriptRoot\info" -Encoding utf8
+}
+
+function GetResultInformation([string]$url) {
+  $dest = "$env:TEMP\VPNArea.exe"
+  Invoke-WebRequest -UseBasicParsing -Uri $url -OutFile $dest
+  $version = (Get-Command $dest).Version
+
+  $result = @{
+    URL32          = $url
+    Version        = $version
+    Checksum32     = Get-FileHash $dest -Algorithm sha256 | % Hash
+    ChecksumType32 = 'sha256'
+  }
+  Remove-Item -Force $dest
+  return $result
+}
+
+function GetETagIfChanged() {
+  param([string]$url)
+  if (($global:au_Force -ne $true) -and (Test-Path $PSScriptRoot\info)) {
+    $existingETag = Get-Content "$PSScriptRoot\info" -Encoding UTF8 | select -first 1 | % { $_ -split '\|' } | select -First 1
+  }
+  else { $existingETag = $null }
+
+  $etag = Invoke-WebRequest -Method Head -Uri $url -UseBasicParsing
+  $etag = $etag | % { $_.Headers.ETag }
+  if ($etag -eq $existingETag) { return $null }
+
+  return $etag
 }
 
 function global:au_GetLatest {
-    $currentChecksum = (gi .\tools\chocolateyInstall.ps1 | sls '\bchecksum\b') -split "=|'" | Select -Last 1 -Skip 1
-
-    if ($currentChecksum -ne $Latest.Checksum32) {
-        Write-Host 'Remote checksum is different then the current one, forcing update'
-
-        Write-Host $url
- 
-        $temp_file = $env:TEMP + 'VPNArea.exe'
-        Invoke-WebRequest $url -OutFile $temp_file
-        Write-Host $temp_file
-        
-        $version = (Get-Command $temp_file).Version
-        Write-Host $version
-
-        $currentVersion = (gi .\vpnarea.nuspec | sls '\bversion\b')
-
-        if ($currentVersion -eq $version) {
-            Write-Host 'The version number has not changed, forcing update'
-            $global:au_old_force = $global:au_force
-            $global:au_force = $true
-        }
-     }
-
-    @{
-        Version = $version
-        URL     = 'https://vpnarea.com/VPNArea.exe'
+  $etag = GetETagIfChanged $url
+  if ($etag) {
+    $result = GetResultInformation $url
+    $result["ETAG"] = $etag
+  }
+  else {
+    $result = @{
+      URL32   = $url
+      Version = Get-Content "$PSScriptRoot\info" -Encoding UTF8 | select -First 1 | % { $_ -split '\|' } | select -Last 1
     }
+  }
+
+  return $result
 }
 
-update -ChecksumFor 32 -NoCheckUrl
+update -NoCheckUrl
