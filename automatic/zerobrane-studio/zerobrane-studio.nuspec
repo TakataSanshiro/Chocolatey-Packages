@@ -3,7 +3,7 @@
   <metadata>
     <id>zerobrane-studio</id>
     <title>Zerobrane Studio</title>
-    <version>1.90</version>
+    <version>2.00</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>Sanshiro, beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
@@ -57,7 +57,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/zerobrane-studio/icon.png</iconUrl>
     <dependencies>
-      <dependency id="zerobrane-studio.install" version="1.90" />
+      <dependency id="zerobrane-studio.install" version="2.00" />
     </dependencies>
     <releaseNotes>https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>

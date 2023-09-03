@@ -21,8 +21,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName    = 'zerobrane-studio.install'
-  url            = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.90-win32.exe'
-  checksum       = '6649bac74b39947d1d2e5ad4340f6d116cdabf2580953000fd11bccefe71089e'
+  url            = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-2.00-win32.exe'
+  checksum       = '86decd0054b81f15cc770c19d7db3077d8f67ea64ce36061038c7362e1d810a6'
   checksumType   = 'sha256'
   unzipLocation  = $toolsDir
   softwareName   = 'zerobrane-studio.install'

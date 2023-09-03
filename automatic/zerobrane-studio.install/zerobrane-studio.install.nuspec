@@ -3,7 +3,7 @@
   <metadata>
     <id>zerobrane-studio.install</id>
     <title>Zerobrane Studio (Install)</title>
-    <version>1.90</version>
+    <version>2.00</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>Sanshiro, beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
