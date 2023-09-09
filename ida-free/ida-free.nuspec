@@ -3,7 +3,7 @@
   <metadata>
     <id>ida-free</id>
     <title>IDA free</title>
-    <version>8.2</version>
+    <version>8.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/ida-free</packageSourceUrl>
     <authors>Hex-Rays SA.</authors>
     <owners>Sanshiro</owners>
