@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://github.com/loki-project/session-desktop/releases/download/v$version/session-desktop-win-$version.exe"
+        URL64   = "https://github.com/loki-project/session-desktop/releases/download/v$version/session-desktop-win-x64-$version.exe"
     }
 }
 
