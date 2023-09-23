@@ -1,14 +1,12 @@
 import-module au
 
-$releases = 'https://github.com/processing/processing/tags'
+$releases = 'https://github.com/processing/processing4/tags'
 
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
             "(?i)(^\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
-            "(?i)(^\s*url64\s*=\s*)('.*')"        = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -24,8 +22,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL32   = "https://github.com/processing/processing/releases/download/processing-$urlVersion/processing-$version-windows32.zip"
-        URL64   = "https://github.com/processing/processing/releases/download/processing-$urlVersion/processing-$version-windows64.zip"
+        URL32   = "https://github.com/processing/processing4/releases/download/processing-$urlVersion/processing-$version-windows-x64.zip"
     }
 }
 

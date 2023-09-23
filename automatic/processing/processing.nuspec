@@ -3,7 +3,7 @@
   <metadata>
     <id>processing</id>
     <title>Processing</title>
-    <version>3.5.4</version>
+    <version>4.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/processing</packageSourceUrl>
     <authors>Processing Foundation</authors>
     <owners>Sanshiro</owners>
@@ -16,17 +16,20 @@ Since 2001, Processing has promoted software literacy within the visual arts and
 * For GNU/Linux, Mac OS X, Windows, Android, and ARM
 * Over 100 libraries extend the core software
 * Well documented, with many books available
+
+## Notes
+Starting in version 4.0.0 of this package, 32bit installation is no longer supported.
     </description>
     <projectUrl>https://processing.org/</projectUrl>
-    <projectSourceUrl>https://github.com/processing/processing</projectSourceUrl>
+    <projectSourceUrl>https://github.com/processing/processing4</projectSourceUrl>
     <docsUrl>https://processing.org/reference/</docsUrl>
-    <bugTrackerUrl>https://github.com/processing/processing/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/processing/processing4/issues</bugTrackerUrl>
     <tags>java art design</tags>
     <copyright>Processing Foundation</copyright>
-    <licenseUrl>https://github.com/processing/processing/blob/master/license.txt</licenseUrl>
+    <licenseUrl>https://github.com/processing/processing4/blob/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/processing/processing@9b39c88b/core/src/icon/icon-512.png</iconUrl>
-    <releaseNotes>https://github.com/processing/processing/releases</releaseNotes>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/processing/processing.png</iconUrl>
+    <releaseNotes>https://github.com/processing/processing4/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
