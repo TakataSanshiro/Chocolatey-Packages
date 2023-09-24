@@ -3,7 +3,7 @@
   <metadata>
     <id>drmemory</id>
     <title>Dr. Memory</title>
-    <version>2.5.0</version>
+    <version>2.6.0</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/drmemory</packageSourceUrl>
     <authors>VMWare, Google</authors>
     <owners>Sanshiro</owners>
@@ -24,7 +24,7 @@ Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/DynamoRIO/drmemory/releases</releaseNotes>
     <dependencies>
-      <dependency id="drmemory.install" version="2.5.0" />
+      <dependency id="drmemory.install" version="2.6.0" />
     </dependencies>
   </metadata>
   <files />
