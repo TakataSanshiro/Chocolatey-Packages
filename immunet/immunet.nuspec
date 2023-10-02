@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>immunet</id>
+    <version>7.5.8.99999</version>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/immunet</packageSourceUrl>
+    <title>[RETIRED] Immunet AntiVirus</title>
+    <authors>Cisco Systems</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <projectUrl>http://www.immunet.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>## This package has been retired.
+    Immunet will be discontinuing its services on January 1, 2024. After this date, the product will no longer be connected to our Cloud servers and your computer will no longer be protected. Please uninstall Immunet and consider a different antivirus product to continue receiving protection.
+
+    You can learn more about it at the [Software Site](https://www.immunet.com/index).
+    </description>
+    <summary></summary>
+    <releaseNotes></releaseNotes>
+    <tags>retired</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
