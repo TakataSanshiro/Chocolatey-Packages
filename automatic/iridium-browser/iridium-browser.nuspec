@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>iridium-browser</id>
+    <version>2023.09.116</version>
+    <title>Iridium Browser</title>
+    <authors>Iridium Secure Browser Project</authors>
+    <owners>dimqua, Sanshiro</owners>
+    <licenseUrl>https://github.com/iridium-browser/iridium-browser/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://iridiumbrowser.de/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/iridium-browser/iridium-browser.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Iridium Browser is based on the Chromium code base. All modifications enhance the privacy of the user and make sure that the latest and best secure technologies are used. Automatic transmission of partial queries, keywords, metrics to central services is prevented and only occurs with the approval of the user. In addition, all our builds are reproducible and modifications are auditable, setting the project ahead of other secure browser providers.</description>
+    <summary>Iridium is a privacy-focused modification of the Chromium web browser.</summary>
+    <releaseNotes>https://iridiumbrowser.de/news/archive/</releaseNotes>
+    <tags>admin iridium iridium-browser blink chromium chrome privacy security browser</tags>
+    <projectSourceUrl>https://github.com/iridium-browser/iridium-browser</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/iridium-browser</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
