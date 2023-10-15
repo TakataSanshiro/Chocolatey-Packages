@@ -6,7 +6,7 @@ $packageArgs = @{
   installerType  = 'exe'
   file           = (Get-Childitem -Path $toolsDir -Filter "*.exe").fullname
   checksumType   = 'sha256'
-  silentArgs     = '/S /nolaunch'
+  silentArgs     = '-s'
   validExitCodes = @(0)
   softwareName   = 'GitHub Desktop'
 }
