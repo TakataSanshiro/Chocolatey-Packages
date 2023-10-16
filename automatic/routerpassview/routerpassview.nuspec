@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>routerpassview</id>
+    <version>1.90</version>
+    <title>RouterPassView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/router_password_recovery.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/router_password_recovery.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/routerpassview/routerpassview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Most modern routers allow you to backup the configuration of the router into a file, and then restore the configuration from the file when it's needed.</description>
+    <summary>Recover lost password from router backup file</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>recovery router key lost backup config file</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/routerpassview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
