@@ -16,9 +16,10 @@ function global:au_GetLatest {
 
     $version = $download_page.links.href -match 'core' | Select -First 1 | % { $_ -split '/' | select -Last 1 }
     $version = $version | % { $_ -split '%40' | select -Last 1 }
+    $chocoPackageVersion = '2023.' + $version
 
     @{
-        Version = $version
+        Version = $chocoPackageVersion
         URL64   = "https://github.com/Kong/insomnia/releases/download/core%40$version/Insomnia.Core-$version.exe"
     }
 }
