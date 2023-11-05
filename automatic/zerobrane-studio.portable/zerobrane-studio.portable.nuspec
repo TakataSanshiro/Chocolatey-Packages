@@ -3,7 +3,7 @@
   <metadata>
     <id>zerobrane-studio.portable</id>
     <title>Zerobrane Studio (Portable)</title>
-    <version>2.00</version>
+    <version>2.01</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>Sanshiro, beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
