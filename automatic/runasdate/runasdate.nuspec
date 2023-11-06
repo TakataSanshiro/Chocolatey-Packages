@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>runasdate</id>
+    <version>1.41</version>
+    <title>RunAsDate</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/run_as_date.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/run_as_date.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/runasdate/runasdate.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RunAsDate is a small utility that allows you to run a program in the date and time that you specify.
+
+This utility doesn't change the current system date and time of your computer, but it only injects the 
+date/time that you specify into the desired application.
+
+You can run multiple applications simultaneously, each application works with different date and time,
+while the real date/time of your system continues to run normally.</description>
+    <summary>Run a program with the specified date/time</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>as date software windows</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/runasdate</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
