@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>dnsdataview</id>
+    <version>1.71</version>
+    <title>DNSDataView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/dns_records_viewer.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/dns_records_viewer.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/dnsdataview/dnsdataview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This utility is a GUI alternative to the NSLookup tool that comes with Windows operating system.
+
+It allows you to easily retrieve the DNS records (MX, NS, A, SOA) of the specified domains.
+
+You can use the default DNS server of your Internet connection, or use any other DNS server that you specify.
+
+After retrieving the DNS records for the desired domains, you can save them into text/xml/html/csv file.</description>
+    <summary>DNS lookup tool for Windows (NSLookup with GUI)</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>records nslookup mx</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dnsdataview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
