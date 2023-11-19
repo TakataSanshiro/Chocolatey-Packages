@@ -2,32 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>1clipboard</id>
-    <title>1Clipboard</title>
-    <version>0.1.8</version>
+    <title>[RETIRED] 1Clipboard</title>
+    <version>0.1.8.20231119</version>
 	<packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/1clipboard</packageSourceUrl>
     <authors>1Clipboard</authors>
     <owners>Sanshiro</owners>
-    <summary>A universal clipboard managing app that makes it easy to access your clipboard from anywhere on any device.
-	</summary>
-    <description>
-	## Features
-    - Copy here. Paste there.
-    - Clipboard history.
-    - Star your favorites.
-	- Search your past.
-	- Security that you can trust.
-	- Looking for local clipboard manager?
-	- Built with open-source, modern web technologies.
-	</description>
+    <summary></summary>
+    <description>## This package has been retired.
+    As it no longer works since it doesn't comply with Google's OAuth 2.0 policy</description>
     <projectUrl>http://1clipboard.io/</projectUrl>
-	<projectSourceUrl>https://github.com/wiziple/1clipboard</projectSourceUrl>
-	<bugTrackerUrl>https://github.com/wiziple/1clipboard/issues</bugTrackerUrl>
-    <tags>admin clipboard snippet electron angular google-drive</tags>
-    <copyright>Copyright © 1Clipboard All rights reserved.</copyright>
-    <licenseUrl>https://github.com/wiziple/1Clipboard</licenseUrl>
+    <tags>retired</tags>
+    <copyright></copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/wiziple/1Clipboard/57251139/resources/github/icon.png</iconUrl>
-    <releaseNotes>https://github.com/wiziple/1Clipboard/releases</releaseNotes>
+    <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
