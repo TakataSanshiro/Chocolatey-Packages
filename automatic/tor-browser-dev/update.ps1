@@ -18,8 +18,8 @@ function global:au_GetLatest {
     $version = ($page.links | ? { $_.href -match '^[0-9]' } | select -expand href -Last 1).Replace('/','')
 
     @{
-        URL32   = $releases + $version + '/torbrowser-install-' + $version + '_ALL.exe'
-        URL64   = $releases + $version + '/torbrowser-install-win64-' + $version + '_ALL.exe'
+        URL32   = $releases + $version + '/tor-browser-windows-i686-portable-' + $version + '.exe'
+        URL64   = $releases + $version + '/tor-browser-windows-x86_64-portable-' + $version + '.exe'
         Version = $version.Replace('a','.')
     }
 }
