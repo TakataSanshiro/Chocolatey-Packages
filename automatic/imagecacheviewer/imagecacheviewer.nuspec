@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>imagecacheviewer</id>
+    <version>1.30</version>
+    <title>ImageCacheViewer</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/image_cache_viewer.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/image_cache_viewer.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/imagecacheviewer/imagecacheviewer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ImageCacheViewer is a simple tool that scans the cache of your Web browser (Internet Explorer, Firefox, or Chrome), and lists the images displayed in the Web sites that you recently visited.
+
+For every cached image file, the following information is displayed: URL of the image, Web browser that was used to visit the page, image type, date/time of the image, browsing time, and file size.
+
+When selecting a cache item in the upper pane of ImageCacheViewer, the image is displayed in the lower pane, and you can copy the image to the clipboard by pressing Ctrl+M.</description>
+    <summary>View images in the cache of your Web browser</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>cache viewer web browser firefox chrome ie</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/imagecacheviewer</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
