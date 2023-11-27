@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>macaddressview</id>
+    <version>1.48</version>
+    <title>MACAddressView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/mac_address_lookup_find.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/mac_address_lookup_find.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/macaddressview/macaddressview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MACAddressView is a MAC address lookup tool that allows you to easily find the company details (company name, address, and country) according to the MAC address of a product. 
+
+MACAddressView also allows you to find MAC address records according to the company name, company address, or country name.
+
+After finding the desired MAC address records, you can save them into text/XML/HTML/CSV file or copy them to the clipboard and paste them into Excel or other applications.</description>
+    <summary>MAC Address Lookup/Find Tool</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>mac address lookup</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/macaddressview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
