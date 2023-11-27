@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>netrouteview</id>
+    <version>1.40</version>
+    <title>NetRouteView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/network_route_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/network_route_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/netrouteview/netrouteview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NetRouteView is a GUI alternative to the standard route utility (Route.exe) of Windows operating system.
+
+It displays the list of all routes on your current network, including the destination, mask, gateway, interface IP address, metric value, type, protocol, age (in seconds), interface name, and the MAC address.
+
+NetRouteView also allows you to easily add new routes, as well as to remove or modify existing static routes.</description>
+    <summary>Network Route Utility</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>route add remove</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/netrouteview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
