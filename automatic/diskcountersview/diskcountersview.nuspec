@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>diskcountersview</id>
+    <version>1.30</version>
+    <title>DiskCountersView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/disk_counters_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/disk_counters_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/diskcountersview/diskcountersview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DiskCountersView displays the system counters of each disk drive in your system, including the total number of read/write operations and the total number of read/write bytes.
+
+It also displays general drive information, like disk name, partition number, partition location, and so on.</description>
+    <summary>Retrieves the S.M.A.R.T information from your IDE/SATA disk</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>smart storage monitor</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/diskcountersview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
