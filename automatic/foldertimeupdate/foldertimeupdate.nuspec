@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>foldertimeupdate</id>
+    <version>1.72</version>
+    <title>FolderTimeUpdate</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/folder_time_update.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/folder_time_update.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/foldertimeupdate/foldertimeupdate.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FolderTimeUpdate is a simple tool for Windows that scans all files and folders under the base folder you choose, and updates the 'Modified Time' of every folder according the latest modified time of the files stored in it.
+
+This tool might be useful if, for example, you backup a cluster of folders and then restore them into another disk, but the backup program doesn't restore the original modified time of the folders.</description>
+    <summary>Set the Modified Time of folders according the time of the files stored in it</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>folder time update</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/foldertimeupdate</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
