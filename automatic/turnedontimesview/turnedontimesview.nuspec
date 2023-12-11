@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>turnedontimesview</id>
+    <version>1.46</version>
+    <title>TurnedOnTimesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/computer_turned_on_times.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/computer_turned_on_times.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/turnedontimesview/turnedontimesview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TurnedOnTimesView is a simple tool that analyses the event log of Windows operating system, and detects the time ranges that your computer was turned on.
+
+For every period of time that the computer was turned on, the following information is displayed: Startup Time, Shutdown Time, Duration, Shutdown Reason, Shutdown Type, Shutdown Process, and Shutdown Code.
+
+TurnedOnTimesView allows you to get this information from your local computer, and from remote computer on your network if you have enough privilege to read the event log of Windows remotely.</description>
+    <summary>View the time/date ranges that your computer was turned on</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>power event log</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/turnedontimesview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
