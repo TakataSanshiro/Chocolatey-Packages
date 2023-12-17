@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>peazip.portable</id>
-    <version>9.5.0</version>
+    <version>9.6.0</version>
     <title>PeaZip (Portable)</title>
     <authors>Giorgio Tani</authors>
     <owners>dtgm, Sanshiro</owners>
