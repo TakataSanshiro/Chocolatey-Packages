@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>serviwin.portable</id>
+    <version>1.72</version>
+    <title>ServiWin (Portable)</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/serviwin.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/serviwin.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/serviwin/serviwin.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ServiWin utility displays the list of installed drivers and services on your system.
+
+For some of them, additional useful information is displayed: file description, version,
+product name, company that created the driver file, and more.
+
+In addition, ServiWin allows you to easily stop, start, restart, pause, and continue
+service or driver, change the startup type of service or driver (automatic, manual, disabled,
+boot or system), save the list of services and drivers to file, or view HTML report of
+installed services/drivers in your default browser.</description>
+    <summary>Windows Services/Drivers Tool (start/stop/restart service)</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>windows alternative start stop restart</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/serviwin.portable</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
