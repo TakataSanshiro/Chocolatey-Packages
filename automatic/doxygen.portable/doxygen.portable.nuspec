@@ -6,7 +6,7 @@
     <title>Doxygen (Portable)</title>
     <authors>Dimitri van Heesch</authors>
     <owners>mlt, Sanshiro</owners>
-    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <licenseUrl>https://github.com/doxygen/doxygen/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://www.doxygen.nl/</projectUrl>
     <projectSourceUrl>https://github.com/doxygen/doxygen</projectSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/doxygen.portable/icon.png</iconUrl>
