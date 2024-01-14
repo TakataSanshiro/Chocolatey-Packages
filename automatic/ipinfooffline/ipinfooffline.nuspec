@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ipinfooffline</id>
+    <version>1.70</version>
+    <title>IPInfoOffline</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/ip_country_info_offline.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/ip_country_info_offline.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/ipinfooffline/ipinfooffline.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>IPInfoOffline Allows you to view information about IP addresses, without connecting any external server.
+
+It uses a compressed IP addresses database that is stored inside the exe file.
+
+For each IP address, the following information is displayed: IP block range, Organization (RIPE, ARIN, APNIC, LACNIC or AFRINIC), Assigned Date, Country Name, and Country Code.
+
+After retrieving the information about the desired IP addresses, You can copy the information to the clipboard, or save it into text/html/xml/csv file.</description>
+    <summary>IP Address country information</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>address country information offline</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ipinfooffline</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
