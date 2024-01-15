@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>tcplogview</id>
+    <version>1.41</version>
+    <title>TcpLogView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/tcp_log_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/tcp_log_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/tcplogview/tcplogview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TcpLogView is a simple utility that monitors the opened TCP connections on your system, and adds a new log line every time that a TCP connection is opened or closed.
+
+For every log line, the following information is displayed: 
+
+Even Time, Event Type (Open, Close, Listen), Local Address, Remote Address, Remote Host Name, Local Port, Remote Port, Process ID,
+Process Name, and the country information of the Remote IP (Requires to download IP to country file separately.)</description>
+    <summary>Creates TCP connections log</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>connections log view open closed listen</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/tcplogview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
