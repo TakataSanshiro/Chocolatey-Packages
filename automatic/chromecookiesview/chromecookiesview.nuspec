@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>chromecookiesview</id>
+    <version>1.75</version>
+    <title>ChromeCookiesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/chrome_cookies_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/chrome_cookies_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/chromecookiesview/chromecookiesview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ChromeCookiesView is an alternative to the standard internal cookies viewer of Google Chrome Web browser.  It displays the list of all cookies stored by Google Chrome Web browser, and allows you to easily delete unwanted cookies. It also allows you export the cookies into text/csv/html/xml file.
+
+For every cookie, the following information is displayed:
+
+Host Name, Path, Name, Value, Secure (Yes/No), HTTP Only Cookie (Yes/No), Last Accessed Time, Creation Time, Expiration Time.</description>
+    <summary>View/delete cookies of Chrome Web browser</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>delete cookies chrome web browser</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/chromecookiesview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
