@@ -25,3 +25,5 @@ $packageArgs = @{
   softwareName   = 'Twitch'
 }
 Install-ChocolateyPackage @packageArgs
+
+Start-Sleep -Seconds 60
