@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>picview</id>
+    <version>2.2.1</version>
+    <title>PicView</title>
+    <authors>Ruben2776</authors>
+    <owners>Ruben2776, Sanshiro</owners>
+    <projectUrl>https://picview.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/picview/picview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fast Picture Viewer with compact UI that can be hidden. Features image effects, galleries, EXIF and more. The application can automatically adjusts itself to your screen.</description>
+    <summary>Fast Picture Viewer with compact UI that can be hidden</summary>
+    <releaseNotes>https://picview.org/changelog</releaseNotes>
+    <copyright>© Ruben Negendahl</copyright>
+    <tags>viewer image foss photo picture</tags>
+    <projectSourceUrl>https://github.com/Ruben2776/PicView</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/picview</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/Ruben2776/PicView/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
