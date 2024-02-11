@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>browseraddonsview</id>
+    <version>1.29</version>
+    <title>BrowserAddonsView</title>
+    <authors>Nir Sofer</authors>
+    <owners>bcurran3, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/web_browser_addons_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/web_browser_addons_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/browseraddonsview/browseraddonsview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+![Screenshot of BrowserAddonsView](http://www.nirsoft.net/utils/browseraddonsview.png)
+
+BrowserAddonsView is a simple tool that displays the details of all Web browser addons/plugins installed in your system. BrowserAddonsView can scan and detect the addons of most popular Web browsers: Chrome, Firefox, and Internet Explorer. For Chrome and Firefox, BrowserAddonsView detects and scans all Web browser profiles if there are multiple profiles.
+
+###System Requirements
+
+This utility works on any version of Windows, starting from Windows XP and up to Windows 10. Both 32-bit and 64-bit systems are supported.
+
+###Known Issues
+
+When Firefox has more than one profile, the installed plugins will be displayed multiple times (one item for each profile), even if the plugins are linked to the same dll file.</description>
+    <summary>BrowserAddonsView - Web browser addons/plugins viewer</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>nirsoft browseraddonsview browser utility chrome firefox ie internet explorer portable</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/browseraddonsview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
