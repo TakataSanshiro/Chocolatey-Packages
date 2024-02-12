@@ -2,20 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>defender-injector</id>
-    <title>Defender Injector</title>
-    <version>1.1</version>
+    <title>[RETIRED] Defender Injector</title>
+    <version>1.1.20240211</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/defender-injector</packageSourceUrl>
     <authors>Sordum</authors>
     <owners>Sanshiro</owners>
-    <summary>Defender Injector is a free program for Microsoft Windows devices by the prolific developer Sordum that makes it easier to add file or folder exclusions to Windows Defender.</summary>
-    <description>
-As you see adding exceptions manually through the graphical user interface would be time consuming, tedious and, prone to human error therefore we have coded a portable Freeware to simplify the whole process.
+    <summary></summary>
+    <description>## This package has been retired.
+    As it no longer downloads.
     </description>
     <projectUrl>https://www.sordum.org/10636/defender-injector-v1-0/</projectUrl>
-    <tags>security portable</tags>
-    <copyright>Copyright © 2006-2018 Sordum.org. All rights reserved</copyright>
+    <tags>retired</tags>
+    <copyright></copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/master/defender-injector/defender-injector.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
