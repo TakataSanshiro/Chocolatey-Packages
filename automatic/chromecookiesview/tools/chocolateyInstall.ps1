@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/chromecookiesview.zip'
-  checksum       = '30e1694c33c599984b46319c276e1bd5438f9898cdb6211e88a35c8129f6aa57'
+  checksum       = 'd8555fcd69243037decf6b7d7b0b0d8d083477946236ccae78f485311f53e811'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'ChromeCookiesView'
