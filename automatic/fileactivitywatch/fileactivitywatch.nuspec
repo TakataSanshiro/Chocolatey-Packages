@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>fileactivitywatch</id>
+    <version>1.70</version>
+    <title>FileActivityWatch</title>
+    <authors>Nir Sofer</authors>
+    <owners>Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/file_activity_watch.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/file_activity_watch.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/fileactivitywatch/fileactivitywatch.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>For every file, FileActivityWatch displays the number of read/write bytes, number of read/write/delete operations, first and last read/write timestamp, and the name/ID of the process responsible for the file operation.</description>
+    <summary>FileActivityWatch is a tool for Windows that displays information about every read/write/delete operation of files occurs on your system.</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>files timestamp</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/fileactivitywatch</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
