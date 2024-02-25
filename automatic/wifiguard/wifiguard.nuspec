@@ -3,7 +3,7 @@
   <metadata>
     <id>wifiguard</id>
     <title>SoftPerfect WiFi Guard</title>
-    <version>2.2.2</version>
+    <version>2.2.3</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/wifiguard</packageSourceUrl>
     <authors>SoftPerfect</authors>
     <owners>Sanshiro</owners>
