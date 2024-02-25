@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>webcacheimageinfo</id>
+    <version>1.34</version>
+    <title>WebCacheImageInfo</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/web_cache_image_info.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/web_cache_image_info.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/webcacheimageinfo/webcacheimageinfo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WebCacheImageInfo is a simple tool that searches for JPEG images with EXIF information stored inside the cache of your Web browser (Internet Explorer, Firefox, or Chrome), and then it displays the list of all images found in the cache with the interesting information stored in them, like the software that was used to create the image, the camera model that was used to photograph the image, and the date/time that the image was created.</description>
+    <summary>Display the software/camera model of images stored in the cache of your Web browser</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>cache image exif camera software</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/webcacheimageinfo</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
