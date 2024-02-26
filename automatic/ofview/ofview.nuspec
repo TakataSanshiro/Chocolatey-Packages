@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ofview</id>
+    <version>1.91</version>
+    <title>OpenedFilesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/opened_files_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/opened_files_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/ofview/ofview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenedFilesView displays the list of all opened files on your system.
+
+For each opened file, additional information is displayed: handle value, read/write/delete access, file position, the process that opened the file, and more...
+
+Optionally, you can also close one or more opened files, or close the process that opened these files.</description>
+    <summary>View opened/locked files in your system (sharing violation issues)</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>unlock files handle</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ofview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
