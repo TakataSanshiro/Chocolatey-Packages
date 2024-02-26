@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ofview.install</id>
+    <version>1.86.20240226</version>
+    <title>[Deprecated] OpenedFilesView (Install)</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <projectUrl>https://www.nirsoft.net/utils/opened_files_view.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>#### New package name: **[ofview](https://chocolatey.org/packages/ofview)**
+    available only as portable.
+    </description>
+    <summary></summary>
+    <tags>deprecated</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/ofview.install</packageSourceUrl>
+    <dependencies>
+      <dependency id="ofview"  version="1.91"/>
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>
