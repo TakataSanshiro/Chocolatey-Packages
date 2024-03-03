@@ -3,7 +3,7 @@
   <metadata>
     <id>tabby</id>
     <title>Tabby(Terminus)</title>
-    <version>1.0.205</version>
+    <version>1.0.206</version>
     <authors>Eugene Pankov (and contributors)</authors>
     <owners>Hadrien Dussuel, Sanshiro</owners>
     <summary>A terminal for a more modern age (formerly Terminus)</summary>

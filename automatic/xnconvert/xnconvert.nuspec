@@ -3,7 +3,7 @@
   <metadata>
     <id>xnconvert</id>
     <title>XnConvert</title>
-    <version>1.99</version>
+    <version>1.100.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/xnconvert</packageSourceUrl>
     <authors>XnSoft</authors>
     <owners>Sanshiro</owners>
@@ -27,7 +27,7 @@ XnConvert is compatible with more than 500 formats and Export to about 70 differ
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/xnconvert/xnconvert.png</iconUrl>
     <releaseNotes>http://newsgroup.xnview.com/viewtopic.php?f=79&amp;t=35362</releaseNotes>
     <dependencies>
-      <dependency id="xnconvert.install" version="1.99" />
+      <dependency id="xnconvert.install" version="1.100.1" />
     </dependencies>
   </metadata>
   <files>

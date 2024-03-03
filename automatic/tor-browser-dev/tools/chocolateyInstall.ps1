@@ -5,10 +5,10 @@ $installArgs = '/S /D=' + $toolsDir
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  url            = 'https://dist.torproject.org/torbrowser/13.5a4/tor-browser-windows-i686-portable-13.5a4.exe'
-  url64          = 'https://dist.torproject.org/torbrowser/13.5a4/tor-browser-windows-x86_64-portable-13.5a4.exe'
-  checksum       = '8eb39f5b10bbdd79227690baa6c2b939c853cc277c66309602649fca00800716'
-  checksum64     = 'df1b44452796c35e81d726aba910e361fe6457a4ffea19a7737dd470fcf03eeb'
+  url            = 'https://dist.torproject.org/torbrowser/13.5a5/tor-browser-windows-i686-portable-13.5a5.exe'
+  url64          = 'https://dist.torproject.org/torbrowser/13.5a5/tor-browser-windows-x86_64-portable-13.5a5.exe'
+  checksum       = '186fa636ca927ee236adc8d8c506ecf6893364aad50f7fb847c3563d2038bacf'
+  checksum64     = 'c1d39f02e567fb1e6603585239960e70e46b15e79509fce00ff9813af76bb064'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   silentArgs     = $installArgs
