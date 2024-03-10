@@ -12,7 +12,7 @@ $packageArgs = @{
   silentArgs     = '/S'
   validExitCodes = @(0, 1223)
   softwareName   = 'perfect-privacy*'
-  checksum       = '18f7f646418d267a51db1f7e887888ffe421828f5d1cec073d6a016ab5453211'
+  checksum       = 'f36530a3a070bae3ac45c4d3ccf23da95a7064b41660aa33373323386a7d7989'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }

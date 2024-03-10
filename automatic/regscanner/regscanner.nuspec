@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>regscanner</id>
-    <version>2.71</version>
+    <version>2.75</version>
     <title>RegScanner</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -22,7 +22,7 @@ You can also export the found Registry values into a .reg file that can be used 
     <tags>scanner regedit scan search find windows</tags>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/regscanner</packageSourceUrl>
     <dependencies>
-      <dependency id="regscanner.install" version="2.71" />
+      <dependency id="regscanner.install" version="2.75" />
     </dependencies>
   </metadata>
   <files>
