@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = 'freenet'
   fileType       = 'exe'
-  url            = 'https://github.com/freenet/fred/releases/download/build01496/FreenetInstaller-1496.exe'
+  url            = 'https://github.com/freenet/fred/releases/download/build01497/FreenetInstaller-1497.exe'
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
   softwareName   = 'Freenet*'
