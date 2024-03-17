@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>zulip</id>
+    <version>5.10.5</version>
+    <title>zulip (Install)</title>
+    <authors>steviecoaster</authors>
+    <owners>steviecoaster, Sanshiro</owners>
+    <licenseUrl>https://github.com/zulip/zulip-desktop/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zulip/zulip-desktop</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/zulip/zulip.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>### Chat for distributed teams.
+
+Zulip combines the immediacy of real-time chat with an email threading model.
+With Zulip, you can catch up on important conversations while ignoring irrelevant ones.
+
+### Notes
+The msi installer of Zulip-Web was stopped being provided starting with version 5.8.0.
+Versions prior to 5.7.0 will not get uninstalled automatically by this package, due to problems with above. Please remove Zulip manually before installing this package.
+</description>
+    <summary>Chat for distributed Teams</summary>
+    <releaseNotes>https://github.com/zulip/zulip-desktop/blob/master/changelog.md</releaseNotes>
+    <copyright>Kandra Labs, Inc.</copyright>
+    <tags>zulip chat chatops productivity</tags>
+    <projectSourceUrl>https://github.com/zulip/zulip-desktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/zulip</packageSourceUrl>
+    <docsUrl>https://zulipchat.com/help/desktop-app-install-guide</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
