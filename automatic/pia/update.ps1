@@ -5,10 +5,10 @@ $releases = 'https://www.privateinternetaccess.com/download/windows-vpn#download
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
-            "(?i)(^\s*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+            "(^[$]url\s*=\s*)('.*')"      		= "`$1'$($Latest.URL32)'"
+            "(^[$]checksum\s*=\s*)('.*')" 		= "`$1'$($Latest.Checksum32)'"
+            "(^[$]url64\s*=\s*)('.*')"      	= "`$1'$($Latest.URL64)'"
+            "(^[$]checksum64\s*=\s*)('.*')" 	= "`$1'$($Latest.Checksum64)'"
         }
     }
 }
