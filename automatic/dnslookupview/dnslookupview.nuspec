@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>dnslookupview</id>
+    <version>1.12</version>
+    <title>DNSLookupView</title>
+    <authors>Nir Sofer</authors>
+    <owners>Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/dns_lookup_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/dns_lookup_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/dnslookupview/dnslookupview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>For every DNS query, the following information is displayed: Host Name, Query Type (A, AAAA, and so on), Query Status (Error or succeeded), Query Result, Query Timestamp, ID and name of the process that requested the DNS lookup.</description>
+    <summary>DNSLookupView is a DNS tracing tool for Windows 10 and Windows 11 that allows you to view the details of every DNS query sent through the DNS Client service of Windows</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>dns</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dnslookupview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
