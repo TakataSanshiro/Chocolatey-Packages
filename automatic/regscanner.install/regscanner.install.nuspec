@@ -16,7 +16,11 @@ that match to the specified search criteria, and display them in one list.
 After finding the Registry values, you can easily jump to the right value in RegEdit, simply by
 double-clicking the desired Registry item.
 
-You can also export the found Registry values into a .reg file that can be used in RegEdit.</description>
+You can also export the found Registry values into a .reg file that can be used in RegEdit.
+
+### Notes
+- Many Antivirus programs display false alerts, saying that the password-recovery utilities of NirSoft are infected with Trojan/Virus/Malware. For more information about false positive problems, read [this](http://blog.nirsoft.net/2009/05/17/antivirus-companies-cause-a-big-headache-to-small-developers). If your Antivirus software shows a false alert, you can use the following article that explains how to send a report about a false positive issue to your Antivirus company:
+[How to Report Malware or False Positives to Multiple Antivirus Vendors](https://www.techsupportalert.com/how-to-report-malware-or-false-positives-to-multiple-antivirus-vendors/)</description>
     <summary>Alternative to RegEdit find/search/scan of Windows</summary>
     <copyright>© NirSoft</copyright>
     <tags>scanner regedit scan search find windows admin</tags>
