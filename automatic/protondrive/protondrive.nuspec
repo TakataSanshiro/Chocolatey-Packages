@@ -3,7 +3,7 @@
   <metadata>
     <id>protondrive</id>
     <title>ProtonDrive</title>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/protondrive</packageSourceUrl>
     <authors>Proton AG</authors>
     <owners>Sanshiro</owners>
