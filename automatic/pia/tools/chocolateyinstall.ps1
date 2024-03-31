@@ -6,10 +6,10 @@ $ahkFile        = Join-Path $toolsDir "piaInstall.ahk"
 
 Start-Process $ahkExe $ahkFile
 
-$url = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-3.5.6-08110.exe'
-$checksum = 'a5c70f7f8b4c60969f3777c32eb83752aadb3f710e77ae765cf1ce879cc4b1c4'
-$url64 = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.6-08110.exe'
-$checksum64 = '42ec9211b2e9bb5777aca911590c4958074fde9379777ff388562973de8c28e2'
+$url = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-3.5.7-08120.exe'
+$checksum = '692ee6963d59f486e7396a1b94fffeb0fb568281727a3a35d5bec8f026feedb7'
+$url64 = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.7-08120.exe'
+$checksum64 = '013a8235cb3126ea004c16a48671cb3045f81031864f2af56bb9e50a6737ea28'
 
 #$packageArgs = @{
 #  packageName    = 'pia'
