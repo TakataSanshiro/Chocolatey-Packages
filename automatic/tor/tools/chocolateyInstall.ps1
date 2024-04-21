@@ -4,10 +4,10 @@ $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 $packageArgs = @{
   packageName    = 'tor'
-  url            = 'https://archive.torproject.org/tor-package-archive/torbrowser/13.0.8/tor-expert-bundle-windows-i686-13.0.8.tar.gz'
-  url64          = 'https://archive.torproject.org/tor-package-archive/torbrowser/13.0.8/tor-expert-bundle-windows-x86_64-13.0.8.tar.gz'
-  checksum       = 'f4ba15c89b95c9c6cc088b2c11c268a2a2353f26ac9fb7b59837110209fbab76'
-  checksum64     = '4d304f915c11b7e168342043d9db3cdbf157747be0bc42d67ea0b91ef9ec492f'
+  url            = 'https://archive.torproject.org/tor-package-archive/torbrowser/13.0.14/tor-expert-bundle-windows-i686-13.0.14.tar.gz'
+  url64          = 'https://archive.torproject.org/tor-package-archive/torbrowser/13.0.14/tor-expert-bundle-windows-x86_64-13.0.14.tar.gz'
+  checksum       = '3f389e1fba718e12cb0049aea38cadbfb45678e9d4c92a0d096af57bec6c23ee'
+  checksum64     = '7b87acb4d2009eb2642b97bdb72fe0e229345f36ae2aad2d8f2f8cd9274b51a0'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   softwareName   = 'Tor'
