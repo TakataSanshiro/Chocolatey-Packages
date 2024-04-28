@@ -3,9 +3,9 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
-  url            = 'https://dl.enpass.io/stable/windows/setup/6.9.4.1629/Enpass-setup.exe'
+  url            = 'https://www.enpass.io/download/windows/website/stable'
   silentArgs     = '/quiet /norestart'
-  checksum       = 'ad70286f3aa54714f525745167a11c7314d4d9c113e257398486552a635e6e49'
+  checksum       = 'A95AA827E8E15B55B3E39ECEEE65DFCE5A779938A6E9434C33D79116A86CD39D'
   checksumType   = 'sha256'
   validExitCodes = @(0)
   softwareName   = 'enpass*'
