@@ -11,3 +11,5 @@ $packageArgs = @{
   softwareName   = 'Insomnia'
 }
 Install-ChocolateyPackage @packageArgs
+
+Start-Sleep -Seconds 60
