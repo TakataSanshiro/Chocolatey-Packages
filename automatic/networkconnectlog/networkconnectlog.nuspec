@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>networkconnectlog</id>
+    <version>1.16</version>
+    <title>NetworkConnectLog</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/network_connect_log.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/network_connect_log.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/networkconnectlog/networkconnectlog.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NetworkConnectLog is a simple utility that repeatedly scans your local area network (Using ARP and Netbios protocols) and add a new log
+line every time that a new computer or device connects to your network, and when a computer or device disconnects from your network.
+
+After the connect/disconnect log lines are accumulated, you can easily export the log lines to comma-delimited/tab-delimited/html/xml file.</description>
+    <summary>Log connected/disconnect devices on your network</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>scan log connect disconnect</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/networkconnectlog</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
