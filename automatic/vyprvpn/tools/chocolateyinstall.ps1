@@ -9,11 +9,11 @@ Start-Process $ahkExe $ahkFile
 $packageArgs = @{
   packageName    = 'vyprvpn'
   fileType       = 'exe'
-  url            = 'https://www.vyprvpn.com/downloads/vyprvpn/desktop/windows/production/5.1.0.0/VyprVPN-5.1.0.0-installer.exe'
+  url            = 'https://www.vyprvpn.com/downloads/vyprvpn/desktop/windows/production/5.1.1.0/VyprVPN-5.1.1.0-installer.exe'
   silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'vyprvpn*'
-  checksum       = '18a2e4643743755ff6e4f2e5db5a40155a2c3fe681894d8c7ccb14f49cbf3f76'
+  checksum       = '8c5a3bbcb1aa4a4250fb3298e185f995e6d19f559dbb58f996c110fd8015ec41'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }
