@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>shadowcopyview</id>
+    <version>1.16</version>
+    <title>ShadowCopyView (Portable)</title>
+    <authors>Nir Sofer</authors>
+    <owners>bcurran3, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/shadow_copy_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/shadow_copy_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/shadowcopyview/shadowcopyview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+![Screenshot of ShadowCopyView](http://www.nirsoft.net/utils/shadowcopyview.png)
+
+ShadowCopyView is simple tool for Windows 10/8/7/Vista that lists the snapshots of your hard drive created by the 'Volume Shadow Copy' service of Windows. Every snapshot contains an older versions of your files and folders from the date that the snapshot was created, you can browse the older version of your files and folders, and optionally copy them into a folder on your disk.	
+
+## ShadowCopyView vs 'Previous Versions' feature of Windows
+
+Windows operating system allows you to access the 'Shadow Copies' by right-clicking on the file/folder/drive, choosing 'Properties' and then 'Previous Versions'. However, this feature might omit some of the shadow copies. ShadowCopyView displays all of them. 
+Also, the 'Previous Versions' window doesn't allow you to access copy system files unless UAC (User Account Control) is turned off. ShadowCopyView is executed with full admin rights (elevated process), so you can access and extract any file you need.
+
+## System Requirements
+
+This utility works on any version of Windows, starting from Windows Vista, and up to Windows 10. Windows XP is not supported. In order to use ShadowCopyView on 64-bit systems, you must download and use the 64-bit version of this tool.
+</description>
+    <summary>ShadowCopyView let's you view Windows' volume shadow copies</summary>
+    <copyright>Copyright (c) Nir Sofer</copyright>
+    <tags>nirsoft shadowcopyview shadowcopy system utility portable</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/shadowcopyview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
