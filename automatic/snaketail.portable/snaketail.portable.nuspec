@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>snaketail.portable</id>
+    <version>1.9.8</version>
+    <title>SnakeTail (Portable)</title>
+    <authors>snakefoot</authors>
+    <owners>bigsan,0x15e, Sanshiro</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>https://snakenest.com/snaketail/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/snaketail/snaketail.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SnakeTail is a Windows tail program that can monitor growing log files.</description>
+    <summary>SnakeTail is a Windows tail program that can monitor growing log files</summary>
+    <releaseNotes>https://github.com/snakefoot/snaketail-net/releases</releaseNotes>
+    <tags>snaketail log tail admin</tags>
+    <projectSourceUrl>https://github.com/snakefoot/snaketail-net</projectSourceUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/snaketail.portable</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/snakefoot/snaketail-net/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
