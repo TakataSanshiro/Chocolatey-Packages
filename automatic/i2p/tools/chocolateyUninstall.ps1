@@ -7,3 +7,4 @@ Start-Process $ahkExe $ahkFile
 
 $uninstallerFile = "${env:ProgramFiles}\i2p\Uninstaller\uninstaller.jar"
 Start-Process $uninstallerFile
+Start-Sleep -Seconds 20
