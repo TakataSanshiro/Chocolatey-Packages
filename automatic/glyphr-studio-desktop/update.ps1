@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL64   = "https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v$version/Glyphr.Studio.Setup.$version.exe"
+        URL64   = "https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v$version/Glyphr.Studio.Setup.$version-x64.exe"
     }
 }
 
