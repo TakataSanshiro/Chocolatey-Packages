@@ -20,7 +20,7 @@ function global:au_GetLatest {
 
     @{
         Version = $version
-        URL32   = "https://github.com/pmd/pmd/releases/download/pmd_releases/$version/pmd-bin-$version.zip"
+        URL32   = "https://github.com/pmd/pmd/releases/download/pmd_releases%2F$version/pmd-dist-$version-bin.zip"
     }
 }
 
