@@ -6,8 +6,9 @@
     <title>KDiff3</title>
     <authors>Joachim Eibl</authors>
     <owners>Chris Ortman, Sanshiro</owners>
-    <licenseUrl>https://invent.kde.org/sdk/kdiff3</licenseUrl>
+    <licenseUrl>https://invent.kde.org/sdk/kdiff3/-/blob/master/COPYING?ref_type=heads</licenseUrl>
     <projectUrl>https://invent.kde.org/sdk/kdiff3</projectUrl>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/kdiff3</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/kdiff3/kdiff3.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>KDiff3 is a graphical text difference analyzer for up to 3 input files, provides character-by-character analysis and a text merge tool with integrated editor. It can also compare and merge directories. Platform-independant.</description>
