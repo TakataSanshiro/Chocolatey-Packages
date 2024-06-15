@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>kcleaner</id>
+    <version>3.6.3.20240615</version>
+    <title>[RETIRED] KCleaner</title>
+    <authors>KC Softwares</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <projectUrl>http://www.kcsoftwares.com/?kcleaner</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>## This package has been retired.
+    As it no longer downloads.
+    </description>
+    <summary></summary>
+    <copyright></copyright>
+    <tags>retired</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/kcleaner</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
