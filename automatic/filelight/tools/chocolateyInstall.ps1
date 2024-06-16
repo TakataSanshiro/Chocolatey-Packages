@@ -2,7 +2,7 @@
 $toolsDir              = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  file64         = Join-Path $toolsDir 'filelight-23.04.0-1330-windows-cl-msvc2019-x86_64_x64.exe'
+  file64         = Join-Path $toolsDir 'filelight-release_24.05-1352-windows-cl-msvc2022-x86_64.exe'
   packageName    = $env:ChocolateyPackageName
   installerType  = 'exe'
   silentArgs     = '/S'

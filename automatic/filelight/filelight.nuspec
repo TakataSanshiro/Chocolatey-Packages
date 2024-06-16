@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>filelight</id>
-    <version>23.04.0</version>
+    <version>24.05.1</version>
     <title>Filelight</title>
     <authors>Martin Sandsmark, Max Howell</authors>
     <owners>Sanshiro</owners>
