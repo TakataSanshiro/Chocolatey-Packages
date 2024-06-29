@@ -3,7 +3,7 @@
   <metadata>
     <id>vpnac</id>
     <title>VPN.ac</title>
-    <version>4.4.8</version>
+    <version>4.5</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/vpnac</packageSourceUrl>
     <authors>vpn.ac</authors>
     <owners>Sanshiro</owners>
