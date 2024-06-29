@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>winlogonview</id>
+    <version>1.41</version>
+    <title>WinLogOnView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/windows_log_on_times_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/windows_log_on_times_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/winlogonview/winlogonview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WinLogOnView is a simple tool for Windows Vista/7/8/2008 that analyses the security event log of Windows operating system, and detects the date/time that users logged on and logged off.
+
+For every time that a user log on/log off to your system, the following information is displayed: Logon ID, User Name, Domain, Computer, Logon Time, Logoff Time, Duration, and network address.
+
+WinLogOnView also allows you to easily export the logon sessions information to tab-delimited/comma-delimited/html/xml file.</description>
+    <summary>Displays logon/logoff times on Windows Vista/7/8/2008</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>logoff date time</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/winlogonview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
