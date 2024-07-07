@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>opensavefilesview</id>
+    <version>1.16</version>
+    <title>OpenSaveFilesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/open_save_files_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/open_save_files_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/opensavefilesview/opensavefilesview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenSaveFilesView is a simple tool that displays the list of files that you previously opened with the standard open/save dialog-box of Windows.
+
+For every file in the list, the following information is displayed: Filename, Extension, Order (The order that the files were opened for every file extension), Open Time (Available only for the last opened file of every file type), File Modified/Created Time, File Size, and File Attributes.</description>
+    <summary>Displays files that you previously opened with the standard open/save dialog-box</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>files open save</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/opensavefilesview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
