@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>winprefetchview</id>
+    <version>1.37</version>
+    <title>WinPrefetchView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/win_prefetch_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/win_prefetch_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/winprefetchview/winprefetchview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Each time that you run an application in your system, a Prefetch file which contains information about the files loaded by the application is created by Windows operating system. The information in the Prefetch file is used for optimizing the loading time of the application in the next time that you run it.
+
+WinPrefetchView is a small utility that reads the Prefetch files stored in your system and display the information stored in them.
+
+By looking in these files, you can learn which files every application is using, and which files are loaded on Windows boot.</description>
+    <summary>View the content of Windows Prefetch (.pf) files</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>prefetch pf content read</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/winprefetchview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
