@@ -5,7 +5,7 @@ $releases = 'https://download.kde.org/stable/kdiff3/'
 function global:au_SearchReplace {
    @{
 		".\legal\VERIFICATION.txt" = @{
-		  "(?i)(x86_64:).*"        = "`${1} $($Latest.URL64)"
+		  "(?i)(x64:).*"        = "`${1} $($Latest.URL64)"
 		  "(?i)(checksum type:).*" = "`${1} $($Latest.ChecksumType64)"
 		  "(?i)(checksum64:).*"    = "`${1} $($Latest.Checksum64)"
 		}
