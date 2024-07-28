@@ -1,7 +1,7 @@
 import-module au
 
 #$releases = 'https://github.com/KDE/okular/releases'
-$artifacts64 = 'https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/lastSuccessfulBuild/artifact/'
+$artifacts64 = 'https://cdn.kde.org/ci-builds/graphics/okular/release-24.05/windows/'
 
 function global:au_SearchReplace {
         @{
@@ -24,11 +24,12 @@ function global:au_GetLatest {
     #$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     #$url           = $download_page.links | ? href -match '.zip$' | select -First 1 -expand href
     $version = ((Invoke-WebRequest $artifacts64 -UseBasicParsing).links | ? href -match '.exe$' | select -First 1 -expand href) -split '-' | select -First 1 -Skip 1
-    $build64 = ((Invoke-WebRequest $artifacts64 -UseBasicParsing).links | ? href -match '.exe$' | select -First 1 -expand href) -split '-' | select -First 1 -Skip 2
+    #$build64 = ((Invoke-WebRequest $artifacts64 -UseBasicParsing).links | ? href -match '.exe$' | select -First 1 -expand href) -split '-' | select -First 1 -Skip 2
+    $version = $version.split("_") | select -last 1
 
     @{
         Version      = $version
-        URL64        = "https://binary-factory.kde.org/view/Windows%2064-bit/job/Okular_Release_win64/lastSuccessfulBuild/artifact/okular-$version-$build64-windows-cl-msvc2019-x86_64.exe"
+        URL64        = "https://cdn.kde.org/ci-builds/graphics/okular/release-$version/windows/okular-release_$version-5068-windows-cl-msvc2022-x86_64.exe"
         #Copying      = 'https://cgit.kde.org/okular.git/plain/COPYING.LIB?h=v' + $version
         #ReleaseNotes = 'https://www.kde.org/announcements/fulllog_applications.php?version=' + $version + '#okular'
     }
