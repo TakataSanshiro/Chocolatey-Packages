@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>postbox</id>
-    <version>7.0.61</version>
+    <version>7.0.62</version>
     <owners>Sanshiro</owners>
     <title>Postbox</title>
     <authors>Postbox Inc</authors>
