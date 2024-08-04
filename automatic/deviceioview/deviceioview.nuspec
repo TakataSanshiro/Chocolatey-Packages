@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>deviceioview</id>
+    <version>1.06</version>
+    <title>DeviceIOView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/device_io_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/device_io_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/deviceioview/deviceioview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DeviceIOView allows you to watch the data transfer between a software or service and a device driver (DeviceIoControl calls).
+
+For each call to a device driver, the following information is displayed:
+
+Handle, Control Code, number of input bytes, number of output bytes, the name of the device handle, and all the input/output bytes, displayed as Hex dump.</description>
+    <summary>View data transfer between a software and device driver</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>device driver io monitor</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/deviceioview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
