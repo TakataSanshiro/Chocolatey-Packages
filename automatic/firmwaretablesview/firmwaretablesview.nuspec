@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>firmwaretablesview</id>
+    <version>1.02</version>
+    <title>FirmwareTablesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/firmware_tables_view.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/firmware_tables_view.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/firmwaretablesview/firmwaretablesview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FirmwareTablesView is a simple tool for Windows that displays a list of firmware tables (ACPI, SMBIOS) stored on your system.
+
+You can view the content of these tables in Hex-dump format and export them to a binary file.</description>
+    <summary>Displays system firmware tables (ACPI, SMBIOS)</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>hex binary firmware acpi bios</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/firmwaretablesview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
