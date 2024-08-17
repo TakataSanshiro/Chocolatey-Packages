@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>netconnectchoose</id>
+    <version>1.10</version>
+    <title>NetConnectChoose</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/net_connect_choose.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/net_connect_choose.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/netconnectchoose/netconnectchoose.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NetConnectChoose is a simple tool that allows you to easily choose the default Internet connection that will be used by all Internet applications, when you have more than a single Internet connection on the same time. (Each connection on different network adapter)
+
+It also displays extensive information about every active network/Internet connection, including network adapter name, MAC Address, Name Servers, MTU, Interface Speed, current incoming/outgoing data speed, number of received/sent packets, received/sent bytes, and more...</description>
+    <summary>Set the default Internet connection and view general connection information</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>network connection</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/netconnectchoose</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
