@@ -10,7 +10,11 @@
     <projectUrl>https://www.nirsoft.net/utils/driverview.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/driverview/driverview.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>DriverView utility displays the list of all device drivers currently loaded on your system. For each driver in the list, additional useful information is displayed: load address of the driver, description, version, product name, company that created the driver, and more.</description>
+    <description>DriverView utility displays the list of all device drivers currently loaded on your system. For each driver in the list, additional useful information is displayed: load address of the driver, description, version, product name, company that created the driver, and more.
+
+### Notes
+- Many Antivirus programs display false alerts, saying that the password-recovery utilities of NirSoft are infected with Trojan/Virus/Malware. For more information about false positive problems, read [this](http://blog.nirsoft.net/2009/05/17/antivirus-companies-cause-a-big-headache-to-small-developers). If your Antivirus software shows a false alert, you can use the following article that explains how to send a report about a false positive issue to your Antivirus company:
+[How to Report Malware or False Positives to Multiple Antivirus Vendors](https://www.techsupportalert.com/how-to-report-malware-or-false-positives-to-multiple-antivirus-vendors/)</description>
     <summary>Loaded Windows Drivers List</summary>
     <copyright>© NirSoft</copyright>
     <tags>driver viewer</tags>
