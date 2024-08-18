@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/quicksetdns.zip'
-  checksum       = '36e44a30c7bf9158f358604186b2ab4be46c4c2e0da3f97af8df4c06a20461f3'
+  checksum       = '187ad7ee48ce5542b888a2da78ffadba7aa3c1898582541811021f2339f9faf6'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'QuickSetDNS'
