@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>tor-browser-dev</id>
-    <version>14.0.1</version>
+    <version>14.0.2</version>
     <title>Tor Browser (alpha)</title>
     <authors>The Tor Project Inc.</authors>
     <owners>dimqua, Sanshiro</owners>
