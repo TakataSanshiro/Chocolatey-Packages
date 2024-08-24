@@ -2,21 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>rosaimagewriter</id>
-    <title>ROSA ImageWriter</title>
-    <version>2.6.2</version>
+    <title>[RETIRED] ROSA ImageWriter</title>
+    <version>2.6.2.20240824</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/rosaimagewriter</packageSourceUrl>
     <authors>ROSA Laboratory</authors>
     <owners>Sanshiro</owners>
-    <summary>ISO images of the ROSA distribution were originally intended for burning to DVD disks, but they can as well be written to flash disks which would allow you to boot from them and launch the Live system or start installation.</summary>
-    <description>
-There is no standard tool for writing images to flash disks, everybody uses what he or she likes. In ROSA the command line tool dd was traditionally recommended for performing this kind of job. However, it can hardly be called user-friendly, and most users would feel at least some discomfort, if not terror, using it. For Windows users the situation is even worse. Granted, there is a dd port for Windows, but it happened to have serious bugs which prevent the resultant flash disks from working properly. All this led to the solution of developing our own tool, ROSA Image Writer. 
+    <summary></summary>
+    <description>## This package has been retired.
+    As it no longer downloads.
     </description>
     <projectUrl>http://wiki.rosalab.ru/en/index.php/Blog:ROSA_Planet/ROSA_Image_Writer</projectUrl>
-    <tags>image iso writer usb sd dvd portable</tags>
-    <copyright>ROSA Laboratory</copyright>
+    <tags>retired</tags>
+    <copyright></copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/b25ed50a/rosaimagewriter/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
