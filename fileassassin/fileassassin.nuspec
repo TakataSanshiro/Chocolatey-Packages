@@ -2,24 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fileassassin</id>
-    <version>1.06</version>
+    <version>1.06.20240824</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/fileassassin</packageSourceUrl>
     <owners>Sanshiro</owners>
-    <title>Malwarebytes FileAssassin</title>
+    <title>[RETIRED] Malwarebytes FileAssassin</title>
     <authors>Malwarebytes</authors>
     <projectUrl>https://www.malwarebytes.com/fileassassin/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/TakataSanshiro/Chocolatey-Packages/8059bb42/fileassassin/icon.png</iconUrl>
-    <copyright>© 2017 Malwarebytes</copyright>
+    <copyright></copyright>
     <licenseUrl>https://www.malwarebytes.com/tos/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>file system locked files admin</tags>
-    <summary>FileASSASSIN can eradicate any type of locked files from your computer.</summary>
-    <description>If you use a computer, you've probably come across at least one of the following messages:
-    Cannot delete file: Access is denied
-    Make sure the disk is not full or write-protected and that the file is not currently in use
-    The source or destination file may be in use
-    The file is in use by another program or user
-	These messages commonly appear when you're trying to delete files deposited by a malware infection, though occasionally a file just goes on lockdown. Whatever the reason for the file, FileASSASSIN can remove it
+    <tags>retired</tags>
+    <summary></summary>
+    <description>## This package has been retired.
+    As it no longer downloads.
 	</description>
   </metadata>
   <files>
