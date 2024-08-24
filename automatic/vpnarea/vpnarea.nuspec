@@ -2,27 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>vpnarea</id>
-    <title>VPNArea</title>
-    <version>2.2.0.0</version>
+    <title>[RETIRED] VPNArea</title>
+    <version>2.2.0.020240824</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/vpnarea</packageSourceUrl>
     <authors>Offshore Security LTD</authors>
     <owners>Sanshiro</owners>
-    <summary>VPNArea means Privacy, Security, Freedom.
-Stay safe and secure with an easy to use VPN. Even grandma can do it.</summary>
-    <description>
-## Features
-* Change IP to 70 countries 
-* Access Streaming sites 
-* Ad Blocking &amp; Malware prevention
-* Connect 6 devices. Share account.
-* No Logs. Shared IPs. 
-* Go faster with IKEv2 VPN 
+    <summary></summary>
+    <description>## This package has been retired.
+    As it no longer downloads.
     </description>
     <projectUrl>https://vpnarea.com/front/home</projectUrl>
-    <tags>admin vpn security privacy multi-platform</tags>
-    <copyright>© Offshore Security LTD, all rights reserved</copyright>
+    <tags>retired</tags>
+    <copyright></copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/vpnarea/vpnarea.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
