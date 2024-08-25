@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>whoistd</id>
+    <version>2.46</version>
+    <title>WhoisThisDomain</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/whois_this_domain.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/whois_this_domain.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/whoistd/whoistd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WhoisThisDomain is a domain registration lookup utility allows you to easily get information about a registered domain.
+
+It automatically connect to the right WHOIS server, according to the top-level domain name, and retrieve the WHOIS record of the domain.
+
+It support both generic domains and country code domains.</description>
+    <summary>Domain name search tool (Whois) for Windows</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>domain dns whois record registration</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/whoistd</packageSourceUrl>
+    <dependencies>
+      <dependency id="whoistd.install" version="2.46" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
