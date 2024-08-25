@@ -2,7 +2,7 @@
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file64      = "$toolsDir\ungoogled-chromium_127.0.6533.119-1.1_windows_x64_x64.zip"
+  file64      = "$toolsDir\ungoogled-chromium_128.0.6613.84-1.1_windows_x64_x64.zip"
   destination = $toolsDir
 }
 
