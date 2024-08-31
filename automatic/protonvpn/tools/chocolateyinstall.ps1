@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'protonvpn'
   fileType       = 'exe'
-  url            = 'https://github.com/ProtonVPN/win-app/releases/download/3.3.0/ProtonVPN_v3.3.0.exe'
+  url            = 'https://github.com/ProtonVPN/win-app/releases/download/3.3.2/ProtonVPN_v3.3.2.exe'
   silentArgs     = '/silent'
   validExitCodes = @(0)
   softwareName   = 'ProtonVPN*'
-  checksum       = 'c5a99099f3bbc7dea9737347ee18ad71e7023f44dab135fe37201ccf3e392aea'
+  checksum       = '7a2e8ab8c661787d2df276eb4940b18334b5103927acee009ca2331754b75754'
   checksumType   = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
