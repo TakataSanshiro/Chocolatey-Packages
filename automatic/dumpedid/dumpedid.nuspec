@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>dumpedid</id>
+    <version>1.07</version>
+    <title>DumpEDID</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/dump_edid.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/dump_edid.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DumpEDID is a small console application that extract the EDID (Extended Display Identification Data) records from your computer, analyze it, and dump it into the console window.
+
+EDID record provide essential information about your monitor: manufacture week/year, monitor manufacturer, monitor model, supported display modes, and so on...
+
+You can also get the EDID records of a remote computer, if you login to this computer with administrator rights.</description>
+    <summary>Dump EDID information</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>cli edid dump information</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/dumpedid</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
