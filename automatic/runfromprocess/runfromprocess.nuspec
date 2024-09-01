@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>runfromprocess</id>
+    <version>1.07</version>
+    <title>RunFromProcess</title>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm, Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/run_from_process.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/run_from_process.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RunFromProcess is a command-line utility that allows you to run a program from another process that you choose.
+
+The program that you run will be executed as a child of the specified process and it'll run with the same user and security context of the specified parent process.</description>
+    <summary>Run a Windows program with a user of another process</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>process program user system</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/runfromprocess</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
