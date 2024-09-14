@@ -3,7 +3,7 @@
   <metadata>
     <id>puredata</id>
     <title>Pure Data</title>
-    <version>0.55.0</version>
+    <version>0.55.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/puredata</packageSourceUrl>
     <authors>Miller Puckette</authors>
     <owners>Sanshiro</owners>

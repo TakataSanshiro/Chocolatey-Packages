@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>dnslookupview</id>
-    <version>1.12</version>
+    <version>1.13</version>
     <title>DNSLookupView</title>
     <authors>Nir Sofer</authors>
     <owners>Sanshiro</owners>
