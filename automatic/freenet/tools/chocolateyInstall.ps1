@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'freenet'
   fileType       = 'exe'
-  url            = 'https://github.com/freenet/fred/releases/download/build01497/FreenetInstaller-1497.exe'
+  url            = 'https://github.com/freenet/fred/releases/download/build01498/FreenetInstaller-1498.exe'
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
   softwareName   = 'Freenet*'
-  checksum       = 'd88d37d2e212bf87d9710bc10b1d07f508944e052e1825220ed50310d717261d'
+  checksum       = 'ec1e58a054ca4e48c6fb37b7b2cffd86f2211688da2fb2f1eb823640c6aa8287'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 }

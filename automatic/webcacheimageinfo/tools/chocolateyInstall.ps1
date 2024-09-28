@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/webcacheimageinfo.zip'
-  checksum       = '079757d81aafa7ef09a3a7bc98ee1fb6a3666a0580ce3a9fe8195c37e3837919'
+  checksum       = 'b5c2570f9db88197119d3c0861fd467e676e39d4662793c1136e14449ffcf9db'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'WebCacheImageInfo'

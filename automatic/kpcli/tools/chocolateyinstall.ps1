@@ -5,8 +5,8 @@ $installFile  = join-path $toolsDir 'kpcli.exe'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  url            = 'https://sourceforge.net/projects/kpcli/files/kpcli-4.1.exe/download'
-  checksum       = '55D0178FD484A4FB7F33CB195559F0F619CCFD6BD03E229ED4409DA5BE31E2E9'
+  url            = 'https://sourceforge.net/projects/kpcli/files/kpcli-4.1.2.exe/download'
+  checksum       = 'B99ACEF668285C629C54B7D0828296F67656C07829BC6F5806BC5DBF68CBA9A1'
   checksumType   = 'sha256'
   toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'kpcli'
