@@ -1,5 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
+$toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$ahkExe   = 'AutoHotKey'
+$ahkFile  = Join-Path $toolsDir "chocolateyInstall.ahk"
+Start-Process $ahkExe $ahkFile
+
 $packageArgs = @{
   packageName    = 'freenet'
   fileType       = 'exe'

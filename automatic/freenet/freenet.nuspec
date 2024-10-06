@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>freenet</id>
-    <version>0.7.5.1498</version>
+    <version>0.7.5.149800</version>
     <title>Freenet</title>
     <authors>Freenet Project</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -27,7 +27,11 @@ By running this program you contribute to the security of the overall Freenet ne
 * [Freenet social networking guide](http://freesocial.draketo.de/)
 * [Release log](https://github.com/freenet/fred/releases)
 * [Roadmap](https://bugs.freenetproject.org/roadmap_page.php?project_id=1)
-* [Changelog](https://bugs.freenetproject.org/changelog_page.php?project_id=1)</description>
+* [Changelog](https://bugs.freenetproject.org/changelog_page.php?project_id=1)
+
+### Notes
+- There is a notification when updating. Your 'wrapper.conf' file was overwritten. The old file was saved as 'wrapper.conf.old'. This MsgBox will be closed automatically by autohotkey.
+</description>
     <summary>Decentralised, anonymous network that is censorship-resistant</summary>
     <releaseNotes>https://github.com/freenet/fred/releases</releaseNotes>
     <copyright>© Ian Clarke, Freenet Project</copyright>
@@ -39,6 +43,7 @@ By running this program you contribute to the security of the overall Freenet ne
       <dependency id="javaruntime" version="8.0.231" />
       <dependency id="dotnet3.5" version="3.5.20160716" />
       <dependency id="chocolatey-core.extension" version="1.3.5.1" />
+      <dependency id="autohotkey.portable" version="2.0.0" />
     </dependencies>
   </metadata>
   <files>
