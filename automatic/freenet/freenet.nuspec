@@ -8,7 +8,7 @@
     <owners>dtgm, Sanshiro</owners>
     <licenseUrl>https://github.com/freenet/fred/blob/next/LICENSE</licenseUrl>
     <projectUrl>https://freenetproject.org/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/dtgm/chocolatey-packages@78be841b359bc919b340717b4b3901d33805e4a9/icons/freenet.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/freenet/freenet.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
 
