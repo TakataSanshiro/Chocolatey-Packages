@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName    = 'protondrive'
   fileType       = 'exe'
-  url            = 'https://proton.me/download/drive/windows/Proton%20Drive%20Setup%201.6.2.exe'
+  url            = 'https://proton.me/download/drive/windows/1.7.4/Proton%20Drive%20Setup%201.7.4.exe'
   silentArgs     = '-s'
   validExitCodes = @(0)
   softwareName   = 'ProtonDrive*'
-  checksum       = '2667A9ED265BAA64712A3F6A4030164ABF780D121314C8BFAFB9BEE100F0C079'
+  checksum       = '92B8446203CCEEBB1139DB43F5302943C64F1BE6AB41214259D8A27449EDE2FB'
   checksumType   = 'sha256'
 }
 Install-ChocolateyPackage @packageArgs
