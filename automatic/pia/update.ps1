@@ -1,14 +1,12 @@
 import-module au
 
-$releases = 'https://www.privateinternetaccess.com/download/windows-vpn#download-windows'
+$releases = 'https://www.privateinternetaccess.com/pages/changelog'
 
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(^[$]url\s*=\s*)('.*')"      		= "`$1'$($Latest.URL32)'"
-            "(^[$]checksum\s*=\s*)('.*')" 		= "`$1'$($Latest.Checksum32)'"
-            "(^[$]url64\s*=\s*)('.*')"      	= "`$1'$($Latest.URL64)'"
-            "(^[$]checksum64\s*=\s*)('.*')" 	= "`$1'$($Latest.Checksum64)'"
+            "(^[$]url\s*=\s*)('.*')"      		= "`$1'$($Latest.URL64)'"
+            "(^[$]checksum\s*=\s*)('.*')" 		= "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -22,7 +20,6 @@ function global:au_GetLatest {
 
     @{
         Version   = $chocoPackageVersion
-        URL32     = "https://installers.privateinternetaccess.com/download/pia-windows-x86-$version-$secondVersion.exe"
         URL64     = "https://installers.privateinternetaccess.com/download/pia-windows-x64-$version-$secondVersion.exe"
     }
 }
