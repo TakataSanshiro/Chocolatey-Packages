@@ -3,7 +3,7 @@
   <metadata>
     <id>pia</id>
     <title>Private Internet Access</title>
-    <version>290.3.5.7</version>
+    <version>290.3.6.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/pia</packageSourceUrl>
     <authors>London Trust Media, Inc.</authors>
     <owners>Sanshiro</owners>
@@ -14,6 +14,10 @@ VPN Service encrypts your connection and provides you with an anonymous IP to pr
 * Protect Your Privacy and Identity
 * Unblock Censorship Filters
 * Connect Through Our VPN Tunnel in Seconds!
+
+## Notes
+Starting in version 3.6.1 of this package, 32bit installation is no longer supported and will fail the installation.
+If 32bit support is needed, the last package version supporting this is [3.5.7](https://community.chocolatey.org/packages/pia/290.3.5.7)
     </description>
     <projectUrl>https://www.privateinternetaccess.com/</projectUrl>
     <tags>admin vpn tor security privacy multi-platform</tags>

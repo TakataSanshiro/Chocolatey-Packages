@@ -6,10 +6,8 @@ $ahkFile        = Join-Path $toolsDir "piaInstall.ahk"
 
 Start-Process $ahkExe $ahkFile
 
-$url = 'https://installers.privateinternetaccess.com/download/pia-windows-x86-3.5.7-08120.exe'
-$checksum = '692ee6963d59f486e7396a1b94fffeb0fb568281727a3a35d5bec8f026feedb7'
-$url64 = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.7-08120.exe'
-$checksum64 = '013a8235cb3126ea004c16a48671cb3045f81031864f2af56bb9e50a6737ea28'
+$url = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.6.1-08339.exe'
+$checksum = 'b407c39d82398aff52602ae98a2b7cd904023a5f6d1e88416dc30b2c31a3cf56'
 
 #$packageArgs = @{
 #  packageName    = 'pia'
@@ -20,13 +18,10 @@ $checksum64 = '013a8235cb3126ea004c16a48671cb3045f81031864f2af56bb9e50a6737ea28'
 #  silentArgs     = ''
 #  validExitCodes = @(0)
 #  softwareName   = 'pia*'
-#  url64          = 'https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3.1-06924.exe'
-#  checksum64     = '5a9d98995f8c388eee2b92d5fb15c8d346c2cb1ef9b9c12922d2bd5bfc57b175'
-#  checksumType64 = 'sha256'
 #}
 #Install-ChocolateyPackage @packageArgs
 
-Get-ChocolateyWebFile -PackageName "$env:ChocolateyPackageName" -FileFullPath "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\thefile.exe" -Url $url -Checksum $checksum -ChecksumType 'SHA256' -Url64 $url64 -Checksum64 $checksum64 -ChecksumType64 'sha256' -GetOriginalFileName
+Get-ChocolateyWebFile -PackageName "$env:ChocolateyPackageName" -FileFullPath "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\thefile.exe" -Url $url -Checksum $checksum -ChecksumType 'SHA256' -GetOriginalFileName
 
 Start-Process -FilePath (Get-Childitem -Path $toolsDir -Filter "*.exe").fullname
 Start-Sleep -Seconds 20
