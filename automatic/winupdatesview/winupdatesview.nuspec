@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>winupdatesview</id>
+    <version>1.18</version>
+    <title>WinUpdatesView</title>
+    <authors>Nir Sofer</authors>
+    <owners>Sanshiro</owners>
+    <licenseUrl>https://www.nirsoft.net/utils/windows_updates_history_viewer.html</licenseUrl>
+    <projectUrl>https://www.nirsoft.net/utils/windows_updates_history_viewer.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/winupdatesview/winupdatesview.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WinUpdatesView is a simple tool that displays the history of Windows updates on your system. WinUpdatesView can load the Windows updates history from your local system, using API, and it can also read and parse the Windows updates database file (DataStore.edb) from external drive or from remote computer on your network.</description>
+    <summary>Windows Updates History Viewer</summary>
+    <copyright>© NirSoft</copyright>
+    <tags>events nirsoft</tags>
+    <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/winupdatesview</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
