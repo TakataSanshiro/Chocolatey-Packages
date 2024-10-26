@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/esedatabaseview.zip'
-  checksum       = '1ee30f78b41ac3b8486a798f87d43c4f27dd294713899873b150a432056b234f'
+  checksum       = 'a072548dc488d70dfc7e65d6a99fc4f638268f17448e46d289d6ac287a3415a5'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'ESEDatabaseView'
