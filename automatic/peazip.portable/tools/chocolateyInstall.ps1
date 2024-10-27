@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  url            = 'https://github.com/peazip/PeaZip/releases/download/9.9.1/peazip_portable-9.9.1.WINDOWS.zip'
-  url64          = 'https://github.com/peazip/PeaZip/releases/download/9.9.1/peazip_portable-9.9.1.WIN64.zip'
-  checksum       = '71ae04f7f93169d36024b011b97f2f167f64f80af4a6958166f1509f32e2391a'
-  checksum64     = 'f5558342fd92c0203f6d82e34c331dd5a896d4aad81b08e6385731505cdaeb5f'
+  url            = 'https://github.com/peazip/PeaZip/releases/download/10.0.0/peazip_portable-10.0.0.WINDOWS.zip'
+  url64          = 'https://github.com/peazip/PeaZip/releases/download/10.0.0/peazip_portable-10.0.0.WIN64.zip'
+  checksum       = 'dd161ca444cdc25444e54dff5104aa1474e250ad5681fddcfae49366ffc150ff'
+  checksum64     = '35e4f932a6d8740590021385444db7d4cc3eb7d8f507c19fcf9c9356abb6efb7'
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
