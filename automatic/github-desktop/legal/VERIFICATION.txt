@@ -3,11 +3,11 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
  
 1. Download the following installer:
-    64-Bit: <https://desktop.githubusercontent.com/releases/3.4.8-e3aa0782/GitHubDesktopSetup-x64.exe>
+    64-Bit: <https://desktop.githubusercontent.com/releases/3.4.9-5be94b37/GitHubDesktopSetup-x64.exe>
 
 2. You can use one of the following methods to obtain the checksum
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
 
   checksum type: sha256
-  checksum64: F75F195EB8FC4FFF5F2067B64349E5C599B8513F45AAA812EAF1A30AA59F7F57
+  checksum64: 3C1CE277A9D53C58954DA4F0BB1935E2F9461FECB753BFB1197C299B23F9A978
