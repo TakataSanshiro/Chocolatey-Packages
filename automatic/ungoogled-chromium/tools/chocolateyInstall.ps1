@@ -10,6 +10,6 @@ Get-ChocolateyUnzip @packageArgs
 
 Remove-Item $toolsDir\*.zip -ea 0
 
-# remove the version name from path for suitable for firewalls.
-$file = "ungoogled-chromium*windows"
+# remove the version name from path for suitable for firewalls and shortcuts.
+$file = "ungoogled-chromium*windows*"
 Get-ChildItem -Path $toolsDir | where-object { $_.Name -like $file } | %{ Rename-Item -LiteralPath $_.FullName -NewName "ungoogled-chromium" }
