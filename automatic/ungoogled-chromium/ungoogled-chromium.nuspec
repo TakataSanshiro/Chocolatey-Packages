@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ungoogled-chromium</id>
-    <version>131.0.6778.851</version>
+    <version>131.0.6778.85100</version>
     <title>ungoogled-chromium (Portable)</title>
     <authors>ungoogled-software</authors>
     <owners>dimqua, Sanshiro</owners>
