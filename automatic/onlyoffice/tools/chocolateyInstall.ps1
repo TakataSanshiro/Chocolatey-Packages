@@ -3,12 +3,12 @@
 $packageArgs = @{
   packageName    = 'onlyoffice'
   fileType       = 'exe'
-  url            = 'https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.1/DesktopEditors_x86.exe'
-  url64          = 'https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.1/DesktopEditors_x64.exe'
+  url            = 'https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.2/DesktopEditors_x86.exe'
+  url64          = 'https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.2/DesktopEditors_x64.exe'
   softwareName   = 'Onlyoffice*'
-  checksum       = '70a79be99467335427876f1e6778309e554b952f594a0ec10c23e0e13a930e2f'
+  checksum       = '5eda3831194743c23f54d880891065252fcd2eac11d43232b2dcfb57ba16eec4'
   checksumType   = 'sha256'
-  checksum64     = 'e188cd747a1423cbbde60eddf3f01a5dc49075869b3215dbb27323ce21b69aa3'
+  checksum64     = 'a0035183348920f6e732d3acee36c3297dfb9aca0f6fc0acbd1b8ea142c75fb9'
   checksumType64 = 'sha256'
   silentArgs     = '/s /S /q /Q /quiet /silent /SILENT /VERYSILENT'
   validExitCodes = @(0)
