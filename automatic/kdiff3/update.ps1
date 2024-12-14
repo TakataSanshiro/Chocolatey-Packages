@@ -18,12 +18,12 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $version = $download_page.links.href -match 'windows-x86_64' -notmatch 'sideload|slientfixed|1.11.1|1.11.0' | Select -Last 1 | % { $_ -split '-' | select -First 2 }
+    $version = $download_page.links.href -match 'windows-' -notmatch 'sideload|slientfixed|1.11.1|1.11.0' | Select -Last 1 | % { $_ -split '-' | select -First 2 }
     $version = $version[1]
 
     @{
         Version        = $version
-        URL64          = "https://download.kde.org/stable/kdiff3/kdiff3-$version-windows-x86_64.exe"
+        URL64          = "https://download.kde.org/stable/kdiff3/kdiff3-$version-windows-cl.exe"
     }
 }
 
