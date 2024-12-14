@@ -6,14 +6,14 @@ The installer have been downloaded from https://download.kde.org/stable/kdiff3/ 
 
 1. Download the following builds.
 
-x64: https://download.kde.org/stable/kdiff3/kdiff3-1.11.5-windows-x86_64.exe
+x64: https://download.kde.org/stable/kdiff3/kdiff3-1.12.0-windows-cl.exe
 
 2. You can use one of the following methods to obtain the checksum(s):
   - use powershell function 'Get-Filehash',
   - use chocolatey utility 'checksum.exe'.
 
   checksum type: sha256
-  checksum64: 59099ECBD1175758064EC8956744AE2957B690E4C32035871C89FC96E012134B
+  checksum64: D29B9FAC0556E3992EF8D4640320691F7D48AAE81DB6513E7AA9BF28BBEF88AC
 
 The included 'LICENSE.txt' file have been obtained from:
 https://invent.kde.org/sdk/kdiff3/-/blob/master/COPYING
