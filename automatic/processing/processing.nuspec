@@ -3,7 +3,7 @@
   <metadata>
     <id>processing</id>
     <title>Processing</title>
-    <version>4.3.1</version>
+    <version>4.3.2</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/processing</packageSourceUrl>
     <authors>Processing Foundation</authors>
     <owners>Sanshiro</owners>
