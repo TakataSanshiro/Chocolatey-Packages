@@ -16,7 +16,7 @@ $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 #This cmdlet displays huge error messages unless itch has been installed successfully.
 #Install-ChocolateyPackage @packageArgs
 #Call the installer directly to suppress huge error messages.
-Get-ChocolateyWebFile -PackageName "$env:ChocolateyPackageName" -FileFullPath "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\thefile.exe" -Url 'https://itch.io/app/download?platform=windows' -Checksum '55E97E558F22F6EE39243EB47C6E3A5DEE12D1039EA73B9A860562AD12AF0FEB' -ChecksumType 'SHA256' -GetOriginalFileName
+Get-ChocolateyWebFile -PackageName "$env:ChocolateyPackageName" -FileFullPath "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\thefile.exe" -Url 'https://itch.io/app/download?platform=windows' -Checksum 'F0E7D635D07EB4985FCE3D7C7D274CF1A040BDA08A98B627C165C66381F3E5AD' -ChecksumType 'SHA256' -GetOriginalFileName
 
 Start-Process -FilePath "$toolsDir\itch-setup.exe" -ArgumentList "--silent"
 Start-Sleep -Seconds 120
