@@ -8,21 +8,21 @@
     <owners>Anthony Mastrean, Sanshiro</owners>
     <summary>PMD is a source code analyzer.</summary>
     <description>
-PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports Java, JavaScript, PLSQL, Apache Velocity, XML, XSL. Additionally it includes CPD, the copy-paste-detector. CPD finds duplicated code in Java, C, C++, C#, PHP, Ruby, Fortran, JavaScript, PLSQL, Apache Velocity, Ruby, Scala, Objective C, Matlab, Python, Go.
+PMD is an extensible multilanguage static code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It's mainly concerned with Java and Apex, but supports 16 other languages. It comes with 400+ built-in rules. It can be extended with custom rules. It uses JavaCC and Antlr to parse source files into abstract syntax trees (AST) and runs rules against them to find violations. Rules can be written in Java or using a XPath query.
     </description>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/pmd</packageSourceUrl>
-    <projectUrl>http://pmd.sourceforge.net/</projectUrl>
+    <projectUrl>https://pmd.github.io/</projectUrl>
     <projectSourceUrl>https://github.com/pmd/pmd</projectSourceUrl>
     <bugTrackerUrl>https://github.com/pmd/pmd/issues</bugTrackerUrl>
-    <docsUrl>https://pmd.github.io/</docsUrl>
+    <docsUrl>https://docs.pmd-code.org/latest/</docsUrl>
     <releaseNotes>https://github.com/pmd/pmd/releases</releaseNotes>
     <mailingListUrl>https://pmd.github.io/#support</mailingListUrl>
     <tags>source code analyze lint</tags>
     <licenseUrl>https://github.com/pmd/pmd/blob/6d4e902a2a36df937bb445a53223485a2e16e473/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/AnthonyMastrean/chocolateypackages@e530258a17838ab065677c5522fecb8149bcfde6/public/icons/pmd.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pmd/pmd@813bd6ebf729309f1ae743ef07cd7d009288d4f4/docs/images/logo/pmd-logo-300px.png</iconUrl>
     <dependencies>
-      <dependency id="javaruntime" version="7.0" />
+      <dependency id="javaruntime" version="8.0" />
     </dependencies>
   </metadata>
   <files>
