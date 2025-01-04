@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>macaddressview</id>
-    <version>1.48</version>
+    <version>1.50</version>
     <title>MACAddressView</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>
