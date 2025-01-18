@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>glasswire</id>
-    <version>3.4.748</version>
+    <version>3.4.768</version>
     <title>GlassWire</title>
     <authors>GlassWire</authors>
     <owners>MANICX100, dtgm, Sanshiro</owners>
