@@ -3,7 +3,7 @@
   <metadata>
     <id>protonvpn</id>
     <title>ProtonVPN</title>
-    <version>3.5.0</version>
+    <version>3.5.1</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/protonvpn</packageSourceUrl>
     <authors>ProtonVPN AG</authors>
     <owners>Sanshiro</owners>
