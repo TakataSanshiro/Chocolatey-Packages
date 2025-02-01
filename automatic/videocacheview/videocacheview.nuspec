@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>videocacheview</id>
-    <version>3.10</version>
+    <version>3.11</version>
     <title>VideoCacheView</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -25,7 +25,7 @@ If you have a movie player that is configured to play flv files, it also allows 
     <tags>offline save copy download video flv flash cache browser youtube</tags>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/videocacheview</packageSourceUrl>
     <dependencies>
-      <dependency id="videocacheview.install" version="3.10" />
+      <dependency id="videocacheview.install" version="3.11" />
     </dependencies>
   </metadata>
   <files>

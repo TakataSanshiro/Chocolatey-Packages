@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>webcacheimageinfo</id>
-    <version>1.35</version>
+    <version>1.36</version>
     <title>WebCacheImageInfo</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>

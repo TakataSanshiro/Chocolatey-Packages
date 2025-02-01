@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>videocacheview.install</id>
-    <version>3.10</version>
+    <version>3.11</version>
     <title>VideoCacheView</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>
