@@ -7,7 +7,7 @@
     <authors>JTKSOFT</authors>
     <owners>Anthony Mastrean, Sanshiro</owners>
     <licenseUrl>https://joytokey.net/en/purchase</licenseUrl>
-    <projectUrl>https://joytokey.net/</projectUrl>
+    <projectUrl>https://joytokey.net/en/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/joytokey/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>JoyToKey enables PC game controllers to emulate a mouse and the keyboard input, so that windows applications and web games can be controlled with your favorite joysticks! Whenever joystick buttons and sticks are pressed, JoyToKey converts them into keyboard strokes and/or mouse movements so that the targeted application will work as if you are using a real keyboard and a mouse!
