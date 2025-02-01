@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jpegtran</id>
-    <version>9.0.0.20200129</version>
+    <version>9.0.0.20250201</version>
     <title>JpegTran</title>
     <authors>Thomas G. Lane, Guido Vollbeding</authors>
     <owners>Sanshiro</owners>

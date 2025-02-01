@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = 'jpegtran'
   url            = 'https://jpegclub.org/jpegtran.zip'
-  checksum       = 'affe7fccd4d863d5dc746c51a0f239ea3a05cfe864349a5d7efb18562e09ebe4'
+  checksum       = '5ADA2545E5F0703D6D1C5EADCBDF8A49C00B8023F6B1DCEB66E421A9B599D717'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'jpegtran*'
