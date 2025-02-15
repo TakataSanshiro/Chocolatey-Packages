@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/networkconnectlog.zip'
-  checksum       = 'b48e97201145f9d9b15256729e26aceebf28f9a8d8633b9519f5ae9dd9eeeedd'
+  checksum       = '41b2fb4d1dd9abb1a63952a7e4c8fdf206dab15915b65d139bc558fc0784eb19'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'NetworkConnectLog'
