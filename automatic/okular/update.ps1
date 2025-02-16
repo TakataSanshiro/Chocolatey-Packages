@@ -1,7 +1,7 @@
 import-module au
 
 #$releases = 'https://github.com/KDE/okular/releases'
-$artifacts64 = 'https://cdn.kde.org/ci-builds/graphics/okular/release-24.05/windows/'
+$artifacts64 = 'https://cdn.kde.org/ci-builds/graphics/okular/release-24.08/windows/'
 
 function global:au_SearchReplace {
         @{
@@ -29,7 +29,7 @@ function global:au_GetLatest {
 
     @{
         Version      = $version
-        URL64        = "https://cdn.kde.org/ci-builds/graphics/okular/release-$version/windows/okular-release_$version-5068-windows-cl-msvc2022-x86_64.exe"
+        URL64        = "https://cdn.kde.org/ci-builds/graphics/okular/release-$version/windows/okular-release_$version-5436-windows-cl-msvc2022-x86_64.exe"
         #Copying      = 'https://cgit.kde.org/okular.git/plain/COPYING.LIB?h=v' + $version
         #ReleaseNotes = 'https://www.kde.org/announcements/fulllog_applications.php?version=' + $version + '#okular'
     }
