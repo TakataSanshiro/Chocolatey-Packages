@@ -35,7 +35,7 @@ This package update to GitHub releases only. 2.4.2, 2.4.3 are not on GitHub rele
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/protonvpn/protonvpn.png</iconUrl>
     <dependencies>
-      <dependency id="dotnetfx" version="4.8.0.20190930" />
+      <dependency id="dotnetfx" version="4.8.0.20220524" />
       <dependency id="chocolatey-misc-helpers.extension" version="0.0.4" />
     </dependencies>
   </metadata>
