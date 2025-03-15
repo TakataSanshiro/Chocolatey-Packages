@@ -3,10 +3,10 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://github.com/zulip/zulip-desktop/releases/download/v5.11.1/Zulip-Web-Setup-5.11.1.exe'
+  url            = 'https://github.com/zulip/zulip-desktop/releases/download/v5.12.0/Zulip-Web-Setup-5.12.0.exe'
   silentArgs     = '/S'
   validExitCodes = @(0)
-  checksum       = 'cb3113ebcc2dd487f431dcb38c8a83611d9248468789ed0eefb27d9326b50b69'
+  checksum       = '11a18291541731bf0a06a96984c2079cdb4d365a4eebcf76a677cb3bafdd205f'
   checksumType   = 'sha256'
   softwareName   = 'Zulip*'
   toolsDir       = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
