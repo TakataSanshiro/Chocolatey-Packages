@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>volumouse</id>
-    <version>2.15</version>
+    <version>2.20</version>
     <title>Volumouse</title>
     <authors>Nir Sofer</authors>
     <owners>dtgm, Sanshiro</owners>
@@ -22,7 +22,7 @@ When the conditions that you define are not satisfied, your mouse wheel will be 
     <tags>sound speaker control</tags>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/volumouse</packageSourceUrl>
     <dependencies>
-      <dependency id="volumouse.install" version="2.15" />
+      <dependency id="volumouse.install" version="2.20" />
     </dependencies>
   </metadata>
   <files>
