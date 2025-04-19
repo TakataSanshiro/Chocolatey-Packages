@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = 'glasswire'
   installerType  = 'exe'
-  url            = 'https://download.glasswire.com/f/glasswire-setup-3.4.768-full.exe'
-  checksum       = '4beaedc5a10eebc72fca3ae9928028afc402b1e9f92565ff235be93b1217f34f'
+  url            = 'https://download.glasswire.com/f/glasswire-setup-3.5.821-full.exe'
+  checksum       = 'e1fbad7000249849828dac805541f2485bb43a3b4df17a788c96ed71f9291f94'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0)
