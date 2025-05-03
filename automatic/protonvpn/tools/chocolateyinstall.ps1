@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir       = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$url = 'https://github.com/ProtonVPN/win-app/releases/download/3.5.3/ProtonVPN_v3.5.3_x64.exe'
-$checksum = 'BBC5D2CF7422EE184BEAAAC9AA920B0CF9A1310CFD703FD0F9B1B63701672DF8'
+$url = 'https://github.com/ProtonVPN/win-app/releases/download/4.1.10/ProtonVPN_v4.1.10_x64.exe'
+$checksum = 'CAFE79BBD331282078CA546694D0299FB4DB4DC721B021EA307010179C0462BF'
 
 #$packageArgs = @{
 #  packageName    = 'protonvpn'
