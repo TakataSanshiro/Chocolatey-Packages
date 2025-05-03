@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   url            = 'https://www.nirsoft.net/utils/dnslookupview.zip'
-  checksum       = '6486adca519a94bfae190a9a159f20752f5e5fd5204d1acf2d3bda787b31b901'
+  checksum       = '607d34498ede8f447265087920e5793e33fe2f31acfc6e454267f41699bea6a0'
   checksumType   = 'sha256'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   softwareName   = 'DNSLookupView'

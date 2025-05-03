@@ -6,14 +6,14 @@ The installer have been downloaded from the Binary Factory for KDE and can be ve
 
 1. Download the following builds.
 
-x86_64: https://cdn.kde.org/ci-builds/graphics/okular/release-24.12/windows/okular-release_24.12-5938-windows-cl-msvc2022-x86_64.exe
+x86_64: https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6160-windows-cl-msvc2022-x86_64.exe
 
 2. You can use one of the following methods to obtain the checksum(s):
   - use powershell function 'Get-Filehash',
   - use chocolatey utility 'checksum.exe'.
 
   checksum type: sha256
-  checksum64: EF41655D77237448DA37727DD56346B184AFE5C07041D6D36B7C1ABDBDC185DA
+  checksum64: 7F06EE1F35126A2584DE51F6822CC5750ACE4B1EE2A9FF5449B39036DF7BF6AA
 
 The included 'LICENSE.txt' file have been obtained from: 
 https://okular.kde.org/

@@ -3,7 +3,7 @@
   <metadata>
     <id>grammarly-for-windows</id>
     <title>Grammarly for Windows</title>
-    <version>1.2.154.1654</version>
+    <version>1.2.155.1657</version>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/grammarly-for-windows</packageSourceUrl>
     <authors>Grammarly Inc.</authors>
     <owners>Sanshiro</owners>
