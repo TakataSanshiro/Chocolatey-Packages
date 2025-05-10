@@ -21,7 +21,7 @@ This package does *not* support *32*-bit architecture.
     <owners>dimqua, Sanshiro</owners>
     <tags>admin foss cross-platform okular document viewer reader pdf postscript djvu chm xps epub kde5 kde qt qt5</tags>
     <projectUrl>https://okular.kde.org/</projectUrl>
-    <projectSourceUrl>https://okular.kde.org/</projectSourceUrl>
+    <projectSourceUrl>https://invent.kde.org/graphics/okular</projectSourceUrl>
     <packageSourceUrl>https://github.com/TakataSanshiro/Chocolatey-Packages/tree/master/automatic/okular</packageSourceUrl>
     <licenseUrl>https://okular.kde.org/</licenseUrl>
     <dependencies>
